@@ -152,6 +152,7 @@
   width: 400px;
   height: auto;
   margin-bottom: 50px;
+  max-width: 100%;
   @include media(desktop) {
     width: 650px;
     height: auto;
