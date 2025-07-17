@@ -1,0 +1,27 @@
+{
+  "titleStart": "Ihre Marke ",
+  "titleHighlight": "nach uns",
+  "description": "",
+  "items": [
+    {
+      "title": "Wiedererkennung und Vertrauen",
+      "description": "Ein einzigartiger Stil wird Ihr Unternehmen auffällig und erkennbar machen.",
+      "iconName": "icon-trust"
+    },
+    {
+      "title": "Professionelles Image",
+      "description": "Visuelle Identität wird Ihr Niveau und Ihre Expertise unterstreichen.",
+      "iconName": "icon-expertise"
+    },
+    {
+      "title": "Attraktivität für Kunden",
+      "description": "Design und Strategie helfen, Ihre Zielgruppe zu gewinnen und zu halten.",
+      "iconName": "icon-launch"
+    },
+    {
+      "title": "Starker visueller Stil",
+      "description": "Konsistente Grafiken und Identität schaffen eine einheitliche Wahrnehmung Ihrer Marke.",
+      "iconName": "icon-unity"
+    }
+  ]
+}

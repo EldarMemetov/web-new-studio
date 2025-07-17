@@ -1,0 +1,207 @@
+{
+  "buttons": "Mehr erfahren",
+  "buttonsGo": "Interessieren Sie sich für weitere Projekte? Schreiben Sie uns",
+  "ui": {
+    "goToSite": "Zur Website gehen",
+    "technologies": "Technologien",
+    "featuresTitle": "Was umgesetzt wurde:",
+    "projectNotFound": "Projekt nicht gefunden",
+    "backLink": "Back to Portfolio"
+  },
+  "title": {
+    "prefix": "Unsere realisierten ",
+    "span": "Projekte"
+  },
+  "desc": {
+    "part1": "QVRIX bietet ein vollständiges Spektrum an Lösungen – von der Konzeption bis zum Launch. Wir passen uns Ihrem Geschäft an, um effektive, ",
+    "span1": "schöne und funktionale Websites ",
+    "span2": "zu erstellen, die wirklich funktionieren."
+  },
+  "projects": {
+    "harmony": {
+      "title": "InHarmony",
+      "description": "InHarmony ist eine Plattform für freiwillige Unterstützung und Spendensammlung. Nutzer können nicht nur einmalig spenden, sondern auch ein monatliches Abo für automatische Spenden abschließen. Die Website unterstützt zwei Sprachen – Ukrainisch und Englisch – und verfügt über ein responsives, benutzerfreundliches Interface.",
+      "features": [
+        "System für Einmalspenden und monatliche Abonnements",
+        "Unterstützung der Sprachen UA / EN",
+        "Integration von Zahlungssystemen",
+        "Persönliches Dashboard und Analysen für Freiwillige",
+        "Frontend mit Next.js",
+        "Backend mit Node.js",
+        "Vollständig responsives Design"
+      ],
+      "technologies": [
+        "Next.js",
+        "SCSS",
+        "Node.js",
+        "REST API",
+        "Stripe",
+        "i18n"
+      ],
+      "image1": {
+        "src": "/image/portfolio/harmony.jpg",
+        "width": 392,
+        "height": 560,
+        "className": "imgHarmonyOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/harmony-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/harmony-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://inharmony.com.ua/ua"
+    },
+    "full-stack": {
+      "title": "LLOYDJEFFERSON – persönliche Fullstack-Entwickler-Website",
+      "description": "Interaktive persönliche Website des Entwicklers Lloyd Jefferson mit Möglichkeit zum Umschalten zwischen hellem und dunklem Thema. Die Website enthält Informationen über mich, meine Projekte, Kontakte und Kundenbewertungen. Das Projekt zeigt professionellen Ansatz, responsives Design und moderne Interaktivität.",
+      "features": [
+        "Helles und dunkles Thema mit sanftem Wechsel",
+        "Sektionen: Über mich, Projekte, Kontakte, Bewertungen",
+        "Interaktives Kontaktformular mit Nachrichtenversand",
+        "Responsives Layout, das auf verschiedenen Geräten gut funktioniert",
+        "Kundenbewertungen mit Zitaten und Namen",
+        "Social-Media-Icons mit Links",
+        "Verwendung von reinem JavaScript und CSS ohne Frameworks"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image1": {
+        "src": "/image/portfolio/portfolio.jpg",
+        "width": 392,
+        "height": 560,
+        "className": "imgFullStackOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/portfolio-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/portfolio-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://kholodaet.github.io/project-profile2-0/"
+    },
+    "diet-today": {
+      "title": "VeggieBoost – Lieferung von Bio-Gemüse",
+      "description": "VeggieBoost ist eine Landing-Page für einen Online-Service zur Lieferung von Bio-Gemüse. Das Projekt zeigt die Funktionalität der Bestellung von Körben mit Bauernprodukten, einfache Navigation und ansprechendes UI-Design. Die Hauptidee ist, dem Nutzer die einfache Bestellung und Produktqualität zu vermitteln.",
+      "features": [
+        "Interaktive Oberfläche mit Sektionen: So funktioniert’s, Gemüse, Kontakte",
+        "Simulation eines Online-Shops mit Produktwahl und Bestellung",
+        "Moderne Animationen und sanftes Scrollen",
+        "Liste der Gemüse mit Preisen, Icons und Bestellknopf",
+        "Grundlegende Responsivität für verschiedene Geräte"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image1": {
+        "src": "/image/portfolio/diet-today.jpg",
+        "width": 392,
+        "height": 560,
+        "className": "imgDietTodayOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/diet-today-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/diet-today-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://msannam.github.io/new_developers/"
+    },
+    "glasses": {
+      "title": "Learn Lingo",
+      "description": "Learn Lingo ist eine Webanwendung für ein Unternehmen, das Online-Sprachlehrer anbietet. Nutzer können sich registrieren, anmelden, Lehrerprofile ansehen, diese zu Favoriten hinzufügen und Probestunden buchen.",
+      "features": [
+        "Registrierung und Anmeldung via Firebase Authentication",
+        "Anzeigen und Filtern von Lehrern nach Sprache, Niveau und Stundenpreis",
+        "Favoritenliste der Lehrer, die nach Seitenreload erhalten bleibt",
+        "Detaillierte Lehrerinformationen mit Bewertungen und Rezensionen",
+        "Modale Fenster für Registrierung, Anmeldung und Buchung mit Formularvalidierung",
+        "Animationen für sanftes Erscheinen von Elementen",
+        "Interaktive Paginierung und „Load More“-Button"
+      ],
+      "technologies": [
+        "React",
+        "Firebase Authentication",
+        "Firebase Realtime Database",
+        "React Router",
+        "React Hook Form & Yup",
+        "CSS Modules",
+        "Vite"
+      ],
+      "image1": {
+        "src": "/image/portfolio/learn-lingo.jpg",
+        "width": 600,
+        "height": 440,
+        "className": "imgBookOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/learn-lingo-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/learn-lingo-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://learn-lingo-six.vercel.app/"
+    },
+    "book": {
+      "title": "Read Journey",
+      "description": "Read Journey ist eine Webanwendung für Bücherliebhaber, die Registrierung, Finden von Buchempfehlungen, Hinzufügen zur persönlichen Bibliothek und Verfolgen des Lesefortschritts ermöglicht. Die Plattform unterstützt responsives Design für bequeme Nutzung auf allen Geräten.",
+      "features": [
+        "Registrierung, Anmeldung und Abmeldung mit automatischer Weiterleitung",
+        "Anzeigen empfohlener Bücher mit Pagination und Filtern",
+        "Verwaltung der persönlichen Bibliothek: Hinzufügen, Entfernen, Als gelesen markieren",
+        "Verfolgen des Lesefortschritts mit Tagebuchführung und Statistik",
+        "Interaktive modale Fenster für Buchhinzufügung, Detailansicht und Lesekontrolle",
+        "Vollständig responsives Design für Mobilgeräte, Tablets und Desktops",
+        "Integration mit Backend zur Daten- und Echtzeit-Updatespeicherung"
+      ],
+      "technologies": [
+        "React",
+        "React Router",
+        "Redux",
+        "React Hook Form & Yup",
+        "CSS (responsives Design)",
+        "Backend API"
+      ],
+      "image1": {
+        "src": "/image/portfolio/book.jpg",
+        "width": 600,
+        "height": 440,
+        "className": "imgBookOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/book-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/book-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://read-journey-sandy.vercel.app/register"
+    }
+  }
+}

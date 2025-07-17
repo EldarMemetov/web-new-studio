@@ -1,0 +1,22 @@
+{
+  "titleStart": "who stands behind ",
+  "titleHighlight": "QVRIX",
+  "description": "A team that combines video, design, and development to create digital products that engage, are memorable, and deliver results.",
+  "items": [
+    {
+      "title": "Design Team",
+      "description": "Creates visual solutions that blend aesthetics with functionality.",
+      "iconName": "icon-trust"
+    },
+    {
+      "title": "Video Team",
+      "description": "Tells stories through dynamic, emotional, and well-thought-out video content.",
+      "iconName": "icon-expertise"
+    },
+    {
+      "title": "Development Team",
+      "description": "Turns ideas into stable, user-friendly, and technologically robust digital products.",
+      "iconName": "icon-launch"
+    }
+  ]
+}

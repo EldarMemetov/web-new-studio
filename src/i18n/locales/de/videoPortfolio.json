@@ -1,0 +1,32 @@
+{
+  "title": "Unsere realisierten ",
+  "titleSpan": "Projekte",
+  "descriptionOne": "Eine Produktion, die ",
+  "descriptionTwo": "Stil, Geschichte und Ziel ",
+  "descriptionThree": "verbindet – damit jedes Bild für Sie arbeitet.",
+  "videos": [
+    {
+      "thumbnail": "/image/video/garna.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=w3GmYmwzcdA"
+    },
+    {
+      "thumbnail": "/image/video/ochi.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=uXk9m-w-h9I"
+    },
+    {
+      "thumbnail": "/image/video/memorial.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=XIXdImbjc9c"
+    },
+    {
+      "thumbnail": "/image/video/branch.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=jXkjGSeoZ5s"
+    },
+    {
+      "thumbnail": "/image/video/anna.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=shjqBHc9aPM"
+    }
+  ],
+  "cta": {
+    "text": "Interessieren Sie sich für weitere Projekte? Schreiben Sie uns"
+  }
+}

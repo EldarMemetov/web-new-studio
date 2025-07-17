@@ -1,0 +1,51 @@
+{
+  "title": "Warum wählen",
+  "spanTitle": "QVRIX",
+  "descriptionBefore": "Für uns ist Video ",
+  "spanDescriptionOne": "mehr als nur ein Bild. ",
+  "descriptionMiddle": "Es ist ein Werkzeug ",
+  "spanDescriptionTwo": "das Bedeutung vermittelt, Verbindungen schafft und echte Ergebnisse liefert. ",
+  "descriptionAfter": "Das unterscheidet uns von anderen:",
+  "features": [
+    {
+      "icon": "icon-shield-protection",
+      "title": "Professioneller Ansatz für jedes Projekt",
+      "text": "Wir widmen jedem Kunden und Projekt besondere Aufmerksamkeit und sorgen in jeder Phase für ein Ergebnis, das Ihren Anforderungen entspricht."
+    },
+    {
+      "icon": "icon-grommet-icons",
+      "title": "Hochwertige Ausrüstung",
+      "text": "Wir verwenden die neuesten Technologien und Ausrüstungen für Dreh, Schnitt und Verarbeitung von Videos, um Inhalte von höchster Qualität zu erstellen."
+    },
+    {
+      "icon": "icon-two-stars",
+      "title": "Kreativität und innovative Ideen",
+      "text": "Wir scheuen uns nicht, über Standardlösungen hinauszugehen und bieten einzigartige Konzepte, die Ihrer Marke helfen, sich von der Konkurrenz abzuheben."
+    },
+    {
+      "icon": "icon-funnel",
+      "title": "Vollständiger Arbeitszyklus",
+      "text": "Von der Idee bis zum finalen Schnitt übernehmen wir den gesamten Videoerstellungsprozess, damit jede Phase Ihrer Vision entspricht."
+    },
+    {
+      "icon": "icon-check-mark",
+      "title": "Ergebnisorientierung",
+      "text": "Unser Ziel ist es, dass jedes Video Ihrer Marke hilft, neue Kunden zu gewinnen und die Bekanntheit zu steigern."
+    },
+    {
+      "icon": "icon-person-key",
+      "title": "Individueller Ansatz",
+      "text": "Wir arbeiten individuell mit jedem Kunden, passen unsere Dienstleistungen an Ihre Bedürfnisse und Ziele an. Sie erhalten genau das, was Sie suchen."
+    },
+    {
+      "icon": "icon-success",
+      "title": "Erfahrung und Reputation",
+      "text": "Unsere Spezialisten verfügen über jahrelange Erfahrung in der Videoproduktion, und unser Ruf basiert auf zahlreichen erfolgreichen Projekten für Kunden aus verschiedenen Branchen."
+    },
+    {
+      "icon": "icon-hands-heart",
+      "title": "Unterstützung in allen Phasen",
+      "text": "Wir lassen Sie nach Projektabschluss nicht allein. Unsere Kunden können jederzeit zusätzliche Unterstützung oder Updates für Videos anfordern, um die Aktualität der Inhalte zu gewährleisten."
+    }
+  ]
+}

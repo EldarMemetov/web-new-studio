@@ -1,0 +1,32 @@
+{
+  "title": "Our completed ",
+  "titleSpan": "projects",
+  "descriptionOne": "A production that combines ",
+  "descriptionTwo": "style, story, and purpose ",
+  "descriptionThree": "— so every frame works for you.",
+  "videos": [
+    {
+      "thumbnail": "/image/video/garna.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=w3GmYmwzcdA"
+    },
+    {
+      "thumbnail": "/image/video/ochi.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=uXk9m-w-h9I"
+    },
+    {
+      "thumbnail": "/image/video/memorial.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=XIXdImbjc9c"
+    },
+    {
+      "thumbnail": "/image/video/branch.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=jXkjGSeoZ5s"
+    },
+    {
+      "thumbnail": "/image/video/anna.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=shjqBHc9aPM"
+    }
+  ],
+  "cta": {
+    "text": "Interested in other projects? Contact us"
+  }
+}

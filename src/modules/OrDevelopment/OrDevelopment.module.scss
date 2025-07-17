@@ -1,0 +1,186 @@
+.section {
+  padding-bottom: 160px;
+  position: relative;
+  z-index: 1;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+.title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  @include media(tablet) {
+    font-size: 64px;
+    line-height: 130%;
+    margin-bottom: 40px;
+  }
+  @include media(desktop) {
+    font-size: 80px;
+    line-height: 130%;
+  }
+}
+.titleSpan {
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 146%;
+  color: #dadbe6;
+  margin-bottom: 40px;
+  @include media(tablet) {
+    font-size: 18px;
+    line-height: 146%;
+    margin-bottom: 80px;
+  }
+  @include media(desktop) {
+    font-size: 24px;
+    line-height: 146%;
+  }
+}
+.SpanDescription {
+  font-weight: 600;
+  color: #fff;
+}
+.conclusion {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 146%;
+  text-align: center;
+
+  margin-bottom: 32px;
+  @include media(tablet) {
+    font-size: 32px;
+    line-height: 146%;
+    margin-bottom: 40px;
+  }
+  @include media(desktop) {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+}
+.spanConclusion {
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @include media(tablet) {
+  }
+  @include media(desktop) {
+  }
+}
+.containerConstructor {
+  margin-bottom: 64px;
+  @include media(tablet) {
+    margin-bottom: 80px;
+  }
+  @include media(desktop) {
+    margin-bottom: 100px;
+  }
+}
+.containerDevelopment {
+  margin-bottom: 80px;
+  @include media(tablet) {
+    margin-bottom: 80px;
+  }
+  @include media(desktop) {
+    margin-bottom: 100px;
+  }
+}
+.containerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  @include media(tablet) {
+    flex-direction: row;
+    gap: 20px;
+  }
+  @include media(desktop) {
+    gap: 24px;
+    flex-direction: column;
+  }
+}
+.conclusionWrapper {
+  @include media(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @include media(desktop) {
+    flex-direction: row;
+    gap: 125px;
+  }
+}
+.containerContent {
+  @include media(desktop) {
+    display: flex;
+    gap: 40px;
+    position: relative;
+  }
+}
+.developmentTitle {
+  margin-bottom: 24px;
+  @include media(tablet) {
+    margin-bottom: 35px;
+  }
+}
+
+.constructorTitle {
+  margin-bottom: 24px;
+  @include media(tablet) {
+    margin-bottom: 40px;
+  }
+
+  @include media(desktop) {
+    margin-bottom: 85px;
+  }
+}
+.divider {
+  @include media(desktop) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 49%;
+    transform: translateX(-50%);
+    width: 2px;
+    background: linear-gradient(180deg, #000 0%, #fff 50%, #000 100%);
+    z-index: 0;
+  }
+}
+.containerConstructor,
+.containerDevelopment {
+  @include media(desktop) {
+    width: calc(50% - 20px);
+  }
+}
+
+.developmentSubList {
+  @include media(desktop) {
+    margin-top: 100px;
+  }
+}
+.background {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  height: calc(50% + 100px);
+  background-image: url('/image/grid.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  z-index: -1;
+  @include media(desktop) {
+    top: 30%;
+  }
+}

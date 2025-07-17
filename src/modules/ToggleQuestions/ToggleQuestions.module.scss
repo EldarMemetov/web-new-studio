@@ -1,0 +1,79 @@
+.section {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding-bottom: 190px;
+  @include media(tablet) {
+    padding-bottom: 165px;
+  }
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+
+.title {
+  font-weight: 500;
+  @include font(40, 52);
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 32px;
+  @include media(tablet) {
+    @include font(64, 83);
+    margin-bottom: 40px;
+  }
+  @include media(desktop) {
+    @include font(80, 104);
+  }
+}
+
+.titleAnd {
+  font-weight: 700;
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.description {
+  font-weight: 400;
+  @include font(18, 26);
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 64px;
+  @include media(tablet) {
+    margin-bottom: 80px;
+  }
+  @include media(desktop) {
+    margin-bottom: 0px;
+  }
+}
+
+.containerContent {
+  display: flex;
+  flex-direction: column;
+  @include media(desktop) {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  height: calc(60% + 100px);
+  background-image: url('/image/semicircles.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  width: 100%;
+  z-index: -1;
+  @include media(tablet) {
+    top: -15%;
+    height: calc(100% + 100px);
+  }
+  @include media(desktop) {
+    top: -20%;
+    height: calc(100% + 100px);
+  }
+}

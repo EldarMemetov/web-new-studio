@@ -1,0 +1,252 @@
+.SpanDescription {
+  font-weight: 600;
+}
+
+.titleInfo {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 146%;
+  margin-bottom: 8px;
+  @include media(tablet) {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+}
+
+.info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #dadbe6;
+  @include media(tablet) {
+    font-size: 14px;
+  }
+  color: #dadbe6;
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.listContent {
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 16px;
+  width: 338px;
+  height: 240px;
+  overflow: hidden;
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #adaaaa7d, #4140406e) 1;
+  background: linear-gradient(
+    268deg,
+    rgb(51 61 205 / 22%) 0%,
+    rgb(65 36 226 / 14%) 30%,
+    rgba(150, 36, 226, 0.05) 50%,
+    rgba(2, 7, 157, 0) 100%
+  );
+
+  @include media(tablet) {
+    width: 310px;
+    height: 240px;
+  }
+}
+
+// IMG //
+
+.absoluteImage {
+  position: absolute;
+  z-index: -1;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+}
+.camcorder {
+  width: 180px;
+  height: 128px;
+  top: 8px;
+  right: 80px;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    width: 146px;
+    height: 104px;
+  }
+  @include media(desktop) {
+    width: 291px;
+    height: 207px;
+    top: 50px;
+    left: 50px;
+  }
+}
+.corporate {
+  width: 234px;
+  height: 234px;
+  left: 80px;
+  top: 20px;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    width: 194px;
+    height: 194px;
+    top: 5px;
+  }
+  @include media(desktop) {
+    width: 261px;
+    height: 261px;
+    top: -5px;
+    left: 130px;
+  }
+}
+.event {
+  width: 180px;
+  height: 128px;
+  top: 10px;
+  left: 80px;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    width: 146px;
+    height: 104px;
+    top: 5px;
+  }
+  @include media(desktop) {
+    width: 291px;
+    height: 207px;
+    top: 50px;
+    left: 50px;
+  }
+}
+.drone {
+  width: 244px;
+  height: 128px;
+  top: 15px;
+  left: 40px;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    width: 229px;
+    height: 120px;
+    top: 0;
+  }
+  @include media(desktop) {
+    width: 264px;
+    height: 140px;
+    left: 90px;
+  }
+}
+.socialMedia {
+  width: 183px;
+  height: 118px;
+  top: 0;
+  left: 70px;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    width: 235px;
+    height: 151px;
+    left: 40px;
+    top: 10px;
+  }
+  @include media(desktop) {
+    width: 320px;
+    height: 206px;
+    top: 20px;
+  }
+}
+.graphics {
+  width: 331px;
+  height: 166px;
+  top: -50px;
+  right: 0;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    top: 10px;
+    right: -10px;
+  }
+  @include media(desktop) {
+    width: 331px;
+    height: 166px;
+    left: 40px;
+    top: -60px;
+  }
+}
+.videoEditing {
+  width: 219px;
+  height: 131px;
+  top: -10px;
+  left: 50px;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.01);
+  @include media(tablet) {
+    width: 262px;
+    height: 157px;
+    left: 20px;
+    top: 10px;
+  }
+  @include media(desktop) {
+    width: 371px;
+    height: 232px;
+    left: 0px;
+  }
+}
+
+//LIST
+.socialMediaImg {
+  @include media(tablet) {
+    width: 310px;
+    height: 327px;
+  }
+  @include media(desktop) {
+    width: 392px;
+    height: 408px;
+  }
+}
+
+.graphicsImg {
+  @include media(tablet) {
+    width: 310px;
+    height: 327px;
+  }
+}
+
+.videoEditingImg {
+  @include media(tablet) {
+    width: 310px;
+    height: 327px;
+  }
+}
+.camcorderImg {
+  @include media(desktop) {
+    width: 392px;
+    height: 408px;
+  }
+}
+.corporateImg {
+  @include media(desktop) {
+    width: 392px;
+    height: 258px;
+  }
+}
+.droneImg {
+  @include media(desktop) {
+    width: 392px;
+    height: 258px;
+  }
+}
+.graphicsImg {
+  @include media(desktop) {
+    width: 392px;
+    height: 258px;
+  }
+}
+.eventVideo {
+  @include media(desktop) {
+    width: 392px;
+    height: 408px;
+  }
+}
+.videoEditingImg {
+  @include media(desktop) {
+    width: 392px;
+    height: 407px;
+  }
+}

@@ -1,0 +1,79 @@
+.section {
+  padding-bottom: 160px;
+  padding-top: 60px;
+  position: relative;
+  z-index: 2;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 12px;
+  @include media(tablet) {
+    font-size: 64px;
+    line-height: 130%;
+    margin-bottom: 24px;
+  }
+  @include media(desktop) {
+    font-size: 80px;
+    line-height: 130%;
+  }
+}
+.SpanTitle {
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.descriptions {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 146%;
+  text-align: right;
+  margin-bottom: 40px;
+  @include media(tablet) {
+    margin-bottom: 40px;
+  }
+  @include media(desktop) {
+    font-size: 24px;
+    line-height: 146%;
+    margin-bottom: 80px;
+  }
+}
+.SpanDescriptions {
+  font-weight: 600;
+}
+.background {
+  position: absolute;
+  top: -1%;
+  left: 0;
+  right: 0;
+  height: calc(30% + 100px);
+  background-image: url('/image/semicircles.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  z-index: -1;
+  transform: scaleY(-1);
+  @include media(tablet) {
+    height: calc(50% + 100px);
+    top: -2%;
+  }
+  @include media(desktop) {
+    height: calc(50% + 100px);
+    top: -120px;
+  }
+}
+
+.portfolioContainer {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+}

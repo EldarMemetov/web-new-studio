@@ -1,0 +1,36 @@
+.rocketWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.smoke {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 0, 255, 0.7) 20%,
+    rgba(0, 0, 255, 0.6) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  filter: blur(6px);
+  transition: opacity 0.3s ease;
+}
+.feedback {
+  transition: transform 0.4s ease;
+}
+
+.imageHover {
+  transform: scale(1.03);
+}
+
+.buttonWrapper :global(button:hover) {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}

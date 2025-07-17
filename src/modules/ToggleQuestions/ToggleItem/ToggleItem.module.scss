@@ -1,0 +1,112 @@
+.containerList {
+  border-radius: 4px;
+  overflow: hidden;
+  gap: 20px;
+  padding: 24px 18px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #adaaaa, #414040) 1;
+  background: radial-gradient(
+    circle at top right,
+    rgba(206, 99, 235, 0.237) 5%,
+    rgb(2 7 157 / 0%) 20%,
+    rgba(42, 48, 191, 0) 50%
+  );
+  transition:
+    background 0.5s ease-in-out,
+    all 0.5s ease-in-out;
+
+  @include media(tablet) {
+    width: 100%;
+  }
+  @include media(desktop) {
+    gap: 24px;
+    width: 808px;
+  }
+}
+
+.containerList:hover {
+  background: radial-gradient(
+    circle at top right,
+    rgb(206 99 235 / 60%) 5%,
+    rgba(2, 7, 157, 0) 20%,
+    rgba(42, 48, 191, 0) 50%
+  );
+}
+
+.open {
+  animation: gradientMove 0.5s forwards;
+}
+
+@keyframes gradientMove {
+  0% {
+    background: radial-gradient(
+      circle at top right,
+      rgba(206, 99, 235, 0.237) 5%,
+      rgb(2 7 157 / 0%) 20%,
+      rgba(42, 48, 191, 0) 50%
+    );
+  }
+  100% {
+    background: radial-gradient(
+      circle at bottom left,
+      rgba(206, 99, 235, 0.6) 5%,
+      rgba(2, 7, 157, 0.3) 30%,
+      rgba(42, 48, 191, 0) 50%
+    );
+  }
+}
+
+.containerIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  gap: 24px;
+}
+
+.titleOpen {
+  font-weight: 500;
+  @include font(20, 27);
+  transition: all 0.5s ease-in-out;
+
+  @include media(desktop) {
+    @include font(24, 33);
+  }
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.5s ease-in-out;
+  flex-shrink: 0;
+}
+
+.iconRotated {
+  transform: rotate(45deg) rotateY(180deg);
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.descriptionOpen {
+  font-weight: 400;
+  @include font(18, 26);
+  transition: all 0.5s ease-in-out;
+  animation: slideDownShelf 0.8s ease-out;
+}
+
+@keyframes slideDownShelf {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

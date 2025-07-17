@@ -1,0 +1,86 @@
+@use './breakpoints' as *;
+// @import './breakpoints';
+
+/*
+screen types: 
+    mobile,
+    to-tablet
+    tablet,
+    to-desktop
+    desktop,
+*/
+@mixin media($_screen) {
+  @if $_screen == mobile {
+    @media screen and (min-width: $mobile) {
+      @content;
+    }
+  } @else if $_screen == to-tablet {
+    @media screen and (max-width: $to-tablet) {
+      @content;
+    }
+  } @else if $_screen == tablet {
+    @media screen and (min-width: $tablet) {
+      @content;
+    }
+  } @else if $_screen == to-desktop {
+    @media screen and (max-width: $to-desktop) {
+      @content;
+    }
+  } @else if $_screen == desktop {
+    @media screen and (min-width: $desktop) {
+      @content;
+    }
+  }
+}
+
+@mixin font($_fsz, $_lnh) {
+  font-size: #{$_fsz}px;
+  line-height: calc($_lnh / $_fsz);
+}
+
+@mixin colored-button-effects-styles(
+  $_original_bg_color,
+  $_text_color: $light_color
+) {
+  &:hover,
+  &:focus {
+    background: linear-gradient(
+        0deg,
+        rgba(31, 31, 31, 0.1) 0%,
+        rgba(31, 31, 31, 0.1) 100%
+      ),
+      $_original_bg_color;
+    color: $_text_color;
+  }
+}
+
+@mixin cut-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+@mixin hover-shift(
+  $x: 0px,
+  $y: 0px,
+  $z: 0px,
+  $rotateX: 0deg,
+  $rotateY: 0deg,
+  $scale: 1.05
+) {
+  transition:
+    transform 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+    filter 0.5s ease,
+    box-shadow 0.5s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+
+  .listContent:hover & {
+    transform: translate3d($x, $y, $z) rotateX($rotateX) rotateY($rotateY)
+      scale($scale);
+    filter: brightness(1.08) saturate(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  }
+}

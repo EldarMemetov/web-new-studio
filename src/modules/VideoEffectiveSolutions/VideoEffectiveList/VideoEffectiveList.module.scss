@@ -1,0 +1,46 @@
+.singleList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.twoColumns,
+.threeColumns {
+  display: none;
+}
+
+@include media(tablet) {
+  .singleList {
+    display: none;
+  }
+  .twoColumns {
+    display: flex;
+    gap: 20px;
+  }
+  .twoColumns .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@include media(desktop) {
+  .twoColumns {
+    display: none;
+  }
+  .threeColumns {
+    display: flex;
+    gap: 20px;
+  }
+  .threeColumns .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .columnCenter {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,57 @@
+.centerImage {
+  will-change: transform;
+}
+.container {
+  max-width: 100%;
+  width: 90%;
+  position: relative;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1d1e27;
+  box-shadow: 0 0 16px rgba(109, 28, 207, 0.2);
+  overflow: visible;
+  @include media(mobile) {
+    position: relative;
+    width: 276px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d1e27;
+    box-shadow: 0 0 16px rgba(109, 28, 207, 0.2);
+    overflow: visible;
+  }
+  @include media(desktop) {
+    width: 560px;
+    height: 220px;
+  }
+}
+.imgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  will-change: transform;
+  @include media(desktop) {
+    bottom: -50px;
+    left: 50%;
+  }
+}
+
+.imgOne {
+  @include media(desktop) {
+    display: none;
+  }
+}
+.imgOneDesktop {
+  display: none;
+  @include media(desktop) {
+    display: block;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "section": {
+    "title": "Ihre Ideen — Unsere ",
+    "subTitle": "Umsetzung ",
+    "buttonText": "Ich will alles mit Bonus",
+    "sections": [
+      {
+        "title": "Webentwicklung",
+        "icon": "LaptopWrite",
+        "description": "Dienstleistungen, die wir anbieten:",
+        "list": [
+          "Websites",
+          "Landing Pages",
+          "Responsives Design",
+          "E-Commerce-Websites",
+          "Technische Unterstützung",
+          "SEO-Optimierung",
+          "UX/UI Design"
+        ],
+        "cta": "Jetzt bestellen"
+      },
+      {
+        "title": "Videoproduktion",
+        "icon": "icon-cinema",
+        "description": "Dienstleistungen, die wir anbieten:",
+        "list": [
+          "Filmen",
+          "Videobearbeitung",
+          "Regie",
+          "Drehbuchschreiben",
+          "Location Scouting",
+          "Postproduktion"
+        ],
+        "cta": "Jetzt bestellen"
+      }
+    ]
+  }
+}

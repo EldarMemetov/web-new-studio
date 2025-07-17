@@ -1,0 +1,24 @@
+{
+  "title": "A few facts ",
+  "titleSpan": "about us:",
+  "description": "Let’s get to know each other better! ",
+  "descriptionSpan": "Here’s what you should know:",
+  "facts": [
+    {
+      "title": "8 years in video production",
+      "text": "and we’re expanding into web"
+    },
+    {
+      "title": "100+ completed projects",
+      "text": "for businesses of all sizes"
+    },
+    {
+      "title": "A team of IT experts,",
+      "text": "supporting businesses across industries"
+    },
+    {
+      "title": "We grow together with our clients,",
+      "text": "helping them reach new heights"
+    }
+  ]
+}

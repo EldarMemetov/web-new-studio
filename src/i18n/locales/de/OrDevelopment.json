@@ -1,0 +1,54 @@
+{
+  "sectionTitle": {
+    "before": "Baukasten oder individuelle Entwicklung ",
+    "highlight": "— was ist die richtige Wahl?"
+  },
+  "introParagraph": {
+    "text": "Eine Website kann in wenigen Tagen mit einem Baukasten gestartet oder von Grund auf als komplexe Plattform entwickelt werden. ",
+    "textNext": "Wichtig ist nicht das „Wie“, sondern das „Warum“ ",
+    "textAnd": "— die Wahl hängt von den Zielen Ihres Unternehmens ab."
+  },
+  "constructor": {
+    "title": "Wann Sie einen Baukasten wählen sollten:",
+    "list": [
+      "Schneller Start für ein MVP, eine Promo- oder Landingpage erforderlich",
+      "Begrenztes Budget",
+      "Einfache Anforderungen: Visitenkarte oder Portfolio",
+      "Sie möchten die Website selbst ohne Entwickler aktualisieren"
+    ],
+    "subList": [
+      "+ Schnell",
+      "+ Günstig",
+      "+ Bequem",
+      "- Eingeschränktes Design",
+      "- Skalierbarkeit",
+      "- SEO"
+    ]
+  },
+  "development": {
+    "title": "Wann sich eine individuelle Entwicklung lohnt:",
+    "list": [
+      "Einzigartige Funktionen sind erforderlich",
+      "Volle Freiheit im Design, bei Integrationen und Architektur wird benötigt",
+      "Die Website soll mit dem Unternehmen mitwachsen",
+      "Priorität auf Sicherheit, Geschwindigkeit und SEO"
+    ],
+    "subList": [
+      "Diese Lösung ist für diejenigen, die nicht nur eine Website, sondern ein Wachstumsinstrument entwickeln wollen."
+    ]
+  },
+  "conclusion": {
+    "beforeOne": "Wählen Sie nicht das ",
+    "beforeTwo": "„Beste“ ",
+    "beforeThree": "— wählen Sie das, was ",
+    "beforeFour": "für Sie funktioniert."
+  },
+  "buttons": [
+    {
+      "textContact": "Sprechen wir darüber"
+    },
+    {
+      "textBlog": "Blog"
+    }
+  ]
+}

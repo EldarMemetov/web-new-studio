@@ -1,0 +1,207 @@
+{
+  "buttons": "Learn more",
+  "buttonsGo": "Interested in other projects? Write to us",
+  "ui": {
+    "goToSite": "Go to site",
+    "technologies": "Technologies",
+    "featuresTitle": "Implemented features:",
+    "projectNotFound": "Project not found",
+    "backLink": "Back to Portfolio"
+  },
+  "title": {
+    "prefix": "Our completed ",
+    "span": "projects"
+  },
+  "desc": {
+    "part1": "QVRIX offers a full range of solutions — from concept to launch. We adapt to your business to create effective, ",
+    "span1": "beautiful and functional websites, ",
+    "span2": "that really work."
+  },
+  "projects": {
+    "harmony": {
+      "title": "InHarmony",
+      "description": "InHarmony is a platform for volunteer support and donation collection. Users can not only make a one-time donation but also subscribe to monthly automatic donations. The site supports two languages — Ukrainian and English — and features a responsive, user-friendly interface.",
+      "features": [
+        "One-time donations and monthly subscription system",
+        "Support for UA / EN languages",
+        "Payment system integration",
+        "Personal account and analytics for volunteers",
+        "Frontend with Next.js",
+        "Backend with Node.js",
+        "Fully responsive layout"
+      ],
+      "technologies": [
+        "Next.js",
+        "SCSS",
+        "Node.js",
+        "REST API",
+        "Stripe",
+        "i18n"
+      ],
+      "image1": {
+        "src": "/image/portfolio/harmony.jpg",
+        "width": 392,
+        "height": 560,
+        "className": "imgHarmonyOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/harmony-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/harmony-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://inharmony.com.ua/ua"
+    },
+    "full-stack": {
+      "title": "LLOYDJEFFERSON — personal website of a Fullstack developer",
+      "description": "Interactive personal website of developer Lloyd Jefferson with the ability to switch between light and dark themes. The site includes information about me, my projects, contacts, and client reviews. The project demonstrates a professional approach, responsive design, and modern interactivity.",
+      "features": [
+        "Light and dark theme with smooth switching",
+        "Sections: About Me, Projects, Contacts, Reviews",
+        "Interactive contact form with message sending functionality",
+        "Responsive layout working correctly on various devices",
+        "Client reviews with quotes and names",
+        "Social media icons with links",
+        "Use of pure JavaScript and CSS without frameworks"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image1": {
+        "src": "/image/portfolio/portfolio.jpg",
+        "width": 392,
+        "height": 560,
+        "className": "imgFullStackOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/portfolio-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/portfolio-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://kholodaet.github.io/project-profile2-0/"
+    },
+    "diet-today": {
+      "title": "VeggieBoost — organic vegetable delivery",
+      "description": "VeggieBoost is a landing page presentation of an online organic vegetable delivery service. The project demonstrates basket ordering functionality with farm products, easy navigation, and pleasant UI design. The main idea is to show users the simplicity of ordering and the quality of the products.",
+      "features": [
+        "Interactive interface with sections: How It Works, Vegetables, Contacts",
+        "Simulation of online store functionality with product selection and order placement",
+        "Modern animation and smooth scrolling",
+        "List of vegetables with prices, icons, and order buttons",
+        "Basic responsiveness for various devices"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image1": {
+        "src": "/image/portfolio/diet-today.jpg",
+        "width": 392,
+        "height": 560,
+        "className": "imgDietTodayOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/diet-today-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/diet-today-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://msannam.github.io/new_developers/"
+    },
+    "glasses": {
+      "title": "Learn Lingo",
+      "description": "Learn Lingo is a web app for a company providing online language tutoring services. Users can register, log into their account, view tutor profiles, add tutors to favorites, and book trial lessons.",
+      "features": [
+        "Registration and login via Firebase Authentication",
+        "Viewing and filtering tutors by language, level, and hourly price",
+        "Adding tutors to favorites list saved after page reload",
+        "Detailed tutor information with reviews and ratings",
+        "Modal windows for registration, login, and booking lessons with form validation",
+        "Animations for smooth element appearance",
+        "Interactive pagination and a 'Load More' button"
+      ],
+      "technologies": [
+        "React",
+        "Firebase Authentication",
+        "Firebase Realtime Database",
+        "React Router",
+        "React Hook Form & Yup",
+        "CSS Modules",
+        "Vite"
+      ],
+      "image1": {
+        "src": "/image/portfolio/learn-lingo.jpg",
+        "width": 600,
+        "height": 440,
+        "className": "imgBookOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/learn-lingo-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/learn-lingo-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://learn-lingo-six.vercel.app/"
+    },
+    "book": {
+      "title": "Read Journey",
+      "description": "Read Journey is a web app for book lovers that allows users to register, find recommended books, add them to their personal library, and track their reading progress. The platform supports responsive design for convenient use on any device.",
+      "features": [
+        "Registration, login, and logout with automatic redirection",
+        "Viewing recommended books with pagination and filters",
+        "Managing personal library: adding, removing, marking books as read",
+        "Tracking reading progress with journaling and statistics",
+        "Interactive modals for adding books, viewing details, and managing reading",
+        "Fully responsive design for mobile, tablets, and desktops",
+        "Backend integration for data storage and real-time updates"
+      ],
+      "technologies": [
+        "React",
+        "React Router",
+        "Redux",
+        "React Hook Form & Yup",
+        "CSS (responsive design)",
+        "Backend API"
+      ],
+      "image1": {
+        "src": "/image/portfolio/book.jpg",
+        "width": 600,
+        "height": 440,
+        "className": "imgBookOne"
+      },
+      "image2": {
+        "src": "/image/portfolio/book-mokap-desktop.png",
+        "width": 550,
+        "height": 350,
+        "className": "imgHarmonyTwo"
+      },
+      "image3": {
+        "src": "/image/portfolio/book-mokap-mobile.png",
+        "width": 250,
+        "height": 500,
+        "className": "imgHarmonyTwoMokap"
+      },
+      "liveUrl": "https://read-journey-sandy.vercel.app/register"
+    }
+  }
+}

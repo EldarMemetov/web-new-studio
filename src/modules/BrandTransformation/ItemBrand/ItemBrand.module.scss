@@ -1,0 +1,110 @@
+.titleInformation {
+  font-weight: 700;
+  @include font(24, 33);
+}
+
+.description {
+  font-weight: 400;
+  @include font(18, 26);
+}
+
+.iconStyle {
+  width: 132px;
+  height: 132px;
+  fill: white !important;
+  stroke: none !important;
+  opacity: 0.6;
+  transition:
+    transform 0.4s ease-in-out,
+    filter 0.3s ease-in-out,
+    fill 0.2s;
+}
+
+.ContainerItem {
+  padding: 18px;
+  width: 288px;
+  height: 359px;
+  background: rgba(1, 2, 39, 0.01);
+  position: relative;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  flex: 1 1 calc((100% - 40px) / 1);
+  @include media(tablet) {
+    flex: 1 1 calc((100% - 40px) / 2);
+  }
+  @include media(desktop) {
+    flex: 1 1 calc((100% - 40px) / 5);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(
+      circle at top left,
+      rgba(2, 4, 20, 1) 10%,
+      rgba(1, 2, 39, 1) 60%
+    );
+    transform: translate(100%, -100%) scale(0);
+    transform-origin: top right;
+    transition: transform 0.4s ease-in-out;
+    z-index: -1;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    padding: 1px;
+    background: linear-gradient(
+      to bottom,
+      rgb(89, 89, 89) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0.1) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    transform: translate(0, 0) scale(1);
+  }
+
+  &:hover::before {
+    opacity: 0;
+  }
+}
+
+@keyframes draw {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 300, 0;
+    stroke-dashoffset: -300;
+  }
+}
+.ContainerItem:hover .iconStyle {
+  fill: none !important;
+  stroke: white !important;
+  stroke-width: 0.5px;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: draw 10.25s linear forwards;
+  filter: drop-shadow(0px 0px 10px rgba(150, 36, 226, 0.8));
+  transform: scale(1.1);
+}

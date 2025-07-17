@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 80px;
+  max-width: 100%;
+  @include media(tablet) {
+    margin-bottom: 65px;
+  }
+  @include media(desktop) {
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 85px;
+  }
+}

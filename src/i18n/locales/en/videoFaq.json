@@ -1,0 +1,24 @@
+{
+  "titleBefore": "Have",
+  "titleHighlight": "questions",
+  "titleAfter": "That's normal",
+  "description": "We’re always ready to answer all your questions. Book a consultation — we’ll be happy to help!",
+  "faq": [
+    {
+      "question": "Can you adapt video content for different platforms (YouTube, Instagram, TikTok)?",
+      "answer": "Yes, we specialize in adapting video content for all major digital platforms — YouTube, Instagram, TikTok, Facebook, LinkedIn, and more. We optimize the format, duration, framing, and delivery style based on each platform’s specifications to ensure your video performs at its best on social media. Our video production is result-driven — focused on audience engagement, brand visibility, and increasing conversions."
+    },
+    {
+      "question": "Do you work with a ready-made script or help develop one?",
+      "answer": "We offer a flexible approach to every project. If you already have a script, we’ll work with it. If not, our team of creatives, scriptwriters, and directors will help develop one from scratch — tailored to your goals, target audience, and format. Script development is a key part of professional video production, and we give it the attention it deserves."
+    },
+    {
+      "question": "Do you work on projects outside your city or country?",
+      "answer": "Absolutely. We successfully deliver video projects across Ukraine and internationally. Our team has experience organizing shoots in various regions and collaborating with global clients. Thanks to our mobility, remote coordination, and streamlined production processes — geography is never a limitation for quality results."
+    },
+    {
+      "question": "Do you provide voiceover scriptwriting services?",
+      "answer": "Yes, we offer professional copywriting and voiceover scriptwriting services. Our writers craft clear, engaging, and video-optimized scripts that match your brand tone and communication strategy. We also offer voice talent selection — male or female, in various languages — to align with your video’s objectives."
+    }
+  ]
+}

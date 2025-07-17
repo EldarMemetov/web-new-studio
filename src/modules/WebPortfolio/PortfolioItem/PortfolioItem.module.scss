@@ -1,0 +1,49 @@
+.imageWrapper {
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+
+  &:hover {
+    transform: scale(1.01);
+    border-radius: 10px;
+  }
+}
+.portfolioImage {
+  max-width: 100%;
+  width: 338px;
+  height: 204px;
+
+  @include media(tablet) {
+    width: 640px;
+    height: 386px;
+  }
+
+  @include media(desktop) {
+    width: 1224px;
+    height: 640px;
+  }
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(27, 27, 52, 0.4);
+  backdrop-filter: blur(32px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+  border-radius: 10px;
+}
+.imageWrapper {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

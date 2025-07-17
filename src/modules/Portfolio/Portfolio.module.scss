@@ -1,0 +1,183 @@
+.section {
+  padding-bottom: 160px;
+  position: relative;
+  z-index: 2;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+
+  @include media(tablet) {
+    margin-left: 50px;
+  }
+  @include media(desktop) {
+    margin-left: 0px;
+  }
+}
+.title {
+  font-weight: 500;
+  @include font(40, 52);
+  text-transform: uppercase;
+
+  @include media(tablet) {
+    @include font(64, 83);
+  }
+  @include media(desktop) {
+    @include font(80, 104);
+    margin-bottom: 0px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .titleAccent {
+    background: linear-gradient(30deg, #9624e2 60%, #02079d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.subtitle {
+  font-weight: 500;
+  @include font(40, 52);
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  @include media(tablet) {
+    @include font(64, 83);
+  }
+  @include media(desktop) {
+    @include font(80, 104);
+    text-align: right;
+    margin-bottom: 80px;
+  }
+}
+.videoWrapper {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.video {
+  width: 338px;
+  max-width: 100%;
+  height: 232px;
+  border-radius: 8px;
+  object-fit: cover;
+  @include media(tablet) {
+    width: 640px;
+    height: 560px;
+  }
+  @include media(desktop) {
+    width: 1224px;
+    height: 440px;
+  }
+}
+.button {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  @include font(20, 26);
+  gap: 16px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-top: 10px;
+  @include media(tablet) {
+    @include font(24, 31);
+    gap: 24px;
+  }
+  @include media(tablet) {
+    align-items: flex-end;
+  }
+}
+.icon {
+  width: 28px;
+  height: 28px;
+  transform: rotate(45deg);
+}
+.containerVideo {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textInfo {
+  font-weight: 500;
+  @include font(20, 26);
+  text-transform: uppercase;
+  text-align: right;
+  color: rgba(207, 208, 208, 0.8);
+  margin-bottom: 24px;
+  @include media(tablet) {
+    font-size: 32px;
+    line-height: 130%;
+    margin-bottom: 24px;
+  }
+}
+
+.textInfoDesktop {
+  margin-right: 50px;
+  font-weight: 500;
+  @include font(20, 26);
+  text-transform: uppercase;
+  text-align: right;
+  color: rgba(207, 208, 208, 0.8);
+  margin-bottom: 12px;
+  @include media(desktop) {
+    @include font(32, 42);
+  }
+}
+
+.buttonDesktop {
+  margin-right: 50px;
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  @include font(20, 26);
+  gap: 16px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  @include media(desktop) {
+    @include font(24, 31);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 24px;
+    margin-left: auto;
+  }
+}
+
+.iconDesktop {
+  width: 28px;
+  height: 28px;
+  transform: rotate(45deg);
+}
+.containerContent {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.containerImg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}

@@ -1,0 +1,34 @@
+{
+  "title": "lass uns",
+  "andTitle": "das Gespräch beginnen",
+  "description": "Bereit zur Zusammenarbeit? Lass uns dein Projekt besprechen",
+  "subtitle": "Wir antworten innerhalb von 24 Stunden",
+  "fields": {
+    "name": "Name*",
+    "email": "Deine E-Mail*",
+    "message": "Das sind deine Wünsche",
+    "agree": "Ich stimme der Datenschutzerklärung zu"
+  },
+  "submitButton": "Kontaktiere uns",
+  "successMessage": "Feedback erfolgreich gesendet!",
+  "errorMessage": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+  "status": {
+    "success": "Formular erfolgreich gesendet!",
+    "error": "Fehler beim Absenden des Formulars. Bitte versuche es erneut."
+  },
+  "validation": {
+    "name": {
+      "min": "Mindestens 3 Zeichen",
+      "required": "Bitte gib deinen Namen ein"
+    },
+    "email": {
+      "invalid": "Ungültiges E-Mail-Format",
+      "required": "Bitte gib deine E-Mail ein"
+    },
+    "message": {
+      "min": "Mindestens 10 Zeichen",
+      "required": "Bitte gib eine Nachricht ein"
+    },
+    "agree": "Du musst der Datenschutzerklärung zustimmen"
+  }
+}

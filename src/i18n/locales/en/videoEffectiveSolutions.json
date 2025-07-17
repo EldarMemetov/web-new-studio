@@ -1,0 +1,112 @@
+{
+  "spanTitle": "Solutions ",
+  "title": "we offer",
+  "description": "Our approach provides comprehensive support at every stage of video production — from concept to execution. With us, your brand will receive professional video content that meets all requirements and delivers results.",
+  "solutions": [
+    {
+      "id": "advertising",
+      "title": "Advertising Videos",
+      "info": "Creating effective videos to promote your brand, product, or service.",
+      "className": "camcorderImg",
+      "images": [
+        {
+          "src": "/image/video/camcorder.png",
+          "alt": "camcorder",
+          "width": 218,
+          "height": 120,
+          "className": "camcorder"
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "title": "Corporate and Image Videos",
+      "info": "Professional videos to enhance your company's image and reputation.",
+      "className": "corporateImg",
+      "images": [
+        {
+          "src": "/image/video/corporate.png",
+          "alt": "corporate-video",
+          "width": 261,
+          "height": 261,
+          "className": "corporate"
+        }
+      ]
+    },
+    {
+      "id": "event",
+      "title": "Event and Occasion Filming",
+      "info": "Documenting key business moments or special events.",
+      "className": "eventVideo",
+      "images": [
+        {
+          "src": "/image/video/event.png",
+          "alt": "event-video",
+          "width": 291,
+          "height": 207,
+          "className": "event"
+        }
+      ]
+    },
+    {
+      "id": "drone",
+      "title": "Drone Aerial Filming",
+      "info": "Creating unique aerial videos with breathtaking and dynamic footage.",
+      "className": "droneImg",
+      "images": [
+        {
+          "src": "/image/video/drone.png",
+          "alt": "drone-video",
+          "width": 264,
+          "height": 140,
+          "className": "drone"
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media & YouTube Content",
+      "info": "Videos that grab attention and help build a loyal social media following.",
+      "className": "socialMediaImg",
+      "images": [
+        {
+          "src": "/image/video/social-media.png",
+          "alt": "social-media",
+          "width": 320,
+          "height": 206,
+          "className": "socialMedia"
+        }
+      ]
+    },
+    {
+      "id": "graphics",
+      "title": "Motion Design, Graphics & Animation",
+      "info": "Creating dynamic animations and graphic elements for your videos.",
+      "className": "graphicsImg",
+      "images": [
+        {
+          "src": "/image/video/graphics.png",
+          "alt": "graphics",
+          "width": 331,
+          "height": 166,
+          "className": "graphics"
+        }
+      ]
+    },
+    {
+      "id": "video-editing",
+      "title": "Editing, Color Grading, and Sound Design",
+      "info": "Professional editing and post-production to achieve the best possible result.",
+      "className": "videoEditingImg",
+      "images": [
+        {
+          "src": "/image/video/video-editing.png",
+          "alt": "video-editing",
+          "width": 371,
+          "height": 232,
+          "className": "videoEditing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Unsere ",
+  "spanTitle": "Werte:",
+  "descriptionBefore": "Sie sind mehr als nur Worte — sie sind ",
+  "spanDescriptionOne": "Prinzipien, ",
+  "descriptionMiddle": "nach denen wir täglich arbeiten und Projekte schaffen, die echte Ergebnisse liefern.",
+  "spanDescriptionTwo": "",
+  "descriptionAfter": "",
+
+  "features": [
+    {
+      "icon": "icon-shield-protection",
+      "title": "Innovation",
+      "text": "Unser Team begnügt sich nicht mit Vorlagen – wir suchen nach einzigartigen Ideen, die Ihre Marke hervorheben."
+    },
+    {
+      "icon": "icon-two-stars",
+      "title": "Qualität",
+      "text": "Wir glauben, dass gerade die Liebe zum Detail Eindruck, Vertrauen und Wirksamkeit schafft. Qualitätsstandards sind für uns keine Kompromisse, sondern Grundprinzipien."
+    },
+    {
+      "icon": "icon-person",
+      "title": "Partnerschaft",
+      "text": "Wir hören zu, beraten, fühlen mit und arbeiten mit vollem Einsatz für gemeinsame Ergebnisse. Ihr Erfolg ist unser Erfolg – und unsere höchste Priorität."
+    }
+  ]
+}

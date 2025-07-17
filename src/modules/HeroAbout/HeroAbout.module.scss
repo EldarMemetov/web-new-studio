@@ -1,0 +1,79 @@
+.section {
+  padding-bottom: 100px;
+  padding-top: 80px;
+  @include media(tablet) {
+    padding-top: 120px;
+    padding-bottom: 240px;
+  }
+}
+.title {
+  font-weight: 700;
+  @include font(32, 42);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  @include media(tablet) {
+    @include font(42, 55);
+    width: 500px;
+    margin-bottom: 24px;
+  }
+  @include media(desktop) {
+    width: 600px;
+    @include font(42, 55);
+  }
+}
+
+.description {
+  font-weight: 500;
+  @include font(20, 27);
+  color: white;
+  text-align: left;
+  margin-bottom: 135px;
+
+  @include media(tablet) {
+    width: 600px;
+    @include font(24, 33);
+    margin-bottom: 160px;
+  }
+  @include media(desktop) {
+    margin-bottom: 48px;
+  }
+}
+.containerButton {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  @include media(tablet) {
+    flex-direction: row;
+  }
+}
+.containerHero {
+  display: flex;
+  flex-direction: column;
+}
+.containerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerImage {
+  display: none;
+  @include media(desktop) {
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.background {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  height: calc(100% + 100px);
+  background-image: url(/image/grid.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  z-index: -1;
+}

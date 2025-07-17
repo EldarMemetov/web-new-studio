@@ -1,0 +1,92 @@
+.list {
+  position: relative;
+  border-radius: 4px;
+  padding: 16px;
+  width: 338px;
+  min-height: 96px;
+  border: 1px solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(173, 170, 170, 0.49),
+      rgba(65, 64, 64, 0.43)
+    )
+    1;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-direction: row;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+  max-width: 100%;
+
+  @include media(tablet) {
+    padding: 20px;
+    width: 600px;
+    min-height: 151px;
+  }
+}
+
+.iconContainer {
+  flex: 0 0 auto;
+  border-radius: 4px;
+  padding: 12px;
+  width: 64px;
+  height: 64px;
+  border: 1px solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(173, 170, 170, 0.49),
+      rgba(65, 64, 64, 0.43)
+    )
+    1;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(153, 153, 153, 0.1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(tablet) {
+    width: 111px;
+    height: 111px;
+  }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+
+  @include media(tablet) {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+
+  @include media(tablet) {
+    font-size: 20px;
+  }
+}
+
+.infoTitle {
+  display: none;
+  @include media(tablet) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 8px;
+    color: #dadbe6;
+    display: block;
+  }
+}

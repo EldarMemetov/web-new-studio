@@ -1,0 +1,24 @@
+{
+  "titleBefore": "Haben Sie",
+  "titleHighlight": "Fragen",
+  "titleAfter": "Das ist ganz normal",
+  "description": "Wir stehen Ihnen jederzeit für alle Fragen zur Verfügung. Buchen Sie eine Beratung – wir helfen Ihnen gerne weiter!",
+  "faq": [
+    {
+      "question": "Können Sie Videoinhalte für verschiedene Plattformen anpassen (YouTube, Instagram, TikTok)?",
+      "answer": "Ja, wir sind darauf spezialisiert, Videoinhalte für alle gängigen digitalen Plattformen wie YouTube, Instagram, TikTok, Facebook, LinkedIn und mehr anzupassen. Wir optimieren Format, Länge, Bildausschnitt und Präsentationsstil entsprechend den Anforderungen jeder Plattform, um maximale Wirkung und Reichweite in sozialen Medien zu erzielen. Unser Video-Production-Service ist ergebnisorientiert – mit Fokus auf Reichweite, Markenbekanntheit und Conversion-Steigerung."
+    },
+    {
+      "question": "Arbeiten Sie mit einem fertigen Skript oder helfen Sie bei der Entwicklung?",
+      "answer": "Wir gehen flexibel auf jedes Projekt ein. Wenn Sie bereits ein fertiges Skript haben, arbeiten wir gerne damit. Wenn nicht, unterstützt Sie unser Team aus Kreativen, Textern und Regisseuren bei der Entwicklung eines individuellen Konzepts – abgestimmt auf Ihre Ziele, Zielgruppe und das passende Format. Die Skriptentwicklung ist ein zentraler Bestandteil einer professionellen Videoproduktion und wird bei uns mit größter Sorgfalt behandelt."
+    },
+    {
+      "question": "Arbeiten Sie auch an Projekten außerhalb Ihrer Stadt oder Ihres Landes?",
+      "answer": "Ja, wir realisieren erfolgreich Videoprojekte in ganz Deutschland und international. Wir verfügen über Erfahrung in der Organisation von Drehs an unterschiedlichen Standorten und in der Zusammenarbeit mit internationalen Kunden. Dank unseres mobilen Teams, effizienter Remote-Koordination und strukturierter Abläufe ist die geografische Lage für uns kein Hindernis für hochwertige Ergebnisse."
+    },
+    {
+      "question": "Bieten Sie Textservices für Sprechertexte an?",
+      "answer": "Ja, wir bieten professionelle Copywriting-Dienstleistungen und die Erstellung von Sprechertexten an. Unsere Texter erstellen durchdachte, zielgerichtete und videofreundliche Texte, die optimal zu Ihrem Markenauftritt und Kommunikationsstil passen. Zusätzlich unterstützen wir Sie bei der Auswahl passender Sprecherstimmen – männlich oder weiblich, in verschiedenen Sprachen – je nach Ziel Ihres Videos."
+    }
+  ]
+}

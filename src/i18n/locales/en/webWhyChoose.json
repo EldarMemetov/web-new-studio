@@ -1,0 +1,36 @@
+{
+  "title": "Why choose",
+  "spanTitle": "QVRIX",
+  "descriptionBefore": "We don’t just build websites — we ",
+  "spanDescriptionOne": "create digital solutions ",
+  "descriptionMiddle": "that bring ",
+  "spanDescriptionTwo": "results, emotions, and trust ",
+  "descriptionAfter": "Here’s what sets us apart: ",
+  "features": [
+    {
+      "icon": "icon-person",
+      "title": "Partnership, not just delivery",
+      "text": "We’re not just a contractor — we become part of your team. We immerse ourselves in your business and always focus on the end result."
+    },
+    {
+      "icon": "icon-star",
+      "title": "Aesthetics in every solution",
+      "text": "Design is strategy. We combine functionality and visual appeal to inspire trust and encourage engagement."
+    },
+    {
+      "icon": "icon-outline",
+      "title": "Result-driven approach",
+      "text": "We think in terms of ROI, KPIs, and growth. Everything we do is an investment in your conversion and business development."
+    },
+    {
+      "icon": "icon-strategy",
+      "title": "Flexibility and strategic thinking",
+      "text": "We listen, adapt to change, and propose solutions that scale with your business."
+    },
+    {
+      "icon": "icon-success",
+      "title": "Reliability and trust",
+      "text": "We’re always in touch, meet deadlines, and never abandon clients after launch. With us — peace of mind is guaranteed."
+    }
+  ]
+}

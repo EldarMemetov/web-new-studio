@@ -1,0 +1,314 @@
+{
+  "spanTitle": "Lösungen, ",
+  "title": "die wir anbieten",
+  "descriptionBefore": "QVRIX bietet umfassende Lösungen — von der Konzeption bis zum Start. Wir passen uns Ihrem Unternehmen an, um ",
+  "SpanDescription": "effiziente, schöne und funktionale Websites, ",
+  "descriptionAfter": "zu schaffen, die wirklich funktionieren.",
+  "solutions": [
+    {
+      "id": "uiux",
+      "title": "UI/UX-Design",
+      "info": "Wir entwerfen, gestalten und berücksichtigen alles.",
+      "infoTablet": "Wir entwerfen eine logische Struktur, gestalten ein ästhetisches Design und berücksichtigen das Nutzerverhalten.",
+      "infoDesktop": "Wir entwerfen eine logische Struktur, gestalten ein ästhetisches Design und berücksichtigen das Nutzerverhalten, um Komfort, Intuitivität und den WOW-Effekt zu gewährleisten.",
+      "infoFull": "Fesselnde, zum Handeln anregende Schnittstellen: Wir entwerfen eine logische Struktur, gestalten ein ästhetisches Design und berücksichtigen das Nutzerverhalten, um Komfort, Intuitivität und den WOW-Effekt zu gewährleisten.",
+      "className": "liUiDesign",
+      "images": [
+        {
+          "src": "/image/effective/ui-mobile.png",
+          "alt": "ui/ux-design",
+          "width": 222,
+          "height": 116,
+          "className": "imgUiDesign"
+        },
+        {
+          "src": "/image/effective/ui-desktop.png",
+          "alt": "ui/ux-design",
+          "width": 291,
+          "height": 162,
+          "className": "UiDesignDesktop"
+        },
+        {
+          "src": "/image/effective/ui-desktop-one.png",
+          "alt": "ui/ux-design",
+          "width": 145,
+          "height": 52,
+          "className": "UiDesignDesktopOne"
+        },
+        {
+          "src": "/image/effective/ui-desktop-two.png",
+          "alt": "ui/ux-design",
+          "width": 145,
+          "height": 52,
+          "className": "UiDesignDesktopTwo"
+        }
+      ]
+    },
+    {
+      "id": "landing",
+      "title": "Landingpages",
+      "info": "Verkaufen auf den ersten Blick",
+      "className": "liLandingPages",
+      "images": [
+        {
+          "src": "/image/effective/landing-mobile-figma.png",
+          "alt": "landing-pages",
+          "width": 98,
+          "height": 98,
+          "className": "imgLandingPageFigma"
+        },
+        {
+          "src": "/image/effective/landing-mobile-ai.png",
+          "alt": "landing-pages",
+          "width": 78,
+          "height": 78,
+          "className": "imgLandingPageAi"
+        },
+        {
+          "src": "/image/effective/landing-mobile-ps.png",
+          "alt": "landing-pages",
+          "width": 78,
+          "height": 78,
+          "className": "imgLandingPagePs"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "title": "SEO-Promotion",
+      "info": "Ihre Website ganz oben in den Suchergebnissen.",
+      "className": "liSeoPromotion",
+      "images": [
+        {
+          "src": "/image/effective/seo-mobile.png",
+          "alt": "seo-promotion",
+          "width": 252,
+          "height": 170,
+          "className": "imgSeoChart"
+        },
+        {
+          "src": "/image/effective/seo-mobile-keyword.png",
+          "alt": "seo-promotion",
+          "width": 320,
+          "height": 80,
+          "hideOnMobile": true,
+          "className": "imgSeoKeyword"
+        }
+      ]
+    },
+    {
+      "id": "redesign",
+      "title": "Website-Redesign",
+      "info": "Wir überarbeiten, damit Ihre Website Ergebnisse liefert",
+      "className": "liRedesign",
+      "images": [
+        {
+          "src": "/image/effective/redesign-mobile.png",
+          "alt": "website-redesign",
+          "width": 93,
+          "height": 93,
+          "className": "imgRedesignMain"
+        },
+        {
+          "src": "/image/effective/redesign-mobile.png",
+          "alt": "website-redesign",
+          "width": 33,
+          "height": 33,
+          "className": "imgRedesignIconOne"
+        },
+        {
+          "src": "/image/effective/redesign-mobile.png",
+          "alt": "website-redesign",
+          "width": 33,
+          "height": 33,
+          "className": "imgRedesignIconTwo"
+        },
+        {
+          "src": "/image/effective/redesign-mobile.png",
+          "alt": "website-redesign",
+          "width": 33,
+          "height": 33,
+          "className": "imgRedesignIconThree"
+        },
+        {
+          "src": "/image/effective/redesign-mobile.png",
+          "alt": "website-redesign",
+          "width": 33,
+          "height": 33,
+          "className": "imgRedesignIconFour"
+        }
+      ]
+    },
+    {
+      "id": "stores",
+      "title": "Onlineshops",
+      "info": "Wir erstellen Websites, die Verkäufe generieren.",
+      "infoTablet": "Intuitive Struktur, mobile Anpassung, schnelle Ladezeiten, Integration mit CRM und Zahlungssystemen.",
+      "infoDesktop": "Intuitive Struktur, mobile Anpassung, schnelle Ladezeiten, Integration mit CRM und Zahlungssystemen. Wir erstellen Websites, die Verkäufe generieren.",
+      "className": "liOnlineStores",
+      "images": [
+        {
+          "src": "/image/effective/Internet-mobile.png",
+          "alt": "online-stores",
+          "width": 166,
+          "height": 102,
+          "className": "imgStoreMain"
+        },
+        {
+          "src": "/image/effective/Internet-mobile-crm.png",
+          "alt": "online-stores",
+          "width": 47,
+          "height": 36,
+          "className": "imgStoreCrm"
+        },
+        {
+          "src": "/image/effective/Internet-mobile-one.png",
+          "alt": "online-stores",
+          "width": 49,
+          "height": 49,
+          "className": "imgStoreIcon"
+        },
+        {
+          "src": "/image/effective/Internet-tablet-one.png",
+          "alt": "online-stores",
+          "width": 212,
+          "height": 120,
+          "className": "imgStoreIconTablet"
+        },
+        {
+          "src": "/image/effective/Internet-desktop.png",
+          "alt": "online-stores",
+          "width": 225,
+          "height": 125,
+          "className": "imgStoreDesktop"
+        },
+        {
+          "src": "/image/effective/Internet-desktop-crm.png",
+          "alt": "online-stores",
+          "width": 55,
+          "height": 36,
+          "className": "imgStoreIconDesktopCrm"
+        },
+        {
+          "src": "/image/effective/Internet-desktop-one.png",
+          "alt": "online-stores",
+          "width": 120,
+          "height": 120,
+          "className": "imgStoreIconDesktop"
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "title": "Firmenwebsites",
+      "info": "Wir entwickeln Websites für kleine und große Unternehmen.",
+      "infoTablet": "Wir entwickeln Websites für kleine und große Unternehmen — von Visitenkarten bis hin zu umfangreichen Plattformen.",
+      "infoDesktop": "Wir entwickeln Websites für kleine und große Unternehmen — von Visitenkarten bis hin zu umfangreichen Plattformen. Design, Struktur und Inhalt arbeiten an Ihrem Image und der Kundenbindung.",
+      "className": "liCorporateWebsites",
+      "images": [
+        {
+          "src": "/image/effective/corporate-mobile.png",
+          "alt": "corporate-websites",
+          "width": 167,
+          "height": 167,
+          "className": "imgCorporateMain"
+        },
+        {
+          "src": "/image/effective/corporate-mobile-schedule.png",
+          "alt": "corporate-websites",
+          "width": 177,
+          "height": 117,
+          "className": "imgCorporateSchedule"
+        },
+        {
+          "src": "/image/effective/corporate-desktop.png",
+          "alt": "corporate-websites",
+          "width": 261,
+          "height": 261,
+          "className": "imgCorporateMainDesktop"
+        },
+        {
+          "src": "/image/effective/corporate-desktop-schedule.png",
+          "alt": "corporate-websites",
+          "width": 245,
+          "height": 162,
+          "className": "imgCorporateScheduleDesktop"
+        }
+      ]
+    },
+    {
+      "id": "blogs",
+      "title": "Persönliche Blogs",
+      "info": "Wir schaffen Plattformen, die Ihre Einzigartigkeit betonen.",
+      "infoTablet": "Wir erstellen stilvolle und funktionale Plattformen, die Ihre Einzigartigkeit betonen und beim Aufbau einer Community helfen.",
+      "infoDesktop": "Für Experten, Kreative, Influencer. Wir erstellen stilvolle und funktionale Plattformen, die Ihre Einzigartigkeit betonen und beim Aufbau einer Community helfen.",
+      "className": "liPersonalBlogs",
+      "images": [
+        {
+          "src": "/image/effective/blog-mobile.png",
+          "alt": "personal-blogs",
+          "width": 103,
+          "height": 194,
+          "className": "imgBlogMain"
+        },
+        {
+          "src": "/image/effective/blog-mobile-two.png",
+          "alt": "personal-blogs",
+          "width": 80,
+          "height": 80,
+          "className": "imgBlogTwo"
+        },
+        {
+          "src": "/image/effective/blog-mobile-one.png",
+          "alt": "personal-blogs",
+          "width": 100,
+          "height": 100,
+          "className": "imgBlogOne"
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Technischer Support",
+      "info": "Ihre Website läuft reibungslos — Sie sind sorglos",
+      "className": "liTechnicalSupport",
+      "images": [
+        {
+          "src": "/image/effective/support-mobile.png",
+          "alt": "technical-support",
+          "width": 93,
+          "height": 93,
+          "className": "imgSupportMain"
+        },
+        {
+          "src": "/image/effective/support-mobile.png",
+          "alt": "technical-support",
+          "width": 33,
+          "height": 33,
+          "className": "imgSupportIconOne"
+        },
+        {
+          "src": "/image/effective/support-mobile.png",
+          "alt": "technical-support",
+          "width": 33,
+          "height": 33,
+          "className": "imgSupportIconTwo"
+        },
+        {
+          "src": "/image/effective/support-mobile.png",
+          "alt": "technical-support",
+          "width": 33,
+          "height": 33,
+          "className": "imgSupportIconThree"
+        },
+        {
+          "src": "/image/effective/support-mobile.png",
+          "alt": "technical-support",
+          "width": 33,
+          "height": 33,
+          "className": "imgSupportIconFour"
+        }
+      ]
+    }
+  ]
+}

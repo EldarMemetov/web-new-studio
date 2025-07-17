@@ -1,0 +1,241 @@
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.hero {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  &ImageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  &Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #0000009c);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  &Title {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 146%;
+    text-align: center;
+  }
+}
+.backLink {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  @include font(20, 26);
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 70px;
+  align-items: center;
+  @include media(tablet) {
+    @include font(24, 31);
+    margin-bottom: 90px;
+  }
+  @include media(desktop) {
+    background: transparent;
+
+    @include font(24, 31);
+
+    margin-left: auto;
+    margin-bottom: 100px;
+  }
+}
+
+.backIcon {
+  width: 28px;
+  height: 28px;
+  transform: rotate(225deg);
+  @include media(tablet) {
+    width: 36px;
+    height: 36px;
+  }
+}
+/////
+
+.pt-h2 {
+  font-weight: 600;
+  @include font(24, 32);
+  margin-top: 20px;
+  margin-bottom: 18px;
+
+  @include media(tablet) {
+    @include font(32, 40);
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+
+  @include media(desktop) {
+    @include font(36, 44);
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+.pt-h3 {
+  font-weight: 600;
+  @include font(20, 28);
+  margin-top: 18px;
+  margin-bottom: 16px;
+
+  @include media(tablet) {
+    @include font(24, 32);
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+
+  @include media(desktop) {
+    @include font(28, 36);
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+.pt-p-normal {
+  font-weight: 400;
+  @include font(16, 24);
+  margin-top: 12px;
+  margin-bottom: 16px;
+
+  @include media(tablet) {
+    @include font(18, 28);
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  @include media(desktop) {
+    @include font(18, 28);
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+}
+
+.pt-p-lead {
+  font-weight: 400;
+  @include font(18, 28);
+  margin-top: 16px;
+  margin-bottom: 20px;
+
+  @include media(tablet) {
+    @include font(20, 30);
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+
+  @include media(desktop) {
+    @include font(20, 30);
+    margin-top: 24px;
+    margin-bottom: 28px;
+  }
+}
+
+.pt-p-small {
+  font-weight: 400;
+  @include font(14, 20);
+  margin-top: 10px;
+  margin-bottom: 12px;
+
+  @include media(tablet) {
+    @include font(16, 22);
+    margin-top: 12px;
+    margin-bottom: 14px;
+  }
+
+  @include media(desktop) {
+    @include font(16, 22);
+    margin-top: 14px;
+    margin-bottom: 16px;
+  }
+}
+
+.pt-blockquote {
+  font-style: italic;
+  border-left: 4px solid;
+  padding-left: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  @include media(tablet) {
+    padding-left: 20px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  @include media(desktop) {
+    padding-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.pt-ul {
+  padding-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  list-style-type: disc;
+
+  @include media(tablet) {
+    padding-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  @include media(desktop) {
+    padding-left: 28px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+}
+
+.pt-ol {
+  padding-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  list-style-type: decimal;
+
+  @include media(tablet) {
+    padding-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  @include media(desktop) {
+    padding-left: 28px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+}
+
+.pt-li {
+  margin-bottom: 8px;
+  @include font(16, 24);
+
+  @include media(tablet) {
+    @include font(18, 28);
+    margin-bottom: 10px;
+  }
+
+  @include media(desktop) {
+    @include font(18, 28);
+    margin-bottom: 12px;
+  }
+}

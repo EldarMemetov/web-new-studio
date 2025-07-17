@@ -1,0 +1,36 @@
+{
+  "title": "Warum ",
+  "spanTitle": "QVRIX",
+  "descriptionBefore": "Wir erstellen nicht nur Websites — wir ",
+  "spanDescriptionOne": "entwickeln digitale Lösungen, ",
+  "descriptionMiddle": "die ",
+  "spanDescriptionTwo": "Ergebnisse, Emotionen und Vertrauen ",
+  "descriptionAfter": "bringen. Das unterscheidet uns von anderen:",
+  "features": [
+    {
+      "icon": "icon-person",
+      "title": "Partnerschaft statt nur Ausführung",
+      "text": "Wir sind nicht nur ein Dienstleister, sondern ein Teil Ihres Teams. Wir tauchen tief in Ihr Geschäft ein und konzentrieren uns immer auf das Endergebnis."
+    },
+    {
+      "icon": "icon-star",
+      "title": "Ästhetik in jeder Lösung",
+      "text": "Design ist Strategie. Wir verbinden Funktionalität mit visueller Attraktivität, um Vertrauen zu schaffen und Interaktionen zu fördern."
+    },
+    {
+      "icon": "icon-outline",
+      "title": "Ergebnisorientierung",
+      "text": "Wir denken in Kategorien wie ROI, KPI und Wachstum. Alles, was wir tun, ist eine Investition in Ihre Conversion und Ihr Business-Wachstum."
+    },
+    {
+      "icon": "icon-strategy",
+      "title": "Flexibilität und strategisches Denken",
+      "text": "Wir hören zu, passen uns an Veränderungen an und entwickeln Lösungen, die mit Ihnen mitwachsen."
+    },
+    {
+      "icon": "icon-success",
+      "title": "Zuverlässigkeit und Vertrauen",
+      "text": "Wir sind stets erreichbar, halten Deadlines ein und lassen Sie auch nach dem Launch nicht allein. Mit uns können Sie sich sicher fühlen."
+    }
+  ]
+}

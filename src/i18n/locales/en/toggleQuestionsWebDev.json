@@ -1,0 +1,24 @@
+{
+  "titleBefore": "Have",
+  "titleHighlight": "questions",
+  "titleAfter": "That’s okay",
+  "description": "We’re always ready to answer any of your questions. Book a consultation — we’ll gladly help you optimize your business!",
+  "faq": [
+    {
+      "question": "Do you help with domain and hosting?",
+      "answer": "Yes, we fully assist with selecting, registering a domain name, and setting up reliable hosting for your website. Our team will help you choose the best domain based on your brand and target audience, and recommend hosting that ensures fast loading speed, high security, and stable performance. You’ll receive a ready-to-use website, fully connected to the domain and deployed on the server — without needing to worry about any technical aspects."
+    },
+    {
+      "question": "Can I order a multilingual website?",
+      "answer": "Yes, we develop websites with full multilingual support. If your audience speaks multiple languages — for example, Ukrainian, English, or Polish — we’ll implement convenient language navigation optimized for both users and search engines. Each language version will have its own SEO settings, which improves the site’s visibility in Google across different regions."
+    },
+    {
+      "question": "What technologies do you use?",
+      "answer": "We use a modern tech stack that ensures high performance, security, and scalability for web projects of any complexity. Our development process includes HTML5, CSS3, and JavaScript for building responsive and dynamic frontends. The core of the user interface is built with React, and for SEO optimization and server-side rendering, we use Next.js, which supports both SSR (server-side rendering) and SSG (static site generation). On the backend, we use Node.js, and for data storage — MongoDB. We also work with version control systems like Git and design tools such as Figma or Adobe XD. This approach allows us to deliver modern, fast, and scalable websites tailored to your technical and business needs."
+    },
+    {
+      "question": "How do you test the website before launch?",
+      "answer": "Before launch, we thoroughly test the website at all critical stages. We check the responsiveness of the design across various devices and screen sizes, the correct operation of all functions, navigation, forms, and buttons. We test the site in multiple browsers to ensure consistent appearance and behavior. Page loading speed and technical SEO are also reviewed, along with any possible layout or code errors. Before going live, the site is deployed on a staging server for a full inspection in an environment that closely simulates real-world conditions."
+    }
+  ]
+}

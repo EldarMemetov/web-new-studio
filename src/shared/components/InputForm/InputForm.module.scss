@@ -1,0 +1,146 @@
+.input {
+  border-radius: 4px;
+  padding: 10px 24px;
+  width: 274px;
+  height: 43px;
+  border: 1px solid;
+  background: transparent;
+  border-image: linear-gradient(to bottom, #adaaaa, #414040) 1;
+  color: #aaa;
+  @include font(16, 23);
+  opacity: 0.5;
+  &:focus {
+    color: #fff;
+    border-image: linear-gradient(to bottom, #fffdfd, #414040) 1;
+    opacity: 1;
+  }
+
+  &:not(:placeholder-shown) {
+    color: #fff;
+    border-image: linear-gradient(to bottom, #fffdfd, #ffffff) 1;
+    opacity: 1;
+  }
+
+  &::placeholder {
+    color: #aaa;
+    opacity: 1;
+  }
+  @include media(tablet) {
+    padding: 0px 24px;
+    width: 576px;
+    height: 48px;
+    @include font(18, 26);
+  }
+  @include media(desktop) {
+    padding: 0 24px;
+    width: 450px;
+    height: 48px;
+    font-weight: 400;
+  }
+}
+
+.inputText {
+  border-radius: 4px;
+  font-weight: 400;
+  padding: 10px 24px;
+  width: 274px;
+  height: 120px;
+  border: 1px solid;
+  background: transparent;
+  border-image: linear-gradient(to bottom, #adaaaa, #414040) 1;
+  resize: none;
+  color: #aaa;
+  @include font(16, 23);
+  opacity: 0.5;
+
+  &:focus {
+    color: #fff;
+    border-image: linear-gradient(to bottom, #fffdfd, #414040) 1;
+    opacity: 1;
+  }
+
+  &:not(:placeholder-shown) {
+    color: #fff;
+    border-image: linear-gradient(to bottom, #fffdfd, #ffffff) 1;
+    opacity: 1;
+  }
+
+  &::placeholder {
+    color: #aaa;
+    opacity: 1;
+  }
+  @include media(tablet) {
+    @include font(18, 26);
+    padding: 10px 24px;
+    width: 576px;
+    height: 120px;
+  }
+  @include media(desktop) {
+    padding: 10px 24px;
+    width: 450px;
+    height: 120px;
+  }
+}
+
+.fieldContainer {
+  position: relative;
+}
+
+.checkboxContainer {
+  position: relative;
+  min-height: 24px;
+}
+
+.checkbox {
+  margin-right: 10px;
+  opacity: 0.5;
+  accent-color: gray;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  font-weight: 400;
+  @include font(16, 23);
+  opacity: 0.5;
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+  font-size: 10px;
+  margin: 0;
+}
+.fieldContainer {
+  margin-bottom: 1rem;
+}
+
+.ratingLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.input:-webkit-autofill,
+.inputText:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px transparent inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 9999s ease-in-out 0s;
+}

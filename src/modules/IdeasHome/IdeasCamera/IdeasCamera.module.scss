@@ -1,0 +1,45 @@
+.iconWrapper {
+  position: relative;
+
+  @include media(tablet) {
+    margin-bottom: 75px;
+  }
+}
+
+.icon {
+  stroke: rgb(136 131 131);
+  position: relative;
+  width: 88px;
+  height: 88px;
+  fill: transparent;
+  @include media(tablet) {
+    width: 141px;
+    height: 141px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.iconNext {
+  stroke: rgb(136 131 131);
+  fill: transparent;
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  width: 62px;
+  height: 62px;
+  animation: spin 4s linear infinite;
+  @include media(tablet) {
+    width: 99px;
+    height: 99px;
+    top: 20px;
+    left: 20px;
+  }
+}

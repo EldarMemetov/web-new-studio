@@ -1,0 +1,36 @@
+{
+  "titleStart": "Was wir ",
+  "titleHighlight": "haben",
+  "items": [
+    {
+      "title": "Hohe Qualität",
+      "description": "Qualität ist die Grundlage unserer Arbeit. Wir schaffen Produkte, die Ihre Erwartungen übertreffen und zuverlässige Werkzeuge für Ihr Unternehmen werden.",
+      "icon": "icon-agree"
+    },
+    {
+      "title": "Individueller Ansatz",
+      "description": "Wir passen unsere Lösungen an Ihre Ziele an und erstellen Websites und Videos, die den Stil und die Einzigartigkeit Ihrer Marke betonen.",
+      "icon": "icon-puzzle"
+    },
+    {
+      "title": "Vertrauen und Zuverlässigkeit",
+      "description": "Transparenz, Einhaltung von Fristen und hohe Ergebnisse sind die Grundlage unserer Zusammenarbeit.",
+      "icon": "icon-protection"
+    },
+    {
+      "title": "Kreativität und Innovation",
+      "description": "Wir entwickeln einzigartige Produkte, die Kreativität mit modernen Technologien verbinden.",
+      "icon": "icon-energy"
+    },
+    {
+      "title": "Unterstützung und Wachstum",
+      "description": "Wir helfen Ihnen zu wachsen. Wir sind bereit, Ihre Website oder Videoinhalte zu unterstützen, zu aktualisieren und zu verbessern, damit sie immer relevant bleiben.",
+      "icon": "icon-flag"
+    },
+    {
+      "title": "Technologische Lösungen",
+      "description": "Für kleine und mittelständische Unternehmen erstellen wir maßgeschneiderte Websites und Videos, die Kunden anziehen und Ihr Unternehmen hervorheben.",
+      "icon": "icon-space"
+    }
+  ]
+}

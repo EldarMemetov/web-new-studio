@@ -1,0 +1,78 @@
+.section {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+}
+.containerButton {
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  margin-bottom: 64px;
+}
+
+.buttonItem {
+  padding: 2px;
+  border-radius: 12px;
+  background: linear-gradient(to bottom, #858383, #262626);
+  display: inline-block;
+  transition: box-shadow 0.3s ease;
+}
+
+.buttonItemActive {
+  background: linear-gradient(to bottom, #00072a, #001144);
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  padding: 12px 12px;
+  color: #dadbe6;
+  background: #000116;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  background-clip: padding-box;
+
+  &:disabled {
+    cursor: default;
+  }
+  @include media(tablet) {
+    font-size: 18px;
+    line-height: 130%;
+    padding: 12px 24px;
+  }
+}
+
+.buttonActive {
+  background: #878787;
+}
+.icon {
+  @include media(tablet) {
+    width: 24px;
+    height: 24px;
+  }
+}
+.iconContainer {
+  display: none;
+  @include media(tablet) {
+    display: block;
+    background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+    border-radius: 10px;
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+  }
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include media(tablet) {
+    align-items: flex-start;
+  }
+}

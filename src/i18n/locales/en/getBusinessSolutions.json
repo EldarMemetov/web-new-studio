@@ -1,0 +1,36 @@
+{
+  "titleStart": "What we",
+  "titleHighlight": " have",
+  "items": [
+    {
+      "title": "High Quality",
+      "description": "Quality is the foundation of our work. We create products that exceed your expectations and become reliable tools for your business.",
+      "icon": "icon-agree"
+    },
+    {
+      "title": "Individual Approach",
+      "description": "We tailor our solutions to your goals, creating websites and videos that emphasize your brand's style and uniqueness.",
+      "icon": "icon-puzzle"
+    },
+    {
+      "title": "Trust and Reliability",
+      "description": "Transparency, meeting deadlines, and high results are the foundation of our cooperation.",
+      "icon": "icon-protection"
+    },
+    {
+      "title": "Creativity and Innovation",
+      "description": "We create unique products that combine creativity with modern technologies.",
+      "icon": "icon-energy"
+    },
+    {
+      "title": "Support and Growth",
+      "description": "We help you grow. Ready to support, update, and improve your website or video content to keep it always relevant.",
+      "icon": "icon-flag"
+    },
+    {
+      "title": "Technological Solutions",
+      "description": "For small and medium-sized businesses, we create websites and videos tailored to your needs, attracting customers and making your business stand out.",
+      "icon": "icon-space"
+    }
+  ]
+}

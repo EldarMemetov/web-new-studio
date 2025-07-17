@@ -1,0 +1,34 @@
+{
+  "title": "Your experience is inspiring! Share it with others.",
+  "description": "We value every word from our clients",
+  "fields": {
+    "name": "Name*",
+    "email": "Your email*",
+    "message": "Describe your experience",
+    "agree": "I agree with the privacy terms"
+  },
+  "submitButton": "Submit",
+  "rating": "Rate our work",
+  "successMessage": "Feedback successfully sent!",
+  "errorMessage": "An error occurred. Please try again.",
+  "status": {
+    "success": "Form successfully submitted!",
+    "error": "Error submitting the form. Please try again."
+  },
+  "validation": {
+    "name": {
+      "min": "Minimum 3 characters",
+      "required": "Enter your name"
+    },
+    "email": {
+      "invalid": "Invalid email format",
+      "required": "Enter your email"
+    },
+    "message": {
+      "min": "Minimum 10 characters",
+      "required": "Enter your message",
+      "max": "Maximum of 260 characters"
+    },
+    "agree": "You must agree with the privacy terms"
+  }
+}

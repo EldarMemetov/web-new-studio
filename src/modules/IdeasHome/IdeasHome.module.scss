@@ -1,0 +1,56 @@
+.section {
+  padding-bottom: 200px;
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+}
+
+.background {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: calc(50% + 100px);
+  background-image: url('/image/circles.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  width: 100%;
+  z-index: 1;
+  @include media(tablet) {
+    top: 90%;
+    height: calc(50% + 100px);
+  }
+  @include media(desktop) {
+    top: 83%;
+    height: calc(100% + 100px);
+  }
+}
+.title {
+  font-weight: 500;
+  @include font(40, 52);
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 80px;
+  @include media(tablet) {
+    @include font(64, 83);
+  }
+  @include media(desktop) {
+    @include font(80, 104);
+  }
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.titleSpan {
+  font-weight: 700;
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

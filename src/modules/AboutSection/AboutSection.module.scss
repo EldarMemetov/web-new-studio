@@ -1,0 +1,172 @@
+.section {
+  padding-bottom: 160px;
+  position: relative;
+  z-index: 1;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+.icon {
+  width: 12px;
+  height: 12px;
+  margin-left: 12px;
+}
+
+.logoName {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 12px;
+  @include media(tablet) {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+  @include media(desktop) {
+    font-size: 64px;
+  }
+}
+.titleInfo {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #b3b3b3;
+  margin-bottom: 40px;
+  @include media(tablet) {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 64px;
+  }
+}
+
+.titleInfoNext {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+
+  text-align: left;
+  margin-bottom: 16px;
+  @include media(tablet) {
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+  @include media(desktop) {
+    font-size: 48px;
+    line-height: 160%;
+    margin-bottom: 32px;
+  }
+}
+.mainInfo {
+  margin-bottom: 40px;
+  @include media(tablet) {
+    margin-bottom: 10px;
+  }
+  @include media(desktop) {
+    margin-bottom: 0px;
+  }
+}
+.meinInfoNext {
+  margin-bottom: 40px;
+  @include media(tablet) {
+    margin-bottom: 0px;
+  }
+  @include media(desktop) {
+    margin-bottom: 80px;
+  }
+}
+.meinInfoNext,
+.meinInfo {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: left;
+  color: #f5f5f5;
+
+  @include media(tablet) {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  @include media(desktop) {
+    font-size: 20px;
+    width: 700px;
+  }
+}
+.containerContent {
+  @include media(tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  @include media(desktop) {
+    gap: 24px;
+  }
+}
+.containerText {
+  @include media(tablet) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.buttonDesktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  @include media(tablet) {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.buttonTablet {
+  display: none;
+  @include media(desktop) {
+    gap: 24px;
+    display: block;
+    display: flex;
+  }
+}
+.BigContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
+
+.containerImage {
+  max-width: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  width: 338px;
+  height: 338px;
+  margin-bottom: 32px;
+
+  @include media(tablet) {
+    width: 519px;
+    height: 519px;
+  }
+}
+.contentContainerBig {
+  max-width: 100%;
+}

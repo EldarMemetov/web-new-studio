@@ -1,0 +1,51 @@
+{
+  "title": "Why Choose",
+  "spanTitle": "QVRIX",
+  "descriptionBefore": "For us, video is ",
+  "spanDescriptionOne": "more than just a picture. ",
+  "descriptionMiddle": "It’s a tool ",
+  "spanDescriptionTwo": "that conveys meaning, builds connections, and delivers real results. ",
+  "descriptionAfter": "Here’s what sets us apart from others:",
+  "features": [
+    {
+      "icon": "icon-shield-protection",
+      "title": "Professional Approach to Every Project",
+      "text": "We pay attention to every client and every project. Our specialists work with you at every stage to ensure a result that fully meets your needs."
+    },
+    {
+      "icon": "icon-grommet-icons",
+      "title": "High-Quality Equipment",
+      "text": "We use the latest technologies and equipment for shooting, editing, and processing videos, enabling us to create content of the highest quality."
+    },
+    {
+      "icon": "icon-two-stars",
+      "title": "Creativity and Innovative Ideas",
+      "text": "We are not afraid to go beyond standard solutions and offer unique concepts that help your brand stand out from competitors."
+    },
+    {
+      "icon": "icon-funnel",
+      "title": "Full Project Cycle",
+      "text": "From the idea to the final edit — we take care of the entire video creation process to ensure every stage aligns with your vision."
+    },
+    {
+      "icon": "icon-check-mark",
+      "title": "Result-Oriented",
+      "text": "Our goal is to make every video help your brand attract new customers and increase recognition."
+    },
+    {
+      "icon": "icon-person-key",
+      "title": "Individual Approach",
+      "text": "We work with each client individually, tailoring our services to your needs and goals. You get exactly what you’re looking for."
+    },
+    {
+      "icon": "icon-success",
+      "title": "Experience and Reputation",
+      "text": "Our specialists have many years of experience in video production, and our reputation is built on numerous successful projects for clients across various industries."
+    },
+    {
+      "icon": "icon-hands-heart",
+      "title": "Support at Every Stage",
+      "text": "We don’t leave you after the project is finished. Our clients can always reach out for additional support or video updates to keep the content relevant."
+    }
+  ]
+}

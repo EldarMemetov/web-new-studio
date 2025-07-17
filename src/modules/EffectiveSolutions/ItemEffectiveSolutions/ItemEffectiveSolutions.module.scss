@@ -1,0 +1,812 @@
+.SpanDescription {
+  font-weight: 600;
+}
+
+.titleInfo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 146%;
+  margin-bottom: 8px;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #dadbe6;
+}
+
+.listContent {
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 37px 44px 16px 16px;
+  width: 338px;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #adaaaa7d, #4140406e) 1;
+  background: linear-gradient(
+    268deg,
+    rgb(150 36 226 / 15%) 0%,
+    rgb(150 36 226 / 14%) 30%,
+    rgb(150 36 226 / 5%) 50%,
+    rgba(2, 7, 157, 0) 100%
+  );
+
+  @include media(mobile) {
+    height: 136px;
+  }
+}
+
+// IMG //
+
+.hideOnMobile {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
+
+.absoluteImage {
+  position: absolute;
+  z-index: -1;
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+}
+
+//UI/UX-дизайн
+.liUiDesign {
+  .infoMobile {
+    @include media(tablet) {
+      display: none;
+    }
+  }
+
+  .infoTablet {
+    display: none;
+    @include media(tablet) {
+      display: block;
+    }
+    @include media(desktop) {
+      display: none;
+    }
+  }
+
+  .infoDesktop {
+    display: none;
+    @include media(desktop) {
+      display: block;
+    }
+  }
+
+  @include media(tablet) {
+    width: 310px;
+    height: 272px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  @include media(desktop) {
+    width: 392px;
+    height: 412px;
+    padding: 20px;
+  }
+}
+
+.imgUiDesign {
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+  top: 5px;
+  right: 10px;
+  width: 157px;
+  height: 82px;
+
+  @include media(tablet) {
+    & {
+      width: 222px;
+      height: 116px;
+      right: 30px;
+    }
+  }
+
+  @include media(desktop) {
+    & {
+      display: none;
+    }
+  }
+}
+
+.UiDesignDesktop {
+  display: none;
+
+  @include media(desktop) {
+    & {
+      @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+      display: block;
+      top: 30px;
+      right: 60px;
+    }
+  }
+}
+
+.UiDesignDesktopOne {
+  display: none;
+
+  @include media(desktop) {
+    & {
+      @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+      display: block;
+      top: 140px;
+      right: 40px;
+    }
+  }
+}
+
+.UiDesignDesktopTwo {
+  display: none;
+
+  @include media(desktop) {
+    & {
+      @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+      display: block;
+      top: 80px;
+    }
+  }
+}
+
+//Лендинги
+.liLandingPages {
+  padding-top: 59px;
+
+  @include media(tablet) {
+    & {
+      width: 310px;
+    }
+  }
+
+  @include media(desktop) {
+    & {
+      width: 392px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.imgLandingPageFigma {
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+  top: 25px;
+  right: 80px;
+  width: 72px;
+  height: 72px;
+
+  @include media(desktop) {
+    & {
+      width: 98px;
+      height: 98px;
+      top: 35px;
+      right: 120px;
+    }
+  }
+}
+
+.imgLandingPageAi {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: 5px;
+  right: 150px;
+  width: 56px;
+  height: 56px;
+
+  @include media(desktop) {
+    & {
+      width: 78px;
+      height: 78px;
+      top: 15px;
+      right: 0;
+      left: 60px;
+    }
+  }
+}
+
+.imgLandingPagePs {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: 5px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+
+  @include media(desktop) {
+    & {
+      width: 78px;
+      height: 78px;
+      top: 15px;
+      right: 0px;
+    }
+  }
+}
+
+//SEO-просування
+.liSeoPromotion {
+  @include media(tablet) {
+    & {
+      width: 310px;
+    }
+  }
+
+  @include media(desktop) {
+    & {
+      width: 392px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.imgSeoChart {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: 0px;
+  right: 0px;
+  width: 210px;
+  height: 140px;
+
+  @include media(desktop) {
+    & {
+      top: 70px;
+      right: 0px;
+      width: 250px;
+      height: 130px;
+    }
+  }
+}
+
+.imgSeoKeyword {
+  @include hover-shift(10px, -10px, 20px, 4deg, 4deg, 1.08);
+  top: 30px;
+}
+
+//Редизайн сайтів
+.liRedesign {
+  @include media(tablet) {
+    & {
+      width: 310px;
+    }
+  }
+
+  @include media(desktop) {
+    & {
+      width: 392px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.imgRedesignMain {
+  @include hover-shift(0px, -15px, 0px, 2deg, 0deg, 1.04);
+  width: 64px;
+  height: 64px;
+  top: 10px;
+  right: 45px;
+
+  @include media(desktop) {
+    & {
+      width: 93px;
+      height: 93px;
+      top: 30px;
+      right: 75px;
+    }
+  }
+}
+
+.website-redesign {
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  right: 175px;
+
+  @include media(desktop) {
+    & {
+      width: 33px;
+      height: 33px;
+      right: 180px;
+      top: 20px;
+    }
+  }
+}
+
+.imgRedesignIconOne {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  width: 30px;
+  height: 30px;
+  top: -13px;
+  right: 180px;
+
+  @include media(desktop) {
+    & {
+      width: 33px;
+      height: 33px;
+      top: -13px;
+      left: 40px;
+      right: 0px;
+    }
+  }
+}
+
+.imgRedesignIconTwo {
+  @include hover-shift(15px, 0px, 0px, 0deg, -2deg, 1.04);
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 125px;
+
+  @include media(desktop) {
+    & {
+      width: 33px;
+      height: 33px;
+      top: 70px;
+      right: 0px;
+      left: 120px;
+    }
+  }
+}
+
+.imgRedesignIconThree {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  width: 30px;
+  height: 30px;
+  top: 70px;
+  right: 10px;
+
+  @include media(desktop) {
+    & {
+      width: 33px;
+      height: 33px;
+      top: 90px;
+      right: -17px;
+    }
+  }
+}
+
+.imgRedesignIconFour {
+  @include hover-shift(10px, -10px, 20px, 4deg, 4deg, 1.08);
+  width: 30px;
+  height: 30px;
+  right: 55px;
+  top: 120px;
+
+  @include media(desktop) {
+    & {
+      width: 33px;
+      height: 33px;
+    }
+  }
+}
+
+//Інтернет-магазини
+.liOnlineStores {
+  @include media(tablet) {
+    width: 310px;
+    height: 272px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  @include media(desktop) {
+    width: 392px;
+    height: 412px;
+    padding: 20px;
+  }
+
+  .infoTablet {
+    display: none;
+
+    @include media(tablet) {
+      display: block;
+    }
+
+    @include media(desktop) {
+      display: none;
+    }
+  }
+
+  .infoDesktop {
+    display: none;
+
+    @include media(desktop) {
+      display: block;
+    }
+  }
+
+  .infoMobile {
+    @include media(tablet) {
+      display: none;
+    }
+  }
+
+  .imgStoreDesktop {
+    display: none;
+
+    @include media(desktop) {
+      @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+      display: block;
+      top: 50px;
+      right: 110px;
+    }
+  }
+
+  .imgStoreIconDesktop {
+    display: none;
+
+    @include media(desktop) {
+      @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+      display: block;
+      top: 80px;
+      right: 60px;
+    }
+  }
+
+  .imgStoreIconDesktopCrm {
+    display: none;
+
+    @include media(desktop) {
+      @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+      display: block;
+      top: 90px;
+      left: 45px;
+    }
+  }
+
+  .imgStoreMain {
+    @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+    top: 0;
+    right: 20px;
+
+    @include media(tablet) {
+      display: none;
+    }
+  }
+
+  .imgStoreCrm {
+    @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+    top: 12px;
+    right: 160px;
+
+    @include media(tablet) {
+      display: none;
+    }
+  }
+
+  .imgStoreIcon {
+    @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+    top: 80px;
+    right: 20px;
+
+    @include media(tablet) {
+      display: none;
+    }
+  }
+
+  .imgStoreIconTablet {
+    display: none;
+
+    @include media(tablet) {
+      @include hover-shift(10px, -10px, 20px, 4deg, 4deg, 1.08);
+      display: block;
+      top: 0;
+      right: 50px;
+    }
+
+    @include media(desktop) {
+      display: none;
+    }
+  }
+}
+
+//Корпоративні сайти
+.liCorporateWebsites {
+  @include media(tablet) {
+    width: 310px;
+    height: 272px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  @include media(desktop) {
+    width: 392px;
+    height: 412px;
+    padding: 20px;
+  }
+
+  .infoTablet {
+    display: none;
+
+    @include media(tablet) {
+      display: block;
+    }
+
+    @include media(desktop) {
+      display: none;
+    }
+  }
+
+  .infoDesktop {
+    display: none;
+
+    @include media(desktop) {
+      display: block;
+    }
+  }
+
+  .infoMobile {
+    @include media(tablet) {
+      display: none;
+    }
+  }
+}
+
+.imgCorporateMain {
+  @include hover-shift(10px, -10px, 20px, 4deg, 4deg, 1.08);
+  top: -50px;
+  right: 10px;
+
+  @include media(tablet) {
+    width: 216px;
+    height: 216px;
+    top: 0;
+    left: -30px;
+  }
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.imgCorporateSchedule {
+  display: none;
+
+  @include media(tablet) {
+    @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+    display: block;
+    top: 20px;
+    right: 20px;
+  }
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.imgCorporateMainDesktop {
+  display: none;
+
+  @include media(desktop) {
+    @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+    display: block;
+    top: 40px;
+    right: 140px;
+  }
+}
+
+.imgCorporateScheduleDesktop {
+  display: none;
+
+  @include media(desktop) {
+    @include hover-shift(0px, -15px, 0px, 2deg, 0deg, 1.04);
+    display: block;
+    top: 30px;
+    right: 20px;
+  }
+}
+
+//Персональні блоги
+.liPersonalBlogs {
+  @include media(tablet) {
+    width: 310px;
+    height: 272px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  @include media(desktop) {
+    width: 392px;
+    height: 412px;
+    padding: 20px;
+  }
+
+  .infoTablet {
+    display: none;
+
+    @include media(tablet) {
+      display: block;
+    }
+
+    @include media(desktop) {
+      display: none;
+    }
+  }
+
+  .infoDesktop {
+    display: none;
+
+    @include media(desktop) {
+      display: block;
+    }
+  }
+
+  .infoMobile {
+    @include media(tablet) {
+      display: none;
+    }
+  }
+}
+
+.imgBlogMain {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: 1px;
+  right: 2px;
+  width: 81px;
+  height: 109px;
+
+  @include media(tablet) {
+    width: 103px;
+    height: 140px;
+    top: 13px;
+    right: 18px;
+  }
+
+  @include media(desktop) {
+    width: 136px;
+    height: 194px;
+    top: 3px;
+    right: 38px;
+  }
+}
+
+.imgBlogTwo {
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+  top: 1px;
+  right: 130px;
+  width: 54px;
+  height: 54px;
+
+  @include media(tablet) {
+    width: 79px;
+    height: 79px;
+    top: 50px;
+    right: 180px;
+  }
+
+  @include media(desktop) {
+    width: 80px;
+    height: 80px;
+    top: 90px;
+    right: 220px;
+  }
+}
+
+.imgBlogOne {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: -16px;
+  right: 84px;
+  width: 54px;
+  height: 54px;
+
+  @include media(tablet) {
+    width: 79px;
+    height: 79px;
+    top: 10px;
+    right: 130px;
+  }
+
+  @include media(desktop) {
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 170px;
+  }
+}
+
+//Техпідтримка
+.liTechnicalSupport {
+  @include media(tablet) {
+    width: 310px;
+  }
+
+  @include media(desktop) {
+    width: 392px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.imgSupportMain {
+  @include hover-shift(10px, -10px, 20px, 4deg, 4deg, 1.08);
+  top: 25px;
+  right: 30px;
+  width: 64px;
+  height: 64px;
+
+  @include media(desktop) {
+    width: 93px;
+    height: 93px;
+    top: 45px;
+    right: 90px;
+  }
+}
+
+.imgSupportIconOne {
+  @include hover-shift(0px, -15px, 0px, 2deg, 0deg, 1.04);
+  top: -13px;
+  right: 180px;
+  width: 30px;
+  height: 30px;
+
+  @include media(desktop) {
+    width: 33px;
+    height: 33px;
+    top: 80px;
+    right: 240px;
+  }
+}
+
+.imgSupportIconTwo {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: 95px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+
+  @include media(desktop) {
+    width: 33px;
+    height: 33px;
+    top: 115px;
+    right: -16px;
+  }
+}
+
+.imgSupportIconThree {
+  @include hover-shift(0px, 15px, 0px, -2deg, 0deg, 1.04);
+  top: 20px;
+  left: 80px;
+  width: 30px;
+  height: 30px;
+
+  @include media(desktop) {
+    width: 33px;
+    height: 33px;
+    top: -15px;
+    left: 20px;
+  }
+}
+
+.imgSupportIconFour {
+  @include hover-shift(-15px, 0px, 0px, 0deg, 2deg, 1.04);
+  top: 17px;
+  right: 120px;
+  width: 30px;
+  height: 30px;
+
+  @include media(desktop) {
+    width: 33px;
+    height: 33px;
+    top: 10px;
+    right: 190px;
+  }
+}

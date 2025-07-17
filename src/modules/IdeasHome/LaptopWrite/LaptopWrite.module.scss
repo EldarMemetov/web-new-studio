@@ -1,0 +1,75 @@
+.imageWrapper {
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: inline-block;
+  @include media(tablet) {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+.monitorImg {
+  display: block;
+  width: 184px;
+  height: 106px;
+  transition: 0.4s ease;
+  stroke: rgb(136 131 131);
+  padding-right: 20px;
+  @include media(tablet) {
+    width: 295px;
+    height: 170px;
+    padding-left: 20px;
+  }
+}
+
+.screenWrapper {
+  position: absolute;
+  top: 42px;
+  left: 53px;
+  width: 110px;
+  height: 70px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 2;
+  @include media(tablet) {
+    top: 50px;
+    left: 80px;
+    width: 295px;
+    height: 105px;
+  }
+}
+
+.textWrapper {
+  transition: transform 0.2s ease-out;
+}
+
+.textWrapper pre {
+  margin: 0;
+  white-space: pre-wrap;
+
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: monospace;
+  @include font(7, 9);
+  @include media(tablet) {
+    @include font(6, 9);
+  }
+}
+
+@keyframes blinkCursor {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

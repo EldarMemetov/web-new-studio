@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://web-studio-pied.vercel.app
+
+# Sitemaps
+Sitemap: https://web-studio-pied.vercel.app/sitemap.xml

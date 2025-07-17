@@ -1,0 +1,24 @@
+{
+  "titleBefore": "Got",
+  "titleHighlight": "questions",
+  "titleAfter": "it's normal",
+  "description": "We are always ready to answer all your questions. Schedule a consultation – we’ll be happy to assist you!",
+  "faq": [
+    {
+      "question": "How long does website development or video editing take?",
+      "answer": "The duration of website development or video editing depends on the complexity and requirements of your project. Usually, the process takes from a few weeks to a few months. For an exact timeline, we offer a preliminary consultation and estimate."
+    },
+    {
+      "question": "Do you work with international clients?",
+      "answer": "Yes! We have extensive experience in providing website development and video production services for international clients. Regardless of your location, we are ready to deliver your project to the highest standard."
+    },
+    {
+      "question": "How much does it cost to create a website or video?",
+      "answer": "The cost of website or video development services depends on your specific requirements and the complexity of the project. After the initial consultation, we will provide an accurate cost estimate based on your needs and preferences."
+    },
+    {
+      "question": "What if I order both services – website and video?",
+      "answer": "Ordering both services at once is an excellent choice! For clients who order both website development and video services, we offer special conditions, discounts, and comprehensive solutions for your business. Let's discuss your project, and we'll create the best result."
+    }
+  ]
+}

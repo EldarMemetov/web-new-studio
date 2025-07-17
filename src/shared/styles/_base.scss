@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Fixel Display';
+  src:
+    local('Fixel Display Regular'),
+    url('/fonts/FixelDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fixel Display';
+  src:
+    local('Fixel Display Medium'),
+    url('/fonts/FixelDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fixel Display';
+  src:
+    local('Fixel Display SemiBold'),
+    url('/fonts/FixelDisplay-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fixel Display';
+  src:
+    local('Fixel Display Bold'),
+    url('/fonts/FixelDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-weight: 400;
+  color: #fff;
+
+  background: black;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-family: 'Fixel Display', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+dd,
+dl {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: lightgray;
+}

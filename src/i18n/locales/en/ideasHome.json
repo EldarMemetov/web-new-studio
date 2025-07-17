@@ -1,0 +1,38 @@
+{
+  "section": {
+    "title": "Your Ideas — Our Realization",
+    "subTitle": " Realization",
+    "buttonText": "I want everything with a bonus",
+    "sections": [
+      {
+        "title": "Web Development",
+        "icon": "LaptopWrite",
+        "description": "Services we provide:",
+        "list": [
+          "Websites",
+          "Landing Pages",
+          "Responsive Design",
+          "E-commerce Sites",
+          "Technical Support",
+          "SEO Optimization",
+          "UX/UI Design"
+        ],
+        "cta": "Order now"
+      },
+      {
+        "title": "Video Production",
+        "icon": "icon-cinema",
+        "description": "Services we provide:",
+        "list": [
+          "Filming",
+          "Video Editing",
+          "Direction",
+          "Screenwriting",
+          "Location Scouting",
+          "Post-production"
+        ],
+        "cta": "Order now"
+      }
+    ]
+  }
+}

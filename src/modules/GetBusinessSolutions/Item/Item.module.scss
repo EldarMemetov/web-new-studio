@@ -1,0 +1,127 @@
+.title {
+  transition: transform 0.5s ease-in-out;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 136%;
+  white-space: nowrap;
+}
+
+.description {
+  font-weight: 400;
+  @include font(14, 20);
+
+  @include media(desktop) {
+    @include font(16, 23);
+  }
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.itemList {
+  transition: background 0.3s ease-in-out;
+
+  position: relative;
+  border-radius: 4px;
+  padding: 14px 18px;
+  width: 330px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1 1 calc((100% - 40px) / 1);
+  overflow: hidden;
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #adaaaa, #414040) 1;
+  background: radial-gradient(
+    circle at top right,
+    rgba(27, 11, 248, 0.37) 0%,
+    rgb(0 0 0) 50%
+  );
+
+  @include media(tablet) {
+    flex: 1 1 calc((100% - 40px) / 2);
+  }
+
+  @include media(desktop) {
+    padding: 18px;
+    width: 392px;
+    height: 273px;
+    gap: 24px;
+    flex: 1 1 calc((100% - 40px) / 4);
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .containerOn {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+      opacity 0.3s ease-in-out,
+      max-height 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .game {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease-in-out;
+    transform: rotateY(180deg);
+  }
+
+  &:hover {
+    border: none;
+
+    .contentWrapper {
+      transform: translateY(-12px);
+    }
+
+    .containerOn {
+      opacity: 1;
+      max-height: 200px;
+    }
+
+    .game {
+      transform: rotateY(0deg);
+    }
+
+    &::after {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(
+      circle at top left,
+      rgb(4, 8, 41) 10%,
+      rgba(1, 2, 39, 1) 60%
+    );
+    transform: translate(100%, -100%) scale(0);
+    transform-origin: top right;
+    transition: transform 0.3s ease-out;
+    z-index: -1;
+  }
+}

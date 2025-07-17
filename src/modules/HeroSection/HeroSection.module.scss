@@ -1,0 +1,123 @@
+.section {
+  padding-top: 100px;
+}
+.containerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerIcon {
+  position: relative;
+  border-radius: 48px;
+  padding: 8px 20px;
+  height: 44px;
+  background-color: rgba(156, 158, 166, 0.17);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 40px;
+  @include media(tablet) {
+  }
+  @include media(desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.containerIcon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border-radius: 48px;
+  padding: 2px;
+  background: linear-gradient(to bottom, #7a7878, #302f31);
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+
+  z-index: 0;
+}
+
+.containerIcon > * {
+  position: relative;
+  z-index: 1;
+}
+
+.button {
+  border-radius: 40px;
+  display: flex;
+  padding: 4px 12px;
+  width: 36px;
+  height: 20px;
+  background: linear-gradient(180deg, #5820ff 0%, #22096d 100%);
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgb(222, 197, 227);
+  @include media(desktop) {
+    padding: 4px 12px;
+    width: 44px;
+    height: 28px;
+  }
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+}
+.spanMobile {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  @include media(tablet) {
+    display: none;
+  }
+}
+.span {
+  display: none;
+  @include media(tablet) {
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 14px;
+    line-height: 140%;
+    display: block;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  margin-bottom: 24px;
+  text-align: center;
+  @include media(tablet) {
+    align-items: 40px;
+  }
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #b3b3b3;
+  margin-bottom: 80px;
+  @include media(tablet) {
+    font-size: 18px;
+  }
+  @include media(desktop) {
+    margin-bottom: 64px;
+    font-size: 20px;
+  }
+}

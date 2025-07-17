@@ -1,0 +1,24 @@
+{
+  "titleBefore": "Haben Sie",
+  "titleHighlight": "Fragen",
+  "titleAfter": "Das ist ganz normal",
+  "description": "Wir stehen Ihnen jederzeit gerne zur Verfügung, um all Ihre Fragen zu beantworten. Vereinbaren Sie ein Beratungsgespräch – wir helfen Ihnen gerne dabei, Ihr Business zu optimieren!",
+  "faq": [
+    {
+      "question": "Helfen Sie bei Domain und Hosting?",
+      "answer": "Ja, wir unterstützen Sie vollständig bei der Auswahl und Registrierung einer passenden Domain sowie bei der Einrichtung eines zuverlässigen Hostings für Ihre Website. Unser Team wählt die optimale Domain entsprechend Ihrer Marke und Zielgruppe aus und empfiehlt Hosting-Lösungen, die schnelle Ladezeiten, hohe Sicherheit und stabile Leistung gewährleisten. Sie erhalten eine fertige Website, die an Ihre Domain angebunden und auf dem Server eingerichtet ist – ganz ohne technischen Aufwand für Sie."
+    },
+    {
+      "question": "Kann ich eine mehrsprachige Website beauftragen?",
+      "answer": "Ja, wir entwickeln Websites mit vollständiger Mehrsprachigkeit. Wenn Ihre Zielgruppe mehrere Sprachen spricht – zum Beispiel Ukrainisch, Englisch oder Polnisch – integrieren wir eine benutzerfreundliche Sprachumschaltung, die sowohl für Nutzer als auch für Suchmaschinen optimiert ist. Jede Sprachversion erhält eigene SEO-Einstellungen, wodurch die Sichtbarkeit Ihrer Website bei Google in verschiedenen Regionen verbessert wird."
+    },
+    {
+      "question": "Welche Technologien verwenden Sie?",
+      "answer": "Wir setzen auf einen modernen Technologie-Stack, der hohe Leistung, Sicherheit und Skalierbarkeit für Webprojekte jeder Größe bietet. In der Entwicklung nutzen wir HTML5, CSS3 und JavaScript für ein responsives und dynamisches Frontend. Die Benutzeroberfläche wird mit React umgesetzt, und zur Suchmaschinenoptimierung sowie für serverseitiges Rendering verwenden wir Next.js, das sowohl SSR (Server Side Rendering) als auch SSG (Static Site Generation) unterstützt. Für die Backend-Entwicklung nutzen wir Node.js und für die Datenverarbeitung MongoDB. Außerdem arbeiten wir mit Versionskontrollsystemen wie Git sowie mit Design-Tools wie Figma oder Adobe XD. Dank dieses Ansatzes erstellen wir moderne, schnelle und skalierbare Websites, die auf die technischen und geschäftlichen Anforderungen unserer Kunden zugeschnitten sind."
+    },
+    {
+      "question": "Wie testen Sie die Website vor dem Launch?",
+      "answer": "Vor dem Launch wird die Website von uns gründlich getestet. Wir überprüfen die Responsivität des Designs auf verschiedenen Geräten und Bildschirmgrößen, die Funktionalität aller Elemente wie Navigation, Formulare und Buttons sowie die Darstellung in verschiedenen Browsern. Außerdem analysieren wir die Ladegeschwindigkeit und führen einen technischen SEO-Check durch. Auch mögliche Fehler im Code oder Layout werden beseitigt. Vor der Veröffentlichung wird die Website auf einem Testserver bereitgestellt, um sie unter realitätsnahen Bedingungen umfassend zu prüfen."
+    }
+  ]
+}

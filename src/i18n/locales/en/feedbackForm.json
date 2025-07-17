@@ -1,0 +1,34 @@
+{
+  "title": "let's ",
+  "andTitle": "start the feedback",
+  "description": "Ready to collaborate? Let's discuss your project",
+  "subtitle": "We will respond within 24 hours",
+  "fields": {
+    "name": "Name*",
+    "email": "Your email*",
+    "message": "These are your wishes",
+    "agree": "I agree to the privacy policy"
+  },
+  "submitButton": "Contact us",
+  "successMessage": "Feedback successfully sent!",
+  "errorMessage": "An error occurred. Please try again.",
+  "status": {
+    "success": "Form successfully submitted!",
+    "error": "Error submitting the form. Please try again."
+  },
+  "validation": {
+    "name": {
+      "min": "Minimum 3 characters",
+      "required": "Please enter your name"
+    },
+    "email": {
+      "invalid": "Invalid email format",
+      "required": "Please enter your email"
+    },
+    "message": {
+      "min": "Minimum 10 characters",
+      "required": "Please enter a message"
+    },
+    "agree": "You must agree to the privacy policy"
+  }
+}

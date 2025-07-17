@@ -1,0 +1,10 @@
+{
+  "heroBlog": {
+    "title": "QVRIX Blog",
+    "description": "Jeder Beitrag ist ein Stück Erfahrung, Ideen und Inspiration, das wir mit Ihnen teilen möchten.",
+    "buttons": {
+      "talk": "Lass uns reden",
+      "read": "Artikel lesen"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "titleBefore": "Haben Sie",
+  "titleHighlight": "Fragen",
+  "titleAfter": "das ist normal",
+  "description": "Wir sind immer bereit, alle Ihre Fragen zu beantworten. Vereinbaren Sie eine Beratung – wir helfen Ihnen gerne weiter!",
+  "faq": [
+    {
+      "question": "Wie lange dauert die Entwicklung einer Website oder die Videobearbeitung?",
+      "answer": "Die Dauer der Entwicklung einer Website oder der Videobearbeitung hängt von der Komplexität und den Anforderungen Ihres Projekts ab. In der Regel dauert der Prozess einige Wochen bis mehrere Monate. Für eine genaue Zeitrahmen bieten wir eine erste Beratung und Schätzung an."
+    },
+    {
+      "question": "Arbeiten Sie mit internationalen Kunden?",
+      "answer": "Ja! Wir haben umfangreiche Erfahrung in der Bereitstellung von Website-Entwicklungs- und Videoproduktionsdiensten für internationale Kunden. Unabhängig von Ihrem Standort sind wir bereit, Ihr Projekt nach höchsten Standards umzusetzen."
+    },
+    {
+      "question": "Wie viel kostet es, eine Website oder ein Video zu erstellen?",
+      "answer": "Die Kosten für Website- oder Videoentwicklungsdienste hängen von Ihren spezifischen Anforderungen und der Komplexität des Projekts ab. Nach einer ersten Beratung geben wir Ihnen eine genaue Kostenschätzung basierend auf Ihren Bedürfnissen und Wünschen."
+    },
+    {
+      "question": "Was passiert, wenn ich beide Dienstleistungen bestelle – Website und Video?",
+      "answer": "Die gleichzeitige Bestellung beider Dienstleistungen ist eine ausgezeichnete Wahl! Für Kunden, die sowohl die Website-Entwicklung als auch Video-Dienste bestellen, bieten wir spezielle Bedingungen, Rabatte und umfassende Lösungen für Ihr Unternehmen an. Lassen Sie uns Ihr Projekt besprechen, und wir erstellen das beste Ergebnis."
+    }
+  ]
+}

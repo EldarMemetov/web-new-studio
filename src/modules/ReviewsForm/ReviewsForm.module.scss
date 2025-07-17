@@ -1,0 +1,68 @@
+.ContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.containerBig {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 500;
+  @include font(24, 33);
+  @include media(tablet) {
+    @include font(24, 33);
+  }
+}
+.textRating {
+  font-weight: 400;
+  @include font(16, 23);
+}
+
+.description {
+  font-weight: 400;
+  @include font(16, 23);
+}
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+}
+.containerRating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  @include media(tablet) {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.notebook {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}

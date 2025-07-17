@@ -1,0 +1,27 @@
+{
+  "titleStart": "Your brand ",
+  "titleHighlight": " after us",
+  "description": "",
+  "items": [
+    {
+      "title": "Recognition and Trust",
+      "description": "A unique style will make your company noticeable and recognizable.",
+      "iconName": "icon-trust"
+    },
+    {
+      "title": "Professional Image",
+      "description": "Your visual identity will highlight your professionalism and expertise.",
+      "iconName": "icon-expertise"
+    },
+    {
+      "title": "Attractiveness for Clients",
+      "description": "Design and strategy will help engage and retain your audience.",
+      "iconName": "icon-launch"
+    },
+    {
+      "title": "Strong Visual Style",
+      "description": "Consistent graphics and identity will create a unified perception of your brand.",
+      "iconName": "icon-unity"
+    }
+  ]
+}

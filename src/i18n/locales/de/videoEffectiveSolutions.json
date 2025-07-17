@@ -1,0 +1,112 @@
+{
+  "spanTitle": "Lösungen, ",
+  "title": "die wir anbieten",
+  "description": "Unser Ansatz bietet umfassende Betreuung in jeder Phase der Videoproduktion – von der Idee bis zur Umsetzung. Mit uns erhält Ihre Marke professionelle Videoinhalte, die alle Anforderungen erfüllen und echte Ergebnisse liefern.",
+  "solutions": [
+    {
+      "id": "advertising",
+      "title": "Werbevideos",
+      "info": "Effektive Videos zur Bewerbung Ihrer Marke, Ihres Produkts oder Ihrer Dienstleistung.",
+      "className": "camcorderImg",
+      "images": [
+        {
+          "src": "/image/video/camcorder.png",
+          "alt": "camcorder",
+          "width": 218,
+          "height": 120,
+          "className": "camcorder"
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "title": "Unternehmens- und Imagefilme",
+      "info": "Professionelle Videos zur Stärkung des Images und Rufs Ihres Unternehmens.",
+      "className": "corporateImg",
+      "images": [
+        {
+          "src": "/image/video/corporate.png",
+          "alt": "corporate-video",
+          "width": 261,
+          "height": 261,
+          "className": "corporate"
+        }
+      ]
+    },
+    {
+      "id": "event",
+      "title": "Event- und Veranstaltungsaufnahmen",
+      "info": "Dokumentation wichtiger Momente Ihres Unternehmens oder besonderer Anlässe.",
+      "className": "eventVideo",
+      "images": [
+        {
+          "src": "/image/video/event.png",
+          "alt": "event-video",
+          "width": 291,
+          "height": 207,
+          "className": "event"
+        }
+      ]
+    },
+    {
+      "id": "drone",
+      "title": "Drohnen-Luftaufnahmen",
+      "info": "Einzigartige Luftaufnahmen für beeindruckende und spannende Videoszenen.",
+      "className": "droneImg",
+      "images": [
+        {
+          "src": "/image/video/drone.png",
+          "alt": "drone-video",
+          "width": 264,
+          "height": 140,
+          "className": "drone"
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Content für Social Media & YouTube",
+      "info": "Videos, die Aufmerksamkeit erregen und eine loyale Community in sozialen Netzwerken aufbauen.",
+      "className": "socialMediaImg",
+      "images": [
+        {
+          "src": "/image/video/social-media.png",
+          "alt": "social-media",
+          "width": 320,
+          "height": 206,
+          "className": "socialMedia"
+        }
+      ]
+    },
+    {
+      "id": "graphics",
+      "title": "Motion Design, Grafik & Animation",
+      "info": "Dynamische Animationen und grafische Elemente für Ihre Videos.",
+      "className": "graphicsImg",
+      "images": [
+        {
+          "src": "/image/video/graphics.png",
+          "alt": "graphics",
+          "width": 331,
+          "height": 166,
+          "className": "graphics"
+        }
+      ]
+    },
+    {
+      "id": "video-editing",
+      "title": "Schnitt, Farbkorrektur & Sounddesign",
+      "info": "Professioneller Schnitt und Nachbearbeitung für das bestmögliche Ergebnis.",
+      "className": "videoEditingImg",
+      "images": [
+        {
+          "src": "/image/video/video-editing.png",
+          "alt": "video-editing",
+          "width": 371,
+          "height": 232,
+          "className": "videoEditing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Ihre Erfahrung ist inspirierend! Teilen Sie sie mit anderen.",
+  "description": "Wir schätzen jedes Wort unserer Kunden",
+  "fields": {
+    "name": "Name*",
+    "email": "Deine E-Mail*",
+    "message": "Beschreibe deine Erfahrung",
+    "agree": "Ich stimme den Datenschutzbedingungen zu"
+  },
+  "submitButton": "Absenden",
+  "rating": "Bewerte unsere Arbeit",
+  "successMessage": "Feedback erfolgreich gesendet!",
+  "errorMessage": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+  "status": {
+    "success": "Formular erfolgreich gesendet!",
+    "error": "Fehler beim Absenden des Formulars. Bitte versuche es erneut."
+  },
+  "validation": {
+    "name": {
+      "min": "Mindestens 3 Zeichen",
+      "required": "Geben Sie Ihren Namen ein"
+    },
+    "email": {
+      "invalid": "Ungültiges E-Mail-Format",
+      "required": "Geben Sie Ihre E-Mail ein"
+    },
+    "message": {
+      "min": "Mindestens 10 Zeichen",
+      "required": "Geben Sie Ihre Nachricht ein",
+      "max": "Maximal 260 Zeichen erlaubt"
+    },
+    "agree": "Sie müssen den Datenschutzbedingungen zustimmen"
+  }
+}
