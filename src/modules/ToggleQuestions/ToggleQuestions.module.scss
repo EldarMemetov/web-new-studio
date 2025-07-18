@@ -12,40 +12,15 @@
 }
 
 .title {
-  font-weight: 500;
-  @include font(40, 52);
-  text-transform: uppercase;
-  transition: all 0.5s ease-in-out;
-  margin-bottom: 32px;
-  @include media(tablet) {
-    @include font(64, 83);
-    margin-bottom: 40px;
-  }
-  @include media(desktop) {
-    @include font(80, 104);
-  }
+  @include titleText();
 }
 
 .titleAnd {
-  font-weight: 700;
-  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.5s ease-in-out;
+  @include gradientText;
 }
 
 .description {
-  font-weight: 400;
-  @include font(18, 26);
-  transition: all 0.5s ease-in-out;
-  margin-bottom: 64px;
-  @include media(tablet) {
-    margin-bottom: 80px;
-  }
-  @include media(desktop) {
-    margin-bottom: 0px;
-  }
+  @include description;
 }
 
 .containerContent {

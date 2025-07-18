@@ -15,7 +15,7 @@ export default async function GetBusinessSolutions({ locale }) {
             {t('titleStart')}
             <span className={styles.spanNewTitle}>{t('titleHighlight')}</span>
           </h2>
-
+          <h3 className={styles.description}>{t('subtitle')}</h3>
           <List items={t('items', { returnObjects: true }) || []} />
         </div>
       </Container>

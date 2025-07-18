@@ -84,3 +84,51 @@ screen types:
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
   }
 }
+///
+@mixin titleText(
+  $fontColorFrom: #ffffff,
+  $fontColorTo: #ffffff,
+  $angle: 30deg
+) {
+  font-weight: 500;
+  @include font(40, 52);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+
+  background: linear-gradient($angle, $fontColorFrom 0%, $fontColorTo 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include media(tablet) {
+    margin-bottom: 24px;
+    @include font(64, 83);
+  }
+
+  @include media(desktop) {
+    @include font(80, 104);
+  }
+}
+
+///
+@mixin description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 146%;
+  margin-bottom: 40px;
+  color: #dadbe6;
+  @include media(tablet) {
+    font-size: 24px;
+    margin-bottom: 64px;
+  }
+  @include media(desktop) {
+    margin-bottom: 80px;
+  }
+}
+///
+@mixin gradientText($from: #9624e2, $to: #02079d, $angle: 30deg) {
+  background: linear-gradient($angle, $from 0%, $from 60%, $to 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -27,19 +27,6 @@
     height: calc(100% + 100px);
   }
 }
-.title {
-  font-weight: 500;
-  @include font(40, 52);
-  text-transform: uppercase;
-  text-align: right;
-  margin-bottom: 80px;
-  @include media(tablet) {
-    @include font(64, 83);
-  }
-  @include media(desktop) {
-    @include font(80, 104);
-  }
-}
 .contentContainer {
   display: flex;
   flex-direction: column;
@@ -47,10 +34,20 @@
   position: relative;
   z-index: 10;
 }
+.contentText {
+  display: flex;
+  flex-direction: column;
+  @include media(desktop) {
+    margin-left: 40px;
+  }
+}
+.title {
+  @include titleText();
+}
+
 .titleSpan {
-  font-weight: 700;
-  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include gradientText;
+}
+.description {
+  @include description;
 }

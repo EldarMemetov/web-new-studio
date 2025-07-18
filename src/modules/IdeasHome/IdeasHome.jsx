@@ -20,11 +20,13 @@ export default async function IdeasHome({ locale }) {
     <section className={styles.section} id="ideas-home">
       <Container>
         <div className={styles.contentContainer}>
-          <h2 className={styles.title}>
-            {t('section.title')}
-            <span className={styles.titleSpan}>{t('section.subTitle')}</span>
-          </h2>
-
+          <div className={styles.contentText}>
+            <h2 className={styles.title}>
+              {t('section.title')}
+              <span className={styles.titleSpan}>{t('section.subTitle')}</span>
+            </h2>
+            <h3 className={styles.description}>{t('section.description')}</h3>
+          </div>
           <IdeasList
             items={t('section.sections', { returnObjects: true }) || []}
           />

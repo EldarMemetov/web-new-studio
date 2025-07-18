@@ -5,30 +5,14 @@
   }
 }
 .title {
-  font-weight: 500;
   position: relative;
   z-index: 2;
-  text-transform: uppercase;
-  @include font(54, 70);
-  margin-bottom: 64px;
-
-  @include media(tablet) {
-    @include font(80, 104);
-    margin-bottom: 80px;
-  }
+  @include titleText();
 }
 
 .titleAnd {
-  font-weight: 700;
-  background: linear-gradient(34deg, #9624e2 0%, #02079d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include gradientText;
 }
 .description {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 146%;
-  color: #dadbe6;
-  margin-bottom: 38px;
+  @include description;
 }

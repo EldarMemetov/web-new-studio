@@ -27,37 +27,15 @@
 }
 
 .description {
-  font-weight: 300;
-  @include font(20, 27);
-  color: white;
-  text-align: left;
-  margin-bottom: 150px;
-  color: #dadbe6;
-
-  @include media(tablet) {
-    margin-bottom: 64px;
-    text-align: center;
-    @include font(24, 33);
-  }
-  @include media(desktop) {
-    @include font(42, 55);
-    width: 1280px;
-  }
+  @include description;
+  text-align: center;
 }
 
 .descriptionNext {
+  @include description;
+  text-align: center;
   font-weight: 700;
-  @include font(20, 27);
   color: #fff;
-  text-align: left;
-  @include media(tablet) {
-    display: block;
-    text-align: center;
-    @include font(24, 33);
-  }
-  @include media(desktop) {
-    @include font(42, 55);
-  }
 }
 
 .container {

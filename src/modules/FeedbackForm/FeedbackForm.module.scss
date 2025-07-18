@@ -14,25 +14,10 @@
   position: relative;
 }
 .title {
-  font-weight: 500;
-  @include font(40, 52);
-  text-transform: uppercase;
-  text-align: left;
-  margin-bottom: 64px;
-  @include media(tablet) {
-    @include font(64, 83);
-    margin-bottom: 80px;
-  }
-  @include media(desktop) {
-    @include font(80, 104);
-  }
+  @include titleText();
 }
 .andTitle {
-  font-weight: 700;
-  background: linear-gradient(30deg, #9624e2 0%, #8808b7 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include gradientText;
 }
 .description {
   font-weight: 500;

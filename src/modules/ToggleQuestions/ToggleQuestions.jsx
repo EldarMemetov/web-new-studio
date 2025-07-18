@@ -18,7 +18,7 @@ export default async function ToggleQuestions({
             {t('titleBefore')}
             <span className={styles.titleAnd}>
               {' '}
-              {t('titleHighlight')} <br />{' '}
+              {t('titleHighlight')} <br />
             </span>
             {t('titleAfter')}
           </h2>

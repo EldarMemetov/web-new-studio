@@ -39,10 +39,7 @@
     margin-bottom: 32px;
   }
   .titleAccent {
-    background: linear-gradient(30deg, #9624e2 60%, #02079d 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include gradientText;
   }
 }
 

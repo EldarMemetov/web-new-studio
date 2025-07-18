@@ -7,60 +7,26 @@
 }
 
 .title {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 130%;
-  text-transform: uppercase;
+  @include titleText();
   text-align: right;
-  background: linear-gradient(30deg, #ffffff 0%, #ffffff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 12px;
   @include media(tablet) {
-    margin-bottom: 24px;
-    font-size: 64px;
-    line-height: 130%;
-  }
-
-  @include media(desktop) {
-    font-size: 80px;
-    line-height: 130%;
-  }
-  @include media(tablet) {
-    font-size: 64px;
-    line-height: 130%;
-  }
-
-  @include media(desktop) {
-    font-size: 80px;
-    line-height: 130%;
-  }
-}
-.spanTitle {
-  background: linear-gradient(30deg, #9624e2 0%, #9624e2 60%, #02079d 100%);
-
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.description {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 146%;
-  text-align: right;
-  color: #dadbe6;
-  max-width: 340px;
-  margin-bottom: 40px;
-  @include media(tablet) {
-    margin-bottom: 64px;
-    font-size: 24px;
-    line-height: 146%;
     max-width: 640px;
   }
   @include media(desktop) {
-    margin-bottom: 80px;
-    max-width: 100%;
+    max-width: 1200px;
+  }
+}
+.spanTitle {
+  @include gradientText;
+}
+.description {
+  @include description;
+  text-align: right;
+  @include media(tablet) {
+    max-width: 640px;
+  }
+  @include media(desktop) {
+    max-width: 1200px;
   }
 }
 .SpanDescription {

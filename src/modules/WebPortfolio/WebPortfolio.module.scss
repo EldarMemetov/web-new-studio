@@ -8,42 +8,15 @@
   }
 }
 .title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
-  text-transform: uppercase;
+  @include titleText();
   text-align: right;
-  margin-bottom: 12px;
-  @include media(tablet) {
-    font-size: 64px;
-    line-height: 130%;
-    margin-bottom: 24px;
-  }
-  @include media(desktop) {
-    font-size: 80px;
-    line-height: 130%;
-  }
 }
 .SpanTitle {
-  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include gradientText;
 }
 .descriptions {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 146%;
+  @include description;
   text-align: right;
-  margin-bottom: 40px;
-  @include media(tablet) {
-    margin-bottom: 40px;
-  }
-  @include media(desktop) {
-    font-size: 24px;
-    line-height: 146%;
-    margin-bottom: 80px;
-  }
 }
 .SpanDescriptions {
   font-weight: 600;
