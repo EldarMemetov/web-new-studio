@@ -15,19 +15,17 @@ export default async function AboutUs({ params: rawParams }) {
     : 'en';
 
   return (
-    <main>
-      <div className={s.container}>
-        <HeroAbout locale={locale} />
-        <AboutSection locale={locale} />
-        <AboutFactsSection locale={locale} />
-        <BrandTransformation
-          locale={locale}
-          namespace="aboutBrandTransformation"
-        />
-        <WebWhyChoose locale={locale} namespace="aboutWhyChoose" />
-        <ToggleQuestions />
-        <FeedbackForm />
-      </div>
-    </main>
+    <div className={s.container}>
+      <HeroAbout locale={locale} />
+      <AboutSection locale={locale} />
+      <AboutFactsSection locale={locale} />
+      <BrandTransformation
+        locale={locale}
+        namespace="aboutBrandTransformation"
+      />
+      <WebWhyChoose locale={locale} namespace="aboutWhyChoose" />
+      <ToggleQuestions />
+      <FeedbackForm />
+    </div>
   );
 }

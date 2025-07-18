@@ -7,10 +7,8 @@ export default async function PrivacyPolicyPage({ params: rawParams }) {
     : 'en';
 
   return (
-    <main>
-      <div>
-        <PrivacyPolicy locale={locale} />
-      </div>
-    </main>
+    <div>
+      <PrivacyPolicy locale={locale} />
+    </div>
   );
 }

@@ -16,7 +16,7 @@ export default async function BlogPage({ params: rawParams }) {
   });
 
   return (
-    <main>
+    <div>
       <HeroBlog locale={locale} />
       <BlogCategoryPage
         initialPosts={posts}
@@ -24,6 +24,6 @@ export default async function BlogPage({ params: rawParams }) {
         locale={locale}
       />
       <FeedbackForm />
-    </main>
+    </div>
   );
 }

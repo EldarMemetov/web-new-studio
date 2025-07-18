@@ -14,15 +14,13 @@ export default async function Videography({ params: rawParams }) {
     : 'en';
 
   return (
-    <main>
-      <div className={s.container}>
-        <HeroVideo locale={locale} />
-        <VideoEffectiveSolutions locale={locale} />
-        <VideoPortfolio />
-        <WebWhyChoose locale={locale} namespace="videoWhyChoose" />
-        <ToggleQuestions locale={locale} namespace="videoFaq" />
-        <FeedbackForm locale={locale} />
-      </div>
-    </main>
+    <div className={s.container}>
+      <HeroVideo locale={locale} />
+      <VideoEffectiveSolutions locale={locale} />
+      <VideoPortfolio />
+      <WebWhyChoose locale={locale} namespace="videoWhyChoose" />
+      <ToggleQuestions locale={locale} namespace="videoFaq" />
+      <FeedbackForm locale={locale} />
+    </div>
   );
 }

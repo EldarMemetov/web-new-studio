@@ -18,8 +18,8 @@ export default async function BlogIdPageId({ params }) {
   if (!post) return <div>Пост не найден</div>;
 
   return (
-    <main>
+    <div>
       <BlogId post={post} locale={locale} />
-    </main>
+    </div>
   );
 }
