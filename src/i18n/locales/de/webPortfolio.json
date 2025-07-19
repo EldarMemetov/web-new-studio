@@ -39,7 +39,7 @@
         "i18n"
       ],
       "image1": {
-        "src": "/image/portfolio/harmony.jpg",
+        "src": "/image/portfolio/inharmony.png",
         "width": 392,
         "height": 560,
         "className": "imgHarmonyOne"
@@ -72,7 +72,7 @@
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "image1": {
-        "src": "/image/portfolio/portfolio.jpg",
+        "src": "/image/portfolio/lloydjefferson.png",
         "width": 392,
         "height": 560,
         "className": "imgFullStackOne"
@@ -103,7 +103,7 @@
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "image1": {
-        "src": "/image/portfolio/diet-today.jpg",
+        "src": "/image/portfolio/veggi.png",
         "width": 392,
         "height": 560,
         "className": "imgDietTodayOne"
@@ -144,7 +144,7 @@
         "Vite"
       ],
       "image1": {
-        "src": "/image/portfolio/learn-lingo.jpg",
+        "src": "/image/portfolio/learn.png",
         "width": 600,
         "height": 440,
         "className": "imgBookOne"
@@ -163,45 +163,50 @@
       },
       "liveUrl": "https://learn-lingo-six.vercel.app/"
     },
-    "book": {
-      "title": "Read Journey",
-      "description": "Read Journey ist eine Webanwendung für Bücherliebhaber, die Registrierung, Finden von Buchempfehlungen, Hinzufügen zur persönlichen Bibliothek und Verfolgen des Lesefortschritts ermöglicht. Die Plattform unterstützt responsives Design für bequeme Nutzung auf allen Geräten.",
+    "qvrix": {
+      "title": "QVRIX",
+      "description": "QVRIX ist eine moderne, mehrsprachige Website, die für ein Team entwickelt wurde, das sich auf Webentwicklung und Videoproduktion spezialisiert hat. Das Projekt wurde mit einem modernen Tech-Stack umgesetzt – darunter Next.js, Node.js, SCSS und Sanity CMS für dynamische Bloginhalte. Die Seite bietet ein responsives Design, eine benutzerfreundliche Navigation und Mehrsprachigkeit durch i18n.",
+
       "features": [
-        "Registrierung, Anmeldung und Abmeldung mit automatischer Weiterleitung",
-        "Anzeigen empfohlener Bücher mit Pagination und Filtern",
-        "Verwaltung der persönlichen Bibliothek: Hinzufügen, Entfernen, Als gelesen markieren",
-        "Verfolgen des Lesefortschritts mit Tagebuchführung und Statistik",
-        "Interaktive modale Fenster für Buchhinzufügung, Detailansicht und Lesekontrolle",
-        "Vollständig responsives Design für Mobilgeräte, Tablets und Desktops",
-        "Integration mit Backend zur Daten- und Echtzeit-Updatespeicherung"
+        "Mehrsprachige Unterstützung (i18n) mit automatischer Spracherkennung",
+        "Blogsystem auf Basis von Sanity CMS mit dynamischer Inhaltspflege",
+        "Klar strukturierter Inhalt: Team, Leistungen, Portfolio und Kontakt",
+        "Responsives Design für eine optimale Darstellung auf allen Gerätetypen",
+        "SEO-optimierte Seitenstruktur mit serverseitigem Rendering (Next.js)",
+        "Backend-Integration über API zur Verwaltung dynamischer Inhalte",
+        "Modulare und wartbare Architektur nach modernen Entwicklungsstandards"
       ],
+
       "technologies": [
-        "React",
-        "React Router",
-        "Redux",
-        "React Hook Form & Yup",
-        "CSS (responsives Design)",
-        "Backend API"
+        "Next.js",
+        "Node.js",
+        "SCSS",
+        "Sanity CMS",
+        "i18n",
+        "Server-side Rendering",
+        "REST API"
       ],
+
       "image1": {
-        "src": "/image/portfolio/book.jpg",
-        "width": 600,
-        "height": 440,
+        "src": "/image/portfolio/qvrix.png",
+        "width": 1224,
+        "height": 640,
         "className": "imgBookOne"
       },
       "image2": {
-        "src": "/image/portfolio/book-mokap-desktop.png",
+        "src": "/image/portfolio/qvrix-t.png",
         "width": 550,
         "height": 350,
         "className": "imgHarmonyTwo"
       },
       "image3": {
-        "src": "/image/portfolio/book-mokap-mobile.png",
+        "src": "/image/portfolio/qvrix-m.png",
         "width": 250,
         "height": 500,
         "className": "imgHarmonyTwoMokap"
       },
-      "liveUrl": "https://read-journey-sandy.vercel.app/register"
+
+      "liveUrl": "https://web-studio-pied.vercel.app/ua"
     }
   }
 }

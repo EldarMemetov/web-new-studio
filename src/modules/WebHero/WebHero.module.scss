@@ -14,10 +14,11 @@
   margin-bottom: 24px;
   font-weight: 700;
   @include font(32, 42);
+  text-align: center;
   text-transform: uppercase;
   @include media(tablet) {
     @include font(42, 55);
-    text-align: center;
+
     margin-bottom: 32px;
   }
   @include media(desktop) {

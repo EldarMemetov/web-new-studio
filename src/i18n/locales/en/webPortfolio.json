@@ -39,7 +39,7 @@
         "i18n"
       ],
       "image1": {
-        "src": "/image/portfolio/harmony.jpg",
+        "src": "/image/portfolio/inharmony.png",
         "width": 392,
         "height": 560,
         "className": "imgHarmonyOne"
@@ -72,7 +72,7 @@
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "image1": {
-        "src": "/image/portfolio/portfolio.jpg",
+        "src": "/image/portfolio/lloydjefferson.png",
         "width": 392,
         "height": 560,
         "className": "imgFullStackOne"
@@ -103,7 +103,7 @@
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "image1": {
-        "src": "/image/portfolio/diet-today.jpg",
+        "src": "/image/portfolio/veggi.png",
         "width": 392,
         "height": 560,
         "className": "imgDietTodayOne"
@@ -144,7 +144,7 @@
         "Vite"
       ],
       "image1": {
-        "src": "/image/portfolio/learn-lingo.jpg",
+        "src": "/image/portfolio/learn.png",
         "width": 600,
         "height": 440,
         "className": "imgBookOne"
@@ -163,45 +163,50 @@
       },
       "liveUrl": "https://learn-lingo-six.vercel.app/"
     },
-    "book": {
-      "title": "Read Journey",
-      "description": "Read Journey is a web app for book lovers that allows users to register, find recommended books, add them to their personal library, and track their reading progress. The platform supports responsive design for convenient use on any device.",
+    "qvrix": {
+      "title": "QVRIX",
+      "description": "QVRIX is a modern, multilingual website developed for a team specializing in web development and video production. The project is built using a modern tech stack including Next.js, Node.js, SCSS, and Sanity CMS for dynamic blog content. The site features responsive design, intuitive navigation, and supports multiple languages via i18n.",
+
       "features": [
-        "Registration, login, and logout with automatic redirection",
-        "Viewing recommended books with pagination and filters",
-        "Managing personal library: adding, removing, marking books as read",
-        "Tracking reading progress with journaling and statistics",
-        "Interactive modals for adding books, viewing details, and managing reading",
-        "Fully responsive design for mobile, tablets, and desktops",
-        "Backend integration for data storage and real-time updates"
+        "Multilingual support (i18n) with automatic language detection",
+        "Blog system powered by Sanity CMS with dynamic content updates",
+        "Clear content structure: team, services, portfolio, and contact sections",
+        "Responsive design optimized for mobile, tablet, and desktop devices",
+        "SEO-optimized page structure with server-side rendering (Next.js)",
+        "Backend integration via API for dynamic content management",
+        "Modular and maintainable architecture following modern development practices"
       ],
+
       "technologies": [
-        "React",
-        "React Router",
-        "Redux",
-        "React Hook Form & Yup",
-        "CSS (responsive design)",
-        "Backend API"
+        "Next.js",
+        "Node.js",
+        "SCSS",
+        "Sanity CMS",
+        "i18n",
+        "Server-side Rendering",
+        "REST API"
       ],
+
       "image1": {
-        "src": "/image/portfolio/book.jpg",
-        "width": 600,
-        "height": 440,
+        "src": "/image/portfolio/qvrix.png",
+        "width": 1224,
+        "height": 640,
         "className": "imgBookOne"
       },
       "image2": {
-        "src": "/image/portfolio/book-mokap-desktop.png",
+        "src": "/image/portfolio/qvrix-t.png",
         "width": 550,
         "height": 350,
         "className": "imgHarmonyTwo"
       },
       "image3": {
-        "src": "/image/portfolio/book-mokap-mobile.png",
+        "src": "/image/portfolio/qvrix-m.png",
         "width": 250,
         "height": 500,
         "className": "imgHarmonyTwoMokap"
       },
-      "liveUrl": "https://read-journey-sandy.vercel.app/register"
+
+      "liveUrl": "https://web-studio-pied.vercel.app/ua"
     }
   }
 }
