@@ -11,31 +11,17 @@ export default async function HeroAbout({ locale }) {
     <section className={s.section}>
       <Container>
         <div className={s.containerContent}>
-          <div className={s.containerHero}>
-            <div>
-              <h1 className={s.title}>{t('title')}</h1>
-              <p className={s.description}>{t('description')}</p>
-            </div>
-
-            <div className={s.containerButton}>
-              <ScrollButton targetId="feedback-form" variant="variant2">
-                {t('talkButton')}
-              </ScrollButton>
-
-              <ScrollButton targetId="faq" variant="variant3">
-                {t('servicesButton')}
-              </ScrollButton>
-            </div>
+          <div>
+            <h1 className={s.title}>{t('title')}</h1>
+            <p className={s.description}>{t('description')}</p>
           </div>
-          <div className={s.containerImage}>
-            <Image
-              src="/image/ball-sphere.png"
-              alt="ball-sphere"
-              width={500}
-              height={500}
-              className={s.image}
-            />
-            <div className={s.background}></div>
+          <div className={s.containerButton}>
+            <ScrollButton targetId="feedback-form" variant="variant2">
+              {t('talkButton')}
+            </ScrollButton>
+            <ScrollButton targetId="faq" variant="variant3">
+              {t('servicesButton')}
+            </ScrollButton>
           </div>
         </div>
       </Container>

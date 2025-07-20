@@ -11,13 +11,13 @@
   @include font(32, 42);
   text-transform: uppercase;
   margin-bottom: 24px;
+  text-align: center;
+
   @include media(tablet) {
     @include font(42, 55);
-    width: 500px;
     margin-bottom: 24px;
   }
   @include media(desktop) {
-    width: 600px;
     @include font(42, 55);
   }
 }
@@ -28,7 +28,7 @@
   color: white;
   text-align: left;
   margin-bottom: 135px;
-
+  text-align: center;
   @include media(tablet) {
     width: 600px;
     @include font(24, 33);
@@ -41,39 +41,17 @@
 .containerButton {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 27px;
   @include media(tablet) {
     flex-direction: row;
   }
 }
-.containerHero {
-  display: flex;
-  flex-direction: column;
-}
+
 .containerContent {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-.containerImage {
-  display: none;
-  @include media(desktop) {
-    display: block;
-    position: relative;
-    z-index: 1;
-  }
-}
-
-.background {
-  position: absolute;
-  top: -70px;
-  left: 0;
-  right: 0;
-  height: calc(100% + 100px);
-  background-image: url(/image/grid.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  z-index: -1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
 }
