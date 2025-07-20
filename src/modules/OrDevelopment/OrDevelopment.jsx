@@ -69,10 +69,8 @@ export default async function OrDevelopment({ locale }) {
               {t('buttons.0.textContact')}
             </ScrollButton>
 
-            <Link href={`/${LINKDATA.Blog}`} legacyBehavior>
-              <Button variant="variant9" as="a">
-                {t('buttons.1.textBlog')}
-              </Button>
+            <Link href={`/${LINKDATA.Blog}`} passHref>
+              <Button variant="variant9">{t('buttons.1.textBlog')}</Button>
             </Link>
           </div>
         </div>
