@@ -1,7 +1,7 @@
 import BlogId from '@/modules/BlogId/BlogId';
 import { client } from '@/lib/sanityClient';
 import { postBySlugQuery } from '@/lib/queries';
-
+import s from './idBlog.module.scss';
 export async function generateStaticParams() {
   const posts = await client.fetch(`*[_type == "post"]{ customId }`);
   const locales = ['en', 'ua', 'de'];
@@ -18,7 +18,7 @@ export default async function BlogIdPageId({ params }) {
   if (!post) return <div>Пост не найден</div>;
 
   return (
-    <div>
+    <div className={s.container}>
       <BlogId post={post} locale={locale} />
     </div>
   );

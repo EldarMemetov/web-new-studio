@@ -3,7 +3,7 @@ import { client } from '@/lib/sanityClient';
 import { postsByCategoryQuery } from '@/lib/queries';
 import HeroBlog from '@/modules/HeroBlog/HeroBlog';
 import FeedbackForm from '@/modules/FeedbackForm/FeedbackForm';
-
+import s from './blog.module.scss';
 export default async function BlogPage({ params: rawParams }) {
   const params = await rawParams;
   const locale = ['en', 'ua', 'de'].includes(params?.locale)
@@ -16,7 +16,7 @@ export default async function BlogPage({ params: rawParams }) {
   });
 
   return (
-    <div>
+    <div className={s.container}>
       <HeroBlog locale={locale} />
       <BlogCategoryPage
         initialPosts={posts}

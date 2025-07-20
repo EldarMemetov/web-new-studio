@@ -8,7 +8,6 @@ export default async function WebHero({ locale }) {
 
   return (
     <section className={s.section}>
-      <div className={s.background}></div>
       <Container>
         <AnimationInitializer
           options={{
