@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'Fixel Display';
-  src:
-    local('Fixel Display Regular'),
-    url('/fonts/FixelDisplay-Regular.woff2') format('woff2');
+  src: url('/fonts/FixelDisplay-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,9 +8,7 @@
 
 @font-face {
   font-family: 'Fixel Display';
-  src:
-    local('Fixel Display Medium'),
-    url('/fonts/FixelDisplay-Medium.woff2') format('woff2');
+  src: url('/fonts/FixelDisplay-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -20,9 +16,7 @@
 
 @font-face {
   font-family: 'Fixel Display';
-  src:
-    local('Fixel Display SemiBold'),
-    url('/fonts/FixelDisplay-SemiBold.woff2') format('woff2');
+  src: url('/fonts/FixelDisplay-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -30,9 +24,7 @@
 
 @font-face {
   font-family: 'Fixel Display';
-  src:
-    local('Fixel Display Bold'),
-    url('/fonts/FixelDisplay-Bold.woff2') format('woff2');
+  src: url('/fonts/FixelDisplay-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

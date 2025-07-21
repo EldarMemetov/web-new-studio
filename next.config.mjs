@@ -1,6 +1,10 @@
 const nextConfig = {
   trailingSlash: false,
 
+  experimental: {
+    legacyBrowsers: false,
+  },
+
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -8,6 +12,7 @@ const nextConfig = {
     });
     return config;
   },
+
   sassOptions: {
     additionalData: `
       @use "src/shared/styles/_breakpoints.scss" as *;
@@ -16,6 +21,7 @@ const nextConfig = {
       @use "src/shared/styles/_variables.scss" as *;
     `,
   },
+
   images: {
     remotePatterns: [
       {
