@@ -8,9 +8,8 @@
 
 .logo {
   object-fit: contain;
-
-  width: 32px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
 
   .footer & {
     width: 50px;
@@ -27,12 +26,15 @@
   font-weight: 800;
   @include font(24, 34);
   text-transform: uppercase;
+  min-height: 34px;
 
   .footer & {
     @include font(36, 50);
+    min-height: 50px;
 
     @include media(desktop) {
       @include font(40, 56);
+      min-height: 56px;
     }
   }
 }

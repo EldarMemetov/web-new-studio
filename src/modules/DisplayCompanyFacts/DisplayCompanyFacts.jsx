@@ -16,6 +16,8 @@ export default async function DisplayCompanyFacts({ locale }) {
           <span className={s.ray}></span>
           <span className={s.ray}></span>
         </div>
+        <h2 className={s.title}>DevMyst</h2>
+
         <div className={s.factsWrapper}>
           <Image
             id="magic-planet"

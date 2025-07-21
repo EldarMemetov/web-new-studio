@@ -15,10 +15,12 @@ export default async function HeroSection({ locale }) {
           <div className={s.containerIcon}>
             <span className={s.span}>{t('subtitle')}</span>
             <span className={s.spanMobile}>{t('subtitleMobile')}</span>
-            <Link href="/#portfolio" passHref>
-              <button className={s.button} type="button">
-                <Icon iconName="icon-arrow" className={s.icon} />
-              </button>
+            <Link
+              href="/#portfolio"
+              className={s.button}
+              aria-label={t('goToPortfolio')}
+            >
+              <Icon iconName="icon-arrow" className={s.icon} />
             </Link>
           </div>
           <h1 className={s.title}>{t('title')}</h1>

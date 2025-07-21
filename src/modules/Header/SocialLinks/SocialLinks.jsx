@@ -17,18 +17,7 @@ export const SocialLinks = () => {
             <Icon iconName="icon-instagram" className={s.iconInstagram} />
           </a>
         </li>
-        <li className={s.socialLinkList}>
-          <a
-            href="https://www.youtube.com/"
-            className={s.socialLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="YouTube"
-            title="YouTube"
-          >
-            <Icon iconName="icon-youtube" className={s.socialsIcon} />
-          </a>
-        </li>
+
         <li className={s.socialLinkList}>
           <a
             href="https://t.me/yourchannel"
