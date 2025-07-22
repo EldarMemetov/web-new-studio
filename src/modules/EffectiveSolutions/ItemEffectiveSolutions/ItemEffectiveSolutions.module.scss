@@ -660,18 +660,18 @@
   top: 1px;
   right: 2px;
   width: 81px;
-  height: 109px;
+  height: auto;
 
   @include media(tablet) {
     width: 103px;
-    height: 140px;
+    height: auto;
     top: 13px;
     right: 18px;
   }
 
   @include media(desktop) {
     width: 136px;
-    height: 194px;
+    height: auto;
     top: 3px;
     right: 38px;
   }
@@ -682,18 +682,18 @@
   top: 1px;
   right: 130px;
   width: 54px;
-  height: 54px;
+  height: auto;
 
   @include media(tablet) {
     width: 79px;
-    height: 79px;
+    height: auto;
     top: 50px;
     right: 180px;
   }
 
   @include media(desktop) {
     width: 80px;
-    height: 80px;
+    height: auto;
     top: 90px;
     right: 220px;
   }
@@ -704,18 +704,18 @@
   top: -16px;
   right: 84px;
   width: 54px;
-  height: 54px;
+  height: auto;
 
   @include media(tablet) {
     width: 79px;
-    height: 79px;
+    height: auto;
     top: 10px;
     right: 130px;
   }
 
   @include media(desktop) {
     width: 100px;
-    height: 100px;
+    height: auto;
     top: 20px;
     right: 170px;
   }

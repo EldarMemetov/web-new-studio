@@ -59,8 +59,9 @@ export default function VideoPortfolio() {
                   <Image
                     src={video.thumbnail}
                     alt={`Video thumbnail ${idx + 1}`}
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    style={{ objectFit: 'cover' }}
                     className={s.image}
                   />
                   <div className={s.playButton}>
@@ -91,8 +92,7 @@ export default function VideoPortfolio() {
               src={modalVideo.replace('watch?v=', 'embed/')}
               frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            />
           </div>
         </div>
       )}

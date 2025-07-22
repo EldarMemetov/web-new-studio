@@ -9,20 +9,20 @@
   }
 }
 .portfolioImage {
-  max-width: 100%;
   width: 338px;
-  height: 204px;
-
+  height: auto;
+  max-width: 100%;
   @include media(tablet) {
     width: 640px;
-    height: 386px;
+    height: auto;
   }
 
   @include media(desktop) {
     width: 1224px;
-    height: 640px;
+    height: auto;
   }
 }
+
 .overlay {
   position: absolute;
   inset: 0;

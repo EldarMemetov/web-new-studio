@@ -1,10 +1,6 @@
 const nextConfig = {
   trailingSlash: false,
 
-  experimental: {
-    legacyBrowsers: false,
-  },
-
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
