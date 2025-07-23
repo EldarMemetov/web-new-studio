@@ -9,9 +9,23 @@ import i18nConfig from '../../../i18nConfig';
 import { dir } from 'i18next';
 import SvgSpriteLoader from '@/shared/constants/SvgSpriteLoader/SvgSpriteLoader';
 import CookieNotice from '@/modules/CookieNotice/CookieNotice';
-import Head from 'next/head';
+import { Manrope, Inter } from 'next/font/google';
+import clsx from 'clsx';
 const Footer = dynamic(() => import('@/modules/Footer/Footer'), {});
 
+const manrope = Manrope({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+  variable: '--font-manrope',
+});
+
+const inter = Inter({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '600'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 const metadataDict = {
   ua: {
     title: 'QVRIX — Веб-розробка та Відео-продукція',
@@ -69,37 +83,10 @@ export default async function Layout({ children, params }) {
 
   return (
     <html lang={htmlLang} dir={dir(locale)}>
-      <Head>
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-Regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-Medium.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-SemiBold.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-Bold.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      </Head>
-      <body suppressHydrationWarning={true}>
+      <body
+        suppressHydrationWarning={true}
+        className={clsx(manrope.variable, inter.variable)}
+      >
         <SvgSpriteLoader />
         <TranslationsProvider
           namespaces={NAMESPACES}
