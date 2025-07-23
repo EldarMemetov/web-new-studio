@@ -3,6 +3,7 @@
   padding-top: 100px;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 .contentContainer {
   position: relative;
@@ -90,22 +91,9 @@
     flex-direction: row;
   }
 }
-.background {
+
+.image {
   position: absolute;
-  top: 20%;
-  left: 0;
-  right: 0;
-  height: calc(100% + 100px);
-  background-image: url('/image/grid.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  z-index: -1;
-  @include media(tablet) {
-    top: 50%;
-  }
-  @include media(desktop) {
-    top: 50%;
-  }
+  width: 1500px;
+  height: auto;
 }
