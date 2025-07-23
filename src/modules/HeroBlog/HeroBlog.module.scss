@@ -94,6 +94,8 @@
 
 .image {
   position: absolute;
-  width: 1500px;
+  width: 100%;
   height: auto;
+  object-fit: cover;
+  z-index: -1;
 }

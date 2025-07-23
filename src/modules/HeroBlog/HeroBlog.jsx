@@ -10,11 +10,11 @@ export default async function HeroBlog({ locale }) {
       <Image
         src="/image/grid.webp"
         alt="grid"
-        width={1500}
-        height={1000}
+        fill
         priority={true}
         className={s.image}
       />
+
       <Container>
         <div className={s.contentContainer}>
           <h1 className={s.title}>{t('heroBlog.title')}</h1>
