@@ -12,7 +12,6 @@ const nextConfig = {
   sassOptions: {
     additionalData: `
       @use "src/shared/styles/_breakpoints.scss" as *;
-      @use "src/shared/styles/_colors.scss" as *;
       @use "src/shared/styles/_mixins.scss" as *;
       @use "src/shared/styles/_variables.scss" as *;
     `,

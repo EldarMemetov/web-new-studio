@@ -12,14 +12,16 @@ import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import s from './page.module.scss';
 import IdeasHome from '@/modules/IdeasHome/IdeasHome';
 
-import FeedbackForm from '@/modules/FeedbackForm/FeedbackForm';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
-
+const FeedbackForm = dynamic(
+  () => import('@/modules/FeedbackForm/FeedbackForm')
+);
 const ReviewsList = dynamic(
   () => import('@/modules/GetReview/Components/ReviewsList/ReviewsList')
 );
 const Portfolio = dynamic(() => import('@/modules/Portfolio/Portfolio'));
+
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];

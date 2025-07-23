@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic';
 import s from './webDevelopment.module.scss';
-import FeedbackForm from '@/modules/FeedbackForm/FeedbackForm';
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import WebHero from '@/modules/WebHero/WebHero';
 import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
@@ -10,7 +9,9 @@ import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
 const EffectiveSolutions = dynamic(
   () => import('@/modules/EffectiveSolutions/EffectiveSolutions')
 );
-
+const FeedbackForm = dynamic(
+  () => import('@/modules/FeedbackForm/FeedbackForm')
+);
 export default async function WebDevelopment({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];

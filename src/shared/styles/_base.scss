@@ -7,7 +7,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --font-family: 'Fixel Display', sans-serif;
+  --font-family: var(--font-manrope), sans-serif;
 }
 
 html {

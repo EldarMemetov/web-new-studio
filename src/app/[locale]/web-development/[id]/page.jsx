@@ -1,7 +1,10 @@
 import PortfolioId from '@/modules/PortfolioId/PortfolioId';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
-import FeedbackForm from '@/modules/FeedbackForm/FeedbackForm';
 import s from './idPortfolio.module.scss';
+import dynamic from 'next/dynamic';
+const FeedbackForm = dynamic(
+  () => import('@/modules/FeedbackForm/FeedbackForm')
+);
 export async function generateMetadata({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
