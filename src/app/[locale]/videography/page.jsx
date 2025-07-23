@@ -4,10 +4,8 @@ import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import VideoPortfolio from '@/modules/VideoPortfolio/VideoPortfolio';
 import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
 import VideoEffectiveSolutions from '@/modules/VideoEffectiveSolutions/VideoEffectiveSolutions';
-import dynamic from 'next/dynamic';
-const FeedbackForm = dynamic(
-  () => import('@/modules/FeedbackForm/FeedbackForm')
-);
+import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
+
 export default async function Videography({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -22,7 +20,7 @@ export default async function Videography({ params: rawParams }) {
       <VideoPortfolio />
       <WebWhyChoose locale={locale} namespace="videoWhyChoose" />
       <ToggleQuestions locale={locale} namespace="videoFaq" />
-      <FeedbackForm />
+      <FeedbackWrapper />
     </div>
   );
 }

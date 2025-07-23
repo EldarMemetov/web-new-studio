@@ -3,12 +3,10 @@ import HeroAbout from '@/modules/HeroAbout/HeroAbout';
 import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
 import s from './about-us.module.scss';
 import AboutFactsSection from '@/modules/AboutFactsSection/AboutFactsSection';
-import dynamic from 'next/dynamic';
+
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import AboutSection from '@/modules/AboutSection/AboutSection';
-const FeedbackForm = dynamic(
-  () => import('@/modules/FeedbackForm/FeedbackForm')
-);
+import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 export default async function AboutUs({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -27,7 +25,7 @@ export default async function AboutUs({ params: rawParams }) {
       />
       <WebWhyChoose locale={locale} namespace="aboutWhyChoose" />
       <ToggleQuestions />
-      <FeedbackForm />
+      <FeedbackWrapper />
     </div>
   );
 }

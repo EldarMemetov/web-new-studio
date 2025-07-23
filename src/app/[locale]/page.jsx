@@ -10,18 +10,15 @@ import GetBusinessSolutions from '@/modules/GetBusinessSolutions/GetBusinessSolu
 import BrandTransformation from '@/modules/BrandTransformation/BrandTransformation';
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import s from './page.module.scss';
-import IdeasHome from '@/modules/IdeasHome/IdeasHome';
 
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
-const FeedbackForm = dynamic(
-  () => import('@/modules/FeedbackForm/FeedbackForm')
-);
+import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 const ReviewsList = dynamic(
   () => import('@/modules/GetReview/Components/ReviewsList/ReviewsList')
 );
 const Portfolio = dynamic(() => import('@/modules/Portfolio/Portfolio'));
-
+const IdeasHome = dynamic(() => import('@/modules/IdeasHome/IdeasHome'));
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -44,7 +41,7 @@ export default async function Home({ params: rawParams }) {
         <ReviewsList />
       </ReviewsSection>
       <ToggleQuestions locale={locale} />
-      <FeedbackForm />
+      <FeedbackWrapper />
     </div>
   );
 }

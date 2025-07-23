@@ -2,10 +2,18 @@ import Container from '@/shared/container/Container';
 import ScrollButton from '@/shared/ScrollButton/ScrollButton';
 import s from './HeroBlog.module.scss';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
+import Image from 'next/image';
 export default async function HeroBlog({ locale }) {
   const { t } = await initServerI18n(locale, ['heroBlog']);
   return (
     <section className={s.section}>
+      <Image
+        src="/image/grid.webp"
+        alt="grid"
+        width={1}
+        height={1}
+        style={{ display: 'none' }}
+      />
       <div className={s.background}></div>
       <Container>
         <div className={s.contentContainer}>

@@ -5,13 +5,11 @@ import WebHero from '@/modules/WebHero/WebHero';
 import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
 import WebPortfolio from '@/modules/WebPortfolio/WebPortfolio';
 import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
-
+import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 const EffectiveSolutions = dynamic(
   () => import('@/modules/EffectiveSolutions/EffectiveSolutions')
 );
-const FeedbackForm = dynamic(
-  () => import('@/modules/FeedbackForm/FeedbackForm')
-);
+
 export default async function WebDevelopment({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -27,7 +25,7 @@ export default async function WebDevelopment({ params: rawParams }) {
       <WebWhyChoose locale={locale} />
       <OrDevelopment locale={locale} />
       <ToggleQuestions locale={locale} namespace="toggleQuestionsWebDev" />
-      <FeedbackForm />
+      <FeedbackWrapper />
     </div>
   );
 }
