@@ -9,6 +9,8 @@ import i18nConfig from '../../../i18nConfig';
 import { dir } from 'i18next';
 import SvgSpriteLoader from '@/shared/constants/SvgSpriteLoader/SvgSpriteLoader';
 import CookieNotice from '@/modules/CookieNotice/CookieNotice';
+import { Montserrat, Open_Sans } from 'next/font/google';
+import clsx from 'clsx';
 const Footer = dynamic(() => import('@/modules/Footer/Footer'), {});
 
 const metadataDict = {
@@ -54,6 +56,19 @@ export async function generateMetadata({ params }) {
     },
   };
 }
+const montserrat = Montserrat({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['700'],
+  display: 'swap',
+  variable: '--font-montserrat',
+});
+
+const open_sans = Open_Sans({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '600'],
+  display: 'swap',
+  variable: '--font-open_sans',
+});
 
 export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
@@ -68,37 +83,10 @@ export default async function Layout({ children, params }) {
 
   return (
     <html lang={htmlLang} dir={dir(locale)}>
-      <head>
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-Regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-Medium.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-SemiBold.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/FixelDisplay-Bold.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <body suppressHydrationWarning={true}>
+      <body
+        suppressHydrationWarning={true}
+        className={clsx(montserrat.variable, open_sans.variable)}
+      >
         <SvgSpriteLoader />
         <TranslationsProvider
           namespaces={NAMESPACES}
