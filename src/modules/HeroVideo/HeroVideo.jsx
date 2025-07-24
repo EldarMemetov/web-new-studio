@@ -11,6 +11,14 @@ export default async function HeroVideo({ locale }) {
       <Container>
         <div className={s.containerVideoAndText}>
           <div className={s.videoWrapper}>
+            <video
+              className={s.video}
+              src="/video/show.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
             <div className={s.content}>
               <div>
                 <h1 className={s.title}>{t('heroVideo.title')}</h1>

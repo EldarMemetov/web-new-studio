@@ -36,7 +36,16 @@ export default async function Portfolio({ locale }) {
         <div className={s.containerVideo} data-aos="zoom-in">
           <div className={s.videoWrapper}>
             <h4 className={s.textInfo}>{tPortfolio('videoLabel')}</h4>
-
+            <video
+              className={s.video}
+              src="/video/show.mp4"
+              width={1224}
+              height={440}
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
             <LinkButton
               path={`/${ROUTES.VIDEOGRAPHY}`}
               className={s.button}
