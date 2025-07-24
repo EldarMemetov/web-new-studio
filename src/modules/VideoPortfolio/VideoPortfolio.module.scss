@@ -23,15 +23,15 @@
   }
 }
 .title {
-  @include titleText();
   text-align: right;
+  @include titleText();
 }
 .spanTitle {
   @include gradientText;
 }
 .description {
-  @include description;
   text-align: right;
+  @include description;
 }
 .videoList {
   max-width: 100%;
