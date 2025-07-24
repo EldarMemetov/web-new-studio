@@ -9,7 +9,8 @@
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
   padding: 80px 32px 30px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       40deg,
       rgb(1, 2, 39) 0%,
       rgb(1, 2, 39) 40%,
@@ -267,7 +268,6 @@
 
   @include media(tablet) {
     margin-bottom: 80px;
-    max-width: 600px;
   }
 }
 
