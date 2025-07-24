@@ -265,7 +265,7 @@
   justify-content: center;
   gap: 20px;
   margin-bottom: 40px;
-
+  min-height: 48px;
   @include media(tablet) {
     margin-bottom: 80px;
   }
