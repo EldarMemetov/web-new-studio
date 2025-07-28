@@ -1,7 +1,8 @@
 {
-  "title": "Modern web development to grow your business",
-  "description": "We create unique websites that help brands stand out online. Innovative design, cutting-edge technologies, and a comprehensive approach from concept to launch",
-  "descriptionNext": "– this is your path to success!",
-  "servicesButton": "Our Services",
-  "contactButton": "Let's Talk"
+  "subtitle": "Innovative web solutions that accelerate your business growth",
+  "subtitleMobile": "Web that drives your success",
+  "title": "Professional web development to scale your business",
+  "description": "We create effective websites that make your brand stand out. Cutting-edge technologies and a personalized approach — from idea to launch.",
+  "button": "Get a consultation",
+  "linkPortfolio": "#portfolioSection"
 }

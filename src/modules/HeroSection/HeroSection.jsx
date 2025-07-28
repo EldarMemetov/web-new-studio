@@ -5,8 +5,11 @@ import Link from 'next/link';
 
 import { initServerI18n } from '@/i18n/utils/serverI18n';
 import ScrollButton from '@/shared/ScrollButton/ScrollButton';
-export default async function HeroSection({ locale }) {
-  const { t } = await initServerI18n(locale, ['heroSection']);
+export default async function HeroSection({
+  locale,
+  namespace = 'heroSection',
+}) {
+  const { t } = await initServerI18n(locale, [namespace]);
 
   return (
     <section className={s.section}>
@@ -16,7 +19,7 @@ export default async function HeroSection({ locale }) {
             <span className={s.span}>{t('subtitle')}</span>
             <span className={s.spanMobile}>{t('subtitleMobile')}</span>
             <Link
-              href="/#portfolio"
+              href={t('linkPortfolio')}
               className={s.button}
               aria-label={t('goToPortfolio')}
             >

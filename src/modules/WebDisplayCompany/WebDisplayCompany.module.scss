@@ -1,0 +1,232 @@
+.factsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.factsList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 32px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  gap: 20px;
+  background: rgb(0 1 22);
+  border-radius: 50px;
+  overflow: hidden;
+  justify-content: center;
+  align-content: space-between;
+  @include media(tablet) {
+    padding: 40px;
+    width: 640px;
+    height: 184px;
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+  @include media(desktop) {
+    padding: 52px 107px;
+    width: 1280px;
+    height: 228px;
+  }
+}
+.factsSection {
+  padding-top: 50px;
+  @include media(desktop) {
+    padding-top: 0px;
+  }
+}
+.factsList::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border-radius: 50px;
+  padding: 2px;
+  background: linear-gradient(
+    to bottom,
+    #6d22ff 0%,
+    rgba(92, 82, 95, 0.9607843137) 30%,
+    rgba(48, 47, 49, 0.5215686275) 100%
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+
+  z-index: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.number {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 600;
+
+  text-align: center;
+
+  @include media(tablet) {
+    font-size: 40px;
+  }
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
+
+.info {
+  font-weight: 300;
+  font-size: 12px;
+  color: #f5f5f5;
+  text-align: center;
+  @include media(tablet) {
+    font-size: 16px;
+  }
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+.factsSection {
+  position: relative;
+  padding-bottom: 160px;
+  overflow: visible;
+}
+
+.particle-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.factsWrapper {
+  position: relative;
+  z-index: 2;
+  overflow-x: hidden;
+}
+
+.image {
+  width: 350px;
+  height: auto;
+  @include media(tablet) {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 640px;
+    height: auto;
+  }
+  @include media(desktop) {
+    width: 1150px;
+    height: auto;
+  }
+}
+
+@keyframes glowGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.rays {
+  @include media(tablet) {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+    top: -100px;
+    left: -120px;
+  }
+  @include media(desktop) {
+    top: -330px;
+    left: -200px;
+  }
+}
+
+.ray {
+  position: absolute;
+  top: -550px;
+  height: 1200px;
+  width: 300px;
+  left: calc((100vw - 1280px) / 2 + 490px);
+  background: linear-gradient(
+    to bottom,
+    rgba(109, 34, 255, 0) 0%,
+    rgba(109, 34, 255, 0) 25%,
+    rgba(109, 34, 255, 0) 40%,
+    rgba(109, 34, 255, 0.12) 55%,
+    rgba(109, 34, 255, 0.41) 65%,
+    rgba(77, 30, 215, 0.82) 80%,
+    rgba(30, 144, 255, 0) 100%
+  );
+  transform-origin: top center;
+  filter: blur(80px);
+  background-repeat: no-repeat;
+  background-size: 200px 1200px;
+  background-position: top center;
+  filter: blur(80px);
+  transform-origin: top center;
+  filter: blur(80px);
+  transform-origin: top center;
+  @include media(tablet) {
+    top: 80px;
+    left: 50%;
+    height: 70%;
+    width: 250px;
+    height: 70%;
+    background-size: 200px 300px;
+  }
+  @include media(desktop) {
+    top: 190px;
+    width: 420px;
+    height: 120%;
+    background-size: 400px 500px;
+  }
+  .ray:nth-child(1) {
+    transform: translateX(-50%) rotate(-12deg);
+  }
+  .ray:nth-child(2) {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  .ray:nth-child(3) {
+    transform: translateX(-50%) rotate(12deg);
+  }
+}
+
+.containerContent {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
