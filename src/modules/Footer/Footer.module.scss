@@ -23,7 +23,7 @@
     min-height: 350px;
   }
   @include media(desktop) {
-    padding-top: 104px;
+    padding-top: 60px;
     padding-bottom: 65px;
     min-height: 250px;
   }
@@ -56,7 +56,7 @@
 }
 .social {
   min-height: 50px;
-  margin-bottom: 86px;
+  margin-bottom: 20px;
   @include media(desktop) {
     margin-bottom: 0;
   }
