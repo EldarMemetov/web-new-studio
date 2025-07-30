@@ -269,6 +269,10 @@
   @include media(tablet) {
     margin-bottom: 80px;
   }
+  @include media(desktop) {
+    margin-bottom: 180px;
+    align-items: flex-start;
+  }
 }
 
 .navItem.footer {

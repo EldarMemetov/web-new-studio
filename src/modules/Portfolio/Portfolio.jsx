@@ -6,6 +6,11 @@ import AnimationInitializer from '@/shared/AnimationInitializer/AnimationInitial
 import LinkButton from '@/shared/components/LinkButton/LinkButton';
 import { ROUTES } from '@/shared/constants';
 import PortfolioItem from '../WebPortfolio/PortfolioItem/PortfolioItem';
+import dynamic from 'next/dynamic';
+
+const VideoImgSection = dynamic(
+  () => import('../VideoImgSection/VideoImgSectionWrapper')
+);
 
 export default async function Portfolio({ locale }) {
   const { t: tPortfolio } = await initServerI18n(locale, ['portfolio']);
@@ -16,36 +21,18 @@ export default async function Portfolio({ locale }) {
   return (
     <section className={s.section} id="portfolio">
       <Container>
-        <AnimationInitializer
-          options={{
-            duration: 1200,
-            easing: 'ease-in-out',
-            offset: 50,
-          }}
-        />
         <div className={s.text}>
-          <h2 className={s.title} data-aos="fade-up">
+          <h2 className={s.title}>
             <span className={s.titleAccent}>{tPortfolio('title')}</span>{' '}
             {tPortfolio('nextTitle')}
           </h2>
-          <h3 className={s.subtitle} data-aos="fade-up" data-aos-delay="200">
-            {tPortfolio('subtitle')}
-          </h3>
+          <h3 className={s.subtitle}>{tPortfolio('subtitle')}</h3>
         </div>
 
-        <div className={s.containerVideo} data-aos="zoom-in">
+        <div className={s.containerVideo}>
           <div className={s.videoWrapper}>
             <h4 className={s.textInfo}>{tPortfolio('videoLabel')}</h4>
-            <video
-              className={s.video}
-              src="/video/show.mp4"
-              width={1224}
-              height={440}
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
+            <VideoImgSection />
             <LinkButton
               path={`/${ROUTES.VIDEOGRAPHY}`}
               className={s.button}
@@ -57,11 +44,7 @@ export default async function Portfolio({ locale }) {
           </div>
         </div>
 
-        <div
-          className={s.containerImage}
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
+        <div className={s.containerImage}>
           <div className={s.containerImg}>
             <h4 className={s.textInfoDesktop}>{tPortfolio('webLabel')}</h4>
             {projectsEntries.map(([id, project]) => (

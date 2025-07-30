@@ -31,7 +31,6 @@ export const NAMESPACES = [
   'brandTransformation',
   'modalFeedback',
   'ideasHome',
-  'textAnimation',
   'ideasModal',
   'footer',
   'portfolio',

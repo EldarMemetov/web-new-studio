@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic';
 import { ReviewsSection } from '@/modules/GetReview/Components/ReviewsSection/ReviewsSection';
 import { GetReviews } from '@/services/api';
 
-import TextAnimation from '@/modules/TextAnimation/TextAnimation';
 import FetchServices from '@/modules/FetchServices/FetchServices';
 
 import GetBusinessSolutions from '@/modules/GetBusinessSolutions/GetBusinessSolutions';
@@ -35,7 +34,6 @@ export default async function Home({ params: rawParams }) {
       <GetBusinessSolutions locale={locale} />
       <IdeasHome locale={locale} />
       <BrandTransformation locale={locale} />
-      <TextAnimation locale={locale} />
       <Portfolio locale={locale} />
       <ReviewsSection initialReviews={reviews}>
         <ReviewsList />

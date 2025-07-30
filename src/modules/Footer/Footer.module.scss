@@ -4,6 +4,7 @@
   z-index: 1;
   padding-top: 60px;
   padding-bottom: 37px;
+  min-height: 300px;
   &::before {
     content: '';
     position: absolute;
@@ -19,16 +20,18 @@
   @include media(tablet) {
     padding-top: 60px;
     padding-bottom: 42px;
+    min-height: 350px;
   }
   @include media(desktop) {
     padding-top: 104px;
     padding-bottom: 65px;
+    min-height: 250px;
   }
 }
 .containerFooter {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 180px;
 }
 
 .logoMobile {
@@ -36,17 +39,11 @@
   @include media(tablet) {
     margin-bottom: 40px;
   }
-  @include media(desktop) {
-    display: none;
-  }
 }
 .social {
   margin-bottom: 86px;
   @include media(tablet) {
     margin-bottom: 90px;
-  }
-  @include media(desktop) {
-    display: none;
   }
 }
 .privacyLink {
@@ -66,23 +63,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 60px;
   @include media(tablet) {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     flex-direction: row;
   }
-  @include media(desktop) {
-    display: none;
-  }
 }
 .desktop {
-  display: none;
-
   @include media(desktop) {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
   }
 }
 .desktopLogo {
@@ -90,6 +82,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-end;
     gap: 32px;
   }
 }
@@ -98,6 +91,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: flex-end;
     gap: 25px;
   }
 }
