@@ -16,50 +16,21 @@ export default function Footer() {
   return (
     <footer className={s.footer}>
       <Container>
-        <div className={s.padding}>
-          <div className={s.desktop}>
-            <div className={s.desktopLogo}>
-              <Logo variant="footer" />
-              <p className={s.rights}>
-                {t('rights').replace('{year}', currentYear)}
-              </p>
-            </div>
-            <NavMenu variant="footer" locale={locale} />
-            <div className={s.desktopSocial}>
-              <SocialLinks />
-              <Link
-                href={`/${locale}/privacy-policy`}
-                className={s.privacyLink}
-              >
-                {t('privacy')}
-              </Link>
-            </div>
+        <div className={s.wrapper}>
+          <div className={s.logo}>
+            <Logo variant="footer" />
           </div>
-
-          <div className={s.mobile}>
-            <div className={s.containerFooter}>
-              <div className={s.logoMobile}>
-                <Logo variant="footer" />
-              </div>
-              <NavMenu variant="footer" locale={locale} />
-              <div className={s.social}>
-                <SocialLinks />
-              </div>
-            </div>
-
-            <div className={s.privacyAndRights}>
-              <p className={s.rights}>
-                {t('rights').replace('{year}', currentYear)}
-              </p>
-              <div className={s.footerLinks}>
-                <Link
-                  href={`/${locale}/privacy-policy`}
-                  className={s.privacyLink}
-                >
-                  {t('privacy')}
-                </Link>
-              </div>
-            </div>
+          <NavMenu variant="footer" locale={locale} />
+          <div className={s.social}>
+            <SocialLinks />
+          </div>
+          <div className={s.bottom}>
+            <p className={s.rights}>
+              {t('rights').replace('{year}', currentYear)}
+            </p>
+            <Link href={`/${locale}/privacy-policy`} className={s.privacyLink}>
+              {t('privacy')}
+            </Link>
           </div>
         </div>
       </Container>
