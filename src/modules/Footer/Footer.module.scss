@@ -95,3 +95,19 @@
     gap: 25px;
   }
 }
+.desktop {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.mobile {
+  display: block;
+
+  @include media(desktop) {
+    display: none;
+  }
+}

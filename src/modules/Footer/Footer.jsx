@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Container from '@/shared/container/Container';
 import s from './Footer.module.scss';
 import Logo from '@/shared/Logo/Logo';
@@ -14,35 +13,45 @@ export default function Footer() {
   const locale = i18n.language;
   const currentYear = new Date().getFullYear();
 
-  const [isDesktop, setIsDesktop] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const update = () => {
-      setIsDesktop(window.innerWidth >= 1440);
-    };
-
-    update();
-    window.addEventListener('resize', update);
-    return () => window.removeEventListener('resize', update);
-  }, []);
-
   return (
     <footer className={s.footer}>
       <Container>
         <div className={s.padding}>
-          {isDesktop ? (
-            <div className={s.desktop}>
-              <div className={s.desktopLogo}>
+          <div className={s.desktop}>
+            <div className={s.desktopLogo}>
+              <Logo variant="footer" />
+              <p className={s.rights}>
+                {t('rights').replace('{year}', currentYear)}
+              </p>
+            </div>
+            <NavMenu variant="footer" locale={locale} />
+            <div className={s.desktopSocial}>
+              <SocialLinks />
+              <Link
+                href={`/${locale}/privacy-policy`}
+                className={s.privacyLink}
+              >
+                {t('privacy')}
+              </Link>
+            </div>
+          </div>
+
+          <div className={s.mobile}>
+            <div className={s.containerFooter}>
+              <div className={s.logoMobile}>
                 <Logo variant="footer" />
-                <p className={s.rights}>
-                  {t('rights').replace('{year}', currentYear)}
-                </p>
               </div>
               <NavMenu variant="footer" locale={locale} />
-              <div className={s.desktopSocial}>
+              <div className={s.social}>
                 <SocialLinks />
+              </div>
+            </div>
+
+            <div className={s.privacyAndRights}>
+              <p className={s.rights}>
+                {t('rights').replace('{year}', currentYear)}
+              </p>
+              <div className={s.footerLinks}>
                 <Link
                   href={`/${locale}/privacy-policy`}
                   className={s.privacyLink}
@@ -51,33 +60,7 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-          ) : (
-            <>
-              <div className={s.containerFooter}>
-                <div className={s.logoMobile}>
-                  <Logo variant="footer" />
-                </div>
-                <NavMenu variant="footer" locale={locale} />
-                <div className={s.social}>
-                  <SocialLinks />
-                </div>
-              </div>
-
-              <div className={s.privacyAndRights}>
-                <p className={s.rights}>
-                  {t('rights').replace('{year}', currentYear)}
-                </p>
-                <div className={s.footerLinks}>
-                  <Link
-                    href={`/${locale}/privacy-policy`}
-                    className={s.privacyLink}
-                  >
-                    {t('privacy')}
-                  </Link>
-                </div>
-              </div>
-            </>
-          )}
+          </div>
         </div>
       </Container>
     </footer>
