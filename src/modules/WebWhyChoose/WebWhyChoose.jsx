@@ -29,7 +29,6 @@ export default async function WebWhyChoose({
 
   return (
     <section className={s.section}>
-      <div className={s.background}></div>
       <Container>
         <div className={s.containerContent}>
           <div className={s.containerTitle}>

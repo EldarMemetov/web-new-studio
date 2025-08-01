@@ -3,7 +3,7 @@ import { initServerI18n } from '@/i18n/utils/serverI18n';
 import IdeasList from './IdeasList/IdeasList';
 import styles from './IdeasHome.module.scss';
 import ClientButton from './ClientButton/ClientButton';
-
+import Image from 'next/image';
 export default async function IdeasHome({ locale }) {
   const { t } = await initServerI18n(locale, ['ideasHome', 'ideasModal']);
   const modalContent = {
@@ -35,7 +35,15 @@ export default async function IdeasHome({ locale }) {
             modalContent={modalContent}
           />
         </div>
-        <div className={styles.background}></div>
+        <div className={styles.backgroundWrapper}>
+          <Image
+            src="/image/circles.png"
+            alt="circles"
+            fill
+            priority
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
+          />
+        </div>
       </Container>
     </section>
   );

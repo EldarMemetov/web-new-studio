@@ -2,7 +2,7 @@ import Container from '@/shared/container/Container';
 import s from './Portfolio.module.scss';
 import Icon from '@/shared/Icon/Icon';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
-import AnimationInitializer from '@/shared/AnimationInitializer/AnimationInitializer';
+
 import LinkButton from '@/shared/components/LinkButton/LinkButton';
 import { ROUTES } from '@/shared/constants';
 import PortfolioItem from '../WebPortfolio/PortfolioItem/PortfolioItem';

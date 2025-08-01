@@ -76,21 +76,21 @@
   align-items: baseline;
   gap: 16px;
 }
-.background {
+.backgroundWrapper {
   position: absolute;
   top: -10%;
   left: 0;
   right: 0;
   height: calc(100% + 100px);
-  background-image: url('/image/grid.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
+  width: 100%;
   z-index: -1;
+  border-radius: 16px;
+  overflow: hidden;
+
   @include media(tablet) {
     top: -10%;
   }
+
   @include media(desktop) {
     height: calc(80% + 100px);
     top: -10%;

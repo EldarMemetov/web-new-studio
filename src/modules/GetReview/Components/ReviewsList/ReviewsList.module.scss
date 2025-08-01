@@ -75,22 +75,22 @@
   gap: 24px;
   margin-left: auto;
 }
-.background {
+.backgroundWrapper {
   position: absolute;
   top: -350px;
   left: 0;
   right: 0;
   height: calc(50% + 100px);
-  background-image: url(/image/grid.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
+  width: 100%;
   z-index: -1;
   transform: translateY(50px);
+  border-radius: 16px;
+  overflow: hidden;
+
   @include media(tablet) {
     top: -300px;
   }
+
   @include media(desktop) {
     top: -400px;
   }

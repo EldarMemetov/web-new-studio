@@ -140,19 +140,3 @@
     margin-top: 100px;
   }
 }
-.background {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  right: 0;
-  height: calc(50% + 100px);
-  background-image: url('/image/grid.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  z-index: -1;
-  @include media(desktop) {
-    top: 30%;
-  }
-}

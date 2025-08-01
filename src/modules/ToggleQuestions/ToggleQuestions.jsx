@@ -2,6 +2,7 @@ import Container from '@/shared/container/Container';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
 import ToggleList from './ToggleList/ToggleList';
 import styles from './ToggleQuestions.module.scss';
+import Image from 'next/image';
 
 export default async function ToggleQuestions({
   locale,
@@ -12,7 +13,15 @@ export default async function ToggleQuestions({
   return (
     <section className={styles.section} id="faq">
       <Container>
-        <div className={styles.background}></div>
+        <div className={styles.backgroundWrapper}>
+          <Image
+            src="/image/semicircles.png"
+            alt="semicircles background"
+            fill
+            priority
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
+          />
+        </div>
         <div className={styles.contentSize}>
           <h2 className={styles.title}>
             {t('titleBefore')}

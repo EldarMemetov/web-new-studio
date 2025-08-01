@@ -8,6 +8,7 @@ import ReviewsFormModal from '@/modules/ReviewsForm/ReviewsFormModal/ReviewsForm
 import Icon from '@/shared/Icon/Icon';
 import Container from '@/shared/container/Container';
 import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
 
 export default function ReviewsList() {
   const { t } = useTranslation('reviewsList');
@@ -16,7 +17,16 @@ export default function ReviewsList() {
 
   return (
     <section className={s.sectionReviews}>
-      <div className={s.background}></div>
+      <div className={s.backgroundWrapper}>
+        <Image
+          src="/image/grid.webp"
+          alt="background grid"
+          fill
+          priority
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
+        />
+      </div>
+
       <div>
         <Container>
           <div className={s.containerTitle}>
@@ -30,6 +40,7 @@ export default function ReviewsList() {
             </h2>
           </div>
         </Container>
+
         <InfiniteScroll speed={40} gradient={false} direction="left">
           <ul className={s.ListReview}>
             {reviews.map((review) => (
@@ -37,6 +48,7 @@ export default function ReviewsList() {
             ))}
           </ul>
         </InfiniteScroll>
+
         <Container>
           <div>
             <button onClick={() => setModalOpen(true)} className={s.button}>
@@ -45,6 +57,7 @@ export default function ReviewsList() {
             </button>
           </div>
         </Container>
+
         <ReviewsFormModal
           show={isModalOpen}
           onClose={() => setModalOpen(false)}

@@ -2,6 +2,7 @@ import Container from '@/shared/container/Container';
 import s from './AboutFactsSection.module.scss';
 import Icon from '@/shared/Icon/Icon';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
+import Image from 'next/image';
 
 export default async function AboutFactsSection({ locale }) {
   const { t } = await initServerI18n(locale, ['aboutFactsSection']);
@@ -9,7 +10,15 @@ export default async function AboutFactsSection({ locale }) {
 
   return (
     <section className={s.section}>
-      <div className={s.background}></div>
+      <div className={s.backgroundWrapper}>
+        <Image
+          src="/image/grid.webp"
+          alt="grid background"
+          fill
+          priority
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
+        />
+      </div>
       <Container>
         <div>
           <h2 className={s.title}>

@@ -3,6 +3,7 @@ import { initServerI18n } from '@/i18n/utils/serverI18n';
 import ScrollButton from '@/shared/ScrollButton/ScrollButton';
 import PortfolioItem from './PortfolioItem/PortfolioItem';
 import s from './WebPortfolio.module.scss';
+import Image from 'next/image';
 
 export default async function PortfolioPage({ locale }) {
   const { t } = await initServerI18n(locale, ['webPortfolio']);
@@ -10,7 +11,20 @@ export default async function PortfolioPage({ locale }) {
 
   return (
     <section className={s.section} id="portfolioSection">
-      <div className={s.background}></div>
+      <div className={s.backgroundWrapper}>
+        <Image
+          src="/image/semicircles.png"
+          alt="semicircles flipped background"
+          fill
+          priority
+          style={{
+            objectFit: 'cover',
+            objectPosition: 'center',
+            transform: 'scaleY(-1)',
+          }}
+        />
+      </div>
+
       <Container>
         <h2 className={s.title}>
           {t('title.prefix')}{' '}

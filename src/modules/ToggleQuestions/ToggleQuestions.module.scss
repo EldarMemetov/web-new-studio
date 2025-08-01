@@ -31,22 +31,21 @@
     gap: 24px;
   }
 }
-.background {
+.backgroundWrapper {
   position: absolute;
   left: 0;
   top: 30%;
-  height: calc(60% + 100px);
-  background-image: url('/image/semicircles.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
   width: 100%;
+  height: calc(60% + 100px);
   z-index: -1;
+  border-radius: 16px;
+  overflow: hidden;
+
   @include media(tablet) {
     top: -15%;
     height: calc(100% + 100px);
   }
+
   @include media(desktop) {
     top: -20%;
     height: calc(100% + 100px);

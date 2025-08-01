@@ -14,7 +14,6 @@ export default async function OrDevelopment({ locale }) {
 
   return (
     <section className={s.section}>
-      <div className={s.background}></div>
       <Container>
         <div>
           <h2 className={s.title}>
