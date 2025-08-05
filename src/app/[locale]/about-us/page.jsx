@@ -7,6 +7,7 @@ import AboutFactsSection from '@/modules/AboutFactsSection/AboutFactsSection';
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import AboutSection from '@/modules/AboutSection/AboutSection';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
+import Footer from '@/modules/Footer/Footer';
 export default async function AboutUs({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -26,6 +27,7 @@ export default async function AboutUs({ params: rawParams }) {
       <WebWhyChoose locale={locale} namespace="aboutWhyChoose" />
       <ToggleQuestions />
       <FeedbackWrapper />
+      <Footer />
     </div>
   );
 }

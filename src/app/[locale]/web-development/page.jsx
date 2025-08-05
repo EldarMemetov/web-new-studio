@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import s from './webDevelopment.module.scss';
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
-
+import Footer from '@/modules/Footer/Footer';
 import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
 import WebPortfolio from '@/modules/WebPortfolio/WebPortfolio';
 import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
@@ -29,6 +29,7 @@ export default async function WebDevelopment({ params: rawParams }) {
       <OrDevelopment locale={locale} />
       <ToggleQuestions locale={locale} namespace="toggleQuestionsWebDev" />
       <FeedbackWrapper />
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import '../globals.scss';
-import dynamic from 'next/dynamic';
 import initTranslations from '@/i18n/utils/i18n';
 import TranslationsProvider from '@/i18n/utils/TranslationsProvider';
 import ErrorBoundaryWithTranslation from '@/shared/components/ErrorBoundary/ErrorBoundaryWithTranslation/ErrorBoundaryWithTranslation';
@@ -11,7 +10,6 @@ import SvgSpriteLoader from '@/shared/constants/SvgSpriteLoader/SvgSpriteLoader'
 import CookieNotice from '@/modules/CookieNotice/CookieNotice';
 import { Manrope, Inter } from 'next/font/google';
 import clsx from 'clsx';
-const Footer = dynamic(() => import('@/modules/Footer/Footer'), {});
 
 const manrope = Manrope({
   subsets: ['latin', 'cyrillic'],
@@ -98,7 +96,6 @@ export default async function Layout({ children, params }) {
 
             <main>{children}</main>
             <CookieNotice />
-            <Footer />
           </ErrorBoundaryWithTranslation>
         </TranslationsProvider>
       </body>

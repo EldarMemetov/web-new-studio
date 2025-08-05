@@ -3,6 +3,7 @@ import { client } from '@/lib/sanityClient';
 import { postBySlugQuery } from '@/lib/queries';
 import s from './idBlog.module.scss';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
+import Footer from '@/modules/Footer/Footer';
 export const dynamic = 'force-static';
 export const revalidate = 60;
 export async function generateStaticParams() {
@@ -24,6 +25,7 @@ export default async function BlogIdPageId({ params }) {
     <div className={s.container}>
       <BlogId post={post} locale={locale} />
       <FeedbackWrapper />
+      <Footer />
     </div>
   );
 }

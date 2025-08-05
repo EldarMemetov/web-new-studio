@@ -3,6 +3,7 @@ import { initServerI18n } from '@/i18n/utils/serverI18n';
 import s from './idPortfolio.module.scss';
 
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
+import Footer from '@/modules/Footer/Footer';
 export async function generateMetadata({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -47,6 +48,7 @@ export default async function PortfolioItemPage({ params: rawParams }) {
     <div className={s.container}>
       <PortfolioId locale={locale} id={id} />
       <FeedbackWrapper />
+      <Footer />
     </div>
   );
 }

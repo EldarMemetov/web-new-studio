@@ -9,7 +9,7 @@ import GetBusinessSolutions from '@/modules/GetBusinessSolutions/GetBusinessSolu
 import BrandTransformation from '@/modules/BrandTransformation/BrandTransformation';
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import s from './page.module.scss';
-
+import Footer from '@/modules/Footer/Footer';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
@@ -40,6 +40,7 @@ export default async function Home({ params: rawParams }) {
       </ReviewsSection>
       <ToggleQuestions locale={locale} />
       <FeedbackWrapper />
+      <Footer />
     </div>
   );
 }
