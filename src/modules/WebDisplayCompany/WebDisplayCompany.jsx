@@ -1,12 +1,12 @@
 import Container from '@/shared/container/Container';
-import AnimatedCounter from '@/shared/components/AnimatedCounter/AnimatedCounter';
 import s from './WebDisplayCompany.module.scss';
 import Image from 'next/image';
 import Particles from '@/shared/components/Particles/Particles';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
 
 export default async function WebDisplayCompany({ locale }) {
-  const { t } = await initServerI18n(locale, ['companyFacts']);
+  const { t } = await initServerI18n(locale, ['webDisplayCompany']);
+
   return (
     <section className={s.factsSection}>
       <Particles className={s.particles} />
@@ -16,7 +16,7 @@ export default async function WebDisplayCompany({ locale }) {
           <span className={s.ray}></span>
           <span className={s.ray}></span>
         </div>
-        <h2 className={s.title}>DevMyst</h2>
+        <h2 className={s.title}>QVRIX</h2>
 
         <div className={s.factsWrapper}>
           <Image
@@ -31,16 +31,16 @@ export default async function WebDisplayCompany({ locale }) {
 
           <ul className={s.factsList}>
             <li className={s.item}>
-              <h3 className={s.number}>Імідж</h3>
-              <p className={s.info}>що викликає довіру</p>
+              <h3 className={s.number}>{t('imageLabel')}</h3>
+              <p className={s.info}>{t('imageInfo')}</p>
             </li>
             <li className={s.item}>
-              <h3 className={s.number}>Технології</h3>
-              <p className={s.info}>що працюють швидко</p>
+              <h3 className={s.number}>{t('techLabel')}</h3>
+              <p className={s.info}>{t('techInfo')}</p>
             </li>
             <li className={s.item}>
-              <h3 className={s.number}>Бренд</h3>
-              <p className={s.info}>що впізнають</p>
+              <h3 className={s.number}>{t('brandLabel')}</h3>
+              <p className={s.info}>{t('brandInfo')}</p>
             </li>
           </ul>
         </div>

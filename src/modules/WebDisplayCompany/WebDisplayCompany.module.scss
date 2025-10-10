@@ -20,7 +20,7 @@
   align-content: space-between;
   @include media(tablet) {
     padding: 40px;
-    width: 640px;
+    width: auto;
     height: 184px;
     gap: 0px;
     flex-wrap: wrap;
