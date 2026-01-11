@@ -33,7 +33,7 @@ export default async function BlogId({ post, locale }) {
           <div>
             <Link href={`/${locale}/blog#blog`} className={s.backLink}>
               <Icon iconName="icon-arrow" className={s.backIcon} />
-              {t('next')}
+              {t('back')}
             </Link>
           </div>
           <div className={s.article}>
