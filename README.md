@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+QVRIX — Multilingual Web Platform (Next.js) Projektübersicht
 
-## Getting Started
+QVRIX ist eine moderne, mehrsprachige Web-Plattform für ein Team aus dem Bereich
+Webentwicklung und Videoproduktion. Das Projekt wurde bewusst als skalierbares
+und wartbares Produkt umgesetzt — nicht als statische Website.
 
-First, run the development server:
+Der Fokus liegt auf:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+sauberer, nachvollziehbarer Architektur
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+strukturierter Arbeit mit dynamischen Daten
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+stabilem und konsistentem UX über verschiedene Sprachen und Endgeräte hinweg
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ziel des Projekts
 
-## Learn More
+Das Projekt wurde entwickelt, um:
 
-To learn more about Next.js, take a look at the following resources:
+eine mehrsprachige Benutzeroberfläche mit automatischer Spracherkennung
+umzusetzen
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+die Arbeit mit dynamischem Blog-Content über CMS (Sanity) und API zu erproben
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+eine SEO-freundliche Seitenstruktur mittels Server-Side Rendering zu realisieren
 
-## Deploy on Vercel
+eine Architektur aufzubauen, die langfristig erweiterbar und wartbar ist
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Umgesetzte Funktionen
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🌍 Mehrsprachigkeit (i18n) Automatische Erkennung der Nutzersprache und
+konsistente Darstellung der Inhalte.
+
+📝 Blog auf Basis von Sanity CMS Inhalte können ohne Frontend-Deploy
+aktualisiert werden. Die Content-Struktur ist klar und wartbar modelliert.
+
+🧭 Klare Content-Struktur Bereiche für Team, Leistungen, Portfolio, Blog und
+Kontakt mit nachvollziehbarer Navigation.
+
+📱 Responsives Design Optimierte Darstellung auf allen gängigen Gerätetypen.
+
+🚀 SEO & Performance Einsatz von Server-Side Rendering (Next.js) für schnelle
+Ladezeiten und saubere Indexierung.
+
+🔌 API-basierte Backend-Integration Kontaktformular, Reviews und Blog greifen
+auf ein eigenes Backend zu.
+
+Backend & Datenverarbeitung
+
+Das Backend wurde eigenständig mit Node.js umgesetzt.
+
+Umgesetzt wurden:
+
+Hinzufügen und Abrufen von Reviews
+
+Verarbeitung des Kontaktformulars
+
+Versand von E-Mail-Benachrichtigungen
+
+automatische Antworten an Nutzer abhängig von der gewählten Sprache
+
+Der Fokus lag dabei auf:
+
+klar definierten API-Schnittstellen
+
+robuster Fehlerbehandlung
+
+wartbarem und verständlichem Code
+
+Architektonischer Ansatz
+
+modulare Projektstruktur
+
+klare Trennung von UI, Logik und Datenzugriff
+
+geringe Kopplung der Komponenten
+
+Vorbereitung auf Skalierung und Erweiterung
+
+Technologiestack
+
+Next.js
+
+Node.js
+
+SCSS
+
+Sanity CMS
+
+i18n
+
+Server-Side Rendering
+
+REST API
+
+Was ich mit mehr Zeit verbessern würde
+
+vollständige Migration auf TypeScript (Frontend & Backend)
+
+Entwicklung eines Admin-Interfaces zur Verwaltung von Projekten und Content über
+das Backend
+
+erweiterte Datenvalidierung und strukturiertes Logging
+
+Tests für zentrale Nutzerflüsse
+
+Hinweis zum verwendeten Stack
+
+Das Projekt wurde mit Next.js umgesetzt. Die zugrunde liegenden Architektur-,
+Daten- und UX-Prinzipien sind jedoch framework-unabhängig und lassen sich direkt
+auf Ionic- bzw. hybride Anwendungen übertragen.
