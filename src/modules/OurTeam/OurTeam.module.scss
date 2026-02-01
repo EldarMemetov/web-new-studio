@@ -1,0 +1,160 @@
+.section {
+  padding-bottom: 160px;
+  z-index: 1;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+.itemList {
+  border-radius: 4px;
+  width: 392px;
+  height: 500px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+  background: #010227;
+  transition: background 0.5s ease-in-out;
+}
+
+.listContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.itemList::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgba(25, 62, 185, 0) 0%,
+    rgba(25, 62, 185, 0) 40%,
+    rgba(25, 62, 185, 0) 70%,
+    rgba(25, 63, 185, 0) 90%
+  );
+
+  z-index: 2;
+  pointer-events: none;
+  transition: background 0.5s ease-in-out;
+}
+
+.itemList:hover::before {
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(244, 232, 217, 0.37) 0%,
+      rgba(244, 214, 175, 0.25) 30%,
+      rgba(255, 255, 255, 0.16) 80%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    radial-gradient(
+      circle at 100% 100%,
+      rgba(140, 20, 220, 0.25) 0%,
+      rgba(115, 35, 185, 0.2) 30%,
+      rgba(80, 30, 185, 0.15) 50%,
+      rgba(60, 20, 185, 0.1) 70%,
+      rgba(25, 63, 185, 0) 90%
+    );
+}
+
+.backgroundName {
+  font-weight: 700;
+  font-size: 130px;
+  line-height: 146%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-16%, -50%) scale(1);
+  z-index: 1;
+  transition:
+    transform 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  color: transparent;
+  -webkit-text-stroke: 1px #676767;
+  white-space: nowrap;
+}
+
+.itemList:hover .backgroundName {
+  transform: translate(-30%, -48%) scale(0.99);
+  opacity: 0.95;
+}
+
+.teamImg {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.itemList::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgba(1, 3, 111, 0.28) 30%,
+    rgba(25, 63, 185, 0) 70%,
+    rgba(25, 63, 185, 0) 70%,
+    rgba(25, 63, 185, 0) 90%
+  );
+
+  mix-blend-mode: normal;
+  transition: background 0.5s ease-in-out;
+  z-index: 4;
+}
+
+/* Меняем оттенок при ховере */
+.itemList:hover::after {
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgb(118 14 195 / 40%) 30%,
+    rgba(25, 63, 185, 0) 70%,
+    rgba(25, 63, 185, 0) 70%,
+    rgba(25, 63, 185, 0) 90%
+  );
+  mix-blend-mode: normal;
+}
+.title {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+.spanTitle {
+  font-weight: 700;
+  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 146%;
+  color: #9624e2;
+}
+
+.jobTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 146%;
+}

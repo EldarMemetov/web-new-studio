@@ -13,6 +13,7 @@ import Footer from '@/modules/Footer/Footer';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
+
 const ReviewsList = dynamic(
   () => import('@/modules/GetReview/Components/ReviewsList/ReviewsList')
 );

@@ -1,0 +1,32 @@
+{
+  "title": {
+    "first": "Наша",
+    "second": "Команда"
+  },
+  "members": [
+    {
+      "name": "Марія Соловейченко",
+      "jobTitle": "UI/UX дизайнер",
+      "description": "Веб та мобільний дизайн, прототипування",
+      "image": "/image/eldar.png",
+      "alt": "член команди",
+      "backgroundName": "Марія Соловейченко"
+    },
+    {
+      "name": "Марія Соловейченко",
+      "jobTitle": "UI/UX дизайнер",
+      "description": "Веб та мобільний дизайн, прототипування",
+      "image": "/image/eldar.png",
+      "alt": "член команди",
+      "backgroundName": "Марія Соловейченко"
+    },
+    {
+      "name": "Марія Соловейченко",
+      "jobTitle": "UI/UX дизайнер",
+      "description": "Веб та мобільний дизайн, прототипування",
+      "image": "/image/eldar.png",
+      "alt": "член команди",
+      "backgroundName": "Марія Соловейченко"
+    }
+  ]
+}
