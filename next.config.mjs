@@ -1,6 +1,13 @@
 const nextConfig = {
   trailingSlash: false,
-
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://node-reply-letter.onrender.com/:path*',
+      },
+    ];
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
