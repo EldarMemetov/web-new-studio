@@ -19,8 +19,8 @@ export default async function AboutUs({ params: rawParams }) {
   return (
     <div className={s.container}>
       <HeroAbout locale={locale} />
-      {/* <OurTeam locale={locale} /> */}
-      <AboutSection locale={locale} />
+      <OurTeam locale={locale} />
+      {/* <AboutSection locale={locale} /> */}
       <AboutFactsSection locale={locale} />
       <BrandTransformation
         locale={locale}
