@@ -8,7 +8,7 @@ import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import AboutSection from '@/modules/AboutSection/AboutSection';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 import Footer from '@/modules/Footer/Footer';
-import OurTeam from '@/modules/OurTeam/OurTeam';
+// import OurTeam from '@/modules/OurTeam/OurTeam';
 export default async function AboutUs({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'ua', 'de'];
@@ -19,8 +19,8 @@ export default async function AboutUs({ params: rawParams }) {
   return (
     <div className={s.container}>
       <HeroAbout locale={locale} />
-      <OurTeam locale={locale} />
-      {/* <AboutSection locale={locale} /> */}
+      {/* <OurTeam locale={locale} /> */}
+      <AboutSection locale={locale} />
       <AboutFactsSection locale={locale} />
       <BrandTransformation
         locale={locale}
