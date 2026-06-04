@@ -1,39 +1,50 @@
 {
   "section": {
-    "title": "Ihre Idee —",
+    "eyebrow": "Unsere Leistungen",
+    "title": "Ihre Idee — ",
     "subTitle": "unsere Umsetzung",
-    "description": "Wir verwandeln Ideen in moderne Websites und Videos, die für Ihre Marke wirken.",
-
-    "buttonText": "Ich will alles mit Bonus",
+    "description": "Wir verwandeln Ideen in moderne Websites und Videos, die Ihre Marke stärken.",
+    "together": {
+      "label": "Zusammen stärker",
+      "title": "Website + Video — ",
+      "titleHighlight": "ein Stil, ein Team",
+      "description": "Buchen Sie beide Leistungen zusammen und erhalten Sie ein einheitliches Branding, Zeitersparnis und zusätzliche Vorteile.",
+      "perks": [
+        "Kombinationsrabatt",
+        "Eine Kommunikation",
+        "Einheitlicher Stil",
+        "Priorisierte Bearbeitung"
+      ]
+    },
     "sections": [
       {
         "title": "Webentwicklung",
         "icon": "LaptopWrite",
-        "description": "Dienstleistungen, die wir anbieten:",
+        "description": "Unsere Leistungen:",
         "list": [
           "Websites",
-          "Landing Pages",
+          "Landingpages",
           "Responsives Design",
-          "E-Commerce-Websites",
-          "Technische Unterstützung",
+          "Online-Shops",
+          "Technischer Support",
           "SEO-Optimierung",
           "UX/UI Design"
         ],
-        "cta": "Jetzt bestellen"
+        "cta": "Klicken, um jetzt zu bestellen"
       },
       {
         "title": "Videoproduktion",
         "icon": "icon-cinema",
-        "description": "Dienstleistungen, die wir anbieten:",
+        "description": "Unsere Leistungen:",
         "list": [
-          "Filmen",
-          "Videobearbeitung",
+          "Videodreh",
+          "Videoschnitt",
           "Regie",
-          "Drehbuchschreiben",
-          "Location Scouting",
+          "Drehbücher",
+          "Location-Scouting",
           "Postproduktion"
         ],
-        "cta": "Jetzt bestellen"
+        "cta": "Klicken, um jetzt zu bestellen"
       }
     ]
   }

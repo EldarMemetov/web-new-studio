@@ -1,38 +1,50 @@
 {
   "section": {
-    "title": "Your idea —",
-    "subTitle": "our implementation",
-    "description": "We transform ideas into modern websites and videos that work for your brand.",
-    "buttonText": "I want everything with a bonus",
+    "eyebrow": "Our services",
+    "title": "Your idea — ",
+    "subTitle": "our execution",
+    "description": "We turn ideas into modern websites and videos that work for your brand.",
+    "together": {
+      "label": "Stronger together",
+      "title": "Website + video — ",
+      "titleHighlight": "one style, one team",
+      "description": "Order both services together and get a consistent brand, time savings, and extra benefits.",
+      "perks": [
+        "Package discount",
+        "Single communication",
+        "Consistent style",
+        "Priority queue"
+      ]
+    },
     "sections": [
       {
-        "title": "Web Development",
+        "title": "Web development",
         "icon": "LaptopWrite",
         "description": "Services we provide:",
         "list": [
           "Websites",
-          "Landing Pages",
-          "Responsive Design",
-          "E-commerce Sites",
-          "Technical Support",
-          "SEO Optimization",
-          "UX/UI Design"
+          "Landing pages",
+          "Responsive design",
+          "Online stores",
+          "Technical support",
+          "SEO optimization",
+          "UX/UI design"
         ],
-        "cta": "Order now"
+        "cta": "Click to order now"
       },
       {
-        "title": "Video Production",
+        "title": "Video production",
         "icon": "icon-cinema",
         "description": "Services we provide:",
         "list": [
-          "Filming",
-          "Video Editing",
-          "Direction",
-          "Screenwriting",
-          "Location Scouting",
+          "Video shooting",
+          "Video editing",
+          "Directing",
+          "Scriptwriting",
+          "Location scouting",
           "Post-production"
         ],
-        "cta": "Order now"
+        "cta": "Click to order now"
       }
     ]
   }

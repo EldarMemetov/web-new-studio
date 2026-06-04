@@ -1,7 +1,22 @@
 {
-  "projectName": "Über mich",
-  "projectSubtitle": "— mein persönliches Webprojekt für Ihr Business",
-  "quote": "Web und Video sind meine Werkzeuge für Ihren Erfolg.",
-  "paragraph1": "Hallo! Ich bin Eldar — Videograf und Webentwickler, Gründer von QVRIX, meinem persönlichen Digitalprojekt. Ich erstelle Websites und Videos, die nicht nur gut aussehen, sondern auch begeistern, Emotionen wecken und Ergebnisse liefern.",
-  "paragraph2": "Meine Wurzeln liegen in der Videoproduktion: Ich erzähle Geschichten, fange Atmosphären ein und erstelle visuelle Inhalte, die im Gedächtnis bleiben. Außerdem programmiere ich Websites, auf denen diese Geschichten lebendig werden — schnell, benutzerfreundlich und responsiv. Wenn Sie interessiert sind, bespreche ich gerne, wie ich helfen kann."
+  "eyebrow": "Wer wir sind",
+  "projectName": "Über uns",
+  "projectSubtitle": "— ein Digitalprojekt für alle, die wachsen wollen",
+  "quote": "Video und Web — zwei Werkzeuge, ein Ziel: Ihr Ergebnis.",
+  "paragraph1": "QVRIX ist ein Digitalstudio, das sich auf Videoproduktion und Webentwicklung für Unternehmen spezialisiert. Wir erstellen Websites und Videos, die nicht nur modern aussehen — sie gewinnen Kunden, vermitteln die Markenidentität und liefern echte Ergebnisse.",
+  "paragraph2": "Hinter jedem Projekt steht ein Team aus geprüften Spezialisten. Für komplexere Aufgaben ziehen wir zuverlässige Partner hinzu — damit Sie genau das bekommen, was Sie brauchen, ohne Kompromisse bei der Qualität.",
+  "badge": "Video + Web — an einem Ort",
+  "tags": [
+    "Videoproduktion",
+    "Webentwicklung",
+    "Werbevideos",
+    "UX/UI Design",
+    "Reels",
+    "Landingpages"
+  ],
+  "stats": [
+    { "value": "50+", "label": "Projekte" },
+    { "value": "2", "label": "Bereiche" },
+    { "value": "DE", "label": "Deutschland" }
+  ]
 }

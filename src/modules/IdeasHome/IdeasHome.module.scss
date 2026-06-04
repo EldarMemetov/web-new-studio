@@ -1,51 +1,49 @@
 .section {
-  padding-bottom: 200px;
+  padding-bottom: 160px;
   position: relative;
   z-index: 1;
-  overflow: visible;
+
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
 }
 
 .contentContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 10;
 }
-.contentText {
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.35);
+  margin-bottom: 18px;
   display: flex;
-  flex-direction: column;
-  @include media(desktop) {
-    margin-left: 40px;
+  align-items: center;
+  gap: 10px;
+
+  &::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: currentColor;
+    display: block;
   }
 }
+
 .title {
   @include titleText();
+  margin-bottom: 12px;
 }
 
 .titleSpan {
   @include gradientText;
 }
+
 .description {
   @include description;
-}
-.backgroundWrapper {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: calc(50% + 100px);
-  z-index: 1;
-  border-radius: 16px;
-
-  @include media(tablet) {
-    top: 90%;
-    height: calc(50% + 100px);
-  }
-
-  @include media(desktop) {
-    top: 83%;
-    height: calc(100% + 100px);
-  }
+  color: rgba(255, 255, 255, 0.45);
+  max-width: 440px;
+  margin-bottom: 52px;
 }

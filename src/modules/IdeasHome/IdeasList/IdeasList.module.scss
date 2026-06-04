@@ -1,15 +1,26 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 80px;
-  margin-bottom: 80px;
-  max-width: 100%;
+  gap: 16px;
+  margin-bottom: 16px;
+  list-style: none;
+
   @include media(tablet) {
-    margin-bottom: 65px;
-  }
-  @include media(desktop) {
     flex-direction: row;
-    gap: 24px;
-    margin-bottom: 85px;
+    gap: 20px;
+  }
+}
+
+.item {
+  flex: 1;
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.55s ease,
+    transform 0.55s ease;
+
+  &.in {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
