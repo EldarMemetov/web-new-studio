@@ -9,7 +9,7 @@ export default async function GetBusinessSolutions({ locale }) {
   return (
     <section className={styles.section}>
       <Container>
-        <div className={styles.background}></div>
+        <div className={styles.background} aria-hidden="true" />
         <div className={styles.contentContainer}>
           <h2 className={styles.newTitle}>
             {t('titleStart')}
