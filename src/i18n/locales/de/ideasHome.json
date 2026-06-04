@@ -5,15 +5,15 @@
     "subTitle": "unsere Umsetzung",
     "description": "Wir verwandeln Ideen in moderne Websites und Videos, die Ihre Marke stärken.",
     "together": {
-      "label": "Zusammen stärker",
+      "label": "Gemeinsam stärker",
       "title": "Website + Video — ",
       "titleHighlight": "ein Stil, ein Team",
-      "description": "Buchen Sie beide Leistungen zusammen und erhalten Sie ein einheitliches Branding, Zeitersparnis und zusätzliche Vorteile.",
+      "description": "Buchen Sie beide Leistungen zusammen und profitieren Sie von einer einheitlichen Markenidentität, Zeitersparnis und zusätzlichen Vorteilen.",
       "perks": [
         "Kombinationsrabatt",
-        "Eine Kommunikation",
+        "Ein zentraler Ansprechpartner",
         "Einheitlicher Stil",
-        "Priorisierte Bearbeitung"
+        "Einheitliche Markenstrategie"
       ]
     },
     "sections": [
@@ -30,7 +30,7 @@
           "SEO-Optimierung",
           "UX/UI Design"
         ],
-        "cta": "Klicken, um jetzt zu bestellen"
+        "cta": "Jetzt bestellen"
       },
       {
         "title": "Videoproduktion",
@@ -40,11 +40,11 @@
           "Videodreh",
           "Videoschnitt",
           "Regie",
-          "Drehbücher",
+          "Drehbuchentwicklung",
           "Location-Scouting",
           "Postproduktion"
         ],
-        "cta": "Klicken, um jetzt zu bestellen"
+        "cta": "Jetzt bestellen"
       }
     ]
   }

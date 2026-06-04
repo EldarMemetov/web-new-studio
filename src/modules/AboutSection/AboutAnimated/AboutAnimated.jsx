@@ -71,20 +71,6 @@ export default function AboutAnimated({ data }) {
               </span>
             ))}
           </div>
-
-          <div className={s.stats}>
-            {data.stats.map((stat, i) => (
-              <div
-                key={i}
-                className={s.stat}
-                ref={addRef(5 + i)}
-                style={{ transitionDelay: `${0.1 * i}s` }}
-              >
-                <div className={s.statN}>{stat.value}</div>
-                <div className={s.statL}>{stat.label}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </div>

@@ -1,26 +1,26 @@
 {
   "section": {
-    "eyebrow": "Our services",
+    "eyebrow": "Our Services",
     "title": "Your idea — ",
     "subTitle": "our execution",
-    "description": "We turn ideas into modern websites and videos that work for your brand.",
+    "description": "We turn ideas into modern websites and videos that strengthen your brand.",
     "together": {
-      "label": "Stronger together",
-      "title": "Website + video — ",
+      "label": "Stronger Together",
+      "title": "Website + Video — ",
       "titleHighlight": "one style, one team",
-      "description": "Order both services together and get a consistent brand, time savings, and extra benefits.",
+      "description": "Order both services together and get a consistent brand identity, save time, and enjoy additional benefits.",
       "perks": [
-        "Package discount",
-        "Single communication",
-        "Consistent style",
-        "Priority queue"
+        "Bundle discount",
+        "Single point of contact",
+        "Consistent visual style",
+        "Unified brand strategy"
       ]
     },
     "sections": [
       {
-        "title": "Web development",
+        "title": "Web Development",
         "icon": "LaptopWrite",
-        "description": "Services we provide:",
+        "description": "What we offer:",
         "list": [
           "Websites",
           "Landing pages",
@@ -33,9 +33,9 @@
         "cta": "Click to order now"
       },
       {
-        "title": "Video production",
+        "title": "Video Production",
         "icon": "icon-cinema",
-        "description": "Services we provide:",
+        "description": "What we offer:",
         "list": [
           "Video shooting",
           "Video editing",

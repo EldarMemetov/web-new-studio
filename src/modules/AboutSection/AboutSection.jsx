@@ -1,6 +1,5 @@
 import Container from '@/shared/container/Container';
 import s from './AboutSection.module.scss';
-import Image from 'next/image';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
 import AboutAnimated from './AboutAnimated/AboutAnimated';
 
