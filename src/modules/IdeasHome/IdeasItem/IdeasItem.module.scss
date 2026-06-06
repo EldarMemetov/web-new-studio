@@ -75,7 +75,6 @@
 }
 
 .cardTitle {
-  font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 22px;
   color: #fff;
@@ -93,7 +92,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  flex: 1;
+  align-items: center;
 }
 
 .tag {

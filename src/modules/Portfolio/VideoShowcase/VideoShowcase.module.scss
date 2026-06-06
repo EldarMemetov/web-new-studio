@@ -1,0 +1,396 @@
+.frame {
+  position: relative;
+  width: 338px;
+  max-width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #06061a;
+  border: 1px solid rgba(150, 36, 226, 0.18);
+  box-shadow:
+    0 24px 60px -20px rgba(150, 36, 226, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  isolation: isolate;
+
+  @include media(tablet) {
+    width: 640px;
+    border-radius: 14px;
+  }
+  @include media(desktop) {
+    width: 1224px;
+    border-radius: 16px;
+  }
+}
+
+/* ---- угловые «HUD» маркеры ---- */
+.cornerTL,
+.cornerTR,
+.cornerBL,
+.cornerBR {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0.7;
+  transition: opacity 0.4s ease;
+}
+.cornerTL {
+  top: 12px;
+  left: 12px;
+  border-top: 1px solid rgba(200, 121, 255, 0.8);
+  border-left: 1px solid rgba(200, 121, 255, 0.8);
+}
+.cornerTR {
+  top: 12px;
+  right: 12px;
+  border-top: 1px solid rgba(200, 121, 255, 0.8);
+  border-right: 1px solid rgba(200, 121, 255, 0.8);
+}
+.cornerBL {
+  bottom: 12px;
+  left: 12px;
+  border-bottom: 1px solid rgba(200, 121, 255, 0.8);
+  border-left: 1px solid rgba(200, 121, 255, 0.8);
+}
+.cornerBR {
+  bottom: 12px;
+  right: 12px;
+  border-bottom: 1px solid rgba(200, 121, 255, 0.8);
+  border-right: 1px solid rgba(200, 121, 255, 0.8);
+}
+
+.frame:hover .cornerTL,
+.frame:hover .cornerTR,
+.frame:hover .cornerBL,
+.frame:hover .cornerBR {
+  opacity: 1;
+}
+
+/* ---- скан-линия проходит при смене ---- */
+.scan {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(200, 121, 255, 0) 45%,
+    rgba(200, 121, 255, 0.35) 50%,
+    rgba(200, 121, 255, 0) 55%,
+    transparent 100%
+  );
+  opacity: 0;
+}
+
+/* ---- сцена с видео ---- */
+.stage {
+  position: relative;
+  width: 100%;
+  height: 232px;
+
+  @include media(tablet) {
+    height: 560px;
+  }
+  @include media(desktop) {
+    height: 440px;
+  }
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  clip-path: inset(0 100% 0 0 round 12px);
+  transform: scale(1.05);
+  filter: blur(6px);
+  transition:
+    clip-path 0.9s cubic-bezier(0.76, 0, 0.24, 1),
+    opacity 0.6s ease,
+    transform 1s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.6s ease;
+  z-index: 1;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &.active {
+    opacity: 1;
+    clip-path: inset(0 0 0 0 round 12px);
+    transform: scale(1);
+    filter: blur(0);
+    z-index: 2;
+
+    ~ .scan {
+      animation: scanLine 0.9s ease-out;
+    }
+  }
+}
+
+.gradient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(6, 6, 26, 0.35) 0%, transparent 30%),
+    linear-gradient(0deg, rgba(6, 6, 26, 0.55) 0%, transparent 40%);
+}
+
+/* запускаем скан-линию через ::after */
+.active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+  background: linear-gradient(
+    180deg,
+    transparent 48%,
+    rgba(200, 121, 255, 0.5) 50%,
+    transparent 52%
+  );
+  animation: scanLine 0.9s ease-out;
+  opacity: 0;
+}
+
+@keyframes scanLine {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+/* ---- тег ---- */
+.tagWrap {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px 8px 11px;
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 8, 40, 0.78),
+    rgba(8, 4, 24, 0.6)
+  );
+  border: 1px solid rgba(150, 36, 226, 0.5);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  animation: tagSwap 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+
+  @include media(tablet) {
+    top: 24px;
+    left: 24px;
+    padding: 10px 18px 10px 14px;
+  }
+}
+
+@keyframes tagSwap {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.92);
+    filter: blur(6px);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.tagDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c879ff;
+  box-shadow:
+    0 0 0 3px rgba(150, 36, 226, 0.22),
+    0 0 12px rgba(200, 121, 255, 0.85);
+  animation: tagPulse 2s ease-in-out infinite;
+}
+
+@keyframes tagPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow:
+      0 0 0 3px rgba(150, 36, 226, 0.22),
+      0 0 12px rgba(200, 121, 255, 0.85);
+  }
+  50% {
+    transform: scale(1.3);
+    box-shadow:
+      0 0 0 6px rgba(150, 36, 226, 0.05),
+      0 0 18px rgba(200, 121, 255, 1);
+  }
+}
+
+.tagText {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  background: linear-gradient(90deg, #ffffff 0%, #d4a8ff 50%, #ffffff 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: tagShine 4.5s linear infinite;
+
+  @include media(tablet) {
+    font-size: 13px;
+  }
+}
+
+@keyframes tagShine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* ---- счётчик ---- */
+.counter {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+
+  @include media(tablet) {
+    top: 28px;
+    right: 28px;
+    font-size: 15px;
+  }
+}
+
+.counterCurrent {
+  display: inline-block;
+  min-width: 22px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  animation: numFlip 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+
+  @include media(tablet) {
+    font-size: 22px;
+  }
+}
+
+@keyframes numFlip {
+  0% {
+    opacity: 0;
+    transform: translateY(-12px) rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+
+.counterDivider {
+  opacity: 0.4;
+}
+.counterTotal {
+  opacity: 0.55;
+}
+
+/* ---- прогресс-бар (таймер) ---- */
+.progress {
+  position: relative;
+  height: 2px;
+  background: rgba(150, 36, 226, 0.15);
+  overflow: hidden;
+  z-index: 3;
+}
+
+.progressBar {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #9624e2, #c879ff, #0102b9);
+  transform-origin: left center;
+  transform: scaleX(0);
+  box-shadow: 0 0 10px rgba(200, 121, 255, 0.6);
+  animation: progressFill 3s linear forwards;
+}
+
+.frame[data-paused='true'] .progressBar {
+  animation-play-state: paused;
+}
+
+@keyframes progressFill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---- точки ---- */
+.dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  padding: 16px 12px;
+  background: rgba(8, 4, 24, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  background: rgba(150, 36, 226, 0.32);
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    width 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border-radius 0.3s ease;
+
+  &:hover {
+    background: rgba(150, 36, 226, 0.6);
+  }
+}
+
+.dotActive {
+  width: 24px;
+  border-radius: 3px;
+  background: #9624e2;
+  box-shadow: 0 0 10px rgba(150, 36, 226, 0.7);
+}

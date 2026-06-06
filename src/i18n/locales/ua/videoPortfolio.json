@@ -1,32 +1,25 @@
 {
-  "title": "Наші реалізовані ",
-  "titleSpan": "проєкти",
+  "title": "Відео, що ",
+  "titleSpan": "говорить за вас",
   "descriptionOne": "Продакшн, що поєднує ",
   "descriptionTwo": "стиль, історію та ціль ",
   "descriptionThree": "— щоб кожен кадр працював на вас.",
-  "videos": [
-    {
-      "thumbnail": "/image/video/garna.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=w3GmYmwzcdA"
-    },
-    {
-      "thumbnail": "/image/video/ochi.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=uXk9m-w-h9I"
-    },
-    {
-      "thumbnail": "/image/video/memorial.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=XIXdImbjc9c"
-    },
-    {
-      "thumbnail": "/image/video/branch.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=jXkjGSeoZ5s"
-    },
-    {
-      "thumbnail": "/image/video/anna.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=shjqBHc9aPM"
-    }
-  ],
+  "instagramUrl": "https://www.instagram.com/qvrix",
   "cta": {
-    "text": "Цікавлять інші проєкти? Напишіть нам"
+    "text": "Підписуйтесь на наш Instagram"
+  },
+  "tags": {
+    "conference": "Конференція",
+    "medicine": "Медицина",
+    "advertising": "Реклама",
+    "event": "Подія",
+    "brand": "Бренд",
+    "product": "Продукт"
+  },
+  "a11y": {
+    "prev": "Попередній слайд",
+    "next": "Наступний слайд",
+    "slide": "Слайд",
+    "region": "Відеопортфоліо"
   }
 }

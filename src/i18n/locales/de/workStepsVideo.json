@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Ablauf",
+  "title": "Der Weg von der Idee zum ",
+  "titleSpan": "fertigen Video",
+  "description": "5 klare Schritte — ohne Chaos, versteckte Phasen oder unnötigen Stress. Du weißt immer, wo wir gerade stehen.",
+  "steps": [
+    {
+      "num": "01",
+      "title": "Kennenlernen",
+      "description": "Du schreibst uns über einen bequemen Messenger — erzählst uns von deinem Unternehmen, deiner Aufgabe und Zielgruppe. Wir hören zu und stellen die richtigen Fragen."
+    },
+    {
+      "num": "02",
+      "title": "Briefing & Skript",
+      "description": "Wir strukturieren die Idee: Konzept, Skript, Moodboard und ein klarer Drehplan. Alles wird mit dir abgestimmt."
+    },
+    {
+      "num": "03",
+      "title": "Drehtag",
+      "description": "Wir kommen zu dir oder wählen eine Location. Ton, Licht, Bild — jedes Detail wird vom Team kontrolliert."
+    },
+    {
+      "num": "04",
+      "title": "Schnitt & Postproduktion",
+      "description": "Wir erzählen die Geschichte: Schnitt, Grafik, Musik und Farbkorrektur. Jede Sekunde zählt."
+    },
+    {
+      "num": "05",
+      "title": "Finale & Korrekturen",
+      "description": "Wir präsentieren das Ergebnis, verfeinern Details nach deinem Feedback und liefern die finale Datei in jedem Format."
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
 import VideoEffectiveSolutions from '@/modules/VideoEffectiveSolutions/VideoEffectiveSolutions';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 import Footer from '@/modules/Footer/Footer';
+import WorkSteps from '@/modules/WorkSteps/WorkSteps';
 
 export default async function Videography({ params: rawParams }) {
   const params = await rawParams;
@@ -19,6 +20,7 @@ export default async function Videography({ params: rawParams }) {
       <HeroVideo locale={locale} />
       <VideoEffectiveSolutions locale={locale} />
       <VideoPortfolio />
+      <WorkSteps namespace="workStepsVideo" />
       <WebWhyChoose locale={locale} namespace="videoWhyChoose" />
       <ToggleQuestions locale={locale} namespace="videoFaq" />
       <FeedbackWrapper />

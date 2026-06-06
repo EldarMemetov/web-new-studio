@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Process",
+  "title": "From idea to ",
+  "titleSpan": "website launch",
+  "description": "A clear process with no unnecessary words — from the first message to launch. You always know what is happening.",
+  "steps": [
+    {
+      "num": "01",
+      "title": "Introduction",
+      "description": "You message us — share your business, goals, and expectations. We shape a clear vision of your future website together."
+    },
+    {
+      "num": "02",
+      "title": "Brief & Structure",
+      "description": "We define UX, sitemap, and technical requirements. We agree on the logic before creating the first design mockup."
+    },
+    {
+      "num": "03",
+      "title": "Design",
+      "description": "We create a design tailored to your aesthetic. Every screen is thoughtful, approved, and ready for development."
+    },
+    {
+      "num": "04",
+      "title": "Development",
+      "description": "We build fast and clean. Responsive design, SEO, optimization, and integrations are included by default."
+    },
+    {
+      "num": "05",
+      "title": "Launch & Support",
+      "description": "We test, launch, and show you how to manage everything. We stay in touch — you are not alone after release."
+    }
+  ]
+}

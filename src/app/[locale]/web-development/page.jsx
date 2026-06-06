@@ -8,6 +8,7 @@ import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import WebDisplayCompany from '@/modules/WebDisplayCompany/WebDisplayCompany';
+import WorkSteps from '@/modules/WorkSteps/WorkSteps';
 const EffectiveSolutions = dynamic(
   () => import('@/modules/EffectiveSolutions/EffectiveSolutions')
 );
@@ -25,6 +26,7 @@ export default async function WebDevelopment({ params: rawParams }) {
       <WebDisplayCompany locale={locale} />
       <EffectiveSolutions locale={locale} />
       <WebPortfolio locale={locale} />
+      <WorkSteps namespace="workStepsWeb" />
       <WebWhyChoose locale={locale} />
       <OrDevelopment locale={locale} />
       <ToggleQuestions locale={locale} namespace="toggleQuestionsWebDev" />

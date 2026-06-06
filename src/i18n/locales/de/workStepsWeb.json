@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Ablauf",
+  "title": "Von der Idee bis zum ",
+  "titleSpan": "Website-Launch",
+  "description": "Ein klarer Prozess ohne unnötige Worte — vom ersten Kontakt bis zum Livegang. Du weißt immer, was gerade passiert.",
+  "steps": [
+    {
+      "num": "01",
+      "title": "Kennenlernen",
+      "description": "Du schreibst uns — erzählst von deinem Unternehmen, deinen Zielen und Wünschen. Gemeinsam entwickeln wir eine klare Vision deiner Website."
+    },
+    {
+      "num": "02",
+      "title": "Briefing & Struktur",
+      "description": "Wir definieren UX, Seitenstruktur und technische Anforderungen. Die Logik wird vor dem ersten Design festgelegt."
+    },
+    {
+      "num": "03",
+      "title": "Design",
+      "description": "Wir erstellen ein Design in deiner Ästhetik. Jeder Screen ist durchdacht, abgestimmt und bereit für die Entwicklung."
+    },
+    {
+      "num": "04",
+      "title": "Entwicklung",
+      "description": "Sauber und schnell umgesetzt. Responsive Design, SEO, Optimierung und Integrationen sind standardmäßig enthalten."
+    },
+    {
+      "num": "05",
+      "title": "Launch & Support",
+      "description": "Wir testen, veröffentlichen und zeigen dir, wie alles funktioniert. Auch nach dem Launch bleiben wir erreichbar."
+    }
+  ]
+}

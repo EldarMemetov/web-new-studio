@@ -56,6 +56,8 @@ export const NAMESPACES = [
   'aboutSection',
   'webDisplayCompany',
   'ourTeam',
+  'workStepsVideo',
+  'workStepsWeb',
 ];
 
 export const FLIPPED_TIME_MS = 15000;
