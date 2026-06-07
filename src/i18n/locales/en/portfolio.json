@@ -1,8 +1,11 @@
 {
-  "title": "see for ",
-  "nextTitle": "yourself",
-  "subtitle": "these are our projects",
-  "videoLabel": "[video production]",
-  "webLabel": "[web development]",
-  "button": "View all projects"
+  "title": "Our ",
+  "nextTitle": "Projects",
+  "subtitle": "",
+  "videoLabel": "Video Production",
+  "videoDescription": "We create commercials, reels, corporate videos, and social media content. We work with businesses from various industries across Germany.",
+  "videoButton": "Learn More About Video",
+  "webLabel": "Web Development",
+  "webDescription": "We develop websites and landing pages from concept to launch. Responsive, fast, and user-friendly solutions for your customers.",
+  "webButton": "Learn More About Websites"
 }

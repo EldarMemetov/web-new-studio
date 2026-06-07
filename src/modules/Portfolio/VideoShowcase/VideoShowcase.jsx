@@ -57,12 +57,6 @@ export default function VideoShowcase() {
       onMouseLeave={() => setPaused(false)}
       data-paused={paused ? 'true' : 'false'}
     >
-      <span className={s.cornerTL} aria-hidden="true" />
-      <span className={s.cornerTR} aria-hidden="true" />
-      <span className={s.cornerBL} aria-hidden="true" />
-      <span className={s.cornerBR} aria-hidden="true" />
-      <span className={s.scan} aria-hidden="true" />
-
       <div className={s.stage}>
         {VIDEOS.map((v, i) => (
           <div

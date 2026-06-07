@@ -1,8 +1,11 @@
 {
-  "title": "überzeug ",
-  "nextTitle": "dich selbst ",
-  "subtitle": "das sind unsere Projekte",
-  "videoLabel": "[Videoproduktion]",
-  "webLabel": "[Webentwicklung]",
-  "button": "Alle Projekte ansehen"
+  "title": "Unsere ",
+  "nextTitle": "Projekte",
+  "subtitle": "",
+  "videoLabel": "Videoproduktion",
+  "videoDescription": "Wir produzieren Werbefilme, Reels, Unternehmensvideos und Social-Media-Content. Dabei arbeiten wir mit Unternehmen aus verschiedensten Branchen in ganz Deutschland zusammen.",
+  "videoButton": "Mehr über Video erfahren",
+  "webLabel": "Webentwicklung",
+  "webDescription": "Wir entwickeln Websites und Landingpages aus einer Hand – vom Design bis zum Launch. Responsiv, schnell und benutzerfreundlich für Ihre Kunden.",
+  "webButton": "Mehr über Websites erfahren"
 }

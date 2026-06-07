@@ -2,28 +2,24 @@
   padding-bottom: 160px;
   position: relative;
   z-index: 2;
+
   @include media(desktop) {
     padding-bottom: 200px;
   }
 }
 
-.preview {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
+// загальний заголовок
+.header {
+  margin-bottom: 48px;
 
   @include media(tablet) {
-    margin-left: 50px;
+    margin-bottom: 64px;
   }
   @include media(desktop) {
-    margin-left: 0px;
+    margin-bottom: 80px;
   }
 }
+
 .title {
   font-weight: 500;
   @include font(40, 52);
@@ -34,153 +30,142 @@
   }
   @include media(desktop) {
     @include font(80, 104);
-    margin-bottom: 0px;
-    text-align: left;
+  }
+}
+
+.titleAccent {
+  @include gradientText;
+}
+
+// блок — один контейнер з рамкою
+.block {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(150, 36, 226, 0.18);
+  background: rgba(6, 6, 26, 0.6);
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include media(tablet) {
+    border-radius: 20px;
     margin-bottom: 32px;
   }
-  .titleAccent {
-    @include gradientText;
+  @include media(desktop) {
+    border-radius: 24px;
+    margin-bottom: 40px;
   }
 }
 
-.subtitle {
-  font-weight: 500;
-  @include font(40, 52);
-  text-transform: uppercase;
-  margin-bottom: 64px;
-  @include media(tablet) {
-    @include font(64, 83);
-  }
-  @include media(desktop) {
-    @include font(80, 104);
-    text-align: right;
-    margin-bottom: 80px;
-  }
-}
-.videoWrapper {
-  margin-bottom: 20px;
+// верхня частина — текст + кнопка
+.blockTop {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: flex-end;
-}
-
-.video {
-  width: 338px;
-  max-width: 100%;
-  height: 232px;
-  border-radius: 8px;
-  object-fit: cover;
-  @include media(tablet) {
-    width: 640px;
-    height: 560px;
-  }
-  @include media(desktop) {
-    width: 1224px;
-    height: 440px;
-  }
-}
-.button {
-  background: transparent;
-  border: none;
-  font-weight: 500;
-  @include font(20, 26);
   gap: 16px;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  margin-left: auto;
-  margin-top: 10px;
+  padding: 24px 20px;
+  border-bottom: 1px solid rgba(150, 36, 226, 0.12);
+
   @include media(tablet) {
-    @include font(24, 31);
-    gap: 24px;
-  }
-  @include media(tablet) {
+    flex-direction: row;
     align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 28px 28px;
   }
-}
-.icon {
-  width: 28px;
-  height: 28px;
-  transform: rotate(45deg);
-}
-.containerVideo {
-  margin-bottom: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.textInfo {
-  font-weight: 500;
-  @include font(20, 26);
-  text-transform: uppercase;
-  text-align: right;
-  color: rgba(207, 208, 208, 0.8);
-  margin-bottom: 24px;
-  @include media(tablet) {
-    font-size: 32px;
-    line-height: 130%;
-    margin-bottom: 24px;
+
+  @include media(desktop) {
+    padding: 32px 36px;
+    gap: 32px;
   }
 }
 
-.textInfoDesktop {
-  margin-right: 20px;
+.blockMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.blockNum {
+  font-size: 11px;
   font-weight: 500;
-  @include font(20, 26);
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  text-align: right;
-  color: rgba(207, 208, 208, 0.8);
-  margin-bottom: 12px;
+  color: rgba(150, 36, 226, 0.8);
+}
+
+.blockTitle {
+  font-weight: 600;
+  @include font(22, 28);
+  color: #fff;
+  line-height: 1.2;
+
   @include media(tablet) {
-    margin-right: 50px;
+    @include font(28, 36);
   }
   @include media(desktop) {
     @include font(32, 42);
   }
 }
 
-.buttonDesktop {
-  margin-right: 20px;
-  background: transparent;
-  border: none;
-  font-weight: 500;
-  @include font(20, 26);
-  gap: 16px;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  margin-left: auto;
+.blockDesc {
+  font-weight: 300;
+  @include font(14, 20);
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.65;
+  max-width: 540px;
+
   @include media(tablet) {
-    margin-right: 50px;
-  }
-  @include media(desktop) {
-    @include font(24, 31);
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    gap: 24px;
-    margin-left: auto;
+    @include font(15, 22);
   }
 }
 
-.iconDesktop {
-  width: 28px;
-  height: 28px;
-  transform: rotate(45deg);
-}
-.containerContent {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+// кнопка
+.blockBtn {
+  display: inline-flex;
   align-items: center;
-  max-width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: 500;
+  @include font(14, 20);
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(150, 36, 226, 0.08);
+  border: 1px solid rgba(150, 36, 226, 0.25) !important;
+  border-radius: 32px !important;
+  padding: 10px 20px !important;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition:
+    color 0.2s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    gap 0.2s ease;
+
+  &:hover {
+    color: #fff;
+    background: rgba(150, 36, 226, 0.18);
+    border-color: rgba(150, 36, 226, 0.55) !important;
+    gap: 14px;
+  }
+
+  @include media(tablet) {
+    @include font(15, 22);
+    padding: 12px 24px !important;
+  }
 }
-.containerImg {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 20px;
+
+.btnIcon {
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+.blockMedia {
+  width: 100%;
+  display: block;
+  overflow: hidden;
 }

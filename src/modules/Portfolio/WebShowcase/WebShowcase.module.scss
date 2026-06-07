@@ -1,101 +1,24 @@
 .frame {
   position: relative;
-  width: 338px;
+  width: 100%;
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 0;
   overflow: hidden;
-  background: #06061a;
-  border: 1px solid rgba(150, 36, 226, 0.18);
-  box-shadow:
-    0 24px 60px -20px rgba(150, 36, 226, 0.28),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  background: transparent;
+  border: none;
+  box-shadow: none;
   isolation: isolate;
   perspective: 1400px;
-
-  @include media(tablet) {
-    width: 640px;
-    border-radius: 14px;
-  }
-  @include media(desktop) {
-    width: 1224px;
-    border-radius: 16px;
-  }
-}
-
-/* ---- угловые маркеры ---- */
-.cornerTL,
-.cornerTR,
-.cornerBL,
-.cornerBR {
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  z-index: 5;
-  pointer-events: none;
-  opacity: 0.7;
-  transition:
-    opacity 0.4s ease,
-    transform 0.4s ease;
-}
-.cornerTL {
-  top: 12px;
-  left: 12px;
-  border-top: 1px solid rgba(200, 121, 255, 0.8);
-  border-left: 1px solid rgba(200, 121, 255, 0.8);
-}
-.cornerTR {
-  top: 12px;
-  right: 12px;
-  border-top: 1px solid rgba(200, 121, 255, 0.8);
-  border-right: 1px solid rgba(200, 121, 255, 0.8);
-}
-.cornerBL {
-  bottom: 12px;
-  left: 12px;
-  border-bottom: 1px solid rgba(200, 121, 255, 0.8);
-  border-left: 1px solid rgba(200, 121, 255, 0.8);
-}
-.cornerBR {
-  bottom: 12px;
-  right: 12px;
-  border-bottom: 1px solid rgba(200, 121, 255, 0.8);
-  border-right: 1px solid rgba(200, 121, 255, 0.8);
-}
-
-.frame:hover .cornerTL {
-  transform: translate(-2px, -2px);
-  opacity: 1;
-}
-.frame:hover .cornerTR {
-  transform: translate(2px, -2px);
-  opacity: 1;
-}
-.frame:hover .cornerBL {
-  transform: translate(-2px, 2px);
-  opacity: 1;
-}
-.frame:hover .cornerBR {
-  transform: translate(2px, 2px);
-  opacity: 1;
 }
 
 /* ---- сцена ---- */
 .stage {
   position: relative;
   width: 100%;
-  aspect-ratio: 338 / 200;
+  aspect-ratio: 16 / 7;
   transform-style: preserve-3d;
-
-  @include media(tablet) {
-    aspect-ratio: 640 / 380;
-  }
-  @include media(desktop) {
-    aspect-ratio: 1224 / 720;
-  }
 }
 
-/* Каждый слайд — карточка. Активная "выезжает" из глубины с 3D-вращением.
-   Неактивные — отодвинуты вглубь и невидимы. */
 .slide {
   position: absolute;
   inset: 0;

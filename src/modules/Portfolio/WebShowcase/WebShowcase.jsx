@@ -30,11 +30,6 @@ export default function WebShowcase({ locale, projects = [], ctaLabel }) {
       onMouseLeave={() => setPaused(false)}
       data-paused={paused ? 'true' : 'false'}
     >
-      <span className={s.cornerTL} aria-hidden="true" />
-      <span className={s.cornerTR} aria-hidden="true" />
-      <span className={s.cornerBL} aria-hidden="true" />
-      <span className={s.cornerBR} aria-hidden="true" />
-
       <div className={s.stage}>
         {projects.map(([id, project], i) => {
           if (!project || !project.image1) return null;
