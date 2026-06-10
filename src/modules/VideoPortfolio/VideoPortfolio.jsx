@@ -7,12 +7,12 @@ import Container from '@/shared/container/Container';
 import s from './VideoPortfolio.module.scss';
 
 const VIDEOS = [
-  { src: '/video/show.mp4', label: '01', tagKey: 'tags.conference' },
-  { src: '/video/show.mp4', label: '02', tagKey: 'tags.medicine' },
-  { src: '/video/show.mp4', label: '03', tagKey: 'tags.advertising' },
-  { src: '/video/show.mp4', label: '04', tagKey: 'tags.event' },
-  { src: '/video/show.mp4', label: '05', tagKey: 'tags.brand' },
-  { src: '/video/show.mp4', label: '06', tagKey: 'tags.product' },
+  { src: '/video/music.mp4', label: '01', tagKey: 'tags.music' },
+  { src: '/video/fashion.mp4', label: '02', tagKey: 'tags.fashion' },
+  { src: '/video/podcasts.mp4', label: '03', tagKey: 'tags.podcasts' },
+  { src: '/video/conference.mp4', label: '04', tagKey: 'tags.conference' },
+  { src: '/video/medicine.mp4', label: '05', tagKey: 'tags.medicine' },
+  { src: '/video/film.mp4', label: '06', tagKey: 'tags.film' },
 ];
 
 export default function VideoPortfolio() {
@@ -21,6 +21,7 @@ export default function VideoPortfolio() {
   const sliderRef = useRef(null);
   const slideRefs = useRef([]);
   const videoRefs = useRef([]);
+  const loadedRef = useRef(new Set());
   const dragRef = useRef({
     isDown: false,
     startX: 0,
@@ -32,15 +33,14 @@ export default function VideoPortfolio() {
   const [progress, setProgress] = useState(0);
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(true);
-
   const [pausedIdx, setPausedIdx] = useState(() => new Set());
 
   // ============== HELPERS ==============
   const getSlideStep = useCallback(() => {
     const first = slideRefs.current[0];
     if (!first) return 0;
-    const styles = window.getComputedStyle(first.parentElement);
-    const gap = parseFloat(styles.gap) || 12;
+    const gap =
+      parseFloat(window.getComputedStyle(first.parentElement).gap) || 12;
     return first.offsetWidth + gap;
   }, []);
 
@@ -49,40 +49,60 @@ export default function VideoPortfolio() {
     if (!slider) return;
     const step = getSlideStep();
     if (!step) return;
-
     const max = slider.scrollWidth - slider.clientWidth;
-    const pct = max > 0 ? slider.scrollLeft / max : 0;
-
-    setProgress(pct);
+    setProgress(max > 0 ? slider.scrollLeft / max : 0);
     setActiveIdx(Math.round(slider.scrollLeft / step));
     setCanPrev(slider.scrollLeft > 4);
     setCanNext(slider.scrollLeft < max - 4);
   }, [getSlideStep]);
 
-  const scrollByStep = (dir) => {
-    const slider = sliderRef.current;
-    if (!slider) return;
-    const step = getSlideStep();
-    slider.scrollBy({ left: step * dir, behavior: 'smooth' });
-  };
+  const scrollByStep = useCallback(
+    (dir) => {
+      const slider = sliderRef.current;
+      if (!slider) return;
+      slider.scrollBy({ left: getSlideStep() * dir, behavior: 'smooth' });
+    },
+    [getSlideStep]
+  );
 
-  const scrollToIdx = (idx) => {
-    const slider = sliderRef.current;
-    if (!slider) return;
-    const step = getSlideStep();
-    slider.scrollTo({ left: step * idx, behavior: 'smooth' });
-  };
+  const scrollToIdx = useCallback(
+    (idx) => {
+      const slider = sliderRef.current;
+      if (!slider) return;
+      slider.scrollTo({ left: getSlideStep() * idx, behavior: 'smooth' });
+    },
+    [getSlideStep]
+  );
 
-  // ============== AUTOPLAY ALL ON MOUNT ==============
-  useEffect(() => {
-    videoRefs.current.forEach((video) => {
-      if (video) {
-        video.muted = true;
-        const p = video.play();
-        if (p && typeof p.catch === 'function') p.catch(() => {});
-      }
-    });
+  // ============== LAZY LOAD ==============
+  const loadVideo = useCallback((idx) => {
+    if (idx < 0 || idx >= VIDEOS.length) return;
+    if (loadedRef.current.has(idx)) return;
+    const v = videoRefs.current[idx];
+    if (!v) return;
+    v.src = VIDEOS[idx].src;
+    v.load();
+    loadedRef.current.add(idx);
   }, []);
+
+  const playVideo = useCallback((idx) => {
+    const v = videoRefs.current[idx];
+    if (!v) return;
+    if (v.readyState >= 2) {
+      v.play().catch(() => {});
+    } else {
+      v.addEventListener('canplay', () => v.play().catch(() => {}), {
+        once: true,
+      });
+    }
+  }, []);
+
+  // грузим первое видео при маунте
+  useEffect(() => {
+    loadVideo(0);
+    loadVideo(1);
+    playVideo(0);
+  }, [loadVideo, playVideo]);
 
   // ============== SLIDER LISTENERS ==============
   useEffect(() => {
@@ -91,28 +111,42 @@ export default function VideoPortfolio() {
 
     updateState();
 
-    const onScroll = () => updateState();
+    const onScroll = () => {
+      updateState();
+
+      const step = getSlideStep();
+      if (!step) return;
+
+      const idx = Math.round(slider.scrollLeft / step);
+
+      // грузим текущее + следующее
+      loadVideo(idx);
+      loadVideo(idx + 1);
+
+      // запускаем текущее если не на паузе у юзера
+      if (!pausedIdx.has(idx)) {
+        playVideo(idx);
+      }
+    };
+
     slider.addEventListener('scroll', onScroll, { passive: true });
 
     const onWheel = (e) => {
-      if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-        if (e.deltaY !== 0) {
-          e.preventDefault();
-          slider.scrollLeft += e.deltaY;
-        }
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && e.deltaY !== 0) {
+        e.preventDefault();
+        slider.scrollLeft += e.deltaY;
       }
     };
     slider.addEventListener('wheel', onWheel, { passive: false });
 
     const onKey = (e) => {
       const rect = slider.getBoundingClientRect();
-      const inView = rect.bottom > 0 && rect.top < window.innerHeight;
-      if (!inView) return;
-
+      if (rect.bottom <= 0 || rect.top >= window.innerHeight) return;
       if (e.key === 'ArrowRight') {
         e.preventDefault();
         scrollByStep(1);
-      } else if (e.key === 'ArrowLeft') {
+      }
+      if (e.key === 'ArrowLeft') {
         e.preventDefault();
         scrollByStep(-1);
       }
@@ -127,8 +161,7 @@ export default function VideoPortfolio() {
         scrollLeft: slider.scrollLeft,
         moved: false,
       };
-      slider.classList.add(s.dragging);
-      slider.classList.add(s.grabbing);
+      slider.classList.add(s.dragging, s.grabbing);
     };
 
     const onMouseMove = (e) => {
@@ -143,10 +176,8 @@ export default function VideoPortfolio() {
       if (!dragRef.current.isDown) return;
       dragRef.current.isDown = false;
       slider.classList.remove(s.grabbing);
-
       setTimeout(() => {
         slider.classList.remove(s.dragging);
-
         const step = getSlideStep();
         if (step) {
           const idx = Math.round(slider.scrollLeft / step);
@@ -167,8 +198,16 @@ export default function VideoPortfolio() {
       window.removeEventListener('mousemove', onMouseMove);
       window.removeEventListener('mouseup', onMouseUp);
     };
-  }, [updateState, getSlideStep]);
+  }, [
+    updateState,
+    getSlideStep,
+    loadVideo,
+    playVideo,
+    scrollByStep,
+    pausedIdx,
+  ]);
 
+  // ============== CLICK — play/pause ==============
   const handleSlideClick = (index) => {
     if (dragRef.current.moved) {
       dragRef.current.moved = false;
@@ -178,20 +217,22 @@ export default function VideoPortfolio() {
     const video = videoRefs.current[index];
     if (!video) return;
 
+    // lazy load при первом клике
+    loadVideo(index);
+
     if (video.paused) {
-      const p = video.play();
-      if (p && typeof p.catch === 'function') p.catch(() => {});
+      playVideo(index);
       setPausedIdx((prev) => {
-        const next = new Set(prev);
-        next.delete(index);
-        return next;
+        const n = new Set(prev);
+        n.delete(index);
+        return n;
       });
     } else {
       video.pause();
       setPausedIdx((prev) => {
-        const next = new Set(prev);
-        next.add(index);
-        return next;
+        const n = new Set(prev);
+        n.add(index);
+        return n;
       });
     }
   };
@@ -233,22 +274,17 @@ export default function VideoPortfolio() {
                 >
                   <video
                     ref={(el) => (videoRefs.current[i] = el)}
-                    src={v.src}
                     muted
                     loop
                     playsInline
-                    autoPlay
-                    preload="metadata"
+                    preload="none"
                   />
-
                   <div className={s.overlay} />
                   <div className={s.glow} />
-
                   <div className={s.tag}>
                     <span className={s.tagDot} />
                     <span className={s.tagText}>{t(v.tagKey)}</span>
                   </div>
-
                   <span className={s.num}>{v.label}</span>
                 </div>
               );
@@ -286,7 +322,6 @@ export default function VideoPortfolio() {
                   style={{ transform: `scaleX(${progress})` }}
                 />
               </div>
-
               <div className={s.dots}>
                 {VIDEOS.map((_, i) => (
                   <button

@@ -1,15 +1,16 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { useTranslation } from 'next-i18next';
 import s from './VideoShowcase.module.scss';
 
 const VIDEOS = [
-  { src: '/video/show.mp4', label: '01', tagKey: 'tags.conference' },
-  { src: '/video/show.mp4', label: '02', tagKey: 'tags.medicine' },
-  { src: '/video/show.mp4', label: '03', tagKey: 'tags.advertising' },
-  { src: '/video/show.mp4', label: '04', tagKey: 'tags.event' },
-  { src: '/video/show.mp4', label: '05', tagKey: 'tags.brand' },
-  { src: '/video/show.mp4', label: '06', tagKey: 'tags.product' },
+  { src: '/video/music.mp4', label: '01', tagKey: 'tags.music' },
+  { src: '/video/fashion.mp4', label: '02', tagKey: 'tags.fashion' },
+  { src: '/video/podcasts.mp4', label: '03', tagKey: 'tags.podcasts' },
+  { src: '/video/conference.mp4', label: '04', tagKey: 'tags.conference' },
+  { src: '/video/medicine.mp4', label: '05', tagKey: 'tags.medicine' },
+  { src: '/video/film.mp4', label: '06', tagKey: 'tags.film' },
 ];
 
 const INTERVAL = 3000;
@@ -19,17 +20,49 @@ export default function VideoShowcase() {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
   const videoRefs = useRef([]);
+  const loadedRef = useRef(new Set());
   const total = VIDEOS.length;
 
-  useEffect(() => {
-    videoRefs.current.forEach((v) => {
-      if (!v) return;
-      v.muted = true;
-      const p = v.play();
-      if (p && typeof p.catch === 'function') p.catch(() => {});
-    });
+  // загружаем видео по индексу
+  const loadVideo = useCallback((idx) => {
+    if (loadedRef.current.has(idx)) return;
+    const v = videoRefs.current[idx];
+    if (!v) return;
+    v.src = VIDEOS[idx].src;
+    v.load();
+    loadedRef.current.add(idx);
   }, []);
 
+  // при маунте — грузим только первое
+  useEffect(() => {
+    loadVideo(0);
+  }, [loadVideo]);
+
+  // когда меняется активный — играем его и грузим следующее
+  useEffect(() => {
+    const v = videoRefs.current[active];
+    if (!v) return;
+
+    const play = () => {
+      try {
+        v.currentTime = 0;
+      } catch (_) {}
+      const p = v.play();
+      if (p?.catch) p.catch(() => {});
+    };
+
+    if (loadedRef.current.has(active) && v.readyState >= 2) {
+      play();
+    } else {
+      v.addEventListener('canplay', play, { once: true });
+    }
+
+    // предзагрузка следующего
+    const next = (active + 1) % total;
+    loadVideo(next);
+  }, [active, loadVideo, total]);
+
+  // автопереключение
   useEffect(() => {
     if (paused) return;
     const id = setInterval(() => {
@@ -37,16 +70,6 @@ export default function VideoShowcase() {
     }, INTERVAL);
     return () => clearInterval(id);
   }, [paused, total]);
-
-  useEffect(() => {
-    const v = videoRefs.current[active];
-    if (!v) return;
-    try {
-      v.currentTime = 0;
-    } catch (_) {}
-    const p = v.play();
-    if (p && typeof p.catch === 'function') p.catch(() => {});
-  }, [active]);
 
   const tagText = t(VIDEOS[active].tagKey);
 
@@ -66,12 +89,10 @@ export default function VideoShowcase() {
           >
             <video
               ref={(el) => (videoRefs.current[i] = el)}
-              src={v.src}
               muted
               loop
               playsInline
-              autoPlay
-              preload="metadata"
+              preload="none"
             />
             <span className={s.gradient} aria-hidden="true" />
           </div>

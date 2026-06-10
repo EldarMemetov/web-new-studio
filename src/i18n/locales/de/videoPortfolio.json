@@ -1,20 +1,20 @@
 {
-  "title": "Videos, die ",
-  "titleSpan": "für Sie sprechen",
+  "title": "Video, das ",
+  "titleSpan": "für Sie spricht",
   "descriptionOne": "Videoproduktion, die ",
-  "descriptionTwo": "Stil, Geschichte und Ziel vereint ",
-  "descriptionThree": "— damit jedes Bild für Sie arbeitet.",
+  "descriptionTwo": "Stil, Storytelling und Zielsetzung vereint ",
+  "descriptionThree": "— damit jede Szene für Ihre Marke arbeitet.",
   "instagramUrl": "https://www.instagram.com/qvrix",
   "cta": {
     "text": "Folgen Sie uns auf Instagram"
   },
   "tags": {
-    "conference": "Konferenz",
-    "medicine": "Medizin",
-    "advertising": "Werbung",
-    "event": "Veranstaltung",
-    "brand": "Marke",
-    "product": "Produkt"
+    "music": "Music & Clips",
+    "fashion": "Fashion & Style",
+    "podcasts": "Podcasts & Interviews",
+    "conference": "Conference",
+    "medicine": "Healthcare",
+    "film": "Short Film"
   },
   "a11y": {
     "prev": "Vorherige Folie",

@@ -1,25 +1,25 @@
 {
-  "title": "Video that ",
-  "titleSpan": "speaks for you",
+  "title": "Video That ",
+  "titleSpan": "Speaks for You",
   "descriptionOne": "Production that combines ",
-  "descriptionTwo": "style, story, and purpose ",
-  "descriptionThree": "— so every frame works for you.",
+  "descriptionTwo": "style, storytelling, and purpose ",
+  "descriptionThree": "— so every frame works for your brand.",
   "instagramUrl": "https://www.instagram.com/qvrix",
   "cta": {
-    "text": "Follow us on Instagram"
+    "text": "Follow Us on Instagram"
   },
   "tags": {
+    "music": "Music & Clips",
+    "fashion": "Fashion & Style",
+    "podcasts": "Podcasts & Interviews",
     "conference": "Conference",
-    "medicine": "Medicine",
-    "advertising": "Advertising",
-    "event": "Event",
-    "brand": "Brand",
-    "product": "Product"
+    "medicine": "Healthcare",
+    "film": "Short Film"
   },
   "a11y": {
-    "prev": "Previous slide",
-    "next": "Next slide",
+    "prev": "Previous Slide",
+    "next": "Next Slide",
     "slide": "Slide",
-    "region": "Video portfolio"
+    "region": "Video Portfolio"
   }
 }
