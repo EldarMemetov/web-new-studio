@@ -58,6 +58,7 @@ export const NAMESPACES = [
   'ourTeam',
   'workStepsVideo',
   'workStepsWeb',
+  'impressum',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

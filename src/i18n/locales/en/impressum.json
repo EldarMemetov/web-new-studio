@@ -1,0 +1,34 @@
+{
+  "title": "Impressum",
+  "sections": {
+    "provider": {
+      "title": "Service Provider",
+      "name": "Eldar Nazarov",
+      "business": "QVRIX — Video & Web for Business",
+      "address": "Your address, Frankfurt am Main",
+      "country": "Germany"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "info@qvrix.com",
+      "phone": "+49 ХХХ XXXXXXX"
+    },
+    "tax": {
+      "title": "Tax Information",
+      "number": "Steuernummer: ХХХХ/ХХХХ/ХХХХ",
+      "note": "Pursuant to §19 UStG — VAT exemption applies (small business regulation)"
+    },
+    "responsibility": {
+      "title": "Liability for Content",
+      "text": "The content of this website has been created with due care. However, we cannot guarantee the accuracy, completeness or timeliness of the information provided."
+    },
+    "links": {
+      "title": "Liability for Links",
+      "text": "Our website contains links to external websites. We have no influence over their content and therefore accept no liability for them. The respective providers are solely responsible for the content of linked pages."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "text": "The content and works on this website are subject to copyright law. Copying, editing or distributing without the permission of the owner is prohibited."
+    }
+  }
+}

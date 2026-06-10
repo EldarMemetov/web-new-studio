@@ -1,0 +1,34 @@
+{
+  "title": "Impressum",
+  "sections": {
+    "provider": {
+      "title": "Angaben gemäß § 5 TMG",
+      "name": "Eldar Nazarov",
+      "business": "QVRIX — Video & Web für Unternehmen",
+      "address": "Ihre Adresse, Frankfurt am Main",
+      "country": "Deutschland"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "info@qvrix.com",
+      "phone": "+49 ХХХ XXXXXXX"
+    },
+    "tax": {
+      "title": "Steuerliche Angaben",
+      "number": "Steuernummer: ХХХХ/ХХХХ/ХХХХ",
+      "note": "Gemäß §19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung)"
+    },
+    "responsibility": {
+      "title": "Haftung für Inhalte",
+      "text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
+    },
+    "links": {
+      "title": "Haftung für Links",
+      "text": "Unser Angebot enthält Links zu externen Webseiten Dritter. Auf deren Inhalte haben wir keinen Einfluss und übernehmen daher keine Gewähr. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verbreitung ohne Genehmigung des Urhebers sind untersagt."
+    }
+  }
+}

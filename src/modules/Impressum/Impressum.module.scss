@@ -1,0 +1,160 @@
+.section {
+  padding-top: 80px;
+  padding-bottom: 160px;
+
+  @include media(desktop) {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+}
+
+// header
+.header {
+  margin-bottom: 64px;
+
+  @include media(desktop) {
+    margin-bottom: 80px;
+  }
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: currentColor;
+    display: block;
+  }
+}
+
+.title {
+  font-weight: 700;
+  @include font(40, 52);
+  color: #fff;
+  margin-bottom: 24px;
+
+  @include media(tablet) {
+    @include font(56, 72);
+  }
+  @include media(desktop) {
+    @include font(72, 88);
+  }
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+// list
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.item {
+  padding: 32px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.45s ease var(--delay, 0ms),
+    transform 0.45s ease var(--delay, 0ms);
+
+  &:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @include media(tablet) {
+    grid-template-columns: 220px 1fr;
+    gap: 32px;
+    align-items: start;
+    padding: 36px 0;
+  }
+
+  @include media(desktop) {
+    grid-template-columns: 280px 1fr;
+    padding: 40px 0;
+  }
+}
+
+.itemTitle {
+  font-weight: 500;
+  @include font(16, 22);
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 2px;
+
+  @include media(tablet) {
+    @include font(15, 22);
+  }
+}
+
+.itemBody {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+// fields
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  @include media(tablet) {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 12px;
+  }
+}
+
+.fieldLabel {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.fieldLink {
+  font-weight: 400;
+  @include font(15, 22);
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
+
+  &:hover {
+    color: rgba(150, 36, 226, 0.9);
+    border-color: rgba(150, 36, 226, 0.5);
+  }
+}
+
+.fieldText {
+  font-weight: 300;
+  @include font(15, 22);
+  color: #fff;
+  line-height: 1.7;
+}

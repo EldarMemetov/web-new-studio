@@ -52,6 +52,28 @@
 .privacyLink {
   font-weight: 500;
   @include font(16, 21);
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #c879ff;
+  }
+}
+.footerLinks {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include media(tablet) {
+    justify-content: flex-end;
+  }
+}
+.linkDivider {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
 }
 .rights {
   font-weight: 500;

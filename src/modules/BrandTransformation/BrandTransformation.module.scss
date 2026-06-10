@@ -1,9 +1,77 @@
 .section {
+  position: relative;
   padding-bottom: 160px;
+  overflow: hidden;
+  isolation: isolate;
+
   @include media(desktop) {
     padding-bottom: 200px;
   }
 }
+
+.inner {
+  position: relative;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 56px;
+  padding-bottom: 32px;
+
+  @include media(tablet) {
+    margin-bottom: 72px;
+  }
+  @include media(desktop) {
+    margin-bottom: 96px;
+    padding-bottom: 40px;
+  }
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #d4a8ff;
+  background: linear-gradient(
+    135deg,
+    rgba(150, 36, 226, 0.14),
+    rgba(1, 2, 185, 0.1)
+  );
+  border: 1px solid rgba(150, 36, 226, 0.32);
+  backdrop-filter: blur(8px);
+  margin-bottom: 20px;
+  @include media(tablet) {
+    font-size: 12px;
+  }
+}
+
+.eyebrowDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c879ff;
+  box-shadow:
+    0 0 0 3px rgba(150, 36, 226, 0.22),
+    0 0 12px rgba(200, 121, 255, 0.85);
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.35);
+  }
+}
+
 .title {
   position: relative;
   z-index: 2;
@@ -12,7 +80,46 @@
 
 .titleAnd {
   @include gradientText;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #9624e2, transparent);
+    border-radius: 2px;
+    transform: scaleX(0);
+    transform-origin: left center;
+    animation: underline 1.6s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
+  }
 }
+@keyframes underline {
+  to {
+    transform: scaleX(1);
+  }
+}
+
 .description {
   @include description;
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerLine {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c879ff, transparent);
+  border-radius: 2px;
+  opacity: 0.6;
 }

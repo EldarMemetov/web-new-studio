@@ -35,7 +35,6 @@ export default function VideoPortfolio() {
   const [canNext, setCanNext] = useState(true);
   const [pausedIdx, setPausedIdx] = useState(() => new Set());
 
-  // ============== HELPERS ==============
   const getSlideStep = useCallback(() => {
     const first = slideRefs.current[0];
     if (!first) return 0;
@@ -74,7 +73,6 @@ export default function VideoPortfolio() {
     [getSlideStep]
   );
 
-  // ============== LAZY LOAD ==============
   const loadVideo = useCallback((idx) => {
     if (idx < 0 || idx >= VIDEOS.length) return;
     if (loadedRef.current.has(idx)) return;
@@ -97,14 +95,12 @@ export default function VideoPortfolio() {
     }
   }, []);
 
-  // грузим первое видео при маунте
   useEffect(() => {
     loadVideo(0);
     loadVideo(1);
     playVideo(0);
   }, [loadVideo, playVideo]);
 
-  // ============== SLIDER LISTENERS ==============
   useEffect(() => {
     const slider = sliderRef.current;
     if (!slider) return;
@@ -119,11 +115,9 @@ export default function VideoPortfolio() {
 
       const idx = Math.round(slider.scrollLeft / step);
 
-      // грузим текущее + следующее
       loadVideo(idx);
       loadVideo(idx + 1);
 
-      // запускаем текущее если не на паузе у юзера
       if (!pausedIdx.has(idx)) {
         playVideo(idx);
       }
@@ -207,7 +201,6 @@ export default function VideoPortfolio() {
     pausedIdx,
   ]);
 
-  // ============== CLICK — play/pause ==============
   const handleSlideClick = (index) => {
     if (dragRef.current.moved) {
       dragRef.current.moved = false;
@@ -217,7 +210,6 @@ export default function VideoPortfolio() {
     const video = videoRefs.current[index];
     if (!video) return;
 
-    // lazy load при первом клике
     loadVideo(index);
 
     if (video.paused) {

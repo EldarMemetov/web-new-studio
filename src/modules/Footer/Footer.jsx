@@ -38,6 +38,10 @@ export default function Footer() {
               >
                 {t('privacy')}
               </Link>
+              <span className={s.linkDivider} aria-hidden="true" />
+              <Link href={`/${locale}/impressum`} className={s.privacyLink}>
+                {t('impressum')}
+              </Link>
             </div>
           </div>
 
@@ -55,6 +59,9 @@ export default function Footer() {
                 className={s.privacyLink}
               >
                 {t('privacy')}
+              </Link>
+              <Link href={`/${locale}/impressum`} className={s.privacyLink}>
+                {t('impressum')}
               </Link>
             </div>
           </div>

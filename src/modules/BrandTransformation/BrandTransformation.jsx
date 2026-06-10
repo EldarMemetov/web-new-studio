@@ -10,21 +10,31 @@ export default async function BrandTransformation({
   const { t } = await initServerI18n(locale, [namespace]);
 
   const description = t('description');
+  const items = t('items', { returnObjects: true }) || [];
 
   return (
     <section className={styles.section}>
       <Container>
-        <div>
-          <h2 className={styles.title}>
-            {t('titleStart')}
-            <span className={styles.titleAnd}>{t('titleHighlight')}</span>
-          </h2>
+        <div className={styles.inner}>
+          <div className={styles.header}>
+            <span className={styles.eyebrow}>
+              <span className={styles.eyebrowDot} aria-hidden="true" />
+              brand · identity · trust
+            </span>
 
-          {description?.trim() && (
-            <p className={styles.description}>{description}</p>
-          )}
+            <h2 className={styles.title}>
+              {t('titleStart')}
+              <span className={styles.titleAnd}>{t('titleHighlight')}</span>
+            </h2>
 
-          <ListBrand items={t('items', { returnObjects: true }) || []} />
+            {description?.trim() && (
+              <p className={styles.description}>{description}</p>
+            )}
+
+            <span className={styles.headerLine} aria-hidden="true" />
+          </div>
+
+          <ListBrand items={items} />
         </div>
       </Container>
     </section>
