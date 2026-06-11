@@ -10,10 +10,12 @@ export default async function HeroAbout({ locale }) {
     <section className={s.section}>
       <Container>
         <div className={s.containerContent}>
-          <div>
-            <h1 className={s.title}>{t('title')}</h1>
-            <p className={s.description}>{t('description')}</p>
+          <div className={s.badge} aria-hidden="true">
+            <span className={s.badgeDot} />
+            Digital Studio · Frankfurt
           </div>
+          <h1 className={s.title}>{t('title')}</h1>
+          <p className={s.description}>{t('description')}</p>
           <div className={s.containerButton}>
             <ScrollButton targetId="feedback-form" variant="variant2">
               {t('talkButton')}

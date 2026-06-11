@@ -25,10 +25,10 @@ export default async function Home({ params: rawParams }) {
       <HeroSection locale={locale} />
       <DisplayCompanyFacts locale={locale} />
       <FetchServices />
-      <GetBusinessSolutions locale={locale} />
       <IdeasHome locale={locale} />
-      <BrandTransformation locale={locale} />
       <Portfolio locale={locale} />
+      <GetBusinessSolutions locale={locale} />
+      <BrandTransformation locale={locale} />
       <ToggleQuestions locale={locale} />
       <FeedbackWrapper />
       <Footer />

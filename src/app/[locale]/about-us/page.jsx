@@ -27,7 +27,7 @@ export default async function AboutUs({ params: rawParams }) {
         namespace="aboutBrandTransformation"
       />
       <WebWhyChoose locale={locale} namespace="aboutWhyChoose" />
-      <ToggleQuestions />
+      <ToggleQuestions locale={locale} />
       <FeedbackWrapper />
 
       <Footer />
