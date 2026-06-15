@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://web-studio-pied.vercel.app',
+  siteUrl: 'https://qvrix.com',
 
   generateRobotsTxt: true,
   changefreq: 'weekly',
@@ -10,15 +10,15 @@ module.exports = {
 
   alternateRefs: [
     {
-      href: 'https://web-studio-pied.vercel.app/ua',
+      href: 'https://qvrix.com/ua',
       hreflang: 'uk',
     },
     {
-      href: 'https://web-studio-pied.vercel.app/en',
+      href: 'https://qvrix.com/en',
       hreflang: 'en',
     },
     {
-      href: 'https://web-studio-pied.vercel.app/de',
+      href: 'https://qvrix.com/de',
       hreflang: 'de',
     },
   ],

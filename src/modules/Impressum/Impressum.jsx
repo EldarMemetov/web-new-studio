@@ -6,12 +6,13 @@ import Container from '@/shared/container/Container';
 import s from './Impressum.module.scss';
 
 const SECTIONS = [
-  { key: 'provider', fields: ['name', 'business', 'address', 'country'] },
-  { key: 'contact', fields: ['email', 'phone'] },
-  { key: 'tax', fields: ['number', 'note'] },
-  { key: 'responsibility', fields: ['text'] },
-  { key: 'links', fields: ['text'] },
-  { key: 'copyright', fields: ['text'] },
+  { key: 'provider', type: 'address' },
+  { key: 'contact', type: 'contact' },
+  { key: 'tax', type: 'text', fields: ['note'] },
+  { key: 'editorialResponsibility', type: 'text', fields: ['text'] },
+  { key: 'responsibility', type: 'text', fields: ['text'] },
+  { key: 'links', type: 'text', fields: ['text'] },
+  { key: 'copyright', type: 'text', fields: ['text'] },
 ];
 
 export default function Impressum() {
@@ -33,34 +34,73 @@ export default function Impressum() {
     return () => io.disconnect();
   }, []);
 
-  const renderField = (sectionKey, field) => {
-    const value = t(`sections.${sectionKey}.${field}`);
+  const renderProvider = () => {
+    const name = t('sections.provider.name');
+    const business = t('sections.provider.business');
+    const street = t('sections.provider.street');
+    const postalCode = t('sections.provider.postalCode');
+    const city = t('sections.provider.city');
+    const country = t('sections.provider.country');
 
-    if (sectionKey === 'contact' && field === 'email') {
-      return (
-        <div key={field} className={s.field}>
-          <span className={s.fieldLabel}>Email</span>
-          <a href={`mailto:${value}`} className={s.fieldLink}>
-            {value}
-          </a>
-        </div>
-      );
-    }
-    if (sectionKey === 'contact' && field === 'phone') {
-      return (
-        <div key={field} className={s.field}>
-          <span className={s.fieldLabel}>Tel</span>
-          <a href={`tel:${value.replace(/\s+/g, '')}`} className={s.fieldLink}>
-            {value}
-          </a>
-        </div>
-      );
-    }
     return (
-      <p key={field} className={s.fieldText}>
-        {value}
-      </p>
+      <>
+        {name && <p className={s.fieldText}>{name}</p>}
+        {business && <p className={s.fieldText}>{business}</p>}
+        {street && <p className={s.fieldText}>{street}</p>}
+        {(postalCode || city) && (
+          <p className={s.fieldText}>
+            {[postalCode, city].filter(Boolean).join(' ')}
+          </p>
+        )}
+        {country && <p className={s.fieldText}>{country}</p>}
+      </>
     );
+  };
+
+  const renderContact = () => {
+    const email = t('sections.contact.email');
+    const phone = t('sections.contact.phone');
+
+    return (
+      <>
+        {email && (
+          <div className={s.field}>
+            <span className={s.fieldLabel}>Email</span>
+            <a href={`mailto:${email}`} className={s.fieldLink}>
+              {email}
+            </a>
+          </div>
+        )}
+        {phone && (
+          <div className={s.field}>
+            <span className={s.fieldLabel}>Tel</span>
+            <a
+              href={`tel:${phone.replace(/\s+/g, '')}`}
+              className={s.fieldLink}
+            >
+              {phone}
+            </a>
+          </div>
+        )}
+      </>
+    );
+  };
+
+  const renderTextFields = (sectionKey, fields) =>
+    fields.map((field) => {
+      const value = t(`sections.${sectionKey}.${field}`);
+      if (!value) return null;
+      return (
+        <p key={field} className={s.fieldText}>
+          {value}
+        </p>
+      );
+    });
+
+  const renderBody = (section) => {
+    if (section.type === 'address') return renderProvider();
+    if (section.type === 'contact') return renderContact();
+    return renderTextFields(section.key, section.fields);
   };
 
   return (
@@ -83,9 +123,7 @@ export default function Impressum() {
               <h2 className={s.itemTitle}>
                 {t(`sections.${section.key}.title`)}
               </h2>
-              <div className={s.itemBody}>
-                {section.fields.map((field) => renderField(section.key, field))}
-              </div>
+              <div className={s.itemBody}>{renderBody(section)}</div>
             </article>
           ))}
         </div>

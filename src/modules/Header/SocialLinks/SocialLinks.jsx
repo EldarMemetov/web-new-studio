@@ -7,7 +7,7 @@ export const SocialLinks = () => {
       <ul className={s.list}>
         <li className={s.socialLinkList}>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/videofilmer_frankfurt"
             className={s.socialLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -20,7 +20,7 @@ export const SocialLinks = () => {
 
         <li className={s.socialLinkList}>
           <a
-            href="https://t.me/yourchannel"
+            href="https://t.me/eldarvideok"
             className={s.socialLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -32,7 +32,7 @@ export const SocialLinks = () => {
         </li>
         <li className={s.socialLinkList}>
           <a
-            href="https://wa.me/yournumber"
+            href="https://wa.me/4917621139129?text=Hi%2C%20I%20am%20interested%20in%20your%20web%20and%20video%20services"
             className={s.socialLink}
             target="_blank"
             rel="noopener noreferrer"

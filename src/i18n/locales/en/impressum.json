@@ -1,34 +1,39 @@
 {
-  "title": "Impressum",
+  "title": "Legal Notice (Impressum)",
   "sections": {
     "provider": {
-      "title": "Service Provider",
-      "name": "Eldar Nazarov",
-      "business": "QVRIX — Video & Web for Business",
-      "address": "Your address, Frankfurt am Main",
+      "title": "Information pursuant to § 5 TMG",
+      "name": "Eldar Memetov",
+      "business": "QVRIX — Video and Web for Business",
+      "street": "Hauptlehrer-Urson-Straße 9",
+      "postalCode": "65439",
+      "city": "Flörsheim am Main",
       "country": "Germany"
     },
     "contact": {
       "title": "Contact",
-      "email": "info@qvrix.com",
-      "phone": "+49 ХХХ XXXXXXX"
+      "email": "qvrix.studio@gmail.com",
+      "phone": "+49 176 21139129"
     },
     "tax": {
-      "title": "Tax Information",
-      "number": "Steuernummer: ХХХХ/ХХХХ/ХХХХ",
-      "note": "Pursuant to §19 UStG — VAT exemption applies (small business regulation)"
+      "title": "VAT Information",
+      "note": "In accordance with § 19 UStG (German VAT Act), the small business regulation (Kleinunternehmerregelung) applies. VAT is neither charged nor stated in invoices."
+    },
+    "editorialResponsibility": {
+      "title": "Responsible for Content",
+      "text": "Responsible for content according to § 18 (2) MStV: Eldar Memetov, Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Germany."
     },
     "responsibility": {
       "title": "Liability for Content",
-      "text": "The content of this website has been created with due care. However, we cannot guarantee the accuracy, completeness or timeliness of the information provided."
+      "text": "The content of this website has been created with the greatest possible care. However, we cannot guarantee the accuracy, completeness, or timeliness of the information provided."
     },
     "links": {
       "title": "Liability for Links",
-      "text": "Our website contains links to external websites. We have no influence over their content and therefore accept no liability for them. The respective providers are solely responsible for the content of linked pages."
+      "text": "This website contains links to external third-party websites whose content we have no influence over. The respective provider or operator of the linked pages is solely responsible for their content. We accept no liability for the content of external sites."
     },
     "copyright": {
       "title": "Copyright",
-      "text": "The content and works on this website are subject to copyright law. Copying, editing or distributing without the permission of the owner is prohibited."
+      "text": "All content and works on this website are protected by German copyright law. Any reproduction, modification, distribution, or use beyond the limits of copyright law requires the prior written consent of the respective rights holder."
     }
   }
 }

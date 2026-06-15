@@ -5,37 +5,29 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
+const STORAGE_KEY = 'cookie_notice_acknowledged';
+
 const translations = {
   ua: {
     message:
-      'Цей сайт використовує технічні cookie для збереження мовних налаштувань та забезпечення функціональності. Виберіть, які cookies ви дозволяєте.',
-    necessary: 'Необхідні (завжди увімкнено)',
-    analytics: 'Аналітика',
-    marketing: 'Маркетинг',
-    accept: 'Зберегти вибір',
-    declineAll: 'Відхилити всі',
+      'Цей сайт використовує лише технічно необхідні cookies та localStorage для збереження мовних налаштувань і ваших налаштувань конфіденційності.',
+    button: 'Зрозуміло',
     policyLinkText: 'Політика конфіденційності',
     policyLink: '/ua/privacy-policy',
   },
+
   en: {
     message:
-      'This website uses technical cookies to remember language preferences and enable core functionality. Choose which cookies you allow.',
-    necessary: 'Necessary (always enabled)',
-    analytics: 'Analytics',
-    marketing: 'Marketing',
-    accept: 'Save preferences',
-    declineAll: 'Decline all',
+      'This website uses only technically necessary cookies and local storage to remember language preferences and your privacy settings.',
+    button: 'Got it',
     policyLinkText: 'Privacy Policy',
     policyLink: '/en/privacy-policy',
   },
+
   de: {
     message:
-      'Diese Website verwendet technische Cookies, um Spracheinstellungen zu speichern und die Funktionalität zu gewährleisten. Wählen Sie, welche Cookies Sie erlauben.',
-    necessary: 'Notwendig (immer aktiviert)',
-    analytics: 'Analytics',
-    marketing: 'Marketing',
-    accept: 'Auswahl speichern',
-    declineAll: 'Alle ablehnen',
+      'Diese Website verwendet ausschließlich technisch notwendige Cookies und lokalen Speicher, um Spracheinstellungen und Ihre Datenschutzeinstellungen zu speichern.',
+    button: 'Verstanden',
     policyLinkText: 'Datenschutzerklärung',
     policyLink: '/de/privacy-policy',
   },
@@ -43,56 +35,34 @@ const translations = {
 
 export default function CookieNotice() {
   const [visible, setVisible] = useState(false);
-  const [consent, setConsent] = useState({
-    analytics: false,
-    marketing: false,
-  });
+
   const pathname = usePathname();
   const locale = pathname?.split('/')[1] || 'en';
   const t = translations[locale] || translations.en;
 
   useEffect(() => {
-    const cookieConsent = JSON.parse(
-      localStorage.getItem('cookie_notice_consent') || '{}'
-    );
-    if (!cookieConsent.accepted) {
+    const acknowledged = localStorage.getItem(STORAGE_KEY);
+
+    if (!acknowledged) {
       setVisible(true);
-      setConsent({
-        analytics: cookieConsent.analytics || false,
-        marketing: cookieConsent.marketing || false,
-      });
     }
   }, []);
 
-  const saveConsent = () => {
-    localStorage.setItem(
-      'cookie_notice_consent',
-      JSON.stringify({ accepted: true, ...consent })
-    );
-    setVisible(false);
-
-    if (consent.analytics) {
-      console.log('Analytics scripts enabled');
-    }
-    if (consent.marketing) {
-      console.log('Marketing scripts enabled');
-    }
-  };
-
-  const declineAll = () => {
-    localStorage.setItem(
-      'cookie_notice_consent',
-      JSON.stringify({ accepted: true, analytics: false, marketing: false })
-    );
-    setConsent({ analytics: false, marketing: false });
+  const handleClose = () => {
+    localStorage.setItem(STORAGE_KEY, 'true');
     setVisible(false);
   };
 
   if (!visible) return null;
 
   return (
-    <div className={s.cookieNotice}>
-      <span>
+    <div
+      className={s.cookieNotice}
+      role="dialog"
+      aria-live="polite"
+      aria-label={t.policyLinkText}
+    >
+      <p className={s.message}>
         {t.message}{' '}
         <Link
           href={t.policyLink}
@@ -103,38 +73,11 @@ export default function CookieNotice() {
           {t.policyLinkText}
         </Link>
         .
-      </span>
-      <div className={s.cookieOptions}>
-        <label>
-          <input type="checkbox" checked disabled /> {t.necessary}
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={consent.analytics}
-            onChange={(e) =>
-              setConsent((prev) => ({ ...prev, analytics: e.target.checked }))
-            }
-          />{' '}
-          {t.analytics}
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={consent.marketing}
-            onChange={(e) =>
-              setConsent((prev) => ({ ...prev, marketing: e.target.checked }))
-            }
-          />{' '}
-          {t.marketing}
-        </label>
-      </div>
+      </p>
+
       <div className={s.cookieButtons}>
-        <button className={s.button} onClick={saveConsent}>
-          {t.accept}
-        </button>
-        <button className={s.button} onClick={declineAll}>
-          {t.declineAll}
+        <button type="button" className={s.button} onClick={handleClose}>
+          {t.button}
         </button>
       </div>
     </div>

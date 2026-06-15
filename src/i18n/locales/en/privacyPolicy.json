@@ -1,102 +1,93 @@
 {
   "policy": {
-    "title": "Privacy Policy and Processing of Users' Personal Data on the Qvrix Website",
-    "intro": "The Qvrix Operator pays special attention to protecting your privacy. We strive to ensure transparency and security regarding any information you provide to us while using the website https://qvrix.com (hereinafter referred to as the 'Site'), as well as its services, programs, and related services. This Privacy Policy governs the processing of personal data carried out by Eldar Memetov, a self-employed individual registered in Germany, operating under the trade name Qvrix (hereinafter referred to as the 'Operator'). By using the Site's services, the User gives their unconditional consent to the provisions of this Policy. If you do not agree with it, please refrain from using the Site.",
+    "title": "Qvrix Privacy Policy",
+    "intro": "We, Eldar Memetov, operating under the trade name Qvrix (hereinafter referred to as the 'Controller'), respect your privacy and process personal data exclusively in accordance with the EU General Data Protection Regulation (GDPR) and applicable German data protection laws. This Privacy Policy explains what data we collect, for what purposes, on which legal basis, and how you can exercise your rights.",
     "sections": [
       {
-        "title": "1. General Provisions",
-        "description": "We use Cloudflare services to ensure the security and performance of our site. Cloudflare is certified under the EU-U.S. Data Privacy Framework and the UK Extension to the EU-U.S. DPF, confirming its compliance with GDPR requirements for processing personal data in Europe.",
-        "subsections": [
-          {
-            "title": "1.1. The term 'User's personal information' in this Policy refers to",
-            "points": [
-              "Data that the User voluntarily provides about themselves when filling out forms, applications, subscribing to updates, or using services. This may include name, email address, phone number, etc. Mandatory fields are marked accordingly.",
-              "1.1.2 Data that is automatically transmitted to the Site during its use: IP address, cookies, browser type, language, device technical specifications, access time, request URLs, etc.",
-              "1.1.3 Other information, the processing of which is provided for by the terms of the Site Usage Agreement.",
-              "1.1.4 This Policy applies exclusively to the Site. The Operator is not responsible for third-party sites that the User may access via links from the Site."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "2. Purposes of Processing Personal Data",
+        "title": "1. Data Controller",
+        "description": "The controller within the meaning of Article 4(7) GDPR is:",
         "points": [
-          "Providing the services you request and responding to inquiries.",
-          "Personalizing the user experience.",
-          "Improving service quality and developing new products.",
-          "Informing about our products, services, promotions, events.",
-          "We do not sell, exchange, or transfer your personal data to third parties without your consent, except as expressly provided by applicable law."
+          "Eldar Memetov (Qvrix — Video and Web for Business)",
+          "Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Germany",
+          "Email: qvrix.studio@gmail.com",
+          "Website: https://qvrix.com"
         ]
       },
       {
-        "title": "3. Rights and Obligations of the Operator",
-        "subsections": [
-          {
-            "title": "3.1. The Operator has the right to",
-            "points": [
-              "Receive accurate information and/or documents containing personal data.",
-              "In case of withdrawal of the User's consent — continue processing data if permitted by law.",
-              "Independently determine the list of measures necessary to ensure compliance with legal requirements regarding personal data."
-            ]
-          },
-          {
-            "title": "3.2. The Operator is obliged to",
-            "points": [
-              "Provide the User with information regarding the processing of their personal data upon request.",
-              "Process personal data in accordance with applicable law.",
-              "Respond to inquiries and requests from personal data subjects.",
-              "Provide necessary information to authorized bodies within their powers.",
-              "Ensure public access to this Privacy Policy.",
-              "Take technical, organizational, and legal measures to protect personal data from unauthorized access or loss."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "4. Principles of Personal Data Processing",
+        "title": "2. General Principles of Processing",
         "points": [
-          "4.1 Personal data processing is carried out solely on legal grounds.",
-          "4.2 Only personal data that correspond to the stated purposes are processed.",
-          "4.3 The scope and nature of the processed data correspond to the stated purposes.",
-          "4.4 Accuracy, relevance, and sufficiency of personal data are ensured to achieve processing purposes.",
-          "4.5 Personal data are stored no longer than necessary to fulfill processing purposes.",
-          "4.6 After achieving processing purposes, personal data may be destroyed or anonymized."
+          "We process personal data only to the extent necessary to provide a functional website and our services.",
+          "Processing is carried out in accordance with Article 6(1) GDPR.",
+          "We do not sell or share personal data with third parties for marketing purposes."
         ]
       },
       {
-        "title": "5. Procedure for Collecting, Storing, Transferring, and Other Types of Personal Data Processing",
+        "title": "3. Hosting and Server Log Files",
+        "description": "This website is hosted by Vercel Inc., USA. Vercel acts as a data processor pursuant to Article 28 GDPR.",
         "points": [
-          "5.1 To ensure a high level of security and performance, we use Cloudflare services certified under the EU-U.S. Data Privacy Framework and the UK Extension to the EU-U.S. DPF.",
-          "5.2 The Operator takes all possible measures to protect personal data from unauthorized access, alteration, disclosure, or destruction.",
-          "5.3 Users' personal data are not transferred to third parties without your consent, except as provided by law or to fulfill contractual obligations.",
-          "5.4 In case of inaccuracies in personal data, the User has the right to update them by sending a corresponding request to the email address: qvrix.studio@gmail.com with the subject 'Personal Data Update'.",
-          "5.5 The User may withdraw consent to the processing of personal data at any time by sending a request to the email: qvrix.studio@gmail.com.",
-          "5.6 Personal data processing ceases after achieving the purposes, withdrawal of consent, or in case of unlawful processing."
+          "The following data may be processed automatically: IP address, browser type, operating system, date and time of access, referrer URL, and technical device information.",
+          "Legal basis: Article 6(1)(f) GDPR.",
+          "Data transfers to the United States are based on the EU-U.S. Data Privacy Framework."
         ]
       },
       {
-        "title": "6. Actions with Received Personal Data",
+        "title": "4. Contact Form",
+        "description": "We use the server infrastructure of Render.com, Inc. to process contact form requests.",
         "points": [
-          "The operator collects, records, systematizes, stores, updates, uses, transfers, anonymizes, blocks, deletes, and destroys personal data in accordance with the law.",
-          "6.1 Data collected through the feedback form is used exclusively to respond to the User’s request and is not shared with third parties.",
-          "6.2 User reviews may be published on the Website only after obtaining explicit consent from the user, which is given when filling out the respective form."
-        ]
-      },
-
-      {
-        "title": "7. Confidentiality of Personal Data",
-        "points": [
-          "7.1 Modern technical and organizational means are used to protect Users' personal data, including Cloudflare services with appropriate certifications.",
-          "7.2 The Operator and persons who have access to personal data are obliged not to disclose or distribute this data without the User's consent, except as provided by law.",
-          "7.3 The User may contact for explanations regarding the processing of their personal data by writing to the email address: qvrix.studio@gmail.com."
+          "We process your name, email address, and message content.",
+          "The data is used solely to respond to your inquiry.",
+          "Legal basis: Article 6(1)(b) GDPR.",
+          "The data is not used for advertising purposes and is not shared with third parties except for technical service providers."
         ]
       },
       {
-        "title": "8. Use of Cookies",
+        "title": "5. Cookies and Local Storage",
         "points": [
-          "8.1 The website uses only necessary cookies that ensure its functionality, security, and performance.",
-          "8.2 We do not use cookies to track user behavior for advertising or marketing purposes.",
-          "8.3 Users can restrict or disable cookie storage in their browser, but this may affect the functionality of certain website features."
+          "This website uses only technically necessary cookies and local storage.",
+          "We do not use Google Analytics, Google Tag Manager, Meta Pixel, Microsoft Clarity, or any other tracking tools.",
+          "Legal basis: Section 25(2) TDDDG in conjunction with Article 6(1)(f) GDPR."
+        ]
+      },
+      {
+        "title": "6. Fonts",
+        "points": [
+          "Fonts are served locally using next/font.",
+          "Your IP address is not transmitted to Google or any other external font provider."
+        ]
+      },
+      {
+        "title": "7. International Data Transfers",
+        "points": [
+          "Due to the use of Vercel and Render, personal data may be processed in the United States.",
+          "Data transfers are based on the EU-U.S. Data Privacy Framework and the European Commission's Standard Contractual Clauses."
+        ]
+      },
+      {
+        "title": "8. Your Rights",
+        "points": [
+          "Right of access (Article 15 GDPR).",
+          "Right to rectification (Article 16 GDPR).",
+          "Right to erasure (Article 17 GDPR).",
+          "Right to restriction of processing (Article 18 GDPR).",
+          "Right to data portability (Article 20 GDPR).",
+          "Right to object (Article 21 GDPR).",
+          "Right to withdraw consent at any time (Article 7(3) GDPR)."
+        ]
+      },
+      {
+        "title": "9. Right to Lodge a Complaint",
+        "points": [
+          "You have the right to lodge a complaint with a supervisory authority if you believe that the processing of your personal data violates the GDPR.",
+          "Competent authority: The Hessian Commissioner for Data Protection and Freedom of Information.",
+          "Address: Gustav-Stresemann-Ring 1, 65189 Wiesbaden, Germany.",
+          "Website: https://datenschutz.hessen.de"
+        ]
+      },
+      {
+        "title": "10. Data Security",
+        "points": [
+          "This website uses SSL/TLS encryption.",
+          "We implement appropriate technical and organisational measures in accordance with Article 32 GDPR."
         ]
       }
     ]

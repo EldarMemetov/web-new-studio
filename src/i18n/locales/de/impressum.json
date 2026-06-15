@@ -3,32 +3,37 @@
   "sections": {
     "provider": {
       "title": "Angaben gemäß § 5 TMG",
-      "name": "Eldar Nazarov",
-      "business": "QVRIX — Video & Web für Unternehmen",
-      "address": "Ihre Adresse, Frankfurt am Main",
+      "name": "Eldar Memetov",
+      "business": "QVRIX — Video und Web für Unternehmen",
+      "street": "Hauptlehrer-Urson-Straße 9",
+      "postalCode": "65439",
+      "city": "Flörsheim am Main",
       "country": "Deutschland"
     },
     "contact": {
       "title": "Kontakt",
-      "email": "info@qvrix.com",
-      "phone": "+49 ХХХ XXXXXXX"
+      "email": "qvrix.studio@gmail.com",
+      "phone": "+49 176 21139129"
     },
     "tax": {
-      "title": "Steuerliche Angaben",
-      "number": "Steuernummer: ХХХХ/ХХХХ/ХХХХ",
-      "note": "Gemäß §19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung)"
+      "title": "Umsatzsteuer",
+      "note": "Gemäß § 19 UStG wird die Kleinunternehmerregelung angewendet. Es wird keine Umsatzsteuer berechnet oder in Rechnungen ausgewiesen."
+    },
+    "editorialResponsibility": {
+      "title": "Verantwortlich für den Inhalt",
+      "text": "Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV: Eldar Memetov, Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Deutschland."
     },
     "responsibility": {
       "title": "Haftung für Inhalte",
-      "text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
+      "text": "Die Inhalte dieser Website werden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
     },
     "links": {
       "title": "Haftung für Links",
-      "text": "Unser Angebot enthält Links zu externen Webseiten Dritter. Auf deren Inhalte haben wir keinen Einfluss und übernehmen daher keine Gewähr. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich."
+      "text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar."
     },
     "copyright": {
       "title": "Urheberrecht",
-      "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verbreitung ohne Genehmigung des Urhebers sind untersagt."
+      "text": "Alle auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers."
     }
   }
 }

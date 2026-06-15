@@ -55,7 +55,6 @@ export const NAMESPACES = [
   'companyFacts',
   'aboutSection',
   'webDisplayCompany',
-  'ourTeam',
   'workStepsVideo',
   'workStepsWeb',
   'impressum',

@@ -1,101 +1,157 @@
 {
   "policy": {
-    "title": "Datenschutz- und Verarbeitungspolitik für personenbezogene Daten der Nutzer der Qvrix-Website",
-    "intro": "Der Betreiber Qvrix legt besonderen Wert auf den Schutz Ihrer Privatsphäre. Wir bemühen uns, Transparenz und Sicherheit in Bezug auf alle Informationen zu gewährleisten, die Sie uns bei der Nutzung der Website https://qvrix.com (im Folgenden – „Website“) sowie ihrer Dienste, Programme und begleitenden Dienstleistungen bereitstellen. Diese Datenschutzrichtlinie regelt die Verarbeitung personenbezogener Daten, die von Eldar Memetov, einer in Deutschland registrierten selbständigen Person, die unter dem Handelsnamen Qvrix tätig ist (im Folgenden – „Betreiber“), durchgeführt wird. Durch die Nutzung der Dienste der Website erklärt der Nutzer sein uneingeschränktes Einverständnis mit den Bestimmungen dieser Richtlinie. Wenn Sie damit nicht einverstanden sind, bitten wir Sie, von der Nutzung der Website abzusehen.",
+    "title": "Datenschutzerklärung der Website Qvrix",
+    "intro": "Wir, Eldar Memetov, tätig unter dem Namen Qvrix (nachfolgend „Verantwortlicher“), respektieren Ihre Privatsphäre und verarbeiten personenbezogene Daten ausschließlich im Einklang mit der Datenschutz-Grundverordnung (DSGVO) und dem Bundesdatenschutzgesetz (BDSG). Diese Datenschutzerklärung erläutert, welche Daten wir erheben, zu welchen Zwecken, auf welcher Rechtsgrundlage und wie Sie Ihre Rechte wahrnehmen können. Stand: Januar 2026.",
     "sections": [
       {
-        "title": "1. Allgemeine Bestimmungen",
-        "description": "Wir nutzen die Dienste von Cloudflare, um die Sicherheit und Leistung unserer Website zu gewährleisten. Cloudflare ist gemäß den Standards des EU-U.S. Data Privacy Framework und der UK-Erweiterung zum EU-U.S. DPF zertifiziert, was ihre Konformität mit den Anforderungen der DSGVO zur Verarbeitung personenbezogener Daten in Europa bestätigt.",
+        "title": "1. Verantwortlicher",
+        "description": "Verantwortlicher im Sinne des Art. 4 Nr. 7 DSGVO ist:",
         "subsections": [
           {
-            "title": "1.1. Unter dem Begriff „personenbezogene Informationen des Nutzers“ versteht man in dieser Richtlinie",
+            "title": "Kontaktdaten des Verantwortlichen",
             "points": [
-              "Daten, die der Nutzer freiwillig über sich selbst bei der Ausfüllung von Formularen, Anträgen, dem Abonnieren von Updates oder der Nutzung von Diensten bereitstellt. Dazu können Name, E-Mail-Adresse, Telefonnummer usw. gehören. Pflichtfelder sind entsprechend gekennzeichnet.",
-              "1.1.2 Daten, die automatisch an die Website während ihrer Nutzung übermittelt werden: IP-Adresse, Cookies, Browsertyp, Sprache, technische Merkmale des Geräts, Zugriffszeit, URL-Anfragen usw.",
-              "1.1.3 Andere Informationen, deren Verarbeitung durch die Bedingungen der Nutzungsvereinbarung der Website vorgesehen ist.",
-              "1.1.4 Diese Richtlinie gilt ausschließlich für die Website. Der Betreiber ist nicht verantwortlich für Websites Dritter, zu denen der Nutzer über Links von der Website gelangen kann."
+              "Eldar Memetov (Qvrix — Video und Web für Unternehmen)",
+              "Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Deutschland",
+              "E-Mail: qvrix.studio@gmail.com",
+              "Website: https://qvrix.com"
             ]
           }
         ]
       },
       {
-        "title": "2. Zwecke der Verarbeitung personenbezogener Daten",
+        "title": "2. Allgemeine Grundsätze der Verarbeitung",
+        "description": "Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Leistungen erforderlich ist. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 DSGVO, insbesondere:",
         "points": [
-          "Bereitstellung der von Ihnen angeforderten Dienste und Beantwortung von Anfragen.",
-          "Personalisierung der Nutzererfahrung.",
-          "Verbesserung der Qualität der Dienste und Entwicklung neuer Produkte.",
-          "Information über unsere Produkte, Dienstleistungen, Aktionen, Veranstaltungen.",
-          "Wir verkaufen, tauschen oder übertragen Ihre personenbezogenen Daten nicht an Dritte ohne Ihre Zustimmung, außer in Fällen, die ausdrücklich durch geltendes Recht vorgesehen sind."
+          "lit. a — Ihre Einwilligung (falls erforderlich, z. B. für optionale Cookies oder vergleichbare Funktionen);",
+          "lit. b — zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage hin,",
+          "lit. c — zur Erfüllung einer rechtlichen Verpflichtung des Verantwortlichen,",
+          "lit. f — aufgrund unserer berechtigten Interessen, insbesondere an der sicheren und stabilen Bereitstellung der Website."
         ]
       },
       {
-        "title": "3. Rechte und Pflichten des Betreibers",
+        "title": "3. Hosting und Server-Log-Dateien",
+        "description": "Diese Website wird auf den Servern von Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA, gehostet. Vercel verarbeitet dabei technische Daten zur Bereitstellung, Sicherheit und Auslieferung der Website. Vercel stellt ein Data Processing Addendum (DPA) bereit und ist nach eigenen Angaben unter dem EU-U.S. Data Privacy Framework zertifiziert. Vercel verarbeitet außerdem bestimmte Nutzungs- und Website-Daten automatisch.",
         "subsections": [
           {
-            "title": "3.1. Der Betreiber hat das Recht",
+            "title": "3.1. Automatisch verarbeitete Daten",
             "points": [
-              "Zuverlässige Informationen und/oder Dokumente zu erhalten, die personenbezogene Daten enthalten.",
-              "Im Falle des Widerrufs der Zustimmung des Nutzers – die Datenverarbeitung fortzusetzen, wenn dies gesetzlich erlaubt ist.",
-              "Selbstständig die Liste der Maßnahmen zu bestimmen, die erforderlich sind, um die Einhaltung der gesetzlichen Anforderungen in Bezug auf personenbezogene Daten sicherzustellen."
+              "Browsertyp und Browserversion;",
+              "verwendetes Betriebssystem;",
+              "Referrer-URL;",
+              "Hostname und IP-Adresse;",
+              "Datum und Uhrzeit der Serveranfrage;",
+              "übertragene Datenmenge und HTTP-Statuscode."
             ]
           },
           {
-            "title": "3.2. Der Betreiber ist verpflichtet",
+            "title": "3.2. Rechtsgrundlage und Speicherdauer",
             "points": [
-              "Dem Nutzer auf Anfrage Informationen über die Verarbeitung seiner personenbezogenen Daten bereitzustellen.",
-              "Die Verarbeitung personenbezogener Daten gemäß geltendem Recht durchzuführen.",
-              "Auf Anfragen und Anträge von Betroffenen personenbezogener Daten zu reagieren.",
-              "Den zuständigen Behörden innerhalb ihrer Befugnisse die erforderlichen Informationen bereitzustellen.",
-              "Öffentlichen Zugang zu dieser Datenschutzrichtlinie zu gewährleisten.",
-              "Technische, organisatorische und rechtliche Maßnahmen zum Schutz personenbezogener Daten vor unbefugtem Zugriff oder Verlust zu ergreifen."
+              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren und stabilen Betrieb der Website).",
+              "Server-Log-Dateien werden nur so lange gespeichert, wie dies für Sicherheits- und Betriebszwecke erforderlich ist; eine Löschung erfolgt regelmäßig spätestens nach 30 Tagen, sofern keine längere Aufbewahrung aus Sicherheitsgründen erforderlich ist.",
+              "Diese Daten werden nicht mit anderen Datenquellen zusammengeführt und nicht zur direkten Identifizierung einzelner Personen genutzt."
             ]
           }
         ]
       },
       {
-        "title": "4. Grundsätze der Verarbeitung personenbezogener Daten",
-        "points": [
-          "4.1 Die Verarbeitung personenbezogener Daten erfolgt ausschließlich auf rechtmäßigen Grundlagen.",
-          "4.2 Es werden nur solche personenbezogenen Daten verarbeitet, die den angegebenen Zwecken entsprechen.",
-          "4.3 Umfang und Art der verarbeiteten Daten entsprechen den festgelegten Zielen.",
-          "4.4 Es wird die Genauigkeit, Aktualität und Angemessenheit der personenbezogenen Daten zur Erreichung der Verarbeitungsziele sichergestellt.",
-          "4.5 Personenbezogene Daten werden nicht länger gespeichert, als es für die Erreichung der Verarbeitungsziele erforderlich ist.",
-          "4.6 Nach Erreichung der Verarbeitungsziele können personenbezogene Daten gelöscht oder anonymisiert werden."
+        "title": "4. Cookies und lokale Speicherung",
+        "description": "Unsere Website verwendet ausschließlich technisch notwendige Speichertechnologien. Derzeit setzen wir keine Analyse-, Marketing- oder Tracking-Dienste wie Google Analytics oder Meta Pixel ein.",
+        "subsections": [
+          {
+            "title": "4.1. Technisch notwendige Speicherung",
+            "points": [
+              "Soweit eine Einwilligungseinstellung lokal im Browser gespeichert wird, erfolgt dies in localStorage oder einer vergleichbaren lokalen Speichertechnologie.",
+              "localStorage ist eine clientseitige Browserspeicherung; diese Daten werden nicht an unsere Server übertragen.",
+              "Rechtsgrundlage für unbedingt erforderliche Speicherung oder den Zugriff auf Informationen im Endgerät ist § 25 Abs. 2 TDDDG in Verbindung mit Art. 6 Abs. 1 lit. f DSGVO."
+            ]
+          },
+          {
+            "title": "4.2. Optionale Dienste",
+            "points": [
+              "Derzeit werden keine optionalen Analyse- oder Marketingdienste eingesetzt.",
+              "Sollten solche Dienste künftig verwendet werden, erfolgt deren Aktivierung ausschließlich nach einer vorherigen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG.",
+              "Eine erteilte Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen werden."
+            ]
+          }
         ]
       },
       {
-        "title": "5. Verfahren zur Erhebung, Speicherung, Übermittlung und anderen Arten der Verarbeitung personenbezogener Daten",
-        "points": [
-          "5.1 Um ein hohes Maß an Sicherheit und Leistung zu gewährleisten, nutzen wir die Dienste von Cloudflare, die gemäß den Standards des EU-U.S. Data Privacy Framework und der UK-Erweiterung zum EU-U.S. DPF zertifiziert sind.",
-          "5.2 Der Betreiber ergreift alle möglichen Maßnahmen zum Schutz personenbezogener Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung.",
-          "5.3 Personenbezogene Daten der Nutzer werden nicht ohne Ihre Zustimmung an Dritte weitergegeben, außer in Fällen, die gesetzlich vorgesehen sind oder zur Erfüllung vertraglicher Verpflichtungen.",
-          "5.4 Im Falle von Ungenauigkeiten in personenbezogenen Daten hat der Nutzer das Recht, diese zu aktualisieren, indem er eine entsprechende Anfrage an die E-Mail-Adresse: qvrix.studio@gmail.com mit dem Betreff „Aktualisierung personenbezogener Daten“ sendet.",
-          "5.5 Der Nutzer kann seine Zustimmung zur Verarbeitung personenbezogener Daten jederzeit widerrufen, indem er eine Anfrage an die E-Mail-Adresse: qvrix.studio@gmail.com sendet.",
-          "5.6 Die Verarbeitung personenbezogener Daten wird nach Erreichung der Ziele, Widerruf der Zustimmung oder im Falle der Feststellung einer unrechtmäßigen Verarbeitung eingestellt."
+        "title": "5. Kontaktformular",
+        "description": "Wenn Sie uns über das Kontaktformular auf der Website kontaktieren, verarbeiten wir die von Ihnen angegebenen Daten ausschließlich zur Bearbeitung Ihrer Anfrage.",
+        "subsections": [
+          {
+            "title": "5.1. Verarbeitete Daten",
+            "points": [
+              "Name;",
+              "E-Mail-Adresse;",
+              "Nachrichtentext;",
+              "ggf. weitere Angaben, die Sie freiwillig in das Formular eingeben."
+            ]
+          },
+          {
+            "title": "5.2. Zweck, Rechtsgrundlage und Speicherdauer",
+            "points": [
+              "Zweck ist die Bearbeitung Ihrer Anfrage, die Beantwortung Ihrer Nachricht und die Vorbereitung oder Durchführung vorvertraglicher Maßnahmen.",
+              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Kommunikation mit Interessenten und Kunden).",
+              "Die Daten werden so lange gespeichert, wie dies für die Bearbeitung der Anfrage und die anschließende Kommunikation erforderlich ist. Kommt es zu einem Vertragsverhältnis, können gesetzliche Aufbewahrungsfristen nach deutschem Handels- und Steuerrecht gelten.",
+              "Die über das Formular übermittelten Daten werden nicht an Dritte weitergegeben, außer soweit dies zur Bearbeitung Ihrer Anfrage erforderlich oder gesetzlich vorgeschrieben ist."
+            ]
+          }
         ]
       },
       {
-        "title": "6. Umgang mit erhaltenen personenbezogenen Daten",
+        "title": "6. Schriften",
         "points": [
-          "Der Betreiber sammelt, erfasst, systematisiert, speichert, aktualisiert, verwendet, übermittelt, anonymisiert, sperrt, löscht und vernichtet personenbezogene Daten gemäß den gesetzlichen Bestimmungen.",
-          "6.1 Daten, die über das Kontaktformular gesammelt werden, werden ausschließlich zur Beantwortung der Anfrage des Nutzers verwendet und nicht an Dritte weitergegeben.",
-          "6.2 Nutzerbewertungen dürfen nur nach ausdrücklicher Zustimmung des Nutzers veröffentlicht werden, die beim Ausfüllen des entsprechenden Formulars eingeholt wird."
+          "Soweit auf dieser Website Schriftarten über das Next.js-Feature next/font lokal bereitgestellt werden, erfolgt keine Übermittlung an externe Schriftdienste.",
+          "In diesem Fall werden die Schriftdateien über unseren eigenen Server bzw. über die von uns genutzte Hosting-Infrastruktur ausgeliefert.",
+          "Eine Übertragung Ihrer IP-Adresse an externe Schriftdienste findet dabei nicht statt."
         ]
       },
       {
-        "title": "7. Vertraulichkeit personenbezogener Daten",
+        "title": "7. Übermittlung in Drittländer",
         "points": [
-          "7.1 Zum Schutz personenbezogener Daten der Nutzer werden moderne technische und organisatorische Mittel eingesetzt, insbesondere die Dienste von Cloudflare mit entsprechenden Zertifikaten.",
-          "7.2 Der Betreiber und Personen, die Zugang zu personenbezogenen Daten erhalten haben, sind verpflichtet, diese Daten ohne Zustimmung des Nutzers nicht offenzulegen oder zu verbreiten, außer in gesetzlich vorgesehenen Fällen.",
-          "7.3 Der Nutzer kann sich für Erläuterungen zur Verarbeitung seiner personenbezogenen Daten an die E-Mail-Adresse: qvrix.studio@gmail.com wenden."
+          "Da Vercel seinen Sitz in den USA hat, kann es bei der Bereitstellung der Website zu einer Übermittlung personenbezogener Daten in Drittländer kommen.",
+          "Vercel gibt an, unter dem EU-U.S. Data Privacy Framework zertifiziert zu sein und stellt ein Data Processing Addendum bereit.",
+          "Weitere Übermittlungen in Drittländer finden durch uns derzeit nicht statt."
         ]
       },
       {
-        "title": "8. Verwendung von Cookies",
+        "title": "8. Ihre Rechte als betroffene Person",
+        "description": "Sie haben nach der DSGVO insbesondere die folgenden Rechte:",
         "points": [
-          "8.1 Die Website verwendet nur notwendige Cookies, die ihre Funktionalität, Sicherheit und Leistung gewährleisten.",
-          "8.2 Wir verwenden keine Cookies, um das Nutzerverhalten zu Werbe- oder Marketingzwecken zu verfolgen.",
-          "8.3 Nutzer können das Speichern von Cookies in ihrem Browser einschränken oder deaktivieren, jedoch kann dies die Funktionalität bestimmter Website-Funktionen beeinträchtigen."
+          "Recht auf Auskunft (Art. 15 DSGVO);",
+          "Recht auf Berichtigung (Art. 16 DSGVO);",
+          "Recht auf Löschung (Art. 17 DSGVO);",
+          "Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO);",
+          "Recht auf Datenübertragbarkeit (Art. 20 DSGVO);",
+          "Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO);",
+          "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen (Art. 7 Abs. 3 DSGVO).",
+          "Zur Ausübung Ihrer Rechte schreiben Sie bitte an: qvrix.studio@gmail.com."
+        ]
+      },
+      {
+        "title": "9. Beschwerderecht bei einer Aufsichtsbehörde",
+        "points": [
+          "Sie haben außerdem das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt (Art. 77 DSGVO).",
+          "Für uns ist insbesondere der Hessische Beauftragte für Datenschutz und Informationsfreiheit zuständig.",
+          "Adresse: Gustav-Stresemann-Ring 1, 65189 Wiesbaden, Deutschland.",
+          "Website: https://datenschutz.hessen.de"
+        ]
+      },
+      {
+        "title": "10. Datensicherheit",
+        "points": [
+          "Diese Website nutzt SSL-/TLS-Verschlüsselung, um die Übertragung vertraulicher Inhalte zu schützen.",
+          "Wir treffen technische und organisatorische Maßnahmen gemäß Art. 32 DSGVO, um personenbezogene Daten vor Verlust, Manipulation, unberechtigtem Zugriff oder Offenlegung zu schützen.",
+          "Trotz aller Sorgfalt kann keine Datenübertragung im Internet als vollständig sicher garantiert werden."
+        ]
+      },
+      {
+        "title": "11. Änderungen dieser Datenschutzerklärung",
+        "points": [
+          "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, wenn sich unsere Website, unsere Dienste oder die rechtlichen Anforderungen ändern.",
+          "Die jeweils aktuelle Fassung ist jederzeit auf dieser Seite abrufbar.",
+          "Bei wesentlichen Änderungen informieren wir Sie in geeigneter Weise auf der Website."
         ]
       }
     ]
