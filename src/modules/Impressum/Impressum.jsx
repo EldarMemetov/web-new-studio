@@ -9,10 +9,11 @@ const SECTIONS = [
   { key: 'provider', type: 'address' },
   { key: 'contact', type: 'contact' },
   { key: 'tax', type: 'text', fields: ['note'] },
-  { key: 'editorialResponsibility', type: 'text', fields: ['text'] },
   { key: 'responsibility', type: 'text', fields: ['text'] },
   { key: 'links', type: 'text', fields: ['text'] },
   { key: 'copyright', type: 'text', fields: ['text'] },
+  { key: 'dispute', type: 'text', fields: ['text'] },
+  { key: 'dsa', type: 'dsa' },
 ];
 
 export default function Impressum() {
@@ -30,7 +31,9 @@ export default function Impressum() {
         }),
       { threshold: 0.1, rootMargin: '0px 0px -60px 0px' }
     );
+
     cardsRef.current.forEach((el) => el && io.observe(el));
+
     return () => io.disconnect();
   }, []);
 
@@ -65,15 +68,16 @@ export default function Impressum() {
       <>
         {email && (
           <div className={s.field}>
-            <span className={s.fieldLabel}>Email</span>
+            <span className={s.fieldLabel}>E-Mail</span>
             <a href={`mailto:${email}`} className={s.fieldLink}>
               {email}
             </a>
           </div>
         )}
+
         {phone && (
           <div className={s.field}>
-            <span className={s.fieldLabel}>Tel</span>
+            <span className={s.fieldLabel}>Tel.</span>
             <a
               href={`tel:${phone.replace(/\s+/g, '')}`}
               className={s.fieldLink}
@@ -86,10 +90,48 @@ export default function Impressum() {
     );
   };
 
+  const renderDsa = () => {
+    const text = t('sections.dsa.text');
+    const email = t('sections.dsa.email');
+    const phone = t('sections.dsa.phone');
+    const languages = t('sections.dsa.languages');
+
+    return (
+      <>
+        {text && <p className={s.fieldText}>{text}</p>}
+
+        {email && (
+          <div className={s.field}>
+            <span className={s.fieldLabel}>E-Mail</span>
+            <a href={`mailto:${email}`} className={s.fieldLink}>
+              {email}
+            </a>
+          </div>
+        )}
+
+        {phone && (
+          <div className={s.field}>
+            <span className={s.fieldLabel}>Tel.</span>
+            <a
+              href={`tel:${phone.replace(/\s+/g, '')}`}
+              className={s.fieldLink}
+            >
+              {phone}
+            </a>
+          </div>
+        )}
+
+        {languages && <p className={s.fieldText}>{languages}</p>}
+      </>
+    );
+  };
+
   const renderTextFields = (sectionKey, fields) =>
     fields.map((field) => {
       const value = t(`sections.${sectionKey}.${field}`);
+
       if (!value) return null;
+
       return (
         <p key={field} className={s.fieldText}>
           {value}
@@ -100,6 +142,8 @@ export default function Impressum() {
   const renderBody = (section) => {
     if (section.type === 'address') return renderProvider();
     if (section.type === 'contact') return renderContact();
+    if (section.type === 'dsa') return renderDsa();
+
     return renderTextFields(section.key, section.fields);
   };
 
@@ -107,8 +151,10 @@ export default function Impressum() {
     <section className={s.section} id="impressum">
       <Container>
         <header className={s.header}>
-          <p className={s.eyebrow}>Legal · §5 TMG</p>
+          <p className={s.eyebrow}>Legal · § 5 DDG</p>
+
           <h1 className={s.title}>{t('title')}</h1>
+
           <div className={s.divider} />
         </header>
 
@@ -123,6 +169,7 @@ export default function Impressum() {
               <h2 className={s.itemTitle}>
                 {t(`sections.${section.key}.title`)}
               </h2>
+
               <div className={s.itemBody}>{renderBody(section)}</div>
             </article>
           ))}

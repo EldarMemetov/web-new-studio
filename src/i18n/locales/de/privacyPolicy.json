@@ -1,7 +1,7 @@
 {
   "policy": {
     "title": "Datenschutzerklärung der Website Qvrix",
-    "intro": "Wir, Eldar Memetov, tätig unter dem Namen Qvrix (nachfolgend „Verantwortlicher“), respektieren Ihre Privatsphäre und verarbeiten personenbezogene Daten ausschließlich im Einklang mit der Datenschutz-Grundverordnung (DSGVO) und dem Bundesdatenschutzgesetz (BDSG). Diese Datenschutzerklärung erläutert, welche Daten wir erheben, zu welchen Zwecken, auf welcher Rechtsgrundlage und wie Sie Ihre Rechte wahrnehmen können. Stand: Januar 2026.",
+    "intro": "Wir, Eldar Memetov, tätig unter dem Namen Qvrix (nachfolgend „Verantwortlicher), nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst. Wir verarbeiten personenbezogene Daten ausschließlich im Einklang mit der Datenschutz-Grundverordnung (DSGVO) sowie den jeweils anwendbaren nationalen Datenschutzvorschriften, insbesondere dem Bundesdatenschutzgesetz (BDSG) und dem Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG). Diese Datenschutzerklärung erläutert, welche Daten wir verarbeiten, zu welchen Zwecken, auf welcher Rechtsgrundlage und welche Rechte Ihnen zustehen. Stand: Januar 2026.",
     "sections": [
       {
         "title": "1. Verantwortlicher",
@@ -10,8 +10,11 @@
           {
             "title": "Kontaktdaten des Verantwortlichen",
             "points": [
-              "Eldar Memetov (Qvrix — Video und Web für Unternehmen)",
-              "Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Deutschland",
+              "Eldar Memetov",
+              "Qvrix — Video- und Webdienstleistungen für Unternehmen",
+              "Hauptlehrer-Urson-Straße 9",
+              "65439 Flörsheim am Main",
+              "Deutschland",
               "E-Mail: qvrix.studio@gmail.com",
               "Website: https://qvrix.com"
             ]
@@ -20,17 +23,17 @@
       },
       {
         "title": "2. Allgemeine Grundsätze der Verarbeitung",
-        "description": "Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Leistungen erforderlich ist. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 DSGVO, insbesondere:",
+        "description": "Wir verarbeiten personenbezogene Daten nur, soweit dies für den Betrieb der Website, die Bearbeitung von Anfragen und die Erbringung unserer Dienstleistungen erforderlich ist oder eine sonstige rechtliche Grundlage besteht. Je nach Verarbeitung stützen wir uns insbesondere auf folgende Rechtsgrundlagen:",
         "points": [
-          "lit. a — Ihre Einwilligung (falls erforderlich, z. B. für optionale Cookies oder vergleichbare Funktionen);",
-          "lit. b — zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage hin,",
-          "lit. c — zur Erfüllung einer rechtlichen Verpflichtung des Verantwortlichen,",
-          "lit. f — aufgrund unserer berechtigten Interessen, insbesondere an der sicheren und stabilen Bereitstellung der Website."
+          "Art. 6 Abs. 1 lit. a DSGVO — Einwilligung, sofern diese für bestimmte Funktionen erforderlich ist;",
+          "Art. 6 Abs. 1 lit. b DSGVO — Vertragserfüllung und vorvertragliche Maßnahmen auf Ihre Anfrage hin;",
+          "Art. 6 Abs. 1 lit. c DSGVO — Erfüllung rechtlicher Verpflichtungen;",
+          "Art. 6 Abs. 1 lit. f DSGVO — berechtigte Interessen, insbesondere an einer sicheren, stabilen und funktionalen Bereitstellung unserer Website."
         ]
       },
       {
-        "title": "3. Hosting und Server-Log-Dateien",
-        "description": "Diese Website wird auf den Servern von Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA, gehostet. Vercel verarbeitet dabei technische Daten zur Bereitstellung, Sicherheit und Auslieferung der Website. Vercel stellt ein Data Processing Addendum (DPA) bereit und ist nach eigenen Angaben unter dem EU-U.S. Data Privacy Framework zertifiziert. Vercel verarbeitet außerdem bestimmte Nutzungs- und Website-Daten automatisch.",
+        "title": "3. Hosting, technische Bereitstellung und Server-Log-Dateien",
+        "description": "Diese Website wird über Vercel bereitgestellt. Für serverseitige Funktionen und die Verarbeitung von Formulareingaben können zusätzlich Dienste von Render.com eingesetzt werden. Beide Anbieter verarbeiten technische Daten im Rahmen der Bereitstellung, Sicherheit und Stabilität der Website. Mit Vercel wurde ein Vertrag zur Auftragsverarbeitung (AVV) gemäß Art. 28 DSGVO geschlossen.",
         "subsections": [
           {
             "title": "3.1. Automatisch verarbeitete Daten",
@@ -40,36 +43,48 @@
               "Referrer-URL;",
               "Hostname und IP-Adresse;",
               "Datum und Uhrzeit der Serveranfrage;",
-              "übertragene Datenmenge und HTTP-Statuscode."
+              "aufgerufene Seite oder Datei;",
+              "übertragene Datenmenge;",
+              "HTTP-Statuscode;",
+              "technische Informationen zur Fehleranalyse und Sicherheit."
             ]
           },
           {
             "title": "3.2. Rechtsgrundlage und Speicherdauer",
             "points": [
-              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren und stabilen Betrieb der Website).",
-              "Server-Log-Dateien werden nur so lange gespeichert, wie dies für Sicherheits- und Betriebszwecke erforderlich ist; eine Löschung erfolgt regelmäßig spätestens nach 30 Tagen, sofern keine längere Aufbewahrung aus Sicherheitsgründen erforderlich ist.",
-              "Diese Daten werden nicht mit anderen Datenquellen zusammengeführt und nicht zur direkten Identifizierung einzelner Personen genutzt."
+              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO, da wir ein berechtigtes Interesse an einem sicheren, schnellen und stabilen Betrieb der Website haben.",
+              "Server-Log-Dateien werden nur so lange gespeichert, wie dies für Sicherheits-, Fehleranalyse- und Betriebszwecke erforderlich ist, und anschließend gelöscht, soweit keine längere Aufbewahrung notwendig ist.",
+              "Eine Zusammenführung dieser Daten mit anderen Datenquellen erfolgt nicht, sofern dies nicht zur Fehleranalyse, zur Missbrauchsabwehr oder aus gesetzlichen Gründen erforderlich ist."
+            ]
+          },
+          {
+            "title": "3.3. Auftragsverarbeitung und Drittlandtransfer",
+            "points": [
+              "Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA, wird als Auftragsverarbeiter im Sinne von Art. 28 DSGVO eingesetzt.",
+              "Render.com kann für serverseitige Funktionen eingesetzt werden und verarbeitet dabei technische Daten als Auftragsverarbeiter.",
+              "Je nach technischer Verarbeitung kann es zu einer Übermittlung personenbezogener Daten in die USA kommen.",
+              "Soweit erforderlich, stützen wir solche Übermittlungen auf geeignete Garantien nach Kapitel V DSGVO, insbesondere Standardvertragsklauseln und — sofern beim jeweiligen Anbieter anwendbar — anerkannte Angemessenheitsmechanismen."
             ]
           }
         ]
       },
       {
         "title": "4. Cookies und lokale Speicherung",
-        "description": "Unsere Website verwendet ausschließlich technisch notwendige Speichertechnologien. Derzeit setzen wir keine Analyse-, Marketing- oder Tracking-Dienste wie Google Analytics oder Meta Pixel ein.",
+        "description": "Unsere Website verwendet ausschließlich technisch notwendige Cookies beziehungsweise vergleichbare lokale Speichertechnologien. Derzeit setzen wir keine Analyse-, Marketing- oder Tracking-Dienste wie Google Analytics, Google Tag Manager, Meta Pixel oder ähnliche Dienste ein.",
         "subsections": [
           {
             "title": "4.1. Technisch notwendige Speicherung",
             "points": [
-              "Soweit eine Einwilligungseinstellung lokal im Browser gespeichert wird, erfolgt dies in localStorage oder einer vergleichbaren lokalen Speichertechnologie.",
-              "localStorage ist eine clientseitige Browserspeicherung; diese Daten werden nicht an unsere Server übertragen.",
-              "Rechtsgrundlage für unbedingt erforderliche Speicherung oder den Zugriff auf Informationen im Endgerät ist § 25 Abs. 2 TDDDG in Verbindung mit Art. 6 Abs. 1 lit. f DSGVO."
+              "Soweit eine Einwilligungs- oder Spracheinstellung lokal im Browser gespeichert wird, kann dies über localStorage oder eine vergleichbare lokale Speichertechnologie erfolgen.",
+              "localStorage ist eine clientseitige Speicherfunktion des Browsers; diese Daten werden nicht automatisch an unsere Server übertragen.",
+              "Die Speicherung oder der Zugriff auf Informationen im Endgerät ist nur in dem Umfang zulässig, in dem dies unbedingt erforderlich ist, um den von Ihnen ausdrücklich gewünschten digitalen Dienst bereitzustellen (§ 25 Abs. 2 TDDDG)."
             ]
           },
           {
-            "title": "4.2. Optionale Dienste",
+            "title": "4.2. Nicht eingesetzte optionale Dienste",
             "points": [
-              "Derzeit werden keine optionalen Analyse- oder Marketingdienste eingesetzt.",
-              "Sollten solche Dienste künftig verwendet werden, erfolgt deren Aktivierung ausschließlich nach einer vorherigen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG.",
+              "Derzeit setzen wir keine optionalen Analyse-, Marketing- oder Trackingdienste ein.",
+              "Sollten solche Dienste künftig eingesetzt werden, erfolgt dies nur nach vorheriger Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG.",
               "Eine erteilte Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen werden."
             ]
           }
@@ -77,7 +92,7 @@
       },
       {
         "title": "5. Kontaktformular",
-        "description": "Wenn Sie uns über das Kontaktformular auf der Website kontaktieren, verarbeiten wir die von Ihnen angegebenen Daten ausschließlich zur Bearbeitung Ihrer Anfrage.",
+        "description": "Wenn Sie uns über das Kontaktformular auf der Website kontaktieren, verarbeiten wir die von Ihnen übermittelten Daten ausschließlich zur Bearbeitung Ihrer Anfrage und zur anschließenden Kommunikation.",
         "subsections": [
           {
             "title": "5.1. Verarbeitete Daten",
@@ -85,38 +100,67 @@
               "Name;",
               "E-Mail-Adresse;",
               "Nachrichtentext;",
-              "ggf. weitere Angaben, die Sie freiwillig in das Formular eingeben."
+              "ggf. weitere Angaben, die Sie freiwillig im Formular machen."
             ]
           },
           {
             "title": "5.2. Zweck, Rechtsgrundlage und Speicherdauer",
             "points": [
-              "Zweck ist die Bearbeitung Ihrer Anfrage, die Beantwortung Ihrer Nachricht und die Vorbereitung oder Durchführung vorvertraglicher Maßnahmen.",
-              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Kommunikation mit Interessenten und Kunden).",
-              "Die Daten werden so lange gespeichert, wie dies für die Bearbeitung der Anfrage und die anschließende Kommunikation erforderlich ist. Kommt es zu einem Vertragsverhältnis, können gesetzliche Aufbewahrungsfristen nach deutschem Handels- und Steuerrecht gelten.",
-              "Die über das Formular übermittelten Daten werden nicht an Dritte weitergegeben, außer soweit dies zur Bearbeitung Ihrer Anfrage erforderlich oder gesetzlich vorgeschrieben ist."
+              "Zweck ist die Bearbeitung Ihrer Anfrage, die Beantwortung Ihrer Nachricht und gegebenenfalls die Vorbereitung vorvertraglicher Maßnahmen.",
+              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit Ihre Anfrage auf eine mögliche Beauftragung oder vorvertragliche Kommunikation gerichtet ist, andernfalls Art. 6 Abs. 1 lit. f DSGVO.",
+              "Die Daten werden so lange gespeichert, wie dies für die Bearbeitung der Anfrage und die anschließende Kommunikation erforderlich ist. Kommt es zu einer Beauftragung, können gesetzliche Aufbewahrungspflichten gelten.",
+              "Die über das Formular übermittelten Daten werden nicht zu Werbezwecken verwendet und nicht ohne Notwendigkeit an Dritte weitergegeben."
             ]
           }
         ]
       },
       {
-        "title": "6. Schriften",
-        "points": [
-          "Soweit auf dieser Website Schriftarten über das Next.js-Feature next/font lokal bereitgestellt werden, erfolgt keine Übermittlung an externe Schriftdienste.",
-          "In diesem Fall werden die Schriftdateien über unseren eigenen Server bzw. über die von uns genutzte Hosting-Infrastruktur ausgeliefert.",
-          "Eine Übertragung Ihrer IP-Adresse an externe Schriftdienste findet dabei nicht statt."
+        "title": "6. Datenbank und serverseitige Speicherung",
+        "description": "Soweit wir serverseitig Daten in einer Datenbank speichern, kann hierfür eine MongoDB-basierte Datenbanklösung verwendet werden.",
+        "subsections": [
+          {
+            "title": "6.1. Verarbeitete Daten",
+            "points": [
+              "Kontaktanfragen und formbezogene Daten;",
+              "technische Metadaten, soweit für Betrieb, Sicherheit oder Fehleranalyse erforderlich;",
+              "sonstige Inhalte, die Sie aktiv übermitteln."
+            ]
+          },
+          {
+            "title": "6.2. Zweck und Rechtsgrundlage",
+            "points": [
+              "Die Speicherung erfolgt zur Bearbeitung von Anfragen, zur Verwaltung von Projekten und zur technischen Bereitstellung unserer Dienstleistungen.",
+              "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Speicherung im Zusammenhang mit einer Anfrage oder Beauftragung steht, ansonsten Art. 6 Abs. 1 lit. f DSGVO."
+            ]
+          },
+          {
+            "title": "6.3. Drittlandtransfer und Auftragsverarbeitung",
+            "points": [
+              "Sofern ein externer MongoDB-Dienst eingesetzt wird, kann es zu einer Verarbeitung durch den jeweiligen Anbieter kommen.",
+              "Je nach eingesetzter Lösung kann dies eine Auftragsverarbeitung im Sinne von Art. 28 DSGVO darstellen.",
+              "Soweit personenbezogene Daten in Drittländer übermittelt werden, stützen wir dies auf geeignete Garantien nach Kapitel V DSGVO."
+            ]
+          }
         ]
       },
       {
-        "title": "7. Übermittlung in Drittländer",
+        "title": "7. Schriftarten",
         "points": [
-          "Da Vercel seinen Sitz in den USA hat, kann es bei der Bereitstellung der Website zu einer Übermittlung personenbezogener Daten in Drittländer kommen.",
-          "Vercel gibt an, unter dem EU-U.S. Data Privacy Framework zertifiziert zu sein und stellt ein Data Processing Addendum bereit.",
-          "Weitere Übermittlungen in Drittländer finden durch uns derzeit nicht statt."
+          "Schriftarten werden lokal über next/font bereitgestellt.",
+          "Es erfolgt dabei keine direkte Übermittlung von Schriftdateien an externe Schriftanbieter.",
+          "Eine Übertragung Ihrer IP-Adresse an externe Schriftdienste findet in diesem Zusammenhang nicht statt."
         ]
       },
       {
-        "title": "8. Ihre Rechte als betroffene Person",
+        "title": "8. Übermittlung in Drittländer",
+        "points": [
+          "Je nach eingesetzten Diensten können personenbezogene Daten in die USA übermittelt werden, insbesondere im Zusammenhang mit Hosting-, Backend- oder Datenbankdiensten.",
+          "Wir setzen nur Dienste ein, die nach Möglichkeit geeignete datenschutzrechtliche Garantien bereitstellen, etwa Standardvertragsklauseln oder andere anwendbare Übermittlungsmechanismen nach Kapitel V DSGVO.",
+          "Weitere Übermittlungen in Drittländer erfolgen nur, soweit dies für die Nutzung der Website oder unsere Dienstleistungen erforderlich ist."
+        ]
+      },
+      {
+        "title": "9. Ihre Rechte als betroffene Person",
         "description": "Sie haben nach der DSGVO insbesondere die folgenden Rechte:",
         "points": [
           "Recht auf Auskunft (Art. 15 DSGVO);",
@@ -126,28 +170,29 @@
           "Recht auf Datenübertragbarkeit (Art. 20 DSGVO);",
           "Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO);",
           "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen (Art. 7 Abs. 3 DSGVO).",
-          "Zur Ausübung Ihrer Rechte schreiben Sie bitte an: qvrix.studio@gmail.com."
+          "Zur Ausübung Ihrer Rechte schreiben Sie bitte an: qvrix.studio@gmail.com.",
+          "WIDERSPRUCHSRECHT: WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN (ART. 21 ABS. 1 DSGVO)."
         ]
       },
       {
-        "title": "9. Beschwerderecht bei einer Aufsichtsbehörde",
+        "title": "10. Beschwerderecht bei einer Aufsichtsbehörde",
         "points": [
-          "Sie haben außerdem das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt (Art. 77 DSGVO).",
-          "Für uns ist insbesondere der Hessische Beauftragte für Datenschutz und Informationsfreiheit zuständig.",
+          "Sie haben das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt (Art. 77 DSGVO).",
+          "Für unseren Sitz ist insbesondere der Hessische Beauftragte für Datenschutz und Informationsfreiheit zuständig.",
           "Adresse: Gustav-Stresemann-Ring 1, 65189 Wiesbaden, Deutschland.",
           "Website: https://datenschutz.hessen.de"
         ]
       },
       {
-        "title": "10. Datensicherheit",
+        "title": "11. Datensicherheit",
         "points": [
           "Diese Website nutzt SSL-/TLS-Verschlüsselung, um die Übertragung vertraulicher Inhalte zu schützen.",
-          "Wir treffen technische und organisatorische Maßnahmen gemäß Art. 32 DSGVO, um personenbezogene Daten vor Verlust, Manipulation, unberechtigtem Zugriff oder Offenlegung zu schützen.",
+          "Wir treffen technische und organisatorische Maßnahmen gemäß Art. 32 DSGVO, um personenbezogene Daten vor Verlust, Manipulation, unberechtigtem Zugriff und Offenlegung zu schützen.",
           "Trotz aller Sorgfalt kann keine Datenübertragung im Internet als vollständig sicher garantiert werden."
         ]
       },
       {
-        "title": "11. Änderungen dieser Datenschutzerklärung",
+        "title": "12. Änderungen dieser Datenschutzerklärung",
         "points": [
           "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, wenn sich unsere Website, unsere Dienste oder die rechtlichen Anforderungen ändern.",
           "Die jeweils aktuelle Fassung ist jederzeit auf dieser Seite abrufbar.",

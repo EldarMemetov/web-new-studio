@@ -1,10 +1,10 @@
 {
-  "title": "Legal Notice (Impressum)",
+  "title": "Legal Notice",
   "sections": {
     "provider": {
-      "title": "Information pursuant to § 5 TMG",
+      "title": "Information pursuant to Section 5 DDG",
       "name": "Eldar Memetov",
-      "business": "QVRIX — Video and Web for Business",
+      "business": "QVRIX — Video and Web Services for Businesses",
       "street": "Hauptlehrer-Urson-Straße 9",
       "postalCode": "65439",
       "city": "Flörsheim am Main",
@@ -16,24 +16,31 @@
       "phone": "+49 176 21139129"
     },
     "tax": {
-      "title": "VAT Information",
-      "note": "In accordance with § 19 UStG (German VAT Act), the small business regulation (Kleinunternehmerregelung) applies. VAT is neither charged nor stated in invoices."
-    },
-    "editorialResponsibility": {
-      "title": "Responsible for Content",
-      "text": "Responsible for content according to § 18 (2) MStV: Eldar Memetov, Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Germany."
+      "title": "Value Added Tax (VAT)",
+      "note": "In accordance with Section 19 of the German VAT Act (UStG), no VAT is charged and therefore not shown on invoices (small business regulation)."
     },
     "responsibility": {
       "title": "Liability for Content",
-      "text": "The content of this website has been created with the greatest possible care. However, we cannot guarantee the accuracy, completeness, or timeliness of the information provided."
+      "text": "The content of this website has been created with the utmost care. However, we cannot guarantee the accuracy, completeness, or timeliness of the information provided."
     },
     "links": {
       "title": "Liability for Links",
-      "text": "This website contains links to external third-party websites whose content we have no influence over. The respective provider or operator of the linked pages is solely responsible for their content. We accept no liability for the content of external sites."
+      "text": "This website contains links to external third-party websites. We have no influence over the content of those websites. The respective operators are solely responsible for the content of the linked pages."
     },
     "copyright": {
       "title": "Copyright",
-      "text": "All content and works on this website are protected by German copyright law. Any reproduction, modification, distribution, or use beyond the limits of copyright law requires the prior written consent of the respective rights holder."
+      "text": "The content and works published on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior written consent of the respective rights holder."
+    },
+    "dispute": {
+      "title": "Consumer Dispute Resolution / Universal Arbitration Board",
+      "text": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+    },
+    "dsa": {
+      "title": "Central Contact Point under the Digital Services Act (Regulation (EU) 2022/2065)",
+      "text": "Our central contact point for users and authorities pursuant to Articles 11 and 12 of the DSA can be reached as follows:",
+      "email": "qvrix.studio@gmail.com",
+      "phone": "+49 176 21139129",
+      "languages": "The languages available for communication are: German and English."
     }
   }
 }

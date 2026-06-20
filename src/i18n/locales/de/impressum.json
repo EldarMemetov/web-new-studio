@@ -2,9 +2,9 @@
   "title": "Impressum",
   "sections": {
     "provider": {
-      "title": "Angaben gemäß § 5 TMG",
+      "title": "Angaben gemäß § 5 DDG",
       "name": "Eldar Memetov",
-      "business": "QVRIX — Video und Web für Unternehmen",
+      "business": "QVRIX — Video- und Webdienstleistungen für Unternehmen",
       "street": "Hauptlehrer-Urson-Straße 9",
       "postalCode": "65439",
       "city": "Flörsheim am Main",
@@ -17,23 +17,30 @@
     },
     "tax": {
       "title": "Umsatzsteuer",
-      "note": "Gemäß § 19 UStG wird die Kleinunternehmerregelung angewendet. Es wird keine Umsatzsteuer berechnet oder in Rechnungen ausgewiesen."
-    },
-    "editorialResponsibility": {
-      "title": "Verantwortlich für den Inhalt",
-      "text": "Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV: Eldar Memetov, Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Deutschland."
+      "note": "Gemäß § 19 UStG wird keine Umsatzsteuer berechnet und daher auf Rechnungen nicht ausgewiesen (Kleinunternehmerregelung)."
     },
     "responsibility": {
       "title": "Haftung für Inhalte",
-      "text": "Die Inhalte dieser Website werden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
+      "text": "Die Inhalte dieser Website werden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen wir jedoch keine Gewähr."
     },
     "links": {
       "title": "Haftung für Links",
-      "text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar."
+      "text": "Diese Website enthält Links zu externen Websites Dritter. Auf deren Inhalte haben wir keinen Einfluss. Für die Inhalte der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
     },
     "copyright": {
       "title": "Urheberrecht",
-      "text": "Alle auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers."
+      "text": "Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers."
+    },
+    "dispute": {
+      "title": "Verbraucherstreitbeilegung / Universalschlichtungsstelle",
+      "text": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    "dsa": {
+      "title": "Zentrale Kontaktstelle nach dem Digital Services Act (Verordnung (EU) 2022/2065)",
+      "text": "Unsere zentrale Kontaktstelle für Nutzer und Behörden nach Art. 11, 12 DSA erreichen Sie wie folgt:",
+      "email": "qvrix.studio@gmail.com",
+      "phone": "+49 176 21139129",
+      "languages": "Die für den Kontakt zur Verfügung stehenden Sprachen sind: Deutsch, Englisch."
     }
   }
 }
