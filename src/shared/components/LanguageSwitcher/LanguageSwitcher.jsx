@@ -1,45 +1,31 @@
 'use client';
-import { useState } from 'react';
 import { useLanguageChanger } from '../../../i18n/utils/LanguageChanger';
 import styles from './LanguageSwitcher.module.scss';
 
+const LANGUAGES = ['en', 'de'];
+
 const LanguageSwitcher = () => {
   const { handleChangeLanguage, currentLocale } = useLanguageChanger();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const changeLanguage = (locale) => {
-    handleChangeLanguage(locale);
-    setIsOpen(false);
-  };
-
-  const availableLanguages = ['ua', 'en', 'de'].filter(
-    (lang) => lang !== currentLocale
-  );
 
   return (
     <div
-      className={styles.languageSwitcherContainer}
-      onMouseEnter={() => setIsOpen(true)}
-      onMouseLeave={() => setIsOpen(false)}
+      className={styles.languageSwitcher}
+      role="group"
+      aria-label="Language switcher"
     >
-      <button className={styles.languageButton}>
-        {currentLocale.toUpperCase()}
-      </button>
-
-      {isOpen && (
-        <ul className={styles.languageList}>
-          {availableLanguages.map((lang) => (
-            <li key={lang}>
-              <button
-                className={styles.languageOption}
-                onClick={() => changeLanguage(lang)}
-              >
-                {lang.toUpperCase()}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+      {LANGUAGES.map((lang) => (
+        <button
+          key={lang}
+          type="button"
+          className={`${styles.languageOption} ${
+            currentLocale === lang ? styles.active : ''
+          }`}
+          aria-pressed={currentLocale === lang}
+          onClick={() => handleChangeLanguage(lang)}
+        >
+          {lang.toUpperCase()}
+        </button>
+      ))}
     </div>
   );
 };

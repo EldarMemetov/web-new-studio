@@ -28,7 +28,7 @@ export default async function HeroVideo({ locale }) {
                 <ScrollButton targetId="feedback-form" variant="variant2">
                   {t('heroVideo.buttons.talk')}
                 </ScrollButton>
-                <ScrollButton targetId="ideas-home" variant="variant3">
+                <ScrollButton targetId="effective-video" variant="variant3">
                   {t('heroVideo.buttons.services')}
                 </ScrollButton>
               </div>

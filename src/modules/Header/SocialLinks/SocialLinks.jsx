@@ -44,7 +44,7 @@ export const SocialLinks = () => {
         </li>
         <li className={s.socialLinkList}>
           <a
-            href="https://www.linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/eldar-memetov/"
             className={s.socialLink}
             target="_blank"
             rel="noopener noreferrer"

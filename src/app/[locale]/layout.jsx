@@ -12,24 +12,20 @@ import { Manrope, Inter } from 'next/font/google';
 import clsx from 'clsx';
 
 const manrope = Manrope({
-  subsets: ['latin', 'cyrillic'],
+  subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   display: 'swap',
   variable: '--font-manrope',
 });
 
 const inter = Inter({
-  subsets: ['latin', 'cyrillic'],
+  subsets: ['latin'],
   weight: ['400', '600'],
   display: 'swap',
   variable: '--font-inter',
 });
+
 const metadataDict = {
-  ua: {
-    title: 'QVRIX — Веб-розробка та Відео-продукція',
-    description:
-      'Команда Qvrix — ваш партнер у розвитку бізнесу. Ми створюємо сучасні сайти, унікальний дизайн і професійні відео - для розвитку вашого бізнесу.',
-  },
   en: {
     title: 'QVRIX — Web Development & Video Production',
     description:
@@ -75,8 +71,8 @@ export function generateStaticParams() {
 export default async function Layout({ children, params }) {
   const awaitedParams = await Promise.resolve(params);
   const { locale } = awaitedParams;
-  const langMap = { ua: 'uk', en: 'en', de: 'de' };
-  const htmlLang = langMap[locale] || 'en';
+  const langMap = { en: 'en', de: 'de' };
+  const htmlLang = langMap[locale] || 'de';
   const { resources } = await initTranslations(locale, NAMESPACES);
 
   return (

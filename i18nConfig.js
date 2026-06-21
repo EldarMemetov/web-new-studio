@@ -1,8 +1,8 @@
 import { LANGUAGES } from '@/shared/constants';
 
 const i18nConfig = {
-  locales: [LANGUAGES.UA, LANGUAGES.EN, LANGUAGES.DE],
-  defaultLocale: LANGUAGES.UA,
+  locales: [LANGUAGES.EN, LANGUAGES.DE],
+  defaultLocale: LANGUAGES.DE,
   prefixDefault: true,
 };
 

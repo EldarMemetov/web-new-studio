@@ -16,7 +16,7 @@ export const LINKDATA = {
   POLICY: 'privacy-policy',
   Blog: 'blog',
 };
-export const LANGUAGES = { UA: 'ua', EN: 'en', DE: 'de' };
+export const LANGUAGES = { EN: 'en', DE: 'de' };
 
 export const NAMESPACES = [
   'header',

@@ -10,10 +10,6 @@ module.exports = {
 
   alternateRefs: [
     {
-      href: 'https://qvrix.com/ua',
-      hreflang: 'uk',
-    },
-    {
       href: 'https://qvrix.com/en',
       hreflang: 'en',
     },

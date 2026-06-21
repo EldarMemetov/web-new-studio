@@ -17,7 +17,7 @@ export function middleware(request) {
   }
 
   if (!currentLocale) {
-    const defaultLocale = LANGUAGES.UA;
+    const defaultLocale = LANGUAGES.DE;
     if (!nextUrl.pathname.startsWith(`/${defaultLocale}`)) {
       nextUrl.pathname = `/${defaultLocale}${nextUrl.pathname}`;
       const response = NextResponse.redirect(nextUrl);
