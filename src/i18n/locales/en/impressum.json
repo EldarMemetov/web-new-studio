@@ -1,10 +1,11 @@
 {
   "title": "Legal Notice",
+  "credit": "\"Dieter macht den Datenschutz\" is a product of simply Legal GmbH, Burkarderstr. 36, D-97082 Würzburg. All rights reserved 2026.",
   "sections": {
     "provider": {
-      "title": "Information pursuant to Section 5 DDG",
+      "title": "Provider",
       "name": "Eldar Memetov",
-      "business": "Eldar Memetov, trading as \"QVRIX\"",
+      "business": "",
       "street": "Hauptlehrer-Urson-Straße 9",
       "postalCode": "65439",
       "city": "Flörsheim am Main",
@@ -15,32 +16,29 @@
       "email": "qvrix.studio@gmail.com",
       "phone": "+49 176 21139129"
     },
-    "tax": {
-      "title": "Value Added Tax (VAT)",
-      "note": "In accordance with Section 19 of the German VAT Act (UStG), no VAT is charged and therefore not shown on invoices (small business regulation)."
+    "media": {
+      "title": "Information on Audiovisual Media Services",
+      "country": "Country of establishment: Germany",
+      "authority": "Regulatory and supervisory authority: Medienanstalt Hessen"
     },
     "responsibility": {
-      "title": "Liability for Content",
-      "text": "The content of this website has been created with the utmost care. However, we cannot guarantee the accuracy, completeness, or timeliness of the information provided."
+      "title": "Disclaimer",
+      "text": "We are responsible for the content of our websites in accordance with the general laws. All content is created with due care and to the best of our knowledge. Insofar as we refer to third-party websites via hyperlinks on our websites, we cannot guarantee the continued accuracy, correctness and completeness of the linked content, as this content lies outside our area of responsibility and we have no influence on its future design. If, in your opinion, any content violates applicable law or is inappropriate, please let us know.",
+      "law": "The legal notices on this page as well as all questions and disputes related to the design of this website are subject to the law of the Federal Republic of Germany."
     },
-    "links": {
-      "title": "Liability for Links",
-      "text": "This website contains links to external third-party websites. We have no influence over the content of those websites. The respective operators are solely responsible for the content of the linked pages."
+    "privacy": {
+      "title": "Privacy Notice",
+      "text": "You can find our privacy policy at:",
+      "url": "https://qvrix.com/de/privacy-policy"
     },
     "copyright": {
-      "title": "Copyright",
-      "text": "The content and works published on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior written consent of the respective rights holder."
+      "title": "Copyright Notice",
+      "text": "The texts, images, photos, videos or graphics on our website are generally protected by copyright. Any unauthorized use (in particular the reproduction, editing or distribution) of these copyright-protected contents is therefore prohibited. If you intend to use this content or parts of it, please contact us in advance using the details provided above. Insofar as we are not the holder of the required copyright usage rights ourselves, we will endeavour to arrange contact with the rights holder."
     },
-    "dispute": {
-      "title": "Consumer Dispute Resolution / Universal Arbitration Board",
-      "text": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
-    },
-    "dsa": {
-      "title": "Central Contact Point under the Digital Services Act (Regulation (EU) 2022/2065)",
-      "text": "Our central contact point for users and authorities pursuant to Articles 11 and 12 of the DSA can be reached as follows:",
-      "email": "qvrix.studio@gmail.com",
-      "phone": "+49 176 21139129",
-      "languages": "The languages available for communication are: German and English."
+    "social": {
+      "title": "Social Media Profiles",
+      "intro": "This legal notice also applies to the following social media profiles:",
+      "instagramUrl": "https://www.instagram.com/videofilmer_frankfurt"
     }
   }
 }

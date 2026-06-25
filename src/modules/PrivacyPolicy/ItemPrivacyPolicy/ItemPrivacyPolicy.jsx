@@ -4,18 +4,32 @@ import s from './ItemPrivacyPolicy.module.scss';
 export default function ItemPrivacyPolicy({ content }) {
   if (!content) return null;
 
+  const paragraphs = Array.isArray(content.paragraphs)
+    ? content.paragraphs
+    : [];
   const points = Array.isArray(content.points) ? content.points : [];
   const subsections = Array.isArray(content.subsections)
     ? content.subsections
     : [];
 
+  const hasParagraphs = paragraphs.length > 0;
   const hasPoints = points.length > 0;
   const hasSubsections = subsections.length > 0;
 
-  if (!hasPoints && !hasSubsections) return null;
+  if (!hasParagraphs && !hasPoints && !hasSubsections) return null;
 
   return (
     <>
+      {hasParagraphs && (
+        <div className={s.paragraphs}>
+          {paragraphs.map((paragraph, idx) => (
+            <p key={idx} className={s.paragraph}>
+              {paragraph}
+            </p>
+          ))}
+        </div>
+      )}
+
       {hasPoints && (
         <ul className={s.list}>
           {points.map((point, idx) => (
@@ -32,7 +46,7 @@ export default function ItemPrivacyPolicy({ content }) {
             <div key={idx} className={s.subsection}>
               {sub.title && <h3 className={s.subtitle}>{sub.title}</h3>}
               {sub.description && (
-                <p className={s.point} style={{ marginBottom: 12 }}>
+                <p className={s.description} style={{ marginBottom: 12 }}>
                   {sub.description}
                 </p>
               )}

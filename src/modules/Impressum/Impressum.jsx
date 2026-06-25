@@ -8,12 +8,11 @@ import s from './Impressum.module.scss';
 const SECTIONS = [
   { key: 'provider', type: 'address' },
   { key: 'contact', type: 'contact' },
-  { key: 'tax', type: 'text', fields: ['note'] },
-  { key: 'responsibility', type: 'text', fields: ['text'] },
-  { key: 'links', type: 'text', fields: ['text'] },
+  { key: 'media', type: 'text', fields: ['country', 'authority'] },
+  { key: 'responsibility', type: 'text', fields: ['text', 'law'] },
+  { key: 'privacy', type: 'privacy' },
   { key: 'copyright', type: 'text', fields: ['text'] },
-  { key: 'dispute', type: 'text', fields: ['text'] },
-  { key: 'dsa', type: 'dsa' },
+  { key: 'social', type: 'social' },
 ];
 
 export default function Impressum() {
@@ -90,38 +89,47 @@ export default function Impressum() {
     );
   };
 
-  const renderDsa = () => {
-    const text = t('sections.dsa.text');
-    const email = t('sections.dsa.email');
-    const phone = t('sections.dsa.phone');
-    const languages = t('sections.dsa.languages');
+  const renderPrivacy = () => {
+    const text = t('sections.privacy.text');
+    const url = t('sections.privacy.url');
 
     return (
       <>
         {text && <p className={s.fieldText}>{text}</p>}
-
-        {email && (
-          <div className={s.field}>
-            <span className={s.fieldLabel}>E-Mail</span>
-            <a href={`mailto:${email}`} className={s.fieldLink}>
-              {email}
-            </a>
-          </div>
+        {url && (
+          <a
+            href={url}
+            className={s.fieldLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {url}
+          </a>
         )}
+      </>
+    );
+  };
 
-        {phone && (
+  const renderSocial = () => {
+    const intro = t('sections.social.intro');
+    const instagramUrl = t('sections.social.instagramUrl');
+
+    return (
+      <>
+        {intro && <p className={s.fieldText}>{intro}</p>}
+        {instagramUrl && (
           <div className={s.field}>
-            <span className={s.fieldLabel}>Tel.</span>
+            <span className={s.fieldLabel}>Instagram</span>
             <a
-              href={`tel:${phone.replace(/\s+/g, '')}`}
+              href={instagramUrl}
               className={s.fieldLink}
+              target="_blank"
+              rel="noreferrer"
             >
-              {phone}
+              {instagramUrl}
             </a>
           </div>
         )}
-
-        {languages && <p className={s.fieldText}>{languages}</p>}
       </>
     );
   };
@@ -142,10 +150,13 @@ export default function Impressum() {
   const renderBody = (section) => {
     if (section.type === 'address') return renderProvider();
     if (section.type === 'contact') return renderContact();
-    if (section.type === 'dsa') return renderDsa();
+    if (section.type === 'privacy') return renderPrivacy();
+    if (section.type === 'social') return renderSocial();
 
     return renderTextFields(section.key, section.fields);
   };
+
+  const credit = t('credit');
 
   return (
     <section className={s.section} id="impressum">
@@ -174,6 +185,8 @@ export default function Impressum() {
             </article>
           ))}
         </div>
+
+        {credit && <p className={s.credit}>{credit}</p>}
       </Container>
     </section>
   );

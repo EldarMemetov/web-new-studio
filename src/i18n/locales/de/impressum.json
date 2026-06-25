@@ -1,10 +1,11 @@
 {
   "title": "Impressum",
+  "credit": "\"Dieter macht den Datenschutz\" ist ein Produkt der simply Legal GmbH, Burkarderstr. 36, D-97082 Würzburg. All rights reserved 2026.",
   "sections": {
     "provider": {
-      "title": "Angaben gemäß § 5 DDG",
+      "title": "Anbieter",
       "name": "Eldar Memetov",
-      "business": "Eldar Memetov, handelnd unter „QVRIX“",
+      "business": "",
       "street": "Hauptlehrer-Urson-Straße 9",
       "postalCode": "65439",
       "city": "Flörsheim am Main",
@@ -15,32 +16,29 @@
       "email": "qvrix.studio@gmail.com",
       "phone": "+49 176 21139129"
     },
-    "tax": {
-      "title": "Umsatzsteuer",
-      "note": "Gemäß § 19 UStG wird keine Umsatzsteuer berechnet und daher auf Rechnungen nicht ausgewiesen (Kleinunternehmerregelung)."
+    "media": {
+      "title": "Angaben zu audiovisuellen Mediendiensten",
+      "country": "Sitzland: Deutschland",
+      "authority": "Regulierungs- und Aufsichtsbehörde: Medienanstalt Hessen"
     },
     "responsibility": {
-      "title": "Haftung für Inhalte",
-      "text": "Die Inhalte dieser Website werden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen wir jedoch keine Gewähr."
+      "title": "Haftungsausschluss",
+      "text": "Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetzen verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.",
+      "law": "Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland."
     },
-    "links": {
-      "title": "Haftung für Links",
-      "text": "Diese Website enthält Links zu externen Websites Dritter. Auf deren Inhalte haben wir keinen Einfluss. Für die Inhalte der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    "privacy": {
+      "title": "Datenschutzhinweis",
+      "text": "Unsere Datenschutzerklärung finden Sie unter:",
+      "url": "https://qvrix.com/de/privacy-policy"
     },
     "copyright": {
-      "title": "Urheberrecht",
-      "text": "Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers."
+      "title": "Urheberrechtshinweis",
+      "text": "Die auf unserer Internetseite vorhandenen Texte, Bilder, Fotos, Videos oder Grafiken unterliegen in der Regel dem Schutz des Urheberrechts. Jede unberechtigte Verwendung (insbesondere die Vervielfältigung, Bearbeitung oder Verbreitung) dieser urheberrechtsgeschützten Inhalte ist daher untersagt. Wenn Sie beabsichtigen, diese Inhalte oder Teile davon zu verwenden, kontaktieren Sie uns bitte im Voraus unter den oben stehenden Angaben. Soweit wir nicht selbst Inhaber der benötigten urheberrechtlichen Nutzungsrechte sein sollten, bemühen wir uns, einen Kontakt zum Berechtigten zu vermitteln."
     },
-    "dispute": {
-      "title": "Verbraucherstreitbeilegung / Universalschlichtungsstelle",
-      "text": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
-    },
-    "dsa": {
-      "title": "Zentrale Kontaktstelle nach dem Digital Services Act (Verordnung (EU) 2022/2065)",
-      "text": "Unsere zentrale Kontaktstelle für Nutzer und Behörden nach Art. 11, 12 DSA erreichen Sie wie folgt:",
-      "email": "qvrix.studio@gmail.com",
-      "phone": "+49 176 21139129",
-      "languages": "Die für den Kontakt zur Verfügung stehenden Sprachen sind: Deutsch, Englisch."
+    "social": {
+      "title": "Social-Media-Profile",
+      "intro": "Dieses Impressum gilt auch für folgende Social-Media-Profile:",
+      "instagramUrl": "https://www.instagram.com/videofilmer_frankfurt"
     }
   }
 }

@@ -1,93 +1,387 @@
 {
   "policy": {
-    "title": "Privacy Policy of the Qvrix Website",
-    "intro": "We, Eldar Memetov, operating under the name Qvrix (hereinafter referred to as the “Controller”), take the protection of your personal data very seriously. We process personal data exclusively in accordance with the General Data Protection Regulation (GDPR) and the applicable national data protection laws, in particular the German Federal Data Protection Act (BDSG) and the Telecommunications Digital Services Data Protection Act (TDDDG). This Privacy Policy explains which data we process, for what purposes, on which legal basis, and which rights you are entitled to. Last updated: January 2026.",
+    "title": "Privacy Policy",
+    "intro": "",
     "sections": [
       {
-        "title": "1. Controller",
-        "description": "The controller within the meaning of Article 4(7) GDPR is:",
+        "title": "1. Introduction",
+        "paragraphs": [
+          "This website is operated by: Eldar Memetov.",
+          "It is very important to us to handle our website visitors' data confidentially and to protect it in the best possible way. For this reason, we make every effort to comply with the requirements of the GDPR.",
+          "Below we explain how we process your data on our website. We use language that is as clear and transparent as possible so that you really understand what happens to your data."
+        ]
+      },
+      {
+        "title": "2. General information",
         "subsections": [
           {
-            "title": "Controller Contact Details",
-            "points": [
+            "title": "2.1 Processing of personal data and other terms",
+            "paragraphs": [
+              "Data protection applies to the processing of personal data. Personal data means all data with which you can be personally identified. This is, for example, the IP address of the device (PC, laptop, smartphone, etc.) you are currently sitting in front of. Such data is processed when 'something happens to it'. Here, for example, the IP is transmitted from the browser to our provider and automatically stored there. This is then a processing (according to Art. 4 No. 2 GDPR) of personal data (according to Art. 4 No. 1 GDPR).",
+              "These and other legal definitions can be found in Art. 4 GDPR."
+            ]
+          },
+          {
+            "title": "2.2 Applicable regulations/laws - GDPR, BDSG and TDDDG",
+            "paragraphs": [
+              "The scope of data protection is regulated by law. In this case, these are the GDPR (General Data Protection Regulation) as a European regulation and the BDSG (Federal Data Protection Act) as a national law.",
+              "In addition, the TDDDG supplements the provisions of the GDPR as far as the use of cookies is concerned."
+            ]
+          },
+          {
+            "title": "2.3 The person responsible",
+            "paragraphs": [
+              "The controller within the meaning of the GDPR is responsible for data processing on this website. This is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data.",
+              "You can reach the person responsible at:",
               "Eldar Memetov",
-              "Qvrix — Video and Web Services for Businesses",
-              "Hauptlehrer-Urson-Straße 9",
-              "65439 Flörsheim am Main",
-              "Germany",
-              "Email: qvrix.studio@gmail.com",
-              "Website: https://qvrix.com"
+              "Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Germany",
+              "qvrix.studio@gmail.com"
+            ]
+          },
+          {
+            "title": "2.4 How data is generally processed on this website",
+            "paragraphs": [
+              "As we have already established, there is data (e.g. IP address) that is collected automatically. This data is mainly required for the technical provision of the website. If we also use personal data or collect other data, we will inform you of this or ask for your consent.",
+              "You consciously provide us with other personal data.",
+              "You will find detailed information on this below."
+            ]
+          },
+          {
+            "title": "2.5 Your rights",
+            "paragraphs": [
+              "The GDPR provides you with comprehensive rights. These include, for example, free information about the origin, recipient and purpose of your stored personal data. You can also request the rectification, blocking or erasure of this data or lodge a complaint with the competent data protection supervisory authority. You can revoke your consent at any time.",
+              "You can find out what these rights look like in detail and how to exercise them in the last section of this Privacy Policy."
+            ]
+          },
+          {
+            "title": "2.6 Data protection - Our view",
+            "paragraphs": [
+              "Data protection is more than just a chore for us! Personal data has great value and careful handling of this data should be a matter of course in our digitalized world. As a website visitor, you should also be able to decide for yourself what \"happens\" to your data, when and by whom. That is why we are committed to complying with all legal regulations, only collect the data we need and, of course, treat it confidentially."
+            ]
+          },
+          {
+            "title": "2.7 Forwarding and deletion",
+            "paragraphs": [
+              "The transfer and deletion of data are also important and sensitive issues. We would therefore like to briefly inform you in advance about our general approach to this.",
+              "Data will only be passed on on the basis of a legal basis and only if this is unavoidable. This may be the case in particular if it is a so-called Data Processor and a Data Processing Agreement has been concluded in accordance with Art. 28 GDPR.",
+              "We delete your data when the purpose and legal basis for processing no longer apply and the deletion does not conflict with any other legal obligations. Art. 17 GDPR also provides a 'good' overview of this.",
+              "For further information, please refer to this Privacy Policy and contact the person responsible if you have any specific questions."
+            ]
+          },
+          {
+            "title": "2.8 Hosting",
+            "subsections": [
+              {
+                "title": "Vercel",
+                "paragraphs": [
+                  "The Vercel service of Vercel Inc, 340 S Lemon Ave #4133, Walnut, CA 91789, USA, is used to host this website. Vercel is a cloud platform for the provision and operation of web applications and static websites via a global edge network. Each time this website is accessed, technical connection data is automatically recorded in so-called server log files, including IP address, date and time of access, page accessed, HTTP status code and amount of data transferred. Processing is carried out on the basis of Art. 6 para. 1 lit. f GDPR (legitimate interest in the secure and functional operation of the website). As Vercel Inc. is based in the USA and the website is delivered via a global edge network, personal data is transferred to a third country. Vercel is certified according to the EU-US Data Privacy Framework (DPF); in addition, standard contractual clauses (SCC) pursuant to Art. 46 para. 2 lit. c GDPR are used. Further information can be found in Vercel's Privacy Policy: https://vercel.com/legal/privacy-policy"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "2.9 Legal basis",
+            "description": "The processing of personal data always requires a legal basis. The GDPR provides the following possibilities in Art. 6 para. 1 sentence 1:",
+            "points": [
+              "a) The data subject has given their consent to the processing of their personal data for one or more specific purposes;",
+              "b) Processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;",
+              "c) The processing is necessary for compliance with a legal obligation to which the controller is subject;",
+              "d) Processing is necessary in order to protect the vital interests of the data subject or of another natural person;",
+              "e) The processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;",
+              "f) Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child."
+            ],
+            "subsections": [
+              {
+                "paragraphs": [
+                  "In the following sections, we will provide you with the specific legal basis for the respective processing."
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "title": "2. General Principles of Processing",
-        "description": "We process personal data only to the extent necessary for the operation of the website, the handling of inquiries, and the provision of our services, or where another legal basis exists. Depending on the specific processing activity, we rely in particular on the following legal bases:",
-        "points": [
-          "Article 6(1)(a) GDPR — consent, where required for specific functions;",
-          "Article 6(1)(b) GDPR — performance of a contract and pre-contractual measures taken at your request;",
-          "Article 6(1)(c) GDPR — compliance with legal obligations;",
-          "Article 6(1)(f) GDPR — legitimate interests, particularly in the secure, stable, and functional provision of our website."
-        ]
-      },
-      {
-        "title": "3. Hosting, Technical Provision and Server Log Files",
-        "description": "This website is hosted by Vercel. Services provided by Render.com may additionally be used for server-side functions and the processing of form submissions. Both providers process technical data in connection with the provision, security, and stability of the website. A Data Processing Agreement (DPA) pursuant to Article 28 GDPR has been concluded with Vercel.",
+        "title": "3. What happens on our website",
+        "paragraphs": [
+          "When you visit our website, we process your personal data.",
+          "We use SSL or TLS encryption to protect this data in the best possible way against unauthorized access by third parties. You can recognize this encrypted connection by the https:// or lock symbol in the address bar of your browser.",
+          "Below you can find out what data is collected when you visit our website, for what purpose this is done and on what legal basis."
+        ],
         "subsections": [
           {
-            "title": "3.1. Automatically Processed Data",
+            "title": "3.1 Data collection when accessing the website",
+            "description": "When you visit the website, information is automatically stored in so-called server log files. This is the following information:",
             "points": [
-              "Browser type and version;",
-              "Operating system used;",
-              "Referrer URL;",
-              "Hostname and IP address;",
-              "Date and time of the server request;",
-              "Accessed page or file;",
-              "Amount of data transferred;",
-              "HTTP status code;",
-              "Technical information for error analysis and security purposes."
+              "Browser type and browser version",
+              "Operating system used",
+              "Referrer URL",
+              "Host name of the accessing computer",
+              "Time of the server request",
+              "IP address"
+            ],
+            "subsections": [
+              {
+                "description": "This data is temporarily required in order to be able to display our website to you permanently and without any problems. In particular, this data is used for the following purposes:",
+                "points": [
+                  "System security of the website",
+                  "System stability of the website",
+                  "Troubleshooting on the website",
+                  "Establishing a connection to the website",
+                  "Presentation of the website"
+                ]
+              },
+              {
+                "paragraphs": [
+                  "Data processing is carried out in accordance with Art. 6 para. 1 lit. f GDPR and is based on our legitimate interest in the processing of this data, in particular our interest in the functionality of the website and its security.",
+                  "Where possible, this data is stored in pseudonymized form and deleted once the respective purpose has been achieved.",
+                  "If the server log files make it possible to identify the data subject, the data is stored for a maximum period of 14 days. An exception is made if a security-relevant event occurs. In this case, the server log files are stored until the security-relevant event has been resolved and finally clarified.",
+                  "Otherwise, no merging with other data takes place."
+                ]
+              }
             ]
           },
           {
-            "title": "3.2. Legal Basis and Storage Period",
-            "points": [
-              "The legal basis is Article 6(1)(f) GDPR, as we have a legitimate interest in the secure, fast, and stable operation of our website.",
-              "Server log files are stored only for as long as necessary for security, troubleshooting, and operational purposes and are subsequently deleted unless longer retention is required.",
-              "These data are not merged with other data sources unless necessary for troubleshooting, preventing misuse, or required by law."
+            "title": "3.2 Data processing through user input",
+            "subsections": [
+              {
+                "title": "3.2.1 Own data collection",
+                "description": "We offer the following services on our website: video production and web development.",
+                "paragraphs": [
+                  "We collect the following data for this purpose:"
+                ],
+                "points": ["Name", "E-mail address"],
+                "subsections": [
+                  {
+                    "paragraphs": [
+                      "The legal basis for this data processing is Art. 6 para. 1 lit. b GDPR.",
+                      "The data will be deleted as soon as the respective purpose no longer applies and it is possible in accordance with the legal requirements."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "3.2.2 Contact us",
+                "subsections": [
+                  {
+                    "title": "a) e-mail",
+                    "paragraphs": [
+                      "When you contact us by email, we process your email address and any other data contained in the email. This data is stored on the mail server and in some cases on the respective end devices. Depending on the request, the legal basis for this is regularly Art. 6 para. 1 lit. f GDPR or Art. 6 para. 1 lit. b GDPR. The data will be deleted as soon as the respective purpose no longer applies and it is possible in accordance with the legal requirements."
+                    ]
+                  },
+                  {
+                    "title": "b) Telephone",
+                    "paragraphs": [
+                      "If you contact us by telephone, the call data may be stored in pseudonymized form on the respective end device and with the telecommunications provider used. Personal data collected during the telephone call will only be processed in order to process your request. Depending on the request, the legal basis for this is regularly Art. 6 para. 1 lit. f GDPR or Art. 6 para. 1 lit. b GDPR. The data will be deleted as soon as the respective purpose no longer applies and it is possible in accordance with the legal requirements."
+                    ]
+                  },
+                  {
+                    "title": "c) Contact form",
+                    "subsections": [
+                      {
+                        "title": "Resend",
+                        "paragraphs": [
+                          "We use Resend on this website to process and transmit contact form messages, an email API service of Plus Five Five, Inc, 2261 Market Street #5039, San Francisco, CA 94114, USA, which is operated under the domain resend.com. Resend is a developer-oriented email sending platform that enables website operators to reliably send transactional emails via a REST API or SMTP integration. In the context of this website's contact form, Resend handles the technical delivery of incoming contact requests to the website operator's stored email address. In addition, Resend provides detailed dispatch logs and event data (e.g. delivery, bounce). The following personal data is processed when Resend is used to process contact form submissions: Name, e-mail address and all other data entered in the contact form (e.g. message content, telephone number), IP address of the requesting person, time stamp of the transmission and technical metadata of the e-mail dispatch (e.g. delivery status, bounce information). The purpose of the data processing is the technically reliable delivery of contact requests to the website operator and to ensure the traceability of the e-mail dispatch by means of dispatch logs. The legal basis for data processing is Art. 6 para. 1 lit. b GDPR, insofar as contact is made in the context of pre-contractual or contractual measures, and Art. 6 para. 1 lit. f GDPR (legitimate interest of the website operator in the reliable technical delivery of contact requests). Data processing takes place within the framework of a Data Processing Agreement (Data Processing Addendum, DPA) in accordance with Art. 28 GDPR. Resend does not place any cookies on the end devices of website visitors as part of pure contact form processing. Data is transferred to a third country. According to its own information, Resend stores and processes customer data in the USA. When data is transferred to the USA, the standard contractual clauses (SCC) of the EU Commission pursuant to Art. 46 para. 2 lit. c GDPR apply as a suitable guarantee, which are anchored in Resend's Data Processing Addendum (DPA). The data processed as part of the contact form transmission will be deleted after processing the request, provided that there are no legal storage obligations to the contrary. According to Resend's own information, dispatch logs are stored for a period of seven days and then automatically deleted. Further information on data processing can be found at: https://resend.com/legal/privacy-policy"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
-            "title": "3.3. Data Processing and Transfers to Third Countries",
-            "points": [
-              "Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA, is engaged as a processor within the meaning of Article 28 GDPR.",
-              "Render.com may be used for server-side functions and processes technical data as a processor.",
-              "Depending on the technical processing involved, personal data may be transferred to the United States.",
-              "Where required, such transfers are based on appropriate safeguards under Chapter V GDPR, particularly Standard Contractual Clauses and, where applicable, recognized adequacy mechanisms."
+            "title": "3.3 Mailing service",
+            "subsections": [
+              {
+                "title": "Resend",
+                "paragraphs": [
+                  "We use the Resend e-mail service on our website, provided by Resend, Inc, 2261 Market Street, #5039, San Francisco, CA 94114, USA. This service enables us to efficiently send transactional and marketing emails to our users. Personal data such as email addresses, names and the content of the emails are processed. The purpose of data processing is to communicate with our users, for example for order confirmations or newsletter distribution. The legal basis for the processing of this data is Art. 6 para. 1 lit. a GDPR, as the processing is based on the consent of the data subject, and Art. 6 para. 1 lit. f GDPR, as there is a legitimate interest in efficient communication with our users. Resend uses cookies to ensure the functionality of the platform and to optimize the user experience. These cookies are only set with consent and can be revoked at any time. The legal basis for this is Art. 6 para. 1 lit. a GDPR. Personal data is transferred to the USA. Resend is certified under the EU-U.S. Data Privacy Framework to ensure an adequate level of data protection. In addition, standard contractual clauses (SCCs) in accordance with Art. 46 GDPR are used as suitable guarantees. The data is stored for as long as it is required for the stated purpose or as required by statutory retention periods. Further information on data processing can be found at: https://resend.com/legal/dpa."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "3.4 Analysis and tracking tools",
+            "paragraphs": [
+              "We currently do not use any analysis and tracking tools on this website."
+            ]
+          },
+          {
+            "title": "3.5 Social media profiles",
+            "paragraphs": [
+              "In addition to our website, our company is also present on social networks. Here we want to present our company and create the opportunity to get in touch with us.",
+              "We also use the opportunity to place advertisements and job advertisements on social media.",
+              "In the following, we provide information about which data we and the respective social network process when you visit and interaction with our profile."
+            ],
+            "subsections": [
+              {
+                "title": "Instagram",
+                "paragraphs": [
+                  "We operate an Instagram profile. This social media platform is offered by Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland."
+                ],
+                "subsections": [
+                  {
+                    "title": "Interaction with our company profile",
+                    "paragraphs": [
+                      "When you visit our Instagram profile and interact with us, we process personal data. On the one hand, the data made publicly available on the profile. On the other hand, we also process the personal data contained in posts, comments or direct messages to us. Through interactions such as liking or sharing, we can see the user profile with the public information. The legal basis for this processing is Art. 6 para. 1 lit. f GDPR. It is in our legitimate interest to provide relevant and interesting content and to enable the use and functionality of our Instagram profile. Insofar as a request is related to the performance of a contract or is necessary for the implementation of pre-contractual measures, our processing is based on Art. 6 para. 1 lit. b GDPR."
+                    ]
+                  },
+                  {
+                    "title": "Insights",
+                    "paragraphs": [
+                      "As explained in the Meta Privacy Policy under \"How do we use your information?\" (https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect), Meta also collects and uses information to provide analytics services, known as insights, for site operators. This also applies to our Instagram profile. Insights are summarized statistics that are created based on certain interactions of visitors with pages and the content associated with them and are logged by the Meta servers. This includes the following information: - how many people see and interact with our products, services or content, such as posts, videos, Instagram pages, advertisements, stores and advertisements (if the advertisement is shown on Meta products); - how people interact with our content, websites, apps and services; - which group of people interact with our content or which group of people use our services. Meta provides us with aggregated reports and insights that tell us how well our content, features, products and services are performing. We do not have access to personal data, only to the summarized reports. To evaluate the reach, we can make settings or set appropriate filters with regard to the selection of a time period, the viewing of a specific post and demographic groupings. This data is anonymized. It is not possible for us to draw conclusions about specific individuals. The purpose of processing this data is to analyze our reach and adapt our content and advertisements to user interests so that visitors can derive the greatest possible benefit from them. By evaluating this data, we can recognize how our content, our profile and our advertising are consumed. This enables us to create target-group-specific content and place advertising to better market our company and our services. The processing is based on our legitimate interest in accordance with Art. 6 para. 1 sentence 1 lit. f GDPR. When processing personal data in the course of the so-called Insights, the processing is carried out in joint responsibility with Meta in accordance with Art. 26 para. 1 GDPR. We have entered into a corresponding agreement with Meta for this purpose, which can be viewed here (https://www.facebook.com/legal/terms/page_controller_addendum). Meta's contact details are as follows: Online contact: https://www.facebook.com/help/contact/1650115808681298 Postal: Meta Platforms Ireland Limited, ATTN: Privacy Operations, Merrion Road, Dublin 4, D04 X2K5, Ireland. For Instagram, you can contact the data protection officer at the following link: https://www.facebook.com/help/contact/540977946302970. Further information about Insights: https://de-de.facebook.com/help/pages/insights. The complete privacy policy of Instagram: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+                    ]
+                  },
+                  {
+                    "title": "Processing of personal data and cookies by Meta",
+                    "paragraphs": [
+                      "When an Instagram page is accessed, the IP address assigned to the end device is transmitted to Meta. According to Meta, this IP address is anonymized (for \"German\" IP addresses). Meta also stores information about the end devices of its users (e.g. as part of the \"login notification\" function); Meta may thus be able to assign IP addresses to individual users. If you are currently logged in to Instagram as a user, a cookie with the Instagram identifier is stored on the end device. This enables Meta to track who has visited and used this page. Meta buttons integrated into websites enable Meta to record your visits to these websites and assign them to your Instagram profile. This data can be used to offer personalized content or advertising. Further information: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "LinkedIn",
+                "paragraphs": [
+                  "We operate a LinkedIn profile on https://www.linkedin.com/. This social network is operated by LinkedIn Corporation, 2029 Stierlin Court, Mountain View, CA 94043, USA."
+                ],
+                "subsections": [
+                  {
+                    "title": "Interaction with our company profile",
+                    "paragraphs": [
+                      "When you visit our LinkedIn profile and interact with us, we process personal data. On the one hand, the data made publicly available on the profile. On the other hand, we also process the personal data contained in posts, comments or direct messages to us. Through interactions such as liking or sharing, we can see the user profile with the public information. The legal basis for this processing is Art. 6 para. 1 lit. f GDPR. It is in our legitimate interest to provide relevant and interesting content and to enable the use and functionality of our LinkedIn profile. Insofar as a request is related to the performance of a contract or is necessary for the implementation of pre-contractual measures, our processing is based on Art. 6 para. 1 lit. b GDPR."
+                    ]
+                  },
+                  {
+                    "title": "Page Insights",
+                    "paragraphs": [
+                      "LinkedIn provides us with aggregated statistics and insights (called Page Insights) that tell us how people interact with our Company Page. Among other things, we receive information about the number of profiles that view, comment on or otherwise interact with our posts, as well as aggregated demographic and other information that helps us learn about the interaction with our page or LinkedIn profile. Page Insights provided to us by LinkedIn consist of aggregated data, and LinkedIn does not provide us with any personally identifiable information about members in relation to Page Insights. We also have no way of linking Page Insights to individual members. When placing ads, LinkedIn provides us with information about the types of people who see our ads and the success of our ads. Personal data is only passed on to us if this person has consented to such processing. We also receive information from LinkedIn that allows us to understand which of our ads led to a purchase being made or an action being taken. This data is processed for the purpose of analyzing our reach and adapting our content and ads to user interests. By evaluating this data, we can recognize how our content, our profile and our advertising are consumed. This enables us to create target-group-specific content and place advertisements in order to better market our company and our services. The processing is based on our legitimate interest in accordance with Art. 6 para. 1 sentence 1 lit. f GDPR. When processing personal data in the course of the so-called Page Insights, the processing is carried out in joint responsibility with LinkedIn in accordance with Art. 26 para. 1 GDPR. We have concluded a corresponding agreement with LinkedIn for this purpose, which can be viewed here (https://legal.linkedin.com/pages-joint-controller-addendum). LinkedIn's contact details are as follows: LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland. For LinkedIn, you can contact the data protection officer at the following link: https://www.linkedin.com/help/linkedin/ask/TSO-DPO."
+                    ]
+                  },
+                  {
+                    "title": "Processing by LinkedIn",
+                    "paragraphs": [
+                      "By visiting our company profile, LinkedIn may also process additional personal data. In this case, the processing is carried out under the sole responsibility of LinkedIn and without our knowledge. More information from LinkedIn on this: https://de.linkedin.com/legal/privacy-policy."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Telegram channel",
+                "paragraphs": [
+                  "We operate a Telegram channel, which is operated by Telegram Messenger LLP Al Kazim Towers, Office 2301 and 2303, Sheikh Zayed Road, Dubai, United Arab Emirates. Telegram is a cloud-based messaging app that allows users to send text messages, media and files in groups, channels and individual chats."
+                ],
+                "subsections": [
+                  {
+                    "title": "Interaction with our corporate channel",
+                    "paragraphs": [
+                      "When using our Telegram channel, we process the data of profile visitors. This data includes information about interactions with our channel, such as messages sent and reactions. This information helps us to improve communication and tailor our content to the needs of our target group. The legal basis for the processing of this data is a legitimate interest pursuant to Art. 6 para. 1 lit. f GDPR."
+                    ]
+                  },
+                  {
+                    "title": "Processing of personal data and cookies by Telegram",
+                    "paragraphs": [
+                      "When you visit our Telegram channel, Telegram collects personal data such as IP addresses, device details and activities on the platform. This data may be collected through cookies and similar technologies that are stored on the device. Telegram uses this information to improve the service and to combat spam and abuse. The data is processed on the basis of consent pursuant to Art. 6 para. 1 lit. a GDPR, which is granted by accepting the cookie policy on Telegram. In addition, there is a legitimate interest in accordance with Art. 6 para. 1 lit. f GDPR in order to optimize our communication offer and to be able to respond more quickly to inquiries. Data may be transferred to third countries, as Telegram operates servers outside the EU, including in the USA. Telegram states that it implements measures to protect data in accordance with the GDPR, for example by applying the standard contractual clauses (SCCs). The data is stored for as long as this is necessary for the provision of the services or until the user requests the deletion of the data; statutory retention periods remain unaffected. We have no influence on the scope of the data processed by Telegram or its transfer to third parties and cannot exercise any effective control options in this respect. Further information on data processing can be found here: https://telegram.org/privacy."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "WhatsApp channel",
+                "paragraphs": [
+                  "We operate a WhatsApp channel. The channel is operated by WhatsApp Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. Through WhatsApp channels, information and relevant messages can be played out directly on WhatsApp by subscribing to channels of people and organizations. When a channel is subscribed to, messages are sent in the form of text messages, links to information, images or videos. Channels are public, which means that anyone can find, follow and view them. Since channels are public and the number of users is unlimited, channel status messages are visible to everyone and to WhatsApp. WhatsApp collects information from users, for example about their reactions, their choice of language and the channels they follow. However, we ourselves as the operator do not have access to personal data. WhatsApp channels are designed in such a way that operators do not receive any information such as the identity or contact details of users. Information about data processing by WhatsApp: https://www.whatsapp.com/legal/channels-privacy-policy-eea?lang=de_DE."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "3.6 Third-party content",
+            "subsections": [
+              {
+                "title": "Sanity.io - API",
+                "paragraphs": [
+                  "We use the CMS (Content Management System) Sanity.io on this website. This service is offered by Sanity US Inc, 2345 Yale St 1St FL Palo Alto CA 94306, USA. Sanity.io's CMS enables us to create, edit, organize and publish content such as texts, images or videos on our website. Sanity enables us to integrate our uploaded content into our internal systems and/or third-party systems provided by other parties via an application programming interface (API). Sanity collects the IP address of an end user in order to prevent fraudulent use (e.g. DDOS attacks). The legal basis for data processing by Sanity.io is Art. 6 para. 1 lit. f GDPR. We have a legitimate interest in implementing the efficient management and publication of content in order to improve the user-friendliness of a website and provide up-to-date information. Further information: https://www.sanity.io/legal/privacy."
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "title": "4. Cookies and Local Storage",
-        "description": "Our website uses only technically necessary cookies or comparable local storage technologies. We currently do not use analytics, marketing, or tracking services such as Google Analytics, Google Tag Manager, Meta Pixel, or similar services.",
+        "title": "4. What else is important",
+        "paragraphs": [
+          "Finally, we would like to inform you in detail about your rights and how you will be informed about changes to data protection requirements."
+        ],
         "subsections": [
           {
-            "title": "4.1. Technically Necessary Storage",
-            "points": [
-              "If consent preferences or language settings are stored locally in the browser, this may be done using localStorage or a comparable local storage technology.",
-              "localStorage is a client-side browser storage feature; these data are not automatically transmitted to our servers.",
-              "The storage of or access to information on your device is permitted only to the extent strictly necessary to provide the digital service explicitly requested by you (Section 25(2) TDDDG)."
-            ]
-          },
-          {
-            "title": "4.2. Optional Services Not Used",
-            "points": [
-              "We currently do not use optional analytics, marketing, or tracking services.",
-              "Should such services be introduced in the future, they will only be used with your prior consent in accordance with Article 6(1)(a) GDPR and Section 25(1) TDDDG.",
-              "Any consent given may be withdrawn at any time with effect for the future."
+            "title": "4.1 Your rights in detail",
+            "subsections": [
+              {
+                "title": "4.1.1 Right to information in accordance with Art. 15 GDPR",
+                "paragraphs": [
+                  "You can request information about whether your personal data is being processed. If this is the case, you can request further information on the type and manner of processing. A detailed list can be found in Art. 15 para. 1 lit. a to h GDPR."
+                ]
+              },
+              {
+                "title": "4.1.2 Right to rectification in accordance with Art. 16 GDPR",
+                "paragraphs": [
+                  "This right includes the correction of incorrect data and the completion of incomplete personal data."
+                ]
+              },
+              {
+                "title": "4.1.3 Right to erasure in accordance with Art. 17 GDPR",
+                "paragraphs": [
+                  "This so-called 'right to be forgotten' gives you the right, under certain conditions, to request the deletion of personal data by the controller. This is generally the case if the purpose of the data processing no longer applies, if consent has been withdrawn or the initial processing took place without a legal basis. A detailed list of reasons can be found in Art. 17 para. 1 lit. a to f GDPR. This \"right to be forgotten\" also corresponds to the controller's obligation under Art. 17 para. 2 GDPR to take reasonable steps to ensure that the data is generally erased."
+                ]
+              },
+              {
+                "title": "4.1.4 Right to restriction of processing in accordance with Art. 18 GDPR",
+                "paragraphs": [
+                  "This right is subject to the conditions set out in Art. 18 para. 1 lit. a to d."
+                ]
+              },
+              {
+                "title": "4.1.5 Right to data portability in accordance with Art. 20 GDPR",
+                "paragraphs": [
+                  "This regulates the basic right to receive your own data in a commonly used form and to transfer it to another controller. However, this only applies to data processed on the basis of consent or a contract in accordance with Art. 20 (1) (a) and (b) and insofar as this is technically feasible."
+                ]
+              },
+              {
+                "title": "4.1.6 Right to object pursuant to Art. 21 GDPR",
+                "paragraphs": [
+                  "In principle, you can object to the processing of your personal data. This applies in particular if your interest in objecting outweighs the legitimate interest of the controller in the processing and if the processing relates to direct marketing and/or profiling."
+                ]
+              },
+              {
+                "title": "4.1.7 Right to \"individual decision-making\" pursuant to Art. 22 GDPR",
+                "paragraphs": [
+                  "In principle, you have the right not to be subject to a decision based solely on automated processing (including profiling) which produces legal effects concerning you or similarly significantly affects you. However, this right is also restricted and supplemented by Art. 22 (2) and (4) GDPR."
+                ]
+              },
+              {
+                "title": "4.1.8 Further rights",
+                "paragraphs": [
+                  "The GDPR contains comprehensive rights to inform third parties about whether or how you have asserted rights under Art. 16, 17, 18 GDPR. However, this only applies insofar as this is possible or feasible with reasonable effort.",
+                  "We would like to take this opportunity to draw your attention once again to your right to withdraw your consent in accordance with Art. 7 (3) GDPR. However, this does not affect the lawfulness of the processing carried out up to that point.",
+                  "We would also like to draw your attention to your rights under §§ 32 ff. BDSG, which, however, are largely congruent with the rights just described."
+                ]
+              },
+              {
+                "title": "4.1.9 Right to lodge a complaint pursuant to Art. 77 GDPR",
+                "paragraphs": [
+                  "You also have the right to lodge a complaint with a data protection supervisory authority if you consider that the processing of personal data relating to you infringes this Regulation."
+                ]
+              }
             ]
           }
+        ]
+      },
+      {
+        "title": "5. What if the GDPR is abolished tomorrow or other changes take place?",
+        "paragraphs": [
+          "This Privacy Policy is current as of June 24, 2026. From time to time, it may be necessary to update the content of this Privacy Policy to reflect actual and legal changes. We therefore reserve the right to amend this Privacy Policy at any time. We will publish the updated version in the same location and recommend that you review the Privacy Policy regularly.",
+          "Created with the kind support of Dieter macht den Datenschutz",
+          "\"Dieter macht den Datenschutz\" is a product of simply Legal GmbH, Burkarderstr. 36, D-97082 Würzburg. All rights reserved 2026."
         ]
       }
     ]

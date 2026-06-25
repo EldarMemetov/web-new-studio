@@ -1,14 +1,19 @@
-import axios from 'axios';
 import { handleError } from '@/utils/errorHandler';
-export const api = axios.create({
-  baseURL: 'https://node-reply-letter.onrender.com',
-  withCredentials: true,
-});
 
 export const sendFeedback = async (data) => {
   try {
-    const { data: res } = await api.post('/api/feedback', data);
-    return res;
+    const res = await fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.error || 'Server error');
+    }
+
+    return await res.json();
   } catch (error) {
     throw handleError(error);
   }

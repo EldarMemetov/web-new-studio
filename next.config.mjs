@@ -1,13 +1,5 @@
 const nextConfig = {
   trailingSlash: false,
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'https://node-reply-letter.onrender.com/:path*',
-      },
-    ];
-  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -15,7 +7,6 @@ const nextConfig = {
     });
     return config;
   },
-
   sassOptions: {
     additionalData: `
       @use "src/shared/styles/_breakpoints.scss" as *;
@@ -23,7 +14,6 @@ const nextConfig = {
       @use "src/shared/styles/_variables.scss" as *;
     `,
   },
-
   images: {
     remotePatterns: [
       {
