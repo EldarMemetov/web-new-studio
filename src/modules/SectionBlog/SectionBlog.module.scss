@@ -15,7 +15,7 @@
 
   @include media(desktop) {
     width: 392px;
-    height: 493px;
+    min-height: 493px;
   }
 }
 
