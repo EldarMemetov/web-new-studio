@@ -1,7 +1,7 @@
 {
   "spanTitle": "Lösungen, ",
-  "title": "die wir anbieten",
-  "description": "Unser Ansatz bietet umfassende Betreuung in jeder Phase der Videoproduktion – von der Idee bis zur Umsetzung. Mit uns erhält Ihre Marke professionelle Videoinhalte, die alle Anforderungen erfüllen und echte Ergebnisse liefern.",
+  "title": "die ich anbiete",
+  "description": "Mein Ansatz bietet umfassende Betreuung in jeder Phase der Videoproduktion – von der Idee bis zur Umsetzung. Mit mir erhält Ihre Marke professionelle Videoinhalte, die alle Anforderungen erfüllen und echte Ergebnisse liefern.",
   "solutions": [
     {
       "id": "advertising",
@@ -66,7 +66,7 @@
     {
       "id": "social-media",
       "title": "Content für Social Media & YouTube",
-      "info": "Videos, die Aufmerksamkeit erregen und eine loyale Community in sozialen Netzwerken aufbauen.",
+      "info": "Videos, die Aufmerksamkeit erregen und eine loyale Community aufbauen.",
       "className": "socialMediaImg",
       "images": [
         {

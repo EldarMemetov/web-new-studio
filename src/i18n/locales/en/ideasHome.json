@@ -1,18 +1,18 @@
 {
   "section": {
-    "eyebrow": "Our Services",
+    "eyebrow": "My services",
     "title": "Your idea — ",
-    "subTitle": "our execution",
-    "description": "We turn ideas into modern websites and videos that strengthen your brand.",
+    "subTitle": "my execution",
+    "description": "I turn ideas into modern websites and videos that strengthen your brand.",
     "together": {
-      "label": "Stronger Together",
+      "label": "Stronger together",
       "title": "Website + Video — ",
-      "titleHighlight": "one style, one team",
-      "description": "Order both services together and get a consistent brand identity, save time, and enjoy additional benefits.",
+      "titleHighlight": "one style, one contact",
+      "description": "Book both services together and benefit from a unified brand identity, time savings and additional advantages.",
       "perks": [
-        "Bundle discount",
-        "Single point of contact",
-        "Consistent visual style",
+        "Combined discount",
+        "One central contact",
+        "Unified style",
         "Unified brand strategy"
       ]
     },
@@ -20,31 +20,31 @@
       {
         "title": "Web Development",
         "icon": "LaptopWrite",
-        "description": "What we offer:",
+        "description": "My services:",
         "list": [
           "Websites",
-          "Landing pages",
-          "Responsive design",
-          "Online stores",
-          "Technical support",
-          "SEO optimization",
-          "UX/UI design"
+          "Landing Pages",
+          "Responsive Design",
+          "Online Shops",
+          "Technical Support",
+          "SEO Optimisation",
+          "UX/UI Design"
         ],
-        "cta": "Click to order now"
+        "cta": "Order now"
       },
       {
         "title": "Video Production",
         "icon": "icon-cinema",
-        "description": "What we offer:",
+        "description": "My services:",
         "list": [
-          "Video shooting",
-          "Video editing",
+          "Video Shooting",
+          "Video Editing",
           "Directing",
-          "Scriptwriting",
-          "Location scouting",
+          "Script Development",
+          "Location Scouting",
           "Post-production"
         ],
-        "cta": "Click to order now"
+        "cta": "Order now"
       }
     ]
   }

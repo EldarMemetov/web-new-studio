@@ -1,19 +1,19 @@
 {
   "buttons": "Mehr erfahren",
-  "buttonsGo": "Weitere Projekte? Schreiben Sie uns",
+  "buttonsGo": "Weitere Projekte? Schreiben Sie mir",
   "ui": {
     "goToSite": "Zur Website gehen",
     "technologies": "Technologien",
     "featuresTitle": "Was umgesetzt wurde:",
     "projectNotFound": "Projekt nicht gefunden",
-    "backLink": "Back to Portfolio"
+    "backLink": "Zurück zum Portfolio"
   },
   "title": {
-    "prefix": "Unsere realisierten ",
+    "prefix": "Meine realisierten ",
     "span": "Projekte"
   },
   "desc": {
-    "part1": "QVRIX bietet ein vollständiges Spektrum an Lösungen – von der Konzeption bis zum Launch. Wir passen uns Ihrem Geschäft an, um effektive, ",
+    "part1": "QVRIX bietet ein vollständiges Spektrum an Lösungen – von der Konzeption bis zum Launch. Ich passe mich Ihrem Geschäft an, um effektive, ",
     "span1": "schöne und funktionale Websites ",
     "span2": "zu erstellen, die wirklich funktionieren."
   },
@@ -60,12 +60,12 @@
     },
     "full-stack": {
       "title": "LLOYDJEFFERSON – persönliche Fullstack-Entwickler-Website",
-      "description": "Interaktive persönliche Website des Entwicklers Lloyd Jefferson mit Möglichkeit zum Umschalten zwischen hellem und dunklem Thema. Die Website enthält Informationen über mich, meine Projekte, Kontakte und Kundenbewertungen. Das Projekt zeigt professionellen Ansatz, responsives Design und moderne Interaktivität.",
+      "description": "Interaktive persönliche Website des Entwicklers Lloyd Jefferson mit Möglichkeit zum Umschalten zwischen hellem und dunklem Thema. Die Website enthält Informationen über den Entwickler, seine Projekte, Kontakte und Kundenbewertungen. Das Projekt zeigt professionellen Ansatz, responsives Design und moderne Interaktivität.",
       "features": [
         "Helles und dunkles Thema mit sanftem Wechsel",
         "Sektionen: Über mich, Projekte, Kontakte, Bewertungen",
         "Interaktives Kontaktformular mit Nachrichtenversand",
-        "Responsives Layout, das auf verschiedenen Geräten gut funktioniert",
+        "Responsives Layout für verschiedene Geräte",
         "Kundenbewertungen mit Zitaten und Namen",
         "Social-Media-Icons mit Links",
         "Verwendung von reinem JavaScript und CSS ohne Frameworks"
@@ -93,9 +93,9 @@
     },
     "diet-today": {
       "title": "VeggieBoost – Lieferung von Bio-Gemüse",
-      "description": "VeggieBoost ist eine Landing-Page für einen Online-Service zur Lieferung von Bio-Gemüse. Das Projekt zeigt die Funktionalität der Bestellung von Körben mit Bauernprodukten, einfache Navigation und ansprechendes UI-Design. Die Hauptidee ist, dem Nutzer die einfache Bestellung und Produktqualität zu vermitteln.",
+      "description": "VeggieBoost ist eine Landing-Page für einen Online-Service zur Lieferung von Bio-Gemüse. Das Projekt zeigt die Funktionalität der Bestellung von Körben mit Bauernprodukten, einfache Navigation und ansprechendes UI-Design.",
       "features": [
-        "Interaktive Oberfläche mit Sektionen: So funktioniert’s, Gemüse, Kontakte",
+        "Interaktive Oberfläche mit Sektionen: So funktioniert's, Gemüse, Kontakte",
         "Simulation eines Online-Shops mit Produktwahl und Bestellung",
         "Moderne Animationen und sanftes Scrollen",
         "Liste der Gemüse mit Preisen, Icons und Bestellknopf",
@@ -132,7 +132,7 @@
         "Detaillierte Lehrerinformationen mit Bewertungen und Rezensionen",
         "Modale Fenster für Registrierung, Anmeldung und Buchung mit Formularvalidierung",
         "Animationen für sanftes Erscheinen von Elementen",
-        "Interaktive Paginierung und „Load More“-Button"
+        "Interaktive Paginierung und Load-More-Button"
       ],
       "technologies": [
         "React",
@@ -165,28 +165,23 @@
     },
     "qvrix": {
       "title": "QVRIX",
-      "description": "QVRIX ist eine moderne, mehrsprachige Website, die für ein Team entwickelt wurde, das sich auf Webentwicklung und Videoproduktion spezialisiert hat. Das Projekt wurde mit einem modernen Tech-Stack umgesetzt – darunter Next.js, Node.js, SCSS und Sanity CMS für dynamische Bloginhalte. Die Seite bietet ein responsives Design, eine benutzerfreundliche Navigation und Mehrsprachigkeit durch i18n.",
-
+      "description": "QVRIX ist meine eigene mehrsprachige Website, die ich für mein Projekt entwickelt habe, das sich auf Webentwicklung und Videoproduktion spezialisiert. Das Projekt wurde mit einem modernen Tech-Stack umgesetzt – darunter Next.js, SCSS und Sanity CMS für dynamische Bloginhalte. Die Seite bietet responsives Design, benutzerfreundliche Navigation und Mehrsprachigkeit durch i18n.",
       "features": [
         "Mehrsprachige Unterstützung (i18n) mit automatischer Spracherkennung",
         "Blogsystem auf Basis von Sanity CMS mit dynamischer Inhaltspflege",
-        "Klar strukturierter Inhalt: Team, Leistungen, Portfolio und Kontakt",
+        "Klar strukturierter Inhalt: Leistungen, Portfolio und Kontakt",
         "Responsives Design für eine optimale Darstellung auf allen Gerätetypen",
         "SEO-optimierte Seitenstruktur mit serverseitigem Rendering (Next.js)",
-        "Backend-Integration über API zur Verwaltung dynamischer Inhalte",
         "Modulare und wartbare Architektur nach modernen Entwicklungsstandards"
       ],
-
       "technologies": [
         "Next.js",
-        "Node.js",
         "SCSS",
         "Sanity CMS",
         "i18n",
         "Server-side Rendering",
         "REST API"
       ],
-
       "image1": {
         "src": "/image/portfolio/qvrix.png",
         "width": 1224,
@@ -205,7 +200,6 @@
         "height": 500,
         "className": "imgHarmonyTwoMokap"
       },
-
       "liveUrl": "https://web-studio-pied.vercel.app/ua"
     }
   }

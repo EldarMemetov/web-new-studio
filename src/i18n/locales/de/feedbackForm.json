@@ -2,14 +2,14 @@
   "title": "lass uns",
   "andTitle": "das Gespräch beginnen",
   "description": "Bereit zur Zusammenarbeit? Lass uns dein Projekt besprechen",
-  "subtitle": "Wir antworten innerhalb von 24 Stunden",
+  "subtitle": "Ich antworte innerhalb von 24 Stunden",
   "fields": {
     "name": "Name*",
     "email": "Deine E-Mail*",
     "message": "Das sind deine Wünsche",
     "agree": "Ich stimme der Datenschutzerklärung zu"
   },
-  "submitButton": "Kontaktiere uns",
+  "submitButton": "Kontaktiere mich",
   "successMessage": "Feedback erfolgreich gesendet!",
   "errorMessage": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
   "status": {

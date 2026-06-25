@@ -1,36 +1,36 @@
 {
-  "titleStart": "Our key ",
+  "titleStart": "My key ",
   "titleHighlight": "advantages",
-  "subtitle": "We create websites and videos for small and medium-sized businesses, tailored to your goals, attracting clients and highlighting the uniqueness of your brand.",
+  "subtitle": "I create websites and videos for small and medium-sized businesses — tailored to your goals to win clients and highlight the uniqueness of your brand.",
   "items": [
     {
       "title": "High Quality",
-      "description": "Quality is the foundation of our work. We create products that exceed your expectations and become reliable tools for your business.",
+      "description": "Quality is the foundation of my work. I create products that exceed your expectations and become reliable tools for your business.",
       "icon": "icon-agree"
     },
     {
       "title": "Individual Approach",
-      "description": "We tailor our solutions to your goals, creating websites and videos that emphasize your brand's style and uniqueness.",
+      "description": "I tailor my solutions to your goals and create websites and videos that emphasise the style and uniqueness of your brand.",
       "icon": "icon-puzzle"
     },
     {
       "title": "Trust and Reliability",
-      "description": "Transparency, meeting deadlines, and high results are the foundation of our cooperation.",
+      "description": "Transparency, meeting deadlines and high results are the foundation of our collaboration.",
       "icon": "icon-protection"
     },
     {
       "title": "Creativity and Innovation",
-      "description": "We create unique products that combine creativity with modern technologies.",
+      "description": "I develop unique products that combine creativity with modern technologies.",
       "icon": "icon-energy"
     },
     {
       "title": "Support and Growth",
-      "description": "We help you grow. Ready to support, update, and improve your website or video content to keep it always relevant.",
+      "description": "I help you grow. I am ready to support, update and improve your website or video content so it always stays relevant.",
       "icon": "icon-flag"
     },
     {
       "title": "Technological Solutions",
-      "description": "For small and medium-sized businesses, we create websites and videos tailored to your needs, attracting customers and making your business stand out.",
+      "description": "For small and medium-sized businesses I create tailored websites and videos that attract clients and make your business stand out.",
       "icon": "icon-space"
     }
   ]

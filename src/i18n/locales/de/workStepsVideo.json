@@ -7,27 +7,27 @@
     {
       "num": "01",
       "title": "Kennenlernen",
-      "description": "Du schreibst uns über einen bequemen Messenger — erzählst uns von deinem Unternehmen, deiner Aufgabe und Zielgruppe. Wir hören zu und stellen die richtigen Fragen."
+      "description": "Du schreibst mir über einen bequemen Messenger — erzählst mir von deinem Unternehmen, deiner Aufgabe und Zielgruppe. Ich höre zu und stelle die richtigen Fragen."
     },
     {
       "num": "02",
       "title": "Briefing & Skript",
-      "description": "Wir strukturieren die Idee: Konzept, Skript, Moodboard und ein klarer Drehplan. Alles wird mit dir abgestimmt."
+      "description": "Ich strukturiere die Idee: Konzept, Skript, Moodboard und ein klarer Drehplan. Alles wird mit dir abgestimmt."
     },
     {
       "num": "03",
       "title": "Drehtag",
-      "description": "Wir kommen zu dir oder wählen eine Location. Ton, Licht, Bild — jedes Detail wird vom Team kontrolliert."
+      "description": "Ich komme zu dir oder wähle eine Location. Ton, Licht, Bild — jedes Detail wird kontrolliert."
     },
     {
       "num": "04",
       "title": "Schnitt & Postproduktion",
-      "description": "Wir erzählen die Geschichte: Schnitt, Grafik, Musik und Farbkorrektur. Jede Sekunde zählt."
+      "description": "Ich erzähle die Geschichte: Schnitt, Grafik, Musik und Farbkorrektur. Jede Sekunde zählt."
     },
     {
       "num": "05",
       "title": "Finale & Korrekturen",
-      "description": "Wir präsentieren das Ergebnis, verfeinern Details nach deinem Feedback und liefern die finale Datei in jedem Format."
+      "description": "Ich präsentiere das Ergebnis, verfeinere Details nach deinem Feedback und liefere die finale Datei in jedem Format."
     }
   ]
 }

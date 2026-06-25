@@ -1,24 +1,24 @@
 {
-  "title": "let's ",
-  "andTitle": "start the feedback",
-  "description": "Ready to collaborate? Let's discuss your project",
-  "subtitle": "We will respond within 24 hours",
+  "title": "let's",
+  "andTitle": "start the conversation",
+  "description": "Ready to work together? Let's discuss your project",
+  "subtitle": "I respond within 24 hours",
   "fields": {
     "name": "Name*",
-    "email": "Your email*",
-    "message": "These are your wishes",
-    "agree": "I agree to the privacy policy"
+    "email": "Your Email*",
+    "message": "Tell me about your wishes",
+    "agree": "I agree to the Privacy Policy"
   },
-  "submitButton": "Contact us",
-  "successMessage": "Feedback successfully sent!",
+  "submitButton": "Contact me",
+  "successMessage": "Message sent successfully!",
   "errorMessage": "An error occurred. Please try again.",
   "status": {
-    "success": "Form successfully submitted!",
+    "success": "Form submitted successfully!",
     "error": "Error submitting the form. Please try again."
   },
   "validation": {
     "name": {
-      "min": "Minimum 3 characters",
+      "min": "At least 3 characters",
       "required": "Please enter your name"
     },
     "email": {
@@ -26,9 +26,9 @@
       "required": "Please enter your email"
     },
     "message": {
-      "min": "Minimum 10 characters",
+      "min": "At least 10 characters",
       "required": "Please enter a message"
     },
-    "agree": "You must agree to the privacy policy"
+    "agree": "You must agree to the Privacy Policy"
   }
 }

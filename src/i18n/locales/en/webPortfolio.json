@@ -1,34 +1,34 @@
 {
   "buttons": "Learn more",
-  "buttonsGo": "Interested in other projects? Write to us",
+  "buttonsGo": "More projects? Write to me",
   "ui": {
-    "goToSite": "Go to site",
+    "goToSite": "Go to website",
     "technologies": "Technologies",
-    "featuresTitle": "Implemented features:",
+    "featuresTitle": "What was implemented:",
     "projectNotFound": "Project not found",
     "backLink": "Back to Portfolio"
   },
   "title": {
-    "prefix": "Our completed ",
+    "prefix": "My completed ",
     "span": "projects"
   },
   "desc": {
-    "part1": "QVRIX offers a full range of solutions — from concept to launch. We adapt to your business to create effective, ",
-    "span1": "beautiful and functional websites, ",
-    "span2": "that really work."
+    "part1": "QVRIX offers a full range of solutions — from concept to launch. I adapt to your business to create effective, ",
+    "span1": "beautiful and functional websites ",
+    "span2": "that truly work."
   },
   "projects": {
     "harmony": {
       "title": "InHarmony",
-      "description": "InHarmony is a platform for volunteer support and donation collection. Users can not only make a one-time donation but also subscribe to monthly automatic donations. The site supports two languages — Ukrainian and English — and features a responsive, user-friendly interface.",
+      "description": "InHarmony is a platform for voluntary support and fundraising. Users can make one-time donations or set up a monthly subscription for automatic donations. The website supports two languages — Ukrainian and English — and features a responsive, user-friendly interface.",
       "features": [
-        "One-time donations and monthly subscription system",
-        "Support for UA / EN languages",
+        "One-time donation and monthly subscription system",
+        "UA / EN language support",
         "Payment system integration",
-        "Personal account and analytics for volunteers",
+        "Personal dashboard and analytics for volunteers",
         "Frontend with Next.js",
         "Backend with Node.js",
-        "Fully responsive layout"
+        "Fully responsive design"
       ],
       "technologies": [
         "Next.js",
@@ -59,16 +59,16 @@
       "liveUrl": "https://inharmony.com.ua/ua"
     },
     "full-stack": {
-      "title": "LLOYDJEFFERSON — personal website of a Fullstack developer",
-      "description": "Interactive personal website of developer Lloyd Jefferson with the ability to switch between light and dark themes. The site includes information about me, my projects, contacts, and client reviews. The project demonstrates a professional approach, responsive design, and modern interactivity.",
+      "title": "LLOYDJEFFERSON – personal fullstack developer website",
+      "description": "Interactive personal website of developer Lloyd Jefferson with light and dark theme switching. The website contains information about the developer, projects, contacts and client reviews. The project demonstrates a professional approach, responsive design and modern interactivity.",
       "features": [
         "Light and dark theme with smooth switching",
-        "Sections: About Me, Projects, Contacts, Reviews",
-        "Interactive contact form with message sending functionality",
-        "Responsive layout working correctly on various devices",
+        "Sections: About me, Projects, Contacts, Reviews",
+        "Interactive contact form with message sending",
+        "Responsive layout for various devices",
         "Client reviews with quotes and names",
         "Social media icons with links",
-        "Use of pure JavaScript and CSS without frameworks"
+        "Built with pure JavaScript and CSS without frameworks"
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "image1": {
@@ -92,13 +92,13 @@
       "liveUrl": "https://kholodaet.github.io/project-profile2-0/"
     },
     "diet-today": {
-      "title": "VeggieBoost — organic vegetable delivery",
-      "description": "VeggieBoost is a landing page presentation of an online organic vegetable delivery service. The project demonstrates basket ordering functionality with farm products, easy navigation, and pleasant UI design. The main idea is to show users the simplicity of ordering and the quality of the products.",
+      "title": "VeggieBoost – organic vegetable delivery",
+      "description": "VeggieBoost is a landing page for an online organic vegetable delivery service. The project showcases basket ordering functionality, simple navigation and appealing UI design.",
       "features": [
-        "Interactive interface with sections: How It Works, Vegetables, Contacts",
-        "Simulation of online store functionality with product selection and order placement",
-        "Modern animation and smooth scrolling",
-        "List of vegetables with prices, icons, and order buttons",
+        "Interactive interface with sections: How it works, Vegetables, Contacts",
+        "Online shop simulation with product selection and ordering",
+        "Modern animations and smooth scrolling",
+        "Vegetable list with prices, icons and order button",
         "Basic responsiveness for various devices"
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -124,15 +124,15 @@
     },
     "glasses": {
       "title": "Learn Lingo",
-      "description": "Learn Lingo is a web app for a company providing online language tutoring services. Users can register, log into their account, view tutor profiles, add tutors to favorites, and book trial lessons.",
+      "description": "Learn Lingo is a web application for a company offering online language teachers. Users can register, log in, view teacher profiles, add them to favourites and book trial lessons.",
       "features": [
         "Registration and login via Firebase Authentication",
-        "Viewing and filtering tutors by language, level, and hourly price",
-        "Adding tutors to favorites list saved after page reload",
-        "Detailed tutor information with reviews and ratings",
-        "Modal windows for registration, login, and booking lessons with form validation",
+        "View and filter teachers by language, level and hourly rate",
+        "Favourites list that persists after page reload",
+        "Detailed teacher information with ratings and reviews",
+        "Modal windows for registration, login and booking with form validation",
         "Animations for smooth element appearance",
-        "Interactive pagination and a 'Load More' button"
+        "Interactive pagination and load more button"
       ],
       "technologies": [
         "React",
@@ -165,28 +165,23 @@
     },
     "qvrix": {
       "title": "QVRIX",
-      "description": "QVRIX is a modern, multilingual website developed for a team specializing in web development and video production. The project is built using a modern tech stack including Next.js, Node.js, SCSS, and Sanity CMS for dynamic blog content. The site features responsive design, intuitive navigation, and supports multiple languages via i18n.",
-
+      "description": "QVRIX is my own multilingual website that I developed for my project specialising in web development and video production. The project was built with a modern tech stack — including Next.js, SCSS and Sanity CMS for dynamic blog content. The site features responsive design, user-friendly navigation and multilingual support via i18n.",
       "features": [
         "Multilingual support (i18n) with automatic language detection",
-        "Blog system powered by Sanity CMS with dynamic content updates",
-        "Clear content structure: team, services, portfolio, and contact sections",
-        "Responsive design optimized for mobile, tablet, and desktop devices",
-        "SEO-optimized page structure with server-side rendering (Next.js)",
-        "Backend integration via API for dynamic content management",
-        "Modular and maintainable architecture following modern development practices"
+        "Blog system based on Sanity CMS with dynamic content management",
+        "Clearly structured content: services, portfolio and contact",
+        "Responsive design for optimal display on all device types",
+        "SEO-optimised page structure with server-side rendering (Next.js)",
+        "Modular and maintainable architecture following modern development standards"
       ],
-
       "technologies": [
         "Next.js",
-        "Node.js",
         "SCSS",
         "Sanity CMS",
         "i18n",
         "Server-side Rendering",
         "REST API"
       ],
-
       "image1": {
         "src": "/image/portfolio/qvrix.png",
         "width": 1224,
@@ -205,7 +200,6 @@
         "height": 500,
         "className": "imgHarmonyTwoMokap"
       },
-
       "liveUrl": "https://web-studio-pied.vercel.app/ua"
     }
   }

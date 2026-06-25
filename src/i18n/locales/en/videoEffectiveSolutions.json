@@ -1,12 +1,12 @@
 {
   "spanTitle": "Solutions ",
-  "title": "we offer",
-  "description": "Our approach provides comprehensive support at every stage of video production — from concept to execution. With us, your brand will receive professional video content that meets all requirements and delivers results.",
+  "title": "I offer",
+  "description": "My approach provides comprehensive support at every stage of video production — from idea to execution. With me your brand receives professional video content that meets all requirements and delivers real results.",
   "solutions": [
     {
       "id": "advertising",
-      "title": "Advertising Videos",
-      "info": "Creating effective videos to promote your brand, product, or service.",
+      "title": "Promotional Videos",
+      "info": "Effective videos to promote your brand, product or service.",
       "className": "camcorderImg",
       "images": [
         {
@@ -20,8 +20,8 @@
     },
     {
       "id": "corporate",
-      "title": "Corporate and Image Videos",
-      "info": "Professional videos to enhance your company's image and reputation.",
+      "title": "Corporate & Brand Films",
+      "info": "Professional videos to strengthen your company's image and reputation.",
       "className": "corporateImg",
       "images": [
         {
@@ -35,8 +35,8 @@
     },
     {
       "id": "event",
-      "title": "Event and Occasion Filming",
-      "info": "Documenting key business moments or special events.",
+      "title": "Event & Occasion Filming",
+      "info": "Documentation of important moments for your company or special occasions.",
       "className": "eventVideo",
       "images": [
         {
@@ -50,8 +50,8 @@
     },
     {
       "id": "drone",
-      "title": "Drone Aerial Filming",
-      "info": "Creating unique aerial videos with breathtaking and dynamic footage.",
+      "title": "Drone Aerial Footage",
+      "info": "Unique aerial shots for impressive and captivating video scenes.",
       "className": "droneImg",
       "images": [
         {
@@ -66,7 +66,7 @@
     {
       "id": "social-media",
       "title": "Social Media & YouTube Content",
-      "info": "Videos that grab attention and help build a loyal social media following.",
+      "info": "Videos that capture attention and build a loyal community.",
       "className": "socialMediaImg",
       "images": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "graphics",
       "title": "Motion Design, Graphics & Animation",
-      "info": "Creating dynamic animations and graphic elements for your videos.",
+      "info": "Dynamic animations and graphic elements for your videos.",
       "className": "graphicsImg",
       "images": [
         {
@@ -95,8 +95,8 @@
     },
     {
       "id": "video-editing",
-      "title": "Editing, Color Grading, and Sound Design",
-      "info": "Professional editing and post-production to achieve the best possible result.",
+      "title": "Editing, Colour Grading & Sound Design",
+      "info": "Professional editing and post-production for the best possible result.",
       "className": "videoEditingImg",
       "images": [
         {

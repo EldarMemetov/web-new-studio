@@ -1,17 +1,17 @@
 {
-  "spanTitle": "Solutions, ",
-  "title": "that we offer",
-  "descriptionBefore": "QVRIX offers a full range of solutions — from concept to launch. We adapt to your business to create ",
-  "SpanDescription": "efficient, beautiful, and functional websites, ",
-  "descriptionAfter": "that really work.",
+  "spanTitle": "Solutions ",
+  "title": "I offer",
+  "descriptionBefore": "QVRIX offers comprehensive solutions — from concept to launch. I adapt to your business to create ",
+  "SpanDescription": "efficient, beautiful and functional websites ",
+  "descriptionAfter": "that truly work.",
   "solutions": [
     {
       "id": "uiux",
       "title": "UI/UX Design",
-      "info": "We design, create, and take everything into account.",
-      "infoTablet": "We design a logical structure, create an aesthetic design, and take user behavior into account.",
-      "infoDesktop": "We design a logical structure, create an aesthetic design, and take user behavior into account to ensure convenience, intuitiveness, and a WOW effect.",
-      "infoFull": "Captivating, action-driving interfaces: We design a logical structure, create an aesthetic design, and take user behavior into account to ensure convenience, intuitiveness, and a WOW effect.",
+      "info": "I design, create and consider everything.",
+      "infoTablet": "I design a logical structure, create an aesthetic design and consider user behaviour.",
+      "infoDesktop": "I design a logical structure, create an aesthetic design and consider user behaviour to ensure comfort, intuitiveness and the WOW effect.",
+      "infoFull": "Engaging, action-driving interfaces: I design a logical structure, create an aesthetic design and consider user behaviour to ensure comfort, intuitiveness and the WOW effect.",
       "className": "liUiDesign",
       "images": [
         {
@@ -76,7 +76,7 @@
     {
       "id": "seo",
       "title": "SEO Promotion",
-      "info": "Your site is at the top of search results.",
+      "info": "Your website at the top of search results.",
       "className": "liSeoPromotion",
       "images": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "redesign",
       "title": "Website Redesign",
-      "info": "We revamp to make your site deliver results",
+      "info": "I redesign so your website delivers results",
       "className": "liRedesign",
       "images": [
         {
@@ -141,10 +141,10 @@
     },
     {
       "id": "stores",
-      "title": "Online Stores",
-      "info": "We create websites that drive sales.",
-      "infoTablet": "Intuitive structure, mobile adaptation, fast loading, integration with CRM and payment systems.",
-      "infoDesktop": "Intuitive structure, mobile adaptation, fast loading, integration with CRM and payment systems. We create websites that drive sales.",
+      "title": "Online Shops",
+      "info": "I create websites that generate sales.",
+      "infoTablet": "Intuitive structure, mobile adaptation, fast loading, CRM and payment system integration.",
+      "infoDesktop": "Intuitive structure, mobile adaptation, fast loading, CRM and payment system integration. I create websites that generate sales.",
       "className": "liOnlineStores",
       "images": [
         {
@@ -201,9 +201,9 @@
     {
       "id": "corporate",
       "title": "Corporate Websites",
-      "info": "We develop websites for small and large businesses.",
-      "infoTablet": "We develop websites for small and large businesses — from business cards to large-scale platforms.",
-      "infoDesktop": "We develop websites for small and large businesses — from business cards to large-scale platforms. Design, structure, and content work to enhance your image and engage clients.",
+      "info": "I develop websites for small and large businesses.",
+      "infoTablet": "I develop websites for small and large businesses — from business cards to extensive platforms.",
+      "infoDesktop": "I develop websites for small and large businesses — from business cards to extensive platforms. Design, structure and content work on your image and client retention.",
       "className": "liCorporateWebsites",
       "images": [
         {
@@ -239,9 +239,9 @@
     {
       "id": "blogs",
       "title": "Personal Blogs",
-      "info": "We create platforms that highlight your uniqueness.",
-      "infoTablet": "We build stylish and functional platforms that highlight your uniqueness and help build a community.",
-      "infoDesktop": "For experts, creators, influencers. We build stylish and functional platforms that highlight your uniqueness and help build a community.",
+      "info": "I create platforms that highlight your uniqueness.",
+      "infoTablet": "I create stylish and functional platforms that highlight your uniqueness and help build a community.",
+      "infoDesktop": "For experts, creatives, influencers. I create stylish and functional platforms that highlight your uniqueness and help build a community.",
       "className": "liPersonalBlogs",
       "images": [
         {
@@ -270,7 +270,7 @@
     {
       "id": "support",
       "title": "Technical Support",
-      "info": "Your site runs smoothly — you have peace of mind",
+      "info": "Your website runs smoothly — you're worry-free",
       "className": "liTechnicalSupport",
       "images": [
         {

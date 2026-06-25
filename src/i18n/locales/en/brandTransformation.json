@@ -1,27 +1,26 @@
 {
-  "titleStart": "After working with us, ",
-  "titleHighlight": "your brand",
-  "description": "will gain a unique style, a professional image, and appeal that help attract and retain customers.",
-
+  "titleStart": "After working with me ",
+  "titleHighlight": "your brand receives",
+  "description": "a unique style, a professional image and attractiveness that help win and retain clients.",
   "items": [
     {
       "title": "Recognition and Trust",
-      "description": "A unique style will make your company noticeable and recognizable.",
+      "description": "A unique style will make your business stand out and be recognisable.",
       "iconName": "icon-trust"
     },
     {
       "title": "Professional Image",
-      "description": "Your visual identity will highlight your professionalism and expertise.",
+      "description": "Visual identity will highlight your level and expertise.",
       "iconName": "icon-expertise"
     },
     {
-      "title": "Attractiveness for Clients",
-      "description": "Design and strategy will help engage and retain your audience.",
+      "title": "Client Attractiveness",
+      "description": "Design and strategy help win and retain your target audience.",
       "iconName": "icon-launch"
     },
     {
       "title": "Strong Visual Style",
-      "description": "Consistent graphics and identity will create a unified perception of your brand.",
+      "description": "Consistent graphics and identity create a unified perception of your brand.",
       "iconName": "icon-unity"
     }
   ]

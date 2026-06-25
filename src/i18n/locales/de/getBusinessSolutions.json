@@ -1,17 +1,16 @@
 {
-  "titleStart": "Unsere wichtigsten ",
+  "titleStart": "Meine wichtigsten ",
   "titleHighlight": "Vorteile",
-  "subtitle": "Wir erstellen Websites und Videos für kleine und mittelständische Unternehmen – individuell auf Ihre Ziele abgestimmt, um Kunden zu gewinnen und die Einzigartigkeit Ihrer Marke hervorzuheben.",
-
+  "subtitle": "Ich erstelle Websites und Videos für kleine und mittelständische Unternehmen – individuell auf Ihre Ziele abgestimmt, um Kunden zu gewinnen und die Einzigartigkeit Ihrer Marke hervorzuheben.",
   "items": [
     {
       "title": "Hohe Qualität",
-      "description": "Qualität ist die Grundlage unserer Arbeit. Wir schaffen Produkte, die Ihre Erwartungen übertreffen und zuverlässige Werkzeuge für Ihr Unternehmen werden.",
+      "description": "Qualität ist die Grundlage meiner Arbeit. Ich schaffe Produkte, die Ihre Erwartungen übertreffen und zuverlässige Werkzeuge für Ihr Unternehmen werden.",
       "icon": "icon-agree"
     },
     {
       "title": "Individueller Ansatz",
-      "description": "Wir passen unsere Lösungen an Ihre Ziele an und erstellen Websites und Videos, die den Stil und die Einzigartigkeit Ihrer Marke betonen.",
+      "description": "Ich passe meine Lösungen an Ihre Ziele an und erstelle Websites und Videos, die den Stil und die Einzigartigkeit Ihrer Marke betonen.",
       "icon": "icon-puzzle"
     },
     {
@@ -21,17 +20,17 @@
     },
     {
       "title": "Kreativität und Innovation",
-      "description": "Wir entwickeln einzigartige Produkte, die Kreativität mit modernen Technologien verbinden.",
+      "description": "Ich entwickle einzigartige Produkte, die Kreativität mit modernen Technologien verbinden.",
       "icon": "icon-energy"
     },
     {
       "title": "Unterstützung und Wachstum",
-      "description": "Wir helfen Ihnen zu wachsen. Wir sind bereit, Ihre Website oder Videoinhalte zu unterstützen, zu aktualisieren und zu verbessern, damit sie immer relevant bleiben.",
+      "description": "Ich helfe Ihnen zu wachsen. Ich bin bereit, Ihre Website oder Videoinhalte zu unterstützen, zu aktualisieren und zu verbessern, damit sie immer relevant bleiben.",
       "icon": "icon-flag"
     },
     {
       "title": "Technologische Lösungen",
-      "description": "Für kleine und mittelständische Unternehmen erstellen wir maßgeschneiderte Websites und Videos, die Kunden anziehen und Ihr Unternehmen hervorheben.",
+      "description": "Für kleine und mittelständische Unternehmen erstelle ich maßgeschneiderte Websites und Videos, die Kunden anziehen und Ihr Unternehmen hervorheben.",
       "icon": "icon-space"
     }
   ]

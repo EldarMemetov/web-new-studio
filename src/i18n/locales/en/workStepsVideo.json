@@ -1,33 +1,33 @@
 {
   "eyebrow": "Process",
-  "title": "The path from idea to ",
+  "title": "From idea to ",
   "titleSpan": "finished video",
-  "description": "5 clear steps — no chaos, hidden stages, or unnecessary stress. You always know where we are in the process.",
+  "description": "5 clear steps — no chaos, hidden phases or unnecessary stress. You always know where we stand.",
   "steps": [
     {
       "num": "01",
-      "title": "Introduction",
-      "description": "You message us via a convenient messenger — tell us about your business, task, and audience. We listen and ask the right questions."
+      "title": "Getting acquainted",
+      "description": "You write to me via a convenient messenger — tell me about your business, task and target audience. I listen and ask the right questions."
     },
     {
       "num": "02",
-      "title": "Brief & Script",
-      "description": "We turn the idea into structure: concept, script, moodboard, and a clear shooting plan. Everything is approved with you."
+      "title": "Briefing & script",
+      "description": "I structure the idea: concept, script, moodboard and a clear shooting plan. Everything is agreed with you."
     },
     {
       "num": "03",
-      "title": "Shoot Day",
-      "description": "We come to you or choose a location. Sound, light, framing — every detail is controlled by the team."
+      "title": "Shoot day",
+      "description": "I come to you or we choose a location. Sound, light, image — every detail is controlled."
     },
     {
       "num": "04",
-      "title": "Editing & Post-production",
-      "description": "We build the story: editing, graphics, music, and color grading. Every second matters."
+      "title": "Editing & post-production",
+      "description": "I tell the story: editing, graphics, music and colour grading. Every second counts."
     },
     {
       "num": "05",
-      "title": "Final & Revisions",
-      "description": "We present the result, refine details based on your feedback, and deliver the final file in any format."
+      "title": "Final & revisions",
+      "description": "I present the result, refine details based on your feedback and deliver the final file in any format."
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "section": {
-    "eyebrow": "Unsere Leistungen",
+    "eyebrow": "Meine Leistungen",
     "title": "Ihre Idee — ",
-    "subTitle": "unsere Umsetzung",
-    "description": "Wir verwandeln Ideen in moderne Websites und Videos, die Ihre Marke stärken.",
+    "subTitle": "meine Umsetzung",
+    "description": "Ich verwandle Ideen in moderne Websites und Videos, die Ihre Marke stärken.",
     "together": {
       "label": "Gemeinsam stärker",
       "title": "Website + Video — ",
-      "titleHighlight": "ein Stil, ein Team",
+      "titleHighlight": "ein Stil, ein Ansprechpartner",
       "description": "Buchen Sie beide Leistungen zusammen und profitieren Sie von einer einheitlichen Markenidentität, Zeitersparnis und zusätzlichen Vorteilen.",
       "perks": [
         "Kombinationsrabatt",
@@ -20,7 +20,7 @@
       {
         "title": "Webentwicklung",
         "icon": "LaptopWrite",
-        "description": "Unsere Leistungen:",
+        "description": "Meine Leistungen:",
         "list": [
           "Websites",
           "Landingpages",
@@ -35,7 +35,7 @@
       {
         "title": "Videoproduktion",
         "icon": "icon-cinema",
-        "description": "Unsere Leistungen:",
+        "description": "Meine Leistungen:",
         "list": [
           "Videodreh",
           "Videoschnitt",

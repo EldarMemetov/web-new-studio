@@ -1,24 +1,24 @@
 {
-  "titleBefore": "Have",
+  "titleBefore": "Do you have",
   "titleHighlight": "questions",
-  "titleAfter": "That’s okay",
-  "description": "We’re always ready to answer any of your questions. Book a consultation — we’ll gladly help you optimize your business!",
+  "titleAfter": "That's perfectly normal",
+  "description": "I am always available to answer all your questions. Schedule a consultation — I'd love to help you optimise your business!",
   "faq": [
     {
       "question": "Do you help with domain and hosting?",
-      "answer": "Yes, we fully assist with selecting, registering a domain name, and setting up reliable hosting for your website. Our team will help you choose the best domain based on your brand and target audience, and recommend hosting that ensures fast loading speed, high security, and stable performance. You’ll receive a ready-to-use website, fully connected to the domain and deployed on the server — without needing to worry about any technical aspects."
+      "answer": "Yes, I fully support you in selecting and registering a suitable domain and setting up reliable hosting for your website. I choose the optimal domain according to your brand and target audience and recommend hosting solutions that guarantee fast loading times, high security and stable performance. You receive a finished website connected to your domain and set up on the server — with no technical effort on your part."
     },
     {
       "question": "Can I order a multilingual website?",
-      "answer": "Yes, we develop websites with full multilingual support. If your audience speaks multiple languages — for example, Ukrainian, English, or Polish — we’ll implement convenient language navigation optimized for both users and search engines. Each language version will have its own SEO settings, which improves the site’s visibility in Google across different regions."
+      "answer": "Yes, I develop websites with full multilingual support. If your target audience speaks multiple languages — for example Ukrainian, English or Polish — I integrate a user-friendly language switcher optimised for both users and search engines. Each language version gets its own SEO settings, improving your website's visibility on Google in different regions."
     },
     {
       "question": "What technologies do you use?",
-      "answer": "We use a modern tech stack that ensures high performance, security, and scalability for web projects of any complexity. Our development process includes HTML5, CSS3, and JavaScript for building responsive and dynamic frontends. The core of the user interface is built with React, and for SEO optimization and server-side rendering, we use Next.js, which supports both SSR (server-side rendering) and SSG (static site generation). On the backend, we use Node.js, and for data storage — MongoDB. We also work with version control systems like Git and design tools such as Figma or Adobe XD. This approach allows us to deliver modern, fast, and scalable websites tailored to your technical and business needs."
+      "answer": "I use a modern technology stack that offers high performance, security and scalability. I use HTML5, CSS3 and JavaScript for a responsive frontend, React for the user interface and Next.js for SEO and server-side rendering. For backend development I use Node.js and MongoDB for data processing. I also work with Git and design tools like Figma or Adobe XD."
     },
     {
       "question": "How do you test the website before launch?",
-      "answer": "Before launch, we thoroughly test the website at all critical stages. We check the responsiveness of the design across various devices and screen sizes, the correct operation of all functions, navigation, forms, and buttons. We test the site in multiple browsers to ensure consistent appearance and behavior. Page loading speed and technical SEO are also reviewed, along with any possible layout or code errors. Before going live, the site is deployed on a staging server for a full inspection in an environment that closely simulates real-world conditions."
+      "answer": "Before launch the website is thoroughly tested. I check responsiveness on various devices, the functionality of all elements, display in different browsers, loading speed and carry out a technical SEO check. The website is deployed on a test server to be comprehensively tested under real-world conditions."
     }
   ]
 }

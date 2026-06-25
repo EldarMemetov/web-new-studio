@@ -20,16 +20,12 @@ export const LANGUAGES = { EN: 'en', DE: 'de' };
 
 export const NAMESPACES = [
   'header',
-  'feedbackForm',
-  'reviewsForm',
   'getBusinessSolutions',
   'toggleQuestions',
   'notFound',
   'errorGlobal',
-  'reviewsList',
   'successContent',
   'brandTransformation',
-  'modalFeedback',
   'ideasHome',
   'footer',
   'portfolio',

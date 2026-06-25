@@ -1,27 +1,26 @@
 {
-  "title": "Our ",
+  "title": "My ",
   "spanTitle": "values:",
   "descriptionBefore": "They are more than just words — they are ",
   "spanDescriptionOne": "principles ",
-  "descriptionMiddle": "that guide our daily work in creating projects that deliver real results.",
+  "descriptionMiddle": "by which I work every day and create projects that deliver real results.",
   "spanDescriptionTwo": "",
   "descriptionAfter": "",
-
   "features": [
     {
       "icon": "icon-shield-protection",
       "title": "Innovation",
-      "text": "Our team doesn't settle for templates — we seek out unique ideas that make your brand stand out."
+      "text": "I don't settle for templates — I look for unique ideas that make your brand stand out."
     },
     {
       "icon": "icon-two-stars",
       "title": "Quality",
-      "text": "We believe that attention to detail builds impression, trust, and effectiveness. Quality standards are not a compromise, but the foundation of our work."
+      "text": "I believe that attention to detail creates impression, trust and effectiveness. Quality standards are not a compromise for me — they are fundamental principles."
     },
     {
       "icon": "icon-person",
       "title": "Partnership",
-      "text": "We listen, advise, empathize, and invest in results together with you. Your success is our victory and top priority."
+      "text": "I listen, advise, empathise and work with full commitment for shared results. Your success is my success — and my highest priority."
     }
   ]
 }

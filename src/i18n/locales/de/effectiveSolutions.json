@@ -1,17 +1,17 @@
 {
   "spanTitle": "Lösungen, ",
-  "title": "die wir anbieten",
-  "descriptionBefore": "QVRIX bietet umfassende Lösungen — von der Konzeption bis zum Start. Wir passen uns Ihrem Unternehmen an, um ",
-  "SpanDescription": "effiziente, schöne und funktionale Websites, ",
+  "title": "die ich anbiete",
+  "descriptionBefore": "QVRIX bietet umfassende Lösungen — von der Konzeption bis zum Start. Ich passe mich Ihrem Unternehmen an, um ",
+  "SpanDescription": "effiziente, schöne und funktionale Websites ",
   "descriptionAfter": "zu schaffen, die wirklich funktionieren.",
   "solutions": [
     {
       "id": "uiux",
       "title": "UI/UX-Design",
-      "info": "Wir entwerfen, gestalten und berücksichtigen alles.",
-      "infoTablet": "Wir entwerfen eine logische Struktur, gestalten ein ästhetisches Design und berücksichtigen das Nutzerverhalten.",
-      "infoDesktop": "Wir entwerfen eine logische Struktur, gestalten ein ästhetisches Design und berücksichtigen das Nutzerverhalten, um Komfort, Intuitivität und den WOW-Effekt zu gewährleisten.",
-      "infoFull": "Fesselnde, zum Handeln anregende Schnittstellen: Wir entwerfen eine logische Struktur, gestalten ein ästhetisches Design und berücksichtigen das Nutzerverhalten, um Komfort, Intuitivität und den WOW-Effekt zu gewährleisten.",
+      "info": "Ich entwerfe, gestalte und berücksichtige alles.",
+      "infoTablet": "Ich entwerfe eine logische Struktur, gestalte ein ästhetisches Design und berücksichtige das Nutzerverhalten.",
+      "infoDesktop": "Ich entwerfe eine logische Struktur, gestalte ein ästhetisches Design und berücksichtige das Nutzerverhalten, um Komfort, Intuitivität und den WOW-Effekt zu gewährleisten.",
+      "infoFull": "Fesselnde, zum Handeln anregende Schnittstellen: Ich entwerfe eine logische Struktur, gestalte ein ästhetisches Design und berücksichtige das Nutzerverhalten, um Komfort, Intuitivität und den WOW-Effekt zu gewährleisten.",
       "className": "liUiDesign",
       "images": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "redesign",
       "title": "Website-Redesign",
-      "info": "Wir überarbeiten, damit Ihre Website Ergebnisse liefert",
+      "info": "Ich überarbeite, damit Ihre Website Ergebnisse liefert",
       "className": "liRedesign",
       "images": [
         {
@@ -142,9 +142,9 @@
     {
       "id": "stores",
       "title": "Onlineshops",
-      "info": "Wir erstellen Websites, die Verkäufe generieren.",
+      "info": "Ich erstelle Websites, die Verkäufe generieren.",
       "infoTablet": "Intuitive Struktur, mobile Anpassung, schnelle Ladezeiten, Integration mit CRM und Zahlungssystemen.",
-      "infoDesktop": "Intuitive Struktur, mobile Anpassung, schnelle Ladezeiten, Integration mit CRM und Zahlungssystemen. Wir erstellen Websites, die Verkäufe generieren.",
+      "infoDesktop": "Intuitive Struktur, mobile Anpassung, schnelle Ladezeiten, Integration mit CRM und Zahlungssystemen. Ich erstelle Websites, die Verkäufe generieren.",
       "className": "liOnlineStores",
       "images": [
         {
@@ -201,9 +201,9 @@
     {
       "id": "corporate",
       "title": "Firmenwebsites",
-      "info": "Wir entwickeln Websites für kleine und große Unternehmen.",
-      "infoTablet": "Wir entwickeln Websites für kleine und große Unternehmen — von Visitenkarten bis hin zu umfangreichen Plattformen.",
-      "infoDesktop": "Wir entwickeln Websites für kleine und große Unternehmen — von Visitenkarten bis hin zu umfangreichen Plattformen. Design, Struktur und Inhalt arbeiten an Ihrem Image und der Kundenbindung.",
+      "info": "Ich entwickle Websites für kleine und große Unternehmen.",
+      "infoTablet": "Ich entwickle Websites für kleine und große Unternehmen — von Visitenkarten bis hin zu umfangreichen Plattformen.",
+      "infoDesktop": "Ich entwickle Websites für kleine und große Unternehmen — von Visitenkarten bis hin zu umfangreichen Plattformen. Design, Struktur und Inhalt arbeiten an Ihrem Image und der Kundenbindung.",
       "className": "liCorporateWebsites",
       "images": [
         {
@@ -239,9 +239,9 @@
     {
       "id": "blogs",
       "title": "Persönliche Blogs",
-      "info": "Wir schaffen Plattformen, die Ihre Einzigartigkeit betonen.",
-      "infoTablet": "Wir erstellen stilvolle und funktionale Plattformen, die Ihre Einzigartigkeit betonen und beim Aufbau einer Community helfen.",
-      "infoDesktop": "Für Experten, Kreative, Influencer. Wir erstellen stilvolle und funktionale Plattformen, die Ihre Einzigartigkeit betonen und beim Aufbau einer Community helfen.",
+      "info": "Ich schaffe Plattformen, die Ihre Einzigartigkeit betonen.",
+      "infoTablet": "Ich erstelle stilvolle und funktionale Plattformen, die Ihre Einzigartigkeit betonen und beim Aufbau einer Community helfen.",
+      "infoDesktop": "Für Experten, Kreative, Influencer. Ich erstelle stilvolle und funktionale Plattformen, die Ihre Einzigartigkeit betonen und beim Aufbau einer Community helfen.",
       "className": "liPersonalBlogs",
       "images": [
         {
