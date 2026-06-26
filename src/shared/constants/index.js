@@ -54,6 +54,8 @@ export const NAMESPACES = [
   'workStepsVideo',
   'workStepsWeb',
   'impressum',
+  'feedbackForm',
+  'modalFeedback',
 ];
 
 export const FLIPPED_TIME_MS = 15000;
