@@ -11,6 +11,7 @@ const VIDEOS = [
   { src: '/video/conference.mp4', label: '04', tagKey: 'tags.conference' },
   { src: '/video/medicine.mp4', label: '05', tagKey: 'tags.medicine' },
   { src: '/video/film.mp4', label: '06', tagKey: 'tags.film' },
+  { src: '/video/wedding.mp4', label: '07', tagKey: 'tags.wedding' },
 ];
 
 const INTERVAL = 3000;
