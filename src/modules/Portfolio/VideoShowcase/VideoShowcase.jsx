@@ -24,7 +24,6 @@ export default function VideoShowcase() {
   const loadedRef = useRef(new Set());
   const total = VIDEOS.length;
 
-  // загружаем видео по индексу
   const loadVideo = useCallback((idx) => {
     if (loadedRef.current.has(idx)) return;
     const v = videoRefs.current[idx];
@@ -34,12 +33,10 @@ export default function VideoShowcase() {
     loadedRef.current.add(idx);
   }, []);
 
-  // при маунте — грузим только первое
   useEffect(() => {
     loadVideo(0);
   }, [loadVideo]);
 
-  // когда меняется активный — играем его и грузим следующее
   useEffect(() => {
     const v = videoRefs.current[active];
     if (!v) return;
@@ -58,12 +55,10 @@ export default function VideoShowcase() {
       v.addEventListener('canplay', play, { once: true });
     }
 
-    // предзагрузка следующего
     const next = (active + 1) % total;
     loadVideo(next);
   }, [active, loadVideo, total]);
 
-  // автопереключение
   useEffect(() => {
     if (paused) return;
     const id = setInterval(() => {

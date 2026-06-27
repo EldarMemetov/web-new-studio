@@ -29,12 +29,12 @@ const metadataDict = {
   en: {
     title: 'QVRIX — Web Development & Video Production',
     description:
-      'Qvrix is your partner in business growth. We create modern websites, unique design, and professional videos to grow your business.',
+      'QVRIX is your personal digital project for web development and video production. I create modern websites and professional videos to grow your business.',
   },
   de: {
     title: 'QVRIX — Webentwicklung & Videoproduktion',
     description:
-      'Qvrix ist Ihr Partner für Unternehmenswachstum. Wir erstellen moderne Websites, einzigartiges Design und professionelle Videos.',
+      'QVRIX ist Ihr persönliches Digitalprojekt für Webentwicklung und Videoproduktion. Ich erstelle moderne Websites und professionelle Videos für Ihr Unternehmen.',
   },
 };
 

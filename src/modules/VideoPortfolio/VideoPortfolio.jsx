@@ -380,7 +380,6 @@ export default function VideoPortfolio() {
                 </svg>
               </span>
               {t('cta.text')}
-              <span className={s.igArrow}>↗</span>
             </Link>
           </div>
         </Container>
