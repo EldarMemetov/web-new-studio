@@ -25,9 +25,9 @@ const securityHeaders = [
       "default-src 'self'",
       "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: blob: https://cdn.sanity.io",
+      "img-src 'self' data: blob:",
       "font-src 'self' data:",
-      "connect-src 'self' https://*.sanity.io wss://*.sanity.io",
+      "connect-src 'self'",
       "frame-ancestors 'self'",
       "base-uri 'self'",
       "form-action 'self'",
@@ -50,14 +50,6 @@ const nextConfig = {
       @use "src/shared/styles/_mixins.scss" as *;
       @use "src/shared/styles/_variables.scss" as *;
     `,
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'cdn.sanity.io',
-      },
-    ],
   },
   async headers() {
     return [

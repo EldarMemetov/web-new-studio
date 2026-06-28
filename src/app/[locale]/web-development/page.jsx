@@ -4,7 +4,7 @@ import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import Footer from '@/modules/Footer/Footer';
 import WebWhyChoose from '@/modules/WebWhyChoose/WebWhyChoose';
 import WebPortfolio from '@/modules/WebPortfolio/WebPortfolio';
-import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
+
 import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import WebDisplayCompany from '@/modules/WebDisplayCompany/WebDisplayCompany';
@@ -28,7 +28,6 @@ export default async function WebDevelopment({ params: rawParams }) {
       <WebPortfolio locale={locale} />
       <WorkSteps namespace="workStepsWeb" />
       <WebWhyChoose locale={locale} />
-      <OrDevelopment locale={locale} />
       <ToggleQuestions locale={locale} namespace="toggleQuestionsWebDev" />
       <FeedbackWrapper />
       <Footer />

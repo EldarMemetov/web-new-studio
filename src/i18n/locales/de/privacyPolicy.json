@@ -17,7 +17,7 @@
           {
             "title": "2.1 Verarbeitung von personenbezogenen Daten und andere Begriffe",
             "paragraphs": [
-              "Datenschutz gilt bei der Verarbeitung von personenbezogenen Daten. Personenbezogen meint alle Daten, mit denen Du persönlich identifiziert werden kannst. Das ist z.B. die IP-Adresse des Geräts (PC, Laptop, Smartphone, etc.) vor dem Du gerade sitzt. Verarbeitet werden solche Daten dann, wenn ‚irgendetwas damit passiert'. Hier wird z.B. die IP vom Browser an unseren Provider übermittelt und dort automatisch gespeichert. Das ist dann eine Verarbeitung (gemäß Art. 4 Nr. 2 DSGVO) von personenbezogenen Daten (nach Art. 4 Nr. 1 DSGVO).",
+              "Datenschutz gilt bei der Verarbeitung von personenbezogenen Daten. Personenbezogen meint alle Daten, mit denen Du persönlich identifiziert werden kannst. Das ist z.B. die IP-Adresse des Geräts (PC, Laptop, Smartphone, etc.) vor dem Du gerade sitzt. Verarbeitet werden solche Daten dann, wenn ‚irgendetwas damit passiert‘. Hier wird z.B. die IP vom Browser an unseren Provider übermittelt und dort automatisch gespeichert. Das ist dann eine Verarbeitung (gemäß Art. 4 Nr. 2 DSGVO) von personenbezogenen Daten (nach Art. 4 Nr. 1 DSGVO).",
               "Diese und weitere gesetzlichen Definitionen sind in Art. 4 DSGVO zu finden."
             ]
           },
@@ -56,7 +56,7 @@
           {
             "title": "2.6 Datenschutz – Unsere Sicht",
             "paragraphs": [
-              "Datenschutz ist für uns mehr als nur eine lästige Pflicht! Personenbezogene Daten haben einen großen Wert und ein achtsamer Umgang mit diesen Daten sollte in unserer digitalisierten Welt selbstverständlich sein. Außerdem sollst Du als Website-Besucher in der Lage sein, selbst zu entscheiden, was, wann und durch wen mit Deinen Daten passiert. Deswegen verpflichten wir uns, alle gesetzlichen Bestimmungen einzuhalten, erheben nur die für uns notwendigen Daten und behandeln diese selbstverständlich vertraulich."
+              "Datenschutz ist für uns mehr als nur eine lästige Pflicht! Personenbezogene Daten haben einen großen Wert und ein achtsamer Umgang mit diesen Daten sollte in unserer digitalisierten Welt selbstverständlich sein. Außerdem sollst Du als Website-Besucher in der Lage sein, selbst zu entscheiden, was, wann und durch wen mit Deinen Daten „passiert“. Deswegen verpflichten wir uns, alle gesetzlichen Bestimmungen einzuhalten, erheben nur die für uns notwendigen Daten und behandeln diese selbstverständlich vertraulich."
             ]
           },
           {
@@ -64,7 +64,7 @@
             "paragraphs": [
               "Die Weitergabe und Löschung von Daten sind ebenfalls wichtige und sensible Themen. Deswegen möchten wir Dich vorab kurz über unsere generelle Herangehensweise hierzu informieren.",
               "Eine Weitergabe der Daten findet nur aufgrund einer Rechtsgrundlage und nur dann statt, wenn dies unumgänglich ist. Dies kann insbesondere dann der Fall sein, wenn es sich um einen sogenannten Auftragsverarbeiter handelt und ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO geschlossen wurde.",
-              "Wir löschen Deine Daten dann, wenn der Zweck und die Rechtsgrundlage zur Verarbeitung wegfallen und der Löschung zudem keine anderen gesetzlichen Verpflichtungen entgegenstehen. Einen ‚guten' Überblick darüber gibt auch Art. 17 DSGVO.",
+              "Wir löschen Deine Daten dann, wenn der Zweck und die Rechtsgrundlage zur Verarbeitung wegfallen und der Löschung zudem keine anderen gesetzlichen Verpflichtungen entgegenstehen. Einen ‚guten‘ Überblick darüber gibt auch Art. 17 DSGVO.",
               "Alle weiterführenden Informationen entnimmst Du bitte dieser Datenschutzerklärung und wendest Dich bei konkreten Fragen an den Verantwortlichen."
             ]
           },
@@ -199,10 +199,7 @@
             ]
           },
           {
-            "title": "3.4 Analyse- und Trackingtools",
-            "paragraphs": [
-              "Derzeit setzen wir auf dieser Website keine Analyse- und Trackingtools ein."
-            ]
+            "title": "3.4 Analyse- und Trackingtools"
           },
           {
             "title": "3.5 Social Media Profile",
@@ -227,13 +224,13 @@
                   {
                     "title": "Insights",
                     "paragraphs": [
-                      "Wie in der Meta-Datenschutzrichtlinie unter „Wie verwenden wir Ihre Informationen? (https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect) erläutert, erhebt und verwendet Meta Informationen auch, um Analysedienste, sogenannte Insights, für Seitenbetreiber bereitzustellen. Dies gilt auch für unser Instagram-Profil. Bei den Insights handelt es sich um zusammengefasste Statistiken, die anhand bestimmter Interaktionen der Besuchenden mit Seiten und den mit ihnen verbundenen Inhalten erstellt und von den Meta-Servern protokolliert werden. Hierzu zählen unter anderem folgende Informationen: – wie viele Menschen sehen unsere Produkte, Dienste oder Inhalte, wie u. a. Beiträge, Videos, Instagram-Seiten, Inserate, Shops und Werbeanzeigen (wenn die Werbung auf Meta-Produkten gezeigt wird) und interagieren mit ihnen; – Wie interagieren Personen mit unseren Inhalten, Websites, Apps und Diensten; – Welche Personengruppe interagiert mit unseren Inhalten bzw. welche Personengruppe nutzt unsere Dienste. Meta stellt uns zusammengefasste Berichte und Einblicke zur Verfügung, die uns darüber Aufschluss geben, wie gut unsere Inhalte, Features, Produkte und Dienste abschneiden. Dabei erhalten wir keinen Zugriff auf personenbezogene Daten, sondern nur auf die zusammengefassten Berichte. Für die Auswertung der Reichweite können wir Einstellungen vornehmen bzw. entsprechende Filter hinsichtlich der Auswahl eines Zeitraums, der Betrachtung eines bestimmten Beitrags sowie der demografischen Gruppierungen setzen. Diese Daten sind anonymisiert. Rückschlüsse auf bestimmte Personen sind uns dabei nicht möglich. Die Verarbeitung dieser Daten dient dem Zweck der Analyse unserer Reichweite und der Anpassung unserer Inhalte und Anzeigen an die Nutzerinteressen, damit Besuchende einen größtmöglichen Nutzen daraus ziehen können. Anhand der Auswertungen dieser Daten können wir erkennen, wie unser Content, unser Profil und unsere Werbung konsumiert werden. Damit können wir zielgruppengerechten Content schaffen und Werbung schalten, um unser Unternehmen und unsere Leistungen besser zu vermarkten. Die Verarbeitung basiert auf unserem berechtigten Interesse nach Art. 6 Abs. 1 S. 1 lit. f DSGVO. Bei der Verarbeitung personenbezogener Daten im Zuge der sogenannten Insights erfolgt die Verarbeitung in gemeinsamer Verantwortlichkeit mit Meta gem. Art. 26 Abs. 1 DSGVO. Hierzu haben wir eine entsprechende Vereinbarung mit Meta getroffen, die hier (https://www.facebook.com/legal/terms/page_controller_addendum) eingesehen werden kann. Die Kontaktdaten von Meta lauten: Online-Kontakt: https://www.facebook.com/help/contact/1650115808681298 Postalisch: Meta Platforms Ireland Limited, ATTN: Privacy Operations, Merrion Road, Dublin 4, D04 X2K5, Irland. Für Instagram können Sie unter folgendem Link mit dem Datenschutzbeauftragten Kontakt aufnehmen: https://www.facebook.com/help/contact/540977946302970. Weitere Informationen über die Insights: https://de-de.facebook.com/help/pages/insights. Die vollständige Datenschutzrichtlinie von Instagram: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+                      "Wie in der Meta-Datenschutzrichtlinie unter „Wie verwenden wir Ihre Informationen?“ (https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect) erläutert, erhebt und verwendet Meta Informationen auch, um Analysedienste, sogenannte Insights, für Seitenbetreiber bereitzustellen. Dies gilt auch für unser Instagram-Profil. Bei den Insights handelt es sich um zusammengefasste Statistiken, die anhand bestimmter Interaktionen der Besuchenden mit Seiten und den mit ihnen verbundenen Inhalten erstellt und von den Meta-Servern protokolliert werden. Hierzu zählen unter anderem folgende Informationen: – wie viele Menschen sehen unsere Produkte, Dienste oder Inhalte, wie u. a. Beiträge, Videos, Instagram-Seiten, Inserate, Shops und Werbeanzeigen (wenn die Werbung auf Meta-Produkten gezeigt wird) und interagieren mit ihnen; – Wie interagieren Personen mit unseren Inhalten, Websites, Apps und Diensten; – Welche Personengruppe interagiert mit unseren Inhalten bzw. welche Personengruppe nutzt unsere Dienste. Meta stellt uns zusammengefasste Berichte und Einblicke zur Verfügung, die uns darüber Aufschluss geben, wie gut unsere Inhalte, Features, Produkte und Dienste abschneiden. Dabei erhalten wir keinen Zugriff auf personenbezogene Daten, sondern nur auf die zusammengefassten Berichte. Für die Auswertung der Reichweite können wir Einstellungen vornehmen bzw. entsprechende Filter hinsichtlich der Auswahl eines Zeitraums, der Betrachtung eines bestimmten Beitrags sowie der demografischen Gruppierungen setzen. Diese Daten sind anonymisiert. Rückschlüsse auf bestimmte Personen sind uns dabei nicht möglich. Die Verarbeitung dieser Daten dient dem Zweck der Analyse unserer Reichweite und der Anpassung unserer Inhalte und Anzeigen an die Nutzerinteressen, damit Besuchende einen größtmöglichen Nutzen daraus ziehen können. Anhand der Auswertungen dieser Daten können wir erkennen, wie unser Content, unser Profil und unsere Werbung konsumiert werden. Damit können wir zielgruppengerechten Content schaffen und Werbung schalten, um unser Unternehmen und unsere Leistungen besser zu vermarkten. Die Verarbeitung basiert auf unserem berechtigten Interesse nach Art. 6 Abs. 1 S. 1 lit. f DSGVO. Bei der Verarbeitung personenbezogener Daten im Zuge der sogenannten Insights erfolgt die Verarbeitung in gemeinsamer Verantwortlichkeit mit Meta gem. Art. 26 Abs. 1 DSGVO. Hierzu haben wir eine entsprechende Vereinbarung mit Meta getroffen, die hier (https://www.facebook.com/legal/terms/page_controller_addendum) eingesehen werden kann. Die Kontaktdaten von Meta lauten: Online-Kontakt: https://www.facebook.com/help/contact/1650115808681298 Postalisch: Meta Platforms Ireland Limited, ATTN: Privacy Operations, Merrion Road, Dublin 4, D04 X2K5, Irland. Für Instagram können Sie unter folgendem Link mit dem Datenschutzbeauftragten Kontakt aufnehmen: https://www.facebook.com/help/contact/540977946302970. Weitere Informationen über die Insights: https://de-de.facebook.com/help/pages/insights. Die vollständige Datenschutzrichtlinie von Instagram: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
                     ]
                   },
                   {
                     "title": "Verarbeitung personenbezogener Daten und Cookies durch Meta",
                     "paragraphs": [
-                      "Beim Zugriff auf eine Instagram-Seite wird die dem Endgerät zugeteilte IP-Adresse an Meta übermittelt. Nach Auskunft von Meta wird diese IP-Adresse anonymisiert (bei \"deutschen\" IP-Adressen). Meta speichert darüber hinaus Informationen über die Endgeräte seiner Nutzenden (z.B. im Rahmen der Funktion „Anmeldebenachrichtigung); gegebenenfalls ist Meta damit eine Zuordnung von IP-Adressen zu einzelnen Nutzenden möglich. Wenn Sie als Nutzende aktuell bei Instagram angemeldet sind, befindet sich auf dem Endgerät ein Cookie mit der Instagram-Kennung. Dadurch ist Meta in der Lage nachzuvollziehen, wer diese Seite aufgesucht und genutzt hat. Über in Websites eingebundene Meta-Buttons ist es Meta möglich, Ihre Besuche auf diesen Websites zu erfassen und Ihrem Instagram-Profil zuzuordnen. Anhand dieser Daten können Inhalte oder Werbung persönlich zugeschnitten angeboten werden. Nähere Informationen: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+                      "Beim Zugriff auf eine Instagram-Seite wird die dem Endgerät zugeteilte IP-Adresse an Meta übermittelt. Nach Auskunft von Meta wird diese IP-Adresse anonymisiert (bei \"deutschen\" IP-Adressen). Meta speichert darüber hinaus Informationen über die Endgeräte seiner Nutzenden (z.B. im Rahmen der Funktion „Anmeldebenachrichtigung“); gegebenenfalls ist Meta damit eine Zuordnung von IP-Adressen zu einzelnen Nutzenden möglich. Wenn Sie als Nutzende aktuell bei Instagram angemeldet sind, befindet sich auf dem Endgerät ein Cookie mit der Instagram-Kennung. Dadurch ist Meta in der Lage nachzuvollziehen, wer diese Seite aufgesucht und genutzt hat. Über in Websites eingebundene Meta-Buttons ist es Meta möglich, Ihre Besuche auf diesen Websites zu erfassen und Ihrem Instagram-Profil zuzuordnen. Anhand dieser Daten können Inhalte oder Werbung persönlich zugeschnitten angeboten werden. Nähere Informationen: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
                     ]
                   }
                 ]
@@ -263,45 +260,11 @@
                     ]
                   }
                 ]
-              },
-              {
-                "title": "Telegram Kanal",
-                "paragraphs": [
-                  "Wir betreiben einen Telegram Kanal, der von Telegram Messenger LLP Al Kazim Towers, Büro 2301 und 2303, Sheikh Zayed Road, Dubai, Vereinigte Arabische Emirate, betrieben wird. Telegram ist eine Cloud-basierte Messaging-App, die es Nutzenden ermöglicht, Textnachrichten, Medien und Dateien in Gruppen, Kanälen und Einzelchats zu senden."
-                ],
-                "subsections": [
-                  {
-                    "title": "Interaktion mit unserem Unternehmenskanal",
-                    "paragraphs": [
-                      "Bei der Nutzung unseres Telegram Kanals verarbeiten wir die Daten der Profilbesuchenden. Diese Daten umfassen Informationen über Interaktionen mit unserem Kanal, wie z.B. gesendete Nachrichten und Reaktionen. Diese Informationen helfen uns, die Kommunikation zu verbessern und unsere Inhalte gezielt auf die Bedürfnisse unserer Zielgruppe auszurichten. Die Rechtsgrundlage für die Verarbeitung dieser Daten ist ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO."
-                    ]
-                  },
-                  {
-                    "title": "Verarbeitung von personenbezogenen Daten und Cookies durch Telegram",
-                    "paragraphs": [
-                      "Beim Besuch unseres Telegram Kanals erfasst Telegram personenbezogene Daten wie IP-Adressen, Gerätedetails und Aktivitäten auf der Plattform. Diese Daten können durch Cookies und ähnliche Technologien gesammelt werden, die auf dem Gerät gespeichert werden. Telegram verwendet diese Informationen zur Verbesserung des Dienstes sowie zur Bekämpfung von Spam und Missbrauch. Die Verarbeitung der Daten erfolgt auf Grundlage einer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO, die durch die Annahme der Cookie-Richtlinien auf Telegram erteilt wird. Darüber hinaus besteht ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO, um unser Kommunikationsangebot zu optimieren und schneller auf Anfragen reagieren zu können. Eine Datenübermittlung in Drittländer kann stattfinden, da Telegram Server außerhalb der EU, u. a. in den USA, betreibt. Telegram gibt an, Maßnahmen zum Schutz der Daten gemäß DSGVO umzusetzen, etwa durch die Anwendung der Standardvertragsklauseln (SCCs). Die Daten werden gespeichert, solange dies für die Bereitstellung der Dienste erforderlich ist oder bis die nutzende Person die Löschung der Daten anfordert; gesetzliche Aufbewahrungsfristen bleiben unberührt. Wir haben keinen Einfluss auf den Umfang der durch Telegram verarbeiteten Daten oder deren Weitergabe an Dritte und können insoweit keine effektiven Kontrollmöglichkeiten ausüben. Weitere Informationen zur Datenverarbeitung finden sich hier: https://telegram.org/privacy."
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "WhatsApp Kanal",
-                "paragraphs": [
-                  "Wir betreiben einen WhatsApp Kanal. Der Kanal läuft bei der WhatsApp Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Durch WhatsApp Kanäle können Informationen und relevante Meldungen direkt auf WhatsApp ausgespielt werden, indem Kanäle von Menschen und Organisationen abonniert werden. Wenn ein Kanal abonniert wurde, werden Meldungen in Form von Textnachrichten, Links zu Informationen, Bildern oder Videos verschickt. Kanäle sind öffentlich, das heißt, jeder kann die Kanäle finden, ihnen folgen und sie ansehen. Da Kanäle öffentlich sind und die Anzahl der Nutzenden unbegrenzt ist, sind Kanal-Statusmeldungen für alle und für WhatsApp sichtbar. WhatsApp erhebt Informationen der Nutzenden, beispielsweise über ihre Reaktionen, ihre Sprachwahl und die Kanäle, denen sie folgen. Wir selbst als Betreiber haben jedoch keinen Zugriff auf personenbezogene Daten. Die WhatsApp Kanäle sind so gestaltet, dass Betreiber keinerlei Informationen wie die Identität oder Kontaktdaten der Nutzenden erhalten. Informationen über die Datenverarbeitung durch WhatsApp: https://www.whatsapp.com/legal/channels-privacy-policy-eea?lang=de_DE."
-                ]
               }
             ]
           },
           {
-            "title": "3.6 Drittinhalte",
-            "subsections": [
-              {
-                "title": "Sanity.io - API",
-                "paragraphs": [
-                  "Wir nutzen auf dieser Website das CMS (Content Management System) Sanity.io. Dieser Dienst wird angeboten von der Sanity US Inc., 2345 Yale St 1St FL Palo Alto CA 94306, USA. Durch das CMS von Sanity.io ist es uns möglich, Inhalte wie Texte, Bilder oder Videos auf unserer Website zu erstellen, zu bearbeiten, zu organisieren und zu veröffentlichen. Sanity ermöglicht es uns, unsere hochgeladenen Inhalte über eine Anwendungsprogrammierschnittstelle (API) in unsere internen Systeme und/oder in Systeme von Drittanbietern zu integrieren, die von anderen Parteien bereitgestellt werden. Sanity erfasst hier die IP-Adresse eines Endnutzers, um betrügerische Nutzungen zu verhindern (z.B. DDOS Attacken). Rechtsgrundlage für die Datenverarbeitung durch Sanity.io ist Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse daran, die effiziente Verwaltung und Veröffentlichung von Inhalten umzusetzen, um die Benutzerfreundlichkeit einer Website zu verbessern und aktuelle Informationen bereitzustellen. Weitere Informationen: https://www.sanity.io/legal/privacy."
-                ]
-              }
-            ]
+            "title": "3.6 Drittinhalte"
           }
         ]
       },
@@ -329,7 +292,7 @@
               {
                 "title": "4.1.3 Recht auf Löschung nach Art. 17 DSGVO",
                 "paragraphs": [
-                  "Dieses sogenannte ‚Recht auf Vergessenwerden' gibt Dir das Recht, unter bestimmten Voraussetzungen, die Löschung der personenbezogenen Daten durch den Verantwortlichen zu verlangen. Dies ist grundsätzlich dann der Fall, wenn der Zweck der Datenverarbeitung entfallen ist, wenn eine Einwilligung widerrufen wurde oder die Ausgangsverarbeitung ohne Rechtsgrundlage stattfand. Eine detaillierte Aufzählung von Gründen findest Du in Art. 17 Abs. 1 lit. a bis f DSGVO. Dieses „Recht auf Vergessenwerden korrespondiert darüber hinaus mit der Pflicht des Verantwortlichen aus Art. 17 Abs. 2 DSGVO angemessene Maßnahmen zu ergreifen, um eine allgemeine Löschung der Daten herbeizuführen."
+                  "Dieses sogenannte ‚Recht auf Vergessenwerden‘ gibt Dir das Recht, unter bestimmten Voraussetzungen, die Löschung der personenbezogenen Daten durch den Verantwortlichen zu verlangen. Dies ist grundsätzlich dann der Fall, wenn der Zweck der Datenverarbeitung entfallen ist, wenn eine Einwilligung widerrufen wurde oder die Ausgangsverarbeitung ohne Rechtsgrundlage stattfand. Eine detaillierte Aufzählung von Gründen findest Du in Art. 17 Abs. 1 lit. a bis f DSGVO. Dieses „Recht auf Vergessenwerden“ korrespondiert darüber hinaus mit der Pflicht des Verantwortlichen aus Art. 17 Abs. 2 DSGVO angemessene Maßnahmen zu ergreifen, um eine allgemeine Löschung der Daten herbeizuführen."
                 ]
               },
               {
@@ -351,7 +314,7 @@
                 ]
               },
               {
-                "title": "4.1.7 Recht auf „Entscheidung im Einzelfall\" nach Art. 22 DSGVO",
+                "title": "4.1.7 Recht auf „Entscheidung im Einzelfall“ nach Art. 22 DSGVO",
                 "paragraphs": [
                   "Du hast grundsätzlich das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung (einschließlich Profiling) beruhenden Entscheidung unterworfen zu werden, die Dir gegenüber rechtliche Wirkung entfaltet oder Dich in ähnlicher Weise erheblich beeinträchtigt. Auch dieses Recht findet allerdings Einschränkungen und Ergänzungen in Art. 22 Abs. 2 und 4 DSGVO."
                 ]
@@ -377,7 +340,11 @@
       {
         "title": "5. Was ist, wenn morgen die DSGVO abgeschafft wird oder andere Veränderungen stattfinden?",
         "paragraphs": [
-          "Der aktuelle Stand dieser Datenschutzerklärung ist 24.06.2026. Von Zeit zu Zeit ist es erforderlich, den Inhalt der Datenschutzerklärung anzupassen, um auf tatsächliche und rechtliche Veränderungen zu reagieren. Wir behalten uns daher vor, diese Datenschutzerklärung jederzeit zu ändern. Wir werden die geänderte Version an gleicher Stelle veröffentlichen und empfehlen Dir, die Datenschutzerklärung regelmäßig zu lesen.",
+          "Der aktuelle Stand dieser Datenschutzerklärung ist 24.06.2026. Von Zeit zu Zeit ist es erforderlich, den Inhalt der Datenschutzerklärung anzupassen, um auf tatsächliche und rechtliche Veränderungen zu reagieren. Wir behalten uns daher vor, diese Datenschutzerklärung jederzeit zu ändern. Wir werden die geänderte Version an gleicher Stelle veröffentlichen und empfehlen Dir, die Datenschutzerklärung regelmäßig zu lesen."
+        ]
+      },
+      {
+        "paragraphs": [
           "Erstellt mit freundlicher Unterstützung von Dieter macht den Datenschutz",
           "\"Dieter macht den Datenschutz\" ist ein Produkt der simply Legal GmbH, Burkarderstr. 36, D-97082 Würzburg. All rights reserved 2026."
         ]

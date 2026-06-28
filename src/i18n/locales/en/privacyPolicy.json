@@ -201,10 +201,7 @@
             ]
           },
           {
-            "title": "3.4 Analysis and tracking tools",
-            "paragraphs": [
-              "We currently do not use any analysis and tracking tools on this website."
-            ]
+            "title": "3.4 Analysis and tracking tools"
           },
           {
             "title": "3.5 Social media profiles",
@@ -265,45 +262,11 @@
                     ]
                   }
                 ]
-              },
-              {
-                "title": "Telegram channel",
-                "paragraphs": [
-                  "We operate a Telegram channel, which is operated by Telegram Messenger LLP Al Kazim Towers, Office 2301 and 2303, Sheikh Zayed Road, Dubai, United Arab Emirates. Telegram is a cloud-based messaging app that allows users to send text messages, media and files in groups, channels and individual chats."
-                ],
-                "subsections": [
-                  {
-                    "title": "Interaction with our corporate channel",
-                    "paragraphs": [
-                      "When using our Telegram channel, we process the data of profile visitors. This data includes information about interactions with our channel, such as messages sent and reactions. This information helps us to improve communication and tailor our content to the needs of our target group. The legal basis for the processing of this data is a legitimate interest pursuant to Art. 6 para. 1 lit. f GDPR."
-                    ]
-                  },
-                  {
-                    "title": "Processing of personal data and cookies by Telegram",
-                    "paragraphs": [
-                      "When you visit our Telegram channel, Telegram collects personal data such as IP addresses, device details and activities on the platform. This data may be collected through cookies and similar technologies that are stored on the device. Telegram uses this information to improve the service and to combat spam and abuse. The data is processed on the basis of consent pursuant to Art. 6 para. 1 lit. a GDPR, which is granted by accepting the cookie policy on Telegram. In addition, there is a legitimate interest in accordance with Art. 6 para. 1 lit. f GDPR in order to optimize our communication offer and to be able to respond more quickly to inquiries. Data may be transferred to third countries, as Telegram operates servers outside the EU, including in the USA. Telegram states that it implements measures to protect data in accordance with the GDPR, for example by applying the standard contractual clauses (SCCs). The data is stored for as long as this is necessary for the provision of the services or until the user requests the deletion of the data; statutory retention periods remain unaffected. We have no influence on the scope of the data processed by Telegram or its transfer to third parties and cannot exercise any effective control options in this respect. Further information on data processing can be found here: https://telegram.org/privacy."
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "WhatsApp channel",
-                "paragraphs": [
-                  "We operate a WhatsApp channel. The channel is operated by WhatsApp Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. Through WhatsApp channels, information and relevant messages can be played out directly on WhatsApp by subscribing to channels of people and organizations. When a channel is subscribed to, messages are sent in the form of text messages, links to information, images or videos. Channels are public, which means that anyone can find, follow and view them. Since channels are public and the number of users is unlimited, channel status messages are visible to everyone and to WhatsApp. WhatsApp collects information from users, for example about their reactions, their choice of language and the channels they follow. However, we ourselves as the operator do not have access to personal data. WhatsApp channels are designed in such a way that operators do not receive any information such as the identity or contact details of users. Information about data processing by WhatsApp: https://www.whatsapp.com/legal/channels-privacy-policy-eea?lang=de_DE."
-                ]
               }
             ]
           },
           {
-            "title": "3.6 Third-party content",
-            "subsections": [
-              {
-                "title": "Sanity.io - API",
-                "paragraphs": [
-                  "We use the CMS (Content Management System) Sanity.io on this website. This service is offered by Sanity US Inc, 2345 Yale St 1St FL Palo Alto CA 94306, USA. Sanity.io's CMS enables us to create, edit, organize and publish content such as texts, images or videos on our website. Sanity enables us to integrate our uploaded content into our internal systems and/or third-party systems provided by other parties via an application programming interface (API). Sanity collects the IP address of an end user in order to prevent fraudulent use (e.g. DDOS attacks). The legal basis for data processing by Sanity.io is Art. 6 para. 1 lit. f GDPR. We have a legitimate interest in implementing the efficient management and publication of content in order to improve the user-friendliness of a website and provide up-to-date information. Further information: https://www.sanity.io/legal/privacy."
-                ]
-              }
-            ]
+            "title": "3.6 Third-party content"
           }
         ]
       },
@@ -379,7 +342,11 @@
       {
         "title": "5. What if the GDPR is abolished tomorrow or other changes take place?",
         "paragraphs": [
-          "This Privacy Policy is current as of June 24, 2026. From time to time, it may be necessary to update the content of this Privacy Policy to reflect actual and legal changes. We therefore reserve the right to amend this Privacy Policy at any time. We will publish the updated version in the same location and recommend that you review the Privacy Policy regularly.",
+          "This Privacy Policy is current as of June 24, 2026. From time to time, it may be necessary to update the content of this Privacy Policy to reflect actual and legal changes. We therefore reserve the right to amend this Privacy Policy at any time. We will publish the updated version in the same location and recommend that you review the Privacy Policy regularly."
+        ]
+      },
+      {
+        "paragraphs": [
           "Created with the kind support of Dieter macht den Datenschutz",
           "\"Dieter macht den Datenschutz\" is a product of simply Legal GmbH, Burkarderstr. 36, D-97082 Würzburg. All rights reserved 2026."
         ]

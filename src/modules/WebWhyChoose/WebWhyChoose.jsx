@@ -39,10 +39,10 @@ export default async function WebWhyChoose({
             {hasDescription && (
               <p className={s.description}>
                 {descriptionBefore}
-                <span className={s.spanWeight}>{spanDescriptionOne}</span>
+                <span>{spanDescriptionOne}</span>
                 {descriptionMiddle}
-                <span className={s.spanWeight}>{spanDescriptionTwo}</span>
-                <span className={s.spanDescription}>{descriptionAfter}</span>
+                <span>{spanDescriptionTwo}</span>
+                <span>{descriptionAfter}</span>
               </p>
             )}
           </div>

@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://node-reply-letter.onrender.com/:path*"
-    }
-  ]
-}

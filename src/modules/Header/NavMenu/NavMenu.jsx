@@ -33,7 +33,6 @@ const links = [
   { href: '/about-us', key: 'aboutUs' },
   { href: '/web-development', key: 'webDevelopment' },
   { href: '/videography', key: 'videography' },
-  { href: '/blog', key: 'blog' },
 ];
 
 export default function NavMenu({

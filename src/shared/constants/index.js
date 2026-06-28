@@ -5,7 +5,6 @@ export const ROUTES = {
   DEVELOPMENT: 'web-development',
   VIDEOGRAPHY: 'videography',
   POLICY: 'privacy-policy',
-  Blog: 'blog',
 };
 export const LINKDATA = {
   ABOUT: 'about-us',
@@ -14,7 +13,6 @@ export const LINKDATA = {
   DEVELOPMENT: 'web-development',
   VIDEOGRAPHY: 'videography',
   POLICY: 'privacy-policy',
-  Blog: 'blog',
 };
 export const LANGUAGES = { EN: 'en', DE: 'de' };
 
@@ -34,14 +32,11 @@ export const NAMESPACES = [
   'effectiveSolutions',
   'webWhyChoose',
   'webPortfolio',
-  'OrDevelopment',
   'privacyPolicy',
   'heroVideo',
   'videoFaq',
   'videoWhyChoose',
   'videoPortfolio',
-  'BlogCategoryPage',
-  'heroBlog',
   'aboutBrandTransformation',
   'aboutWhyChoose',
   'heroAbout',
