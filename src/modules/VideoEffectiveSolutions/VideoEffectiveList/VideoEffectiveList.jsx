@@ -1,61 +1,77 @@
-import { VideoEffectiveItem } from '../VideoEffectiveItem/VideoEffectiveItem';
+'use client';
+import { useState } from 'react';
 import s from './VideoEffectiveList.module.scss';
+import {
+  FiFilm,
+  FiBriefcase,
+  FiCalendar,
+  FiShare2,
+  FiLayers,
+  FiScissors,
+  FiArrowRight,
+} from 'react-icons/fi';
+
+const iconMap = {
+  advertising: FiFilm,
+  corporate: FiBriefcase,
+  event: FiCalendar,
+  'social-media': FiShare2,
+  graphics: FiLayers,
+  'video-editing': FiScissors,
+};
 
 export default function VideoEffectiveList({ items }) {
-  const tabletLeftIds = ['advertising', 'corporate', 'event', 'drone'];
-  const tabletRightIds = ['social-media', 'graphics', 'video-editing'];
+  const [active, setActive] = useState(0);
+  if (!items?.length) return null;
 
-  const desktopLeftIds = ['advertising', 'social-media'];
-  const desktopCenterIds = ['corporate', 'drone', 'graphics'];
-  const desktopRightIds = ['event', 'video-editing'];
-
-  const makeGroup = (ids) =>
-    ids.map((id) => items.find((i) => i.id === id)).filter(Boolean);
-
-  const leftTabletItems = makeGroup(tabletLeftIds);
-  const rightTabletItems = makeGroup(tabletRightIds);
-  const leftDesktopItems = makeGroup(desktopLeftIds);
-  const centerDesktopItems = makeGroup(desktopCenterIds);
-  const rightDesktopItems = makeGroup(desktopRightIds);
+  const current = items[active];
+  const Icon = iconMap[current.id] || FiFilm;
 
   return (
-    <>
-      <ul className={s.singleList}>
-        {items.map((item) => (
-          <VideoEffectiveItem key={item.id} item={item} />
-        ))}
+    <div className={s.showcase}>
+      {/* СЦЕНА */}
+      <div className={s.stage}>
+        <span className={s.stageGlow} aria-hidden="true" />
+        <span key={current.id + '-num'} className={s.stageGhost}>
+          {String(active + 1).padStart(2, '0')}
+        </span>
+
+        <div key={current.id} className={s.stageContent}>
+          <span className={s.stageIcon}>
+            <Icon />
+          </span>
+          <h3 className={s.stageTitle}>{current.title}</h3>
+          <p className={s.stageText}>{current.info}</p>
+        </div>
+      </div>
+
+      {/* СПИСОК */}
+      <ul className={s.menu}>
+        {items.map((item, i) => {
+          const ItemIcon = iconMap[item.id] || FiFilm;
+          const isActive = i === active;
+          return (
+            <li key={item.id}>
+              <button
+                type="button"
+                className={`${s.menuItem} ${isActive ? s.active : ''}`}
+                onMouseEnter={() => setActive(i)}
+                onFocus={() => setActive(i)}
+                onClick={() => setActive(i)}
+              >
+                <span className={s.menuNum}>
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span className={s.menuIcon}>
+                  <ItemIcon />
+                </span>
+                <span className={s.menuTitle}>{item.title}</span>
+                <FiArrowRight className={s.menuArrow} />
+              </button>
+            </li>
+          );
+        })}
       </ul>
-
-      <div className={s.twoColumns}>
-        <ul className={s.column}>
-          {leftTabletItems.map((item) => (
-            <VideoEffectiveItem key={item.id} item={item} />
-          ))}
-        </ul>
-        <ul className={s.column}>
-          {rightTabletItems.map((item) => (
-            <VideoEffectiveItem key={item.id} item={item} />
-          ))}
-        </ul>
-      </div>
-
-      <div className={s.threeColumns}>
-        <ul className={s.column}>
-          {leftDesktopItems.map((item) => (
-            <VideoEffectiveItem key={item.id} item={item} />
-          ))}
-        </ul>
-        <ul className={s.columnCenter}>
-          {centerDesktopItems.map((item) => (
-            <VideoEffectiveItem key={item.id} item={item} />
-          ))}
-        </ul>
-        <ul className={s.column}>
-          {rightDesktopItems.map((item) => (
-            <VideoEffectiveItem key={item.id} item={item} />
-          ))}
-        </ul>
-      </div>
-    </>
+    </div>
   );
 }

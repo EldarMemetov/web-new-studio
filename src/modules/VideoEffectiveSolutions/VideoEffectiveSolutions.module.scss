@@ -1,11 +1,9 @@
 .section {
   padding-bottom: 160px;
-
   @include media(tablet) {
     padding-bottom: 200px;
   }
 }
-
 .title {
   text-align: left;
   @include titleText();
@@ -17,10 +15,55 @@
   text-align: left;
   @include description;
 }
-.SpanDescription {
-  font-weight: 600;
-}
 .containerContent {
   display: flex;
   flex-direction: column;
+}
+
+/* ---- Стрічка жанрів ---- */
+.genres {
+  margin-top: 56px;
+}
+.genresTitle {
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9b9db2;
+  margin-bottom: 20px;
+}
+.genreList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.genreChip {
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #dadbe6;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+  cursor: default;
+  transition:
+    color 0.35s ease,
+    border-color 0.35s ease,
+    background 0.35s ease,
+    transform 0.35s ease;
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+.genreChip:hover {
+  color: #fff;
+  transform: translateY(-3px);
+  border-color: transparent;
+  background: linear-gradient(
+    135deg,
+    rgba(150, 36, 226, 0.22),
+    rgba(1, 2, 185, 0.1)
+  );
 }

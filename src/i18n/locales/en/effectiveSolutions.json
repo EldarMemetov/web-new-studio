@@ -1,314 +1,49 @@
 {
   "spanTitle": "Solutions ",
   "title": "I offer",
-  "descriptionBefore": "QVRIX offers comprehensive solutions — from concept to launch. I adapt to your business to create ",
-  "SpanDescription": "efficient, beautiful and functional websites ",
+  "descriptionBefore": "QVRIX delivers end-to-end solutions — from concept to launch. I adapt to your business to ",
+  "SpanDescription": "build efficient, beautiful and functional websites ",
   "descriptionAfter": "that truly work.",
   "solutions": [
     {
       "id": "uiux",
       "title": "UI/UX Design",
-      "info": "I design, create and consider everything.",
-      "infoTablet": "I design a logical structure, create an aesthetic design and consider user behaviour.",
-      "infoDesktop": "I design a logical structure, create an aesthetic design and consider user behaviour to ensure comfort, intuitiveness and the WOW effect.",
-      "infoFull": "Engaging, action-driving interfaces: I design a logical structure, create an aesthetic design and consider user behaviour to ensure comfort, intuitiveness and the WOW effect.",
-      "className": "liUiDesign",
-      "images": [
-        {
-          "src": "/image/effective/ui-mobile.png",
-          "alt": "ui/ux-design",
-          "width": 222,
-          "height": 116,
-          "className": "imgUiDesign"
-        },
-        {
-          "src": "/image/effective/ui-desktop.png",
-          "alt": "ui/ux-design",
-          "width": 291,
-          "height": 162,
-          "className": "UiDesignDesktop"
-        },
-        {
-          "src": "/image/effective/ui-desktop-one.png",
-          "alt": "ui/ux-design",
-          "width": 145,
-          "height": 52,
-          "className": "UiDesignDesktopOne"
-        },
-        {
-          "src": "/image/effective/ui-desktop-two.png",
-          "alt": "ui/ux-design",
-          "width": 145,
-          "height": 52,
-          "className": "UiDesignDesktopTwo"
-        }
-      ]
+      "info": "Engaging, action-driving interfaces: logical structure, aesthetic design and thoughtful user behavior — for comfort, intuitiveness and a real WOW effect."
     },
     {
       "id": "landing",
       "title": "Landing Pages",
-      "info": "Selling at first glance",
-      "className": "liLandingPages",
-      "images": [
-        {
-          "src": "/image/effective/landing-mobile-figma.png",
-          "alt": "landing-pages",
-          "width": 98,
-          "height": 98,
-          "className": "imgLandingPageFigma"
-        },
-        {
-          "src": "/image/effective/landing-mobile-ai.png",
-          "alt": "landing-pages",
-          "width": 78,
-          "height": 78,
-          "className": "imgLandingPageAi"
-        },
-        {
-          "src": "/image/effective/landing-mobile-ps.png",
-          "alt": "landing-pages",
-          "width": 78,
-          "height": 78,
-          "className": "imgLandingPagePs"
-        }
-      ]
+      "info": "Pages that sell at first glance — focused, fast and built for conversion."
     },
     {
       "id": "seo",
       "title": "SEO Promotion",
-      "info": "Your website at the top of search results.",
-      "className": "liSeoPromotion",
-      "images": [
-        {
-          "src": "/image/effective/seo-mobile.png",
-          "alt": "seo-promotion",
-          "width": 252,
-          "height": 170,
-          "className": "imgSeoChart"
-        },
-        {
-          "src": "/image/effective/seo-mobile-keyword.png",
-          "alt": "seo-promotion",
-          "width": 320,
-          "height": 80,
-          "hideOnMobile": true,
-          "className": "imgSeoKeyword"
-        }
-      ]
+      "info": "Your website at the top of search results — more visibility, more clients."
     },
     {
       "id": "redesign",
       "title": "Website Redesign",
-      "info": "I redesign so your website delivers results",
-      "className": "liRedesign",
-      "images": [
-        {
-          "src": "/image/effective/redesign-mobile.png",
-          "alt": "website-redesign",
-          "width": 93,
-          "height": 93,
-          "className": "imgRedesignMain"
-        },
-        {
-          "src": "/image/effective/redesign-mobile.png",
-          "alt": "website-redesign",
-          "width": 33,
-          "height": 33,
-          "className": "imgRedesignIconOne"
-        },
-        {
-          "src": "/image/effective/redesign-mobile.png",
-          "alt": "website-redesign",
-          "width": 33,
-          "height": 33,
-          "className": "imgRedesignIconTwo"
-        },
-        {
-          "src": "/image/effective/redesign-mobile.png",
-          "alt": "website-redesign",
-          "width": 33,
-          "height": 33,
-          "className": "imgRedesignIconThree"
-        },
-        {
-          "src": "/image/effective/redesign-mobile.png",
-          "alt": "website-redesign",
-          "width": 33,
-          "height": 33,
-          "className": "imgRedesignIconFour"
-        }
-      ]
+      "info": "I rework your website so it looks modern and delivers real results."
     },
     {
       "id": "stores",
-      "title": "Online Shops",
-      "info": "I create websites that generate sales.",
-      "infoTablet": "Intuitive structure, mobile adaptation, fast loading, CRM and payment system integration.",
-      "infoDesktop": "Intuitive structure, mobile adaptation, fast loading, CRM and payment system integration. I create websites that generate sales.",
-      "className": "liOnlineStores",
-      "images": [
-        {
-          "src": "/image/effective/Internet-mobile.png",
-          "alt": "online-stores",
-          "width": 166,
-          "height": 102,
-          "className": "imgStoreMain"
-        },
-        {
-          "src": "/image/effective/Internet-mobile-crm.png",
-          "alt": "online-stores",
-          "width": 47,
-          "height": 36,
-          "className": "imgStoreCrm"
-        },
-        {
-          "src": "/image/effective/Internet-mobile-one.png",
-          "alt": "online-stores",
-          "width": 49,
-          "height": 49,
-          "className": "imgStoreIcon"
-        },
-        {
-          "src": "/image/effective/Internet-tablet-one.png",
-          "alt": "online-stores",
-          "width": 212,
-          "height": 120,
-          "className": "imgStoreIconTablet"
-        },
-        {
-          "src": "/image/effective/Internet-desktop.png",
-          "alt": "online-stores",
-          "width": 225,
-          "height": 125,
-          "className": "imgStoreDesktop"
-        },
-        {
-          "src": "/image/effective/Internet-desktop-crm.png",
-          "alt": "online-stores",
-          "width": 55,
-          "height": 36,
-          "className": "imgStoreIconDesktopCrm"
-        },
-        {
-          "src": "/image/effective/Internet-desktop-one.png",
-          "alt": "online-stores",
-          "width": 120,
-          "height": 120,
-          "className": "imgStoreIconDesktop"
-        }
-      ]
+      "title": "Online Stores",
+      "info": "Intuitive structure, mobile-ready, fast loading and CRM & payment integrations — websites that drive sales."
     },
     {
       "id": "corporate",
       "title": "Corporate Websites",
-      "info": "I develop websites for small and large businesses.",
-      "infoTablet": "I develop websites for small and large businesses — from business cards to extensive platforms.",
-      "infoDesktop": "I develop websites for small and large businesses — from business cards to extensive platforms. Design, structure and content work on your image and client retention.",
-      "className": "liCorporateWebsites",
-      "images": [
-        {
-          "src": "/image/effective/corporate-mobile.png",
-          "alt": "corporate-websites",
-          "width": 167,
-          "height": 167,
-          "className": "imgCorporateMain"
-        },
-        {
-          "src": "/image/effective/corporate-mobile-schedule.png",
-          "alt": "corporate-websites",
-          "width": 177,
-          "height": 117,
-          "className": "imgCorporateSchedule"
-        },
-        {
-          "src": "/image/effective/corporate-desktop.png",
-          "alt": "corporate-websites",
-          "width": 261,
-          "height": 261,
-          "className": "imgCorporateMainDesktop"
-        },
-        {
-          "src": "/image/effective/corporate-desktop-schedule.png",
-          "alt": "corporate-websites",
-          "width": 245,
-          "height": 162,
-          "className": "imgCorporateScheduleDesktop"
-        }
-      ]
+      "info": "From business cards to large platforms. Design, structure and content work for your image and customer loyalty."
     },
     {
       "id": "blogs",
       "title": "Personal Blogs",
-      "info": "I create platforms that highlight your uniqueness.",
-      "infoTablet": "I create stylish and functional platforms that highlight your uniqueness and help build a community.",
-      "infoDesktop": "For experts, creatives, influencers. I create stylish and functional platforms that highlight your uniqueness and help build a community.",
-      "className": "liPersonalBlogs",
-      "images": [
-        {
-          "src": "/image/effective/blog-mobile.png",
-          "alt": "personal-blogs",
-          "width": 103,
-          "height": 194,
-          "className": "imgBlogMain"
-        },
-        {
-          "src": "/image/effective/blog-mobile-two.png",
-          "alt": "personal-blogs",
-          "width": 80,
-          "height": 80,
-          "className": "imgBlogTwo"
-        },
-        {
-          "src": "/image/effective/blog-mobile-one.png",
-          "alt": "personal-blogs",
-          "width": 100,
-          "height": 100,
-          "className": "imgBlogOne"
-        }
-      ]
+      "info": "For experts, creators and influencers — stylish platforms that highlight your uniqueness and build a community."
     },
     {
       "id": "support",
       "title": "Technical Support",
-      "info": "Your website runs smoothly — you're worry-free",
-      "className": "liTechnicalSupport",
-      "images": [
-        {
-          "src": "/image/effective/support-mobile.png",
-          "alt": "technical-support",
-          "width": 93,
-          "height": 93,
-          "className": "imgSupportMain"
-        },
-        {
-          "src": "/image/effective/support-mobile.png",
-          "alt": "technical-support",
-          "width": 33,
-          "height": 33,
-          "className": "imgSupportIconOne"
-        },
-        {
-          "src": "/image/effective/support-mobile.png",
-          "alt": "technical-support",
-          "width": 33,
-          "height": 33,
-          "className": "imgSupportIconTwo"
-        },
-        {
-          "src": "/image/effective/support-mobile.png",
-          "alt": "technical-support",
-          "width": 33,
-          "height": 33,
-          "className": "imgSupportIconThree"
-        },
-        {
-          "src": "/image/effective/support-mobile.png",
-          "alt": "technical-support",
-          "width": 33,
-          "height": 33,
-          "className": "imgSupportIconFour"
-        }
-      ]
+      "info": "Your website runs smoothly — and you stay worry-free."
     }
   ]
 }

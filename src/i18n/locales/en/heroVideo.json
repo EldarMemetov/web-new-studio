@@ -1,10 +1,18 @@
 {
   "heroVideo": {
+    "timecode": "00:00:01:00",
+    "studioLabel": "QVRIX FILM",
+    "rec": "REC",
+    "genre": "VIDEO PRODUCTION",
+    "metaYear": "2026",
+    "metaCity": "Frankfurt am Main",
+    "metaFormat": "4K",
+    "metaColour": "COLOUR",
     "title": "I create videos that shape brand image — from idea to final cut.",
     "description": "Professional content for brand awareness, client retention and trust building.",
     "buttons": {
       "talk": "Request a consultation",
-      "services": "My services"
+      "services": "My Portfolio"
     }
   }
 }

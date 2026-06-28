@@ -231,7 +231,7 @@ export default function VideoPortfolio() {
   };
 
   return (
-    <section className={s.section}>
+    <section className={s.section} id="video">
       <div className={s.containerContent}>
         <Container>
           <div className={s.containerText}>

@@ -1,112 +1,47 @@
 {
-  "spanTitle": "Solutions ",
-  "title": "I offer",
-  "description": "My approach provides comprehensive support at every stage of video production — from idea to execution. With me your brand receives professional video content that meets all requirements and delivers real results.",
+  "spanTitle": "Effective ",
+  "title": "Video Solutions for Your Brand",
+  "description": "From concept to final edit, I create content that captures attention and delivers results. Style, storytelling, and purpose in every scene.",
   "solutions": [
     {
       "id": "advertising",
-      "title": "Promotional Videos",
-      "info": "Effective videos to promote your brand, product or service.",
-      "className": "camcorderImg",
-      "images": [
-        {
-          "src": "/image/video/camcorder.png",
-          "alt": "camcorder",
-          "width": 218,
-          "height": 120,
-          "className": "camcorder"
-        }
-      ]
+      "title": "Commercial Videos",
+      "info": "Attention-grabbing commercials that turn viewers into loyal customers."
     },
     {
       "id": "corporate",
-      "title": "Corporate & Brand Films",
-      "info": "Professional videos to strengthen your company's image and reputation.",
-      "className": "corporateImg",
-      "images": [
-        {
-          "src": "/image/video/corporate.png",
-          "alt": "corporate-video",
-          "width": 261,
-          "height": 261,
-          "className": "corporate"
-        }
-      ]
+      "title": "Corporate Videos",
+      "info": "Professional company videos that build trust and establish authority."
     },
     {
       "id": "event",
-      "title": "Event & Occasion Filming",
-      "info": "Documentation of important moments for your company or special occasions.",
-      "className": "eventVideo",
-      "images": [
-        {
-          "src": "/image/video/event.png",
-          "alt": "event-video",
-          "width": 291,
-          "height": 207,
-          "className": "event"
-        }
-      ]
-    },
-    {
-      "id": "drone",
-      "title": "Drone Aerial Footage",
-      "info": "Unique aerial shots for impressive and captivating video scenes.",
-      "className": "droneImg",
-      "images": [
-        {
-          "src": "/image/video/drone.png",
-          "alt": "drone-video",
-          "width": 264,
-          "height": 140,
-          "className": "drone"
-        }
-      ]
+      "title": "Event Coverage",
+      "info": "Capturing your special moments with cinematic quality."
     },
     {
       "id": "social-media",
-      "title": "Social Media & YouTube Content",
-      "info": "Videos that capture attention and build a loyal community.",
-      "className": "socialMediaImg",
-      "images": [
-        {
-          "src": "/image/video/social-media.png",
-          "alt": "social-media",
-          "width": 320,
-          "height": 206,
-          "className": "socialMedia"
-        }
-      ]
+      "title": "Social Media Content",
+      "info": "Engaging Reels and Shorts tailored for every platform."
     },
     {
       "id": "graphics",
-      "title": "Motion Design, Graphics & Animation",
-      "info": "Dynamic animations and graphic elements for your videos.",
-      "className": "graphicsImg",
-      "images": [
-        {
-          "src": "/image/video/graphics.png",
-          "alt": "graphics",
-          "width": 331,
-          "height": 166,
-          "className": "graphics"
-        }
-      ]
+      "title": "Motion Graphics",
+      "info": "Dynamic animations and graphics that bring your ideas to life."
     },
     {
       "id": "video-editing",
-      "title": "Editing, Colour Grading & Sound Design",
-      "info": "Professional editing and post-production for the best possible result.",
-      "className": "videoEditingImg",
-      "images": [
-        {
-          "src": "/image/video/video-editing.png",
-          "alt": "video-editing",
-          "width": 371,
-          "height": 232,
-          "className": "videoEditing"
-        }
-      ]
+      "title": "Video Editing",
+      "info": "Professional editing that takes your raw footage to the next level."
     }
+  ],
+  "genresTitle": "What I Bring to Life",
+  "genres": [
+    { "id": "music", "label": "Music Videos & Clips" },
+    { "id": "fashion", "label": "Fashion & Style" },
+    { "id": "podcasts", "label": "Podcasts & Interviews" },
+    { "id": "conference", "label": "Conferences" },
+    { "id": "medicine", "label": "Healthcare" },
+    { "id": "film", "label": "Short Films" },
+    { "id": "wedding", "label": "Weddings & Love Stories" }
   ]
 }

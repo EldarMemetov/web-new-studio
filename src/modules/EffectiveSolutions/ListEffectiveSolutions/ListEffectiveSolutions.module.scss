@@ -1,46 +1,259 @@
-.singleList {
+.showcase {
+  margin-top: 48px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  padding: 16px;
+  border-radius: 22px;
+  border: 1px solid rgba(150, 36, 226, 0.18);
+  background: linear-gradient(
+    135deg,
+    rgba(20, 8, 40, 0.55),
+    rgba(8, 4, 24, 0.35)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  @include media(desktop) {
+    grid-template-columns: 1fr 1.25fr; /* список зліва, сцена справа */
+    gap: 24px;
+    padding: 24px;
+  }
+}
+
+/* СПИСОК */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 100%;
-}
-
-.twoColumns,
-.threeColumns {
-  display: none;
-}
-
-@include media(tablet) {
-  .singleList {
-    display: none;
-  }
-  .twoColumns {
-    display: flex;
-    gap: 20px;
-  }
-  .twoColumns .column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  gap: 6px;
+  order: 2;
+  @include media(desktop) {
+    order: 1;
   }
 }
+.menuItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  transition:
+    background 0.35s ease,
+    border-color 0.35s ease,
+    color 0.35s ease;
+  &:hover {
+    color: #fff;
+  }
+}
+.menuItem.active {
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(150, 36, 226, 0.22),
+    rgba(1, 2, 185, 0.1)
+  );
+  border-color: rgba(200, 121, 255, 0.45);
+  box-shadow: 0 0 30px rgba(150, 36, 226, 0.18);
+}
+.menuNum {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: rgba(200, 121, 255, 0.9);
+  min-width: 22px;
+  font-feature-settings: 'tnum';
+}
+.menuIcon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  color: rgba(200, 121, 255, 0.9);
+  transition:
+    color 0.35s ease,
+    transform 0.35s ease;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.menuItem.active .menuIcon {
+  color: #fff;
+  transform: scale(1.12);
+}
+.menuTitle {
+  flex: 1;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+.menuArrow {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  color: #c879ff;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+.menuItem.active .menuArrow {
+  opacity: 1;
+  transform: translateX(0);
+}
 
-@include media(desktop) {
-  .twoColumns {
-    display: none;
+/* СЦЕНА */
+.stage {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  min-height: 280px;
+  padding: 32px 28px;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 12, 60, 0.6),
+    rgba(8, 4, 24, 0.45)
+  );
+  border: 1px solid rgba(150, 36, 226, 0.22);
+  display: flex;
+  align-items: flex-end;
+  order: 1;
+  @include media(desktop) {
+    min-height: 440px;
+    padding: 44px 40px;
+    order: 2;
   }
-  .threeColumns {
-    display: flex;
-    gap: 20px;
+}
+.stageGlow {
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  width: 380px;
+  height: 380px;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    rgba(150, 36, 226, 0.35) 0%,
+    rgba(1, 2, 185, 0.12) 40%,
+    transparent 70%
+  );
+  filter: blur(50px);
+  animation: drift 16s ease-in-out infinite;
+}
+.stageGhost {
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  z-index: 0;
+  pointer-events: none;
+  font-feature-settings: 'tnum';
+  background: linear-gradient(135deg, #ffffff 0%, #c879ff 50%, #5a2bff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.14;
+  animation: ghostIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  @include media(desktop) {
+    font-size: 240px;
+    right: 20px;
   }
-  .threeColumns .column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+}
+.stageContent {
+  position: relative;
+  z-index: 1;
+  max-width: 460px;
+  animation: contentIn 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.stageIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+  color: #fff;
+  background: linear-gradient(135deg, #9624e2, #5a2bff);
+  box-shadow: 0 10px 30px rgba(150, 36, 226, 0.45);
+  svg {
+    width: 26px;
+    height: 26px;
   }
-  .columnCenter {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+}
+.stageTitle {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.15;
+  color: #fff;
+  margin: 0 0 14px;
+  @include media(desktop) {
+    font-size: 40px;
+  }
+}
+.stageText {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+  @include media(desktop) {
+    font-size: 17px;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(30px, 25px) scale(1.08);
+  }
+}
+@keyframes ghostIn {
+  from {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.92);
+  }
+  to {
+    opacity: 0.14;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes contentIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stageGlow,
+  .stageGhost,
+  .stageContent {
+    animation: none;
   }
 }
