@@ -7,7 +7,9 @@
     "name": "Name*",
     "email": "Your Email*",
     "message": "Tell me about your wishes",
-    "agree": "I agree to the Privacy Policy"
+    "agreeBefore": "I agree to the ",
+    "agreeLink": "Privacy Policy",
+    "agreeAfter": ""
   },
   "submitButton": "Contact me",
   "successMessage": "Message sent successfully!",

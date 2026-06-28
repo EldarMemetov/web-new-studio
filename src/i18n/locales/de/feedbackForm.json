@@ -7,7 +7,9 @@
     "name": "Name*",
     "email": "Deine E-Mail*",
     "message": "Das sind deine Wünsche",
-    "agree": "Ich stimme der Datenschutzerklärung zu"
+    "agreeBefore": "Ich stimme der ",
+    "agreeLink": "Datenschutzerklärung",
+    "agreeAfter": " zu"
   },
   "submitButton": "Kontaktiere mich",
   "successMessage": "Feedback erfolgreich gesendet!",

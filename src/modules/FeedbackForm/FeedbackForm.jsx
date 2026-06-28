@@ -31,6 +31,7 @@ export default function FeedbackForm() {
   const rocketDesktopRef = useRef(null);
   const rocketTabletRef = useRef(null);
   const [showTabletImage, setShowTabletImage] = useState(false);
+
   const initialValues = {
     name: '',
     email: '',
@@ -127,7 +128,6 @@ export default function FeedbackForm() {
                       height={390}
                       className={styles.feedbackDesktop}
                     />
-
                     <div className={styles.smoke} ref={smokeRef}></div>
                   </div>
                 </div>
@@ -142,7 +142,6 @@ export default function FeedbackForm() {
                     {showTabletImage && (
                       <>
                         <div className={styles.blurEffect}></div>
-
                         <Image
                           src="/image/feedback.png"
                           alt="feedback"
@@ -186,7 +185,17 @@ export default function FeedbackForm() {
                     />
                     <div className={styles.checkboxContainer}>
                       <CheckboxField name="agree" id="agree">
-                        {t('fields.agree')}
+                        {t('fields.agreeBefore')}
+                        <a
+                          href="/privacy-policy"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={styles.agreeLink}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {t('fields.agreeLink')}
+                        </a>
+                        {t('fields.agreeAfter')}
                       </CheckboxField>
                     </div>
                     <div className={styles.buttonWrapper}>

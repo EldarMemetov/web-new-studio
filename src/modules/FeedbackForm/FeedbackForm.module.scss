@@ -147,3 +147,12 @@
     display: none;
   }
 }
+.agreeLink {
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
