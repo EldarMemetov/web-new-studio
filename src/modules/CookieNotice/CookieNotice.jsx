@@ -8,14 +8,6 @@ import Link from 'next/link';
 const STORAGE_KEY = 'cookie_notice_acknowledged';
 
 const translations = {
-  ua: {
-    message:
-      'Цей сайт використовує лише технічно необхідні cookies та localStorage для збереження мовних налаштувань і ваших налаштувань конфіденційності.',
-    button: 'Зрозуміло',
-    policyLinkText: 'Політика конфіденційності',
-    policyLink: '/ua/privacy-policy',
-  },
-
   en: {
     message:
       'This website uses only technically necessary cookies and local storage to remember language preferences and your privacy settings.',

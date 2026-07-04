@@ -10,7 +10,7 @@ import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 import Footer from '@/modules/Footer/Footer';
 export default async function AboutUs({ params: rawParams }) {
   const params = await rawParams;
-  const availableLocales = ['en', 'ua', 'de'];
+  const availableLocales = ['en', 'de'];
   const locale = availableLocales.includes(params?.locale)
     ? params.locale
     : 'en';

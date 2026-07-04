@@ -45,6 +45,13 @@ export async function generateMetadata({ params }) {
   return {
     title: meta.title,
     description: meta.description,
+    alternates: {
+      canonical: `https://qvrix.com/${locale}`,
+      languages: {
+        de: 'https://qvrix.com/de',
+        en: 'https://qvrix.com/en',
+      },
+    },
     openGraph: {
       title: meta.title,
       description: meta.description,

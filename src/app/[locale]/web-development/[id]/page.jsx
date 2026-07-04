@@ -39,7 +39,7 @@ export async function generateStaticParams() {
 export default async function PortfolioItemPage({ params: rawParams }) {
   const params = await rawParams;
 
-  const availableLocales = ['en', 'ua', 'de'];
+  const availableLocales = ['en', 'de'];
   const locale = availableLocales.includes(params?.locale)
     ? params.locale
     : 'en';

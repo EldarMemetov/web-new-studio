@@ -15,7 +15,7 @@ const Portfolio = dynamic(() => import('@/modules/Portfolio/Portfolio'));
 const IdeasHome = dynamic(() => import('@/modules/IdeasHome/IdeasHome'));
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
-  const availableLocales = ['en', 'ua', 'de'];
+  const availableLocales = ['en', 'de'];
   const locale = availableLocales.includes(params?.locale)
     ? params.locale
     : 'en';
