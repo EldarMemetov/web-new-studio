@@ -17,7 +17,10 @@ export default async function Hero({ locale }) {
             muted
             loop
             playsInline
-            preload="auto"
+            preload="metadata"
+            poster="/image/hero-poster.jpg"
+            disablePictureInPicture
+            disableRemotePlayback
           />
         </div>
 

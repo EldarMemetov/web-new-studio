@@ -263,7 +263,6 @@ export default function Works() {
                   className={`${s.slide} ${isPaused ? s.paused : ''}`}
                   ref={(el) => (slideRefs.current[i] = el)}
                   onClick={() => handleSlideClick(i)}
-                  style={{ animationDelay: `${i * 90}ms` }}
                 >
                   <video
                     ref={(el) => (videoRefs.current[i] = el)}

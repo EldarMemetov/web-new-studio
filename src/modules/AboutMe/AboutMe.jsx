@@ -14,17 +14,18 @@ export default async function AboutMe({ locale }) {
       <span className={s.aurora} aria-hidden="true" />
       <Container>
         <div className={s.grid}>
-          {/* ФОТО */}
           <div className={s.photoWrap}>
             <span className={s.photoGlow} aria-hidden="true" />
             <div className={s.photoFrame}>
               <Image
                 src="/image/eldar.jpg"
                 alt={t('name')}
-                width={560}
-                height={700}
+                width={440}
+                height={550}
+                sizes="(max-width: 768px) 90vw, 440px"
+                quality={80}
                 className={s.photo}
-                priority
+                loading="lazy"
               />
               <span className={s.location}>
                 <FiMapPin className={s.locationIcon} />
@@ -33,7 +34,6 @@ export default async function AboutMe({ locale }) {
             </div>
           </div>
 
-          {/* ТЕКСТ */}
           <div className={s.content}>
             <span className={s.eyebrow}>
               <span className={s.eyebrowDot} />
