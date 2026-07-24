@@ -52,10 +52,10 @@ export default async function Hero({ locale }) {
             <p className={s.description}>{t('heroVideo.description')}</p>
 
             <div className={s.containerButton}>
-              <ScrollButton targetId="feedback-form" variant="variant2">
+              <ScrollButton targetId="works" variant="variant2">
                 {t('heroVideo.buttons.talk')}
               </ScrollButton>
-              <ScrollButton targetId="video" variant="variant3">
+              <ScrollButton targetId="feedback-form" variant="variant3">
                 {t('heroVideo.buttons.services')}
               </ScrollButton>
             </div>
