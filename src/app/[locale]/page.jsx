@@ -1,18 +1,16 @@
-import dynamic from 'next/dynamic';
-
-import FetchServices from '@/modules/FetchServices/FetchServices';
-
-import GetBusinessSolutions from '@/modules/GetBusinessSolutions/GetBusinessSolutions';
-import BrandTransformation from '@/modules/BrandTransformation/BrandTransformation';
 import ToggleQuestions from '@/modules/ToggleQuestions/ToggleQuestions';
 import s from './page.module.scss';
 import Footer from '@/modules/Footer/Footer';
-import HeroSection from '@/modules/HeroSection/HeroSection';
-import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
-import FeedbackWrapper from '@/shared/FeedbackWrapper/FeedbackWrapper';
 
-const Portfolio = dynamic(() => import('@/modules/Portfolio/Portfolio'));
-const IdeasHome = dynamic(() => import('@/modules/IdeasHome/IdeasHome'));
+import Hero from '@/modules/Hero/Hero';
+import Stats from '@/modules/Stats/Stats';
+import Works from '@/modules/Works/Works';
+import AboutMe from '@/modules/AboutMe/AboutMe';
+import WhyMe from '@/modules/WhyMe/WhyMe';
+import FeedbackForm from '@/modules/FeedbackForm/FeedbackForm';
+import VideoEffectiveSolutions from '@/modules/VideoEffectiveSolutions/VideoEffectiveSolutions';
+import WorkSteps from '@/modules/WorkSteps/WorkSteps';
+
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
   const availableLocales = ['en', 'de'];
@@ -22,15 +20,15 @@ export default async function Home({ params: rawParams }) {
 
   return (
     <div className={s.container}>
-      <HeroSection locale={locale} />
-      <DisplayCompanyFacts locale={locale} />
-      <FetchServices />
-      <IdeasHome locale={locale} />
-      <Portfolio locale={locale} />
-      <GetBusinessSolutions locale={locale} />
-      <BrandTransformation locale={locale} />
+      <Hero locale={locale} />
+      <Stats locale={locale} />
+      <Works locale={locale} />
+      <AboutMe locale={locale} />
+      <VideoEffectiveSolutions locale={locale} />
+      <WhyMe locale={locale} />
+      <WorkSteps locale={locale} />
       <ToggleQuestions locale={locale} />
-      <FeedbackWrapper />
+      <FeedbackForm />
       <Footer />
     </div>
   );

@@ -1,47 +1,49 @@
 {
   "spanTitle": "Effective ",
-  "title": "Video Solutions for Your Brand",
-  "description": "From concept to final edit, I create content that captures attention and delivers results. Style, storytelling, and purpose in every scene.",
+  "title": "Video Solutions for Your Business",
+  "description": "From concept to final delivery, I create cinematic videos and modern websites that help businesses attract attention, build trust and stand out from the competition.",
   "solutions": [
     {
-      "id": "advertising",
+      "id": "commercial",
       "title": "Commercial Videos",
-      "info": "Attention-grabbing commercials that turn viewers into loyal customers."
+      "info": "Cinematic promotional videos that capture attention and showcase your brand."
     },
     {
       "id": "corporate",
-      "title": "Corporate Videos",
-      "info": "Professional company videos that build trust and establish authority."
+      "title": "Corporate Films",
+      "info": "Professional company films that build trust and communicate your story."
     },
     {
       "id": "event",
       "title": "Event Coverage",
-      "info": "Capturing your special moments with cinematic quality."
+      "info": "High-quality event and conference videos that capture every important moment."
     },
     {
       "id": "social-media",
       "title": "Social Media Content",
-      "info": "Engaging Reels and Shorts tailored for every platform."
+      "info": "Reels, Shorts and vertical videos optimized for today's social platforms."
     },
     {
-      "id": "graphics",
-      "title": "Motion Graphics",
-      "info": "Dynamic animations and graphics that bring your ideas to life."
+      "id": "web-development",
+      "title": "Website Development",
+      "info": "Modern, fast and responsive websites designed to strengthen your online presence."
     },
     {
-      "id": "video-editing",
-      "title": "Video Editing",
-      "info": "Professional editing that takes your raw footage to the next level."
+      "id": "full-production",
+      "title": "Full Production",
+      "info": "From concept and filming to editing and final delivery — everything in one place."
     }
   ],
-  "genresTitle": "What I Bring to Life",
+  "genresTitle": "Selected Work",
   "genres": [
-    { "id": "music", "label": "Music Videos & Clips" },
-    { "id": "fashion", "label": "Fashion & Style" },
+    { "id": "commercial", "label": "Commercial" },
+    { "id": "healthcare", "label": "Healthcare" },
     { "id": "podcasts", "label": "Podcasts & Interviews" },
-    { "id": "conference", "label": "Conferences" },
-    { "id": "medicine", "label": "Healthcare" },
+    { "id": "conference", "label": "Conferences & Events" },
+    { "id": "fashion", "label": "Fashion" },
+    { "id": "music", "label": "Music Videos" },
     { "id": "film", "label": "Short Films" },
-    { "id": "wedding", "label": "Weddings & Love Stories" }
+    { "id": "wedding", "label": "Weddings & Love Stories" },
+    { "id": "websites", "label": "Websites" }
   ]
 }

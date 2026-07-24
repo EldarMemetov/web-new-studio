@@ -1,47 +1,49 @@
 {
   "spanTitle": "Effektive ",
-  "title": "Videolösungen für Ihre Marke",
-  "description": "Vom Konzept bis zum finalen Schnitt – ich erstelle Inhalte, die Aufmerksamkeit erregen und Ergebnisse liefern. Stil, Storytelling und Zielsetzung in jeder Szene.",
+  "title": "Videolösungen für Ihr Unternehmen",
+  "description": "Von der ersten Idee bis zum fertigen Projekt – ich produziere hochwertige Videos und moderne Websites, die Unternehmen dabei helfen, Aufmerksamkeit zu gewinnen, Vertrauen aufzubauen und ihre Marke professionell zu präsentieren.",
   "solutions": [
     {
-      "id": "advertising",
+      "id": "commercial",
       "title": "Werbevideos",
-      "info": "Aufmerksamkeitsstarke Werbespots, die Zuschauer zu treuen Kunden machen."
+      "info": "Cinematische Werbevideos, die Aufmerksamkeit erzeugen und Ihre Marke professionell präsentieren."
     },
     {
       "id": "corporate",
       "title": "Unternehmensfilme",
-      "info": "Professionelle Firmenpräsentationen, die Vertrauen und Autorität aufbauen."
+      "info": "Professionelle Unternehmensfilme, die Vertrauen schaffen und Ihre Geschichte authentisch erzählen."
     },
     {
       "id": "event",
       "title": "Event-Aufnahmen",
-      "info": "Wir halten Ihre besonderen Momente in cinematischer Qualität fest."
+      "info": "Hochwertige Event- und Konferenzvideos, die besondere Momente eindrucksvoll festhalten."
     },
     {
       "id": "social-media",
       "title": "Social-Media-Content",
-      "info": "Fesselnde Reels und Shorts, maßgeschneidert für jede Plattform."
+      "info": "Reels, Shorts und vertikale Videos, optimiert für maximale Reichweite auf allen Plattformen."
     },
     {
-      "id": "graphics",
-      "title": "Motion Graphics",
-      "info": "Dynamische Animationen und Grafiken, die Ihre Ideen zum Leben erwecken."
+      "id": "web-development",
+      "title": "Webentwicklung",
+      "info": "Moderne, schnelle Websites mit hochwertigem Design und optimaler Benutzererfahrung."
     },
     {
-      "id": "video-editing",
-      "title": "Videobearbeitung",
-      "info": "Professioneller Schnitt, der Ihr Rohmaterial auf ein neues Level hebt."
+      "id": "full-production",
+      "title": "Full Production",
+      "info": "Von der Konzeption über den Dreh bis zur Postproduktion – alles aus einer Hand."
     }
   ],
-  "genresTitle": "Was ich für Sie in Szene setze",
+  "genresTitle": "Ausgewählte Arbeiten",
   "genres": [
-    { "id": "music", "label": "Music & Clips" },
-    { "id": "fashion", "label": "Fashion & Style" },
+    { "id": "commercial", "label": "Commercial" },
+    { "id": "healthcare", "label": "Healthcare" },
     { "id": "podcasts", "label": "Podcasts & Interviews" },
-    { "id": "conference", "label": "Konferenzen" },
-    { "id": "medicine", "label": "Healthcare" },
-    { "id": "film", "label": "Kurzfilm" },
-    { "id": "wedding", "label": "Hochzeit & Love Story" }
+    { "id": "conference", "label": "Conferences & Events" },
+    { "id": "fashion", "label": "Fashion" },
+    { "id": "music", "label": "Music Videos" },
+    { "id": "film", "label": "Short Films" },
+    { "id": "wedding", "label": "Weddings & Love Stories" },
+    { "id": "websites", "label": "Websites" }
   ]
 }

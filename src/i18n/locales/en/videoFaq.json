@@ -2,23 +2,31 @@
   "titleBefore": "Do you have",
   "titleHighlight": "questions",
   "titleAfter": "That's perfectly normal",
-  "description": "I am always available for all your questions. Book a consultation — I'm happy to help!",
+  "description": "I'm always happy to answer your questions. Feel free to get in touch and let's discuss your project.",
   "faq": [
     {
-      "question": "Can you adapt video content for different platforms?",
-      "answer": "Yes, I specialise in adapting video content for all major platforms such as YouTube, Instagram, TikTok, Facebook and LinkedIn. I optimise format, length, framing and presentation style according to each platform's requirements to achieve maximum impact and reach."
+      "question": "How much does a video project cost?",
+      "answer": "Every project is unique, so pricing depends on factors such as the type of video, filming duration, locations and post-production requirements. Get in touch for a tailored quote based on your project."
     },
     {
-      "question": "Do you work with a ready script or help with development?",
-      "answer": "I approach each project flexibly. If you already have a finished script I'm happy to work with it. If not, I support you in developing an individual concept — tailored to your goals, target audience and the right format."
+      "question": "How long does a project take?",
+      "answer": "The timeline depends on the complexity of the project. Smaller productions can often be delivered within a few days, while larger commercial projects may take several weeks. I'll always provide a clear schedule before production begins."
     },
     {
-      "question": "Do you work on projects outside your city or country?",
-      "answer": "Yes, I successfully carry out video projects across Germany and internationally. Thanks to my mobile setup, efficient remote coordination and structured processes, geographic location is no obstacle to high-quality results."
+      "question": "Do you work across Germany and Europe?",
+      "answer": "Yes. I'm based in Frankfurt am Main and work with clients throughout Germany and across Europe. I'm available for both local and international productions."
     },
     {
-      "question": "Do you offer copywriting services for voiceover texts?",
-      "answer": "Yes, I offer professional copywriting and voiceover text creation services. I write thoughtful, targeted and video-friendly copy that fits perfectly with your brand. I also help you select suitable voice talent in various languages."
+      "question": "Can I book video production and web development together?",
+      "answer": "Absolutely. I offer both services, allowing you to create a consistent visual identity across your videos and website while working with a single creative partner."
+    },
+    {
+      "question": "Can you help with the concept and script?",
+      "answer": "Yes. Whether you already have a clear idea or are starting from scratch, I can help develop the concept, structure and creative direction to ensure your message is clear and engaging."
+    },
+    {
+      "question": "What does the production process look like?",
+      "answer": "The process is simple: we discuss your goals, plan the project, film the content, complete editing and post-production, and deliver the final files ready for your website, social media or advertising."
     }
   ]
 }

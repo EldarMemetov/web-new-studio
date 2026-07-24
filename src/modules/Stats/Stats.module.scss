@@ -1,0 +1,236 @@
+.section {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding-bottom: 90px;
+
+  @include media(tablet) {
+    padding-bottom: 120px;
+  }
+  @include media(desktop) {
+    padding-bottom: 160px;
+  }
+}
+
+/* мягкое световое пятно за сеткой */
+.section::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 900px;
+  height: 700px;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    circle,
+    rgba(91, 141, 255, 0.12) 0%,
+    rgba(3, 5, 37, 0) 60%
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+.head {
+  max-width: 720px;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    margin-bottom: 64px;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 16px;
+}
+
+.title {
+  @include titleText();
+  color: #fff;
+  line-height: 1.1;
+}
+
+.titleHighlight {
+  @include gradientText;
+}
+
+/* ---------- Сетка ---------- */
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+
+  @include media(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  @include media(desktop) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 34px 28px 30px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  isolation: isolate;
+
+  /* стартовое состояние для появления по скроллу */
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+    border-color 0.4s ease;
+  transition-delay: calc(var(--i) * 0.12s);
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* акцентная линия сверху */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #8f7bff, #5b8dff, #38e6ff);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.45s ease;
+    z-index: 1;
+  }
+
+  &:hover {
+    transition-delay: 0s;
+    transform: translateY(-8px);
+    border-color: rgba(91, 141, 255, 0.5);
+
+    &::before {
+      transform: scaleX(1);
+    }
+
+    .plus {
+      opacity: 1;
+      transform: rotate(90deg);
+    }
+
+    .glow {
+      opacity: 1;
+    }
+  }
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.index {
+  font-family: monospace;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: rgba(143, 180, 255, 0.7);
+}
+
+/* декоративный «+» в углу */
+.plus {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  opacity: 0.4;
+  transition:
+    transform 0.4s ease,
+    opacity 0.4s ease;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  &::before {
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    transform: translateY(-50%);
+  }
+  &::after {
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    transform: translateX(-50%);
+  }
+}
+
+.value {
+  font-size: clamp(38px, 5vw, 58px);
+  font-weight: 700;
+  line-height: 1.02;
+  font-variant-numeric: tabular-nums;
+  background: linear-gradient(135deg, #ffffff 0%, #8fb4ff 55%, #38e6ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* для текстовых значений (Germany & Europe и т.п.) — мельче */
+.valueText {
+  font-size: clamp(22px, 2.4vw, 30px);
+  line-height: 1.2;
+}
+
+.label {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+/* свечение при наведении */
+.glow {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(91, 141, 255, 0.22),
+    transparent 70%
+  );
+  transition: opacity 0.4s ease;
+}
+
+/* уважаем настройки пользователя */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

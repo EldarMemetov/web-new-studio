@@ -1,24 +1,32 @@
 {
   "titleBefore": "Haben Sie",
   "titleHighlight": "Fragen",
-  "titleAfter": "Das ist ganz normal",
-  "description": "Ich stehe Ihnen jederzeit für alle Fragen zur Verfügung. Buchen Sie eine Beratung – ich helfe Ihnen gerne weiter!",
+  "titleAfter": "Kein Problem",
+  "description": "Ich beantworte Ihre Fragen gerne. Kontaktieren Sie mich und wir besprechen gemeinsam Ihr Projekt.",
   "faq": [
     {
-      "question": "Können Sie Videoinhalte für verschiedene Plattformen anpassen?",
-      "answer": "Ja, ich bin darauf spezialisiert, Videoinhalte für alle gängigen Plattformen wie YouTube, Instagram, TikTok, Facebook und LinkedIn anzupassen. Ich optimiere Format, Länge, Bildausschnitt und Präsentationsstil entsprechend den Anforderungen jeder Plattform, um maximale Wirkung und Reichweite zu erzielen."
+      "question": "Was kostet ein Videoprojekt?",
+      "answer": "Die Kosten hängen vom Umfang des Projekts ab – zum Beispiel von der Art des Videos, der Anzahl der Drehtage, den Drehorten und dem Aufwand in der Postproduktion. Kontaktieren Sie mich für ein individuelles Angebot, das genau auf Ihr Projekt zugeschnitten ist."
     },
     {
-      "question": "Arbeiten Sie mit einem fertigen Skript oder helfen Sie bei der Entwicklung?",
-      "answer": "Ich gehe flexibel auf jedes Projekt ein. Wenn Sie bereits ein fertiges Skript haben, arbeite ich gerne damit. Wenn nicht, unterstütze ich Sie bei der Entwicklung eines individuellen Konzepts – abgestimmt auf Ihre Ziele, Zielgruppe und das passende Format."
+      "question": "Wie lange dauert die Produktion?",
+      "answer": "Die Produktionszeit richtet sich nach der Komplexität des Projekts. Kleinere Produktionen können innerhalb weniger Tage abgeschlossen werden, während größere kommerzielle Projekte mehrere Wochen in Anspruch nehmen. Vor Projektbeginn erhalten Sie immer einen klaren Zeitplan."
     },
     {
-      "question": "Arbeiten Sie auch an Projekten außerhalb Ihrer Stadt oder Ihres Landes?",
-      "answer": "Ja, ich realisiere erfolgreich Videoprojekte in ganz Deutschland und international. Dank meines mobilen Setups, effizienter Remote-Koordination und strukturierter Abläufe ist die geografische Lage kein Hindernis für hochwertige Ergebnisse."
+      "question": "Arbeiten Sie in ganz Deutschland und Europa?",
+      "answer": "Ja. Ich bin in Frankfurt am Main ansässig und arbeite mit Kunden in ganz Deutschland sowie europaweit. Sowohl lokale als auch internationale Projekte sind jederzeit möglich."
     },
     {
-      "question": "Bieten Sie Textservices für Sprechertexte an?",
-      "answer": "Ja, ich biete professionelle Copywriting-Dienstleistungen und die Erstellung von Sprechertexten an. Ich erstelle durchdachte, zielgerichtete und videofreundliche Texte, die optimal zu Ihrem Markenauftritt passen. Zusätzlich unterstütze ich Sie bei der Auswahl passender Sprecherstimmen in verschiedenen Sprachen."
+      "question": "Kann ich Videoproduktion und Webentwicklung zusammen buchen?",
+      "answer": "Ja. Ich biete sowohl professionelle Videoproduktion als auch moderne Webentwicklung an. So erhalten Sie einen einheitlichen Markenauftritt und haben nur einen Ansprechpartner für Ihr gesamtes Projekt."
+    },
+    {
+      "question": "Unterstützen Sie bei der Ideenfindung und dem Konzept?",
+      "answer": "Ja. Ganz gleich, ob Sie bereits eine konkrete Vorstellung haben oder ganz am Anfang stehen – ich unterstütze Sie bei der Entwicklung eines Konzepts, einer klaren Struktur und einer passenden kreativen Umsetzung."
+    },
+    {
+      "question": "Wie läuft die Zusammenarbeit ab?",
+      "answer": "Wir beginnen mit einem Gespräch über Ihre Ziele und Anforderungen. Anschließend planen wir das Projekt, führen die Produktion durch, übernehmen Schnitt und Postproduktion und liefern Ihnen die fertigen Inhalte – bereit für Ihre Website, Social Media oder Werbekampagnen."
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "heroVideo": {
+    "timecode": "00:00:01:00",
+    "studioLabel": "QVRIX FILM",
+    "rec": "REC",
+    "genre": "VIDEO PRODUCTION",
+    "metaYear": "2026",
+    "metaCity": "Frankfurt am Main",
+    "metaFormat": "4K",
+    "metaColour": "COLOR",
+    "title": "Cinematic Video Production & Web Development",
+    "description": "I create cinematic videos and high-performance websites that help businesses stand out, build trust and leave a lasting impression.",
+    "buttons": {
+      "talk": "View Work",
+      "services": "Let's Talk"
+    }
+  }
+}

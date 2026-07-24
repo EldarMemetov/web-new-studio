@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Über mich",
+  "titleBefore": "Ich bin",
+  "name": "Eldar",
+  "location": "Frankfurt am Main, DE",
+  "paragraphs": [
+    "Ich bin professioneller Videograf und Webentwickler mit über 12 Jahren Erfahrung in der Erstellung von kommerziellem Videocontent.",
+    "Ich spezialisiere mich auf kommerzielle Videoproduktion, Unternehmensfilme, Werbespots, Social-Media-Content und die Entwicklung moderner Websites. Mir ist es wichtig, nicht nur schöne Aufnahmen zu schaffen, sondern visuelle Lösungen, die Unternehmen helfen, Kunden zu gewinnen, Vertrauen aufzubauen und ihre Leistungen wirkungsvoll zu präsentieren.",
+    "Derzeit bin ich in Frankfurt am Main und arbeite mit Kunden in ganz Deutschland und Europa. Offen für lokale und internationale Projekte."
+  ],
+  "stats": [
+    { "value": "12+", "label": "Jahre Erfahrung" },
+    { "value": "2-in-1", "label": "Video & Web" },
+    { "value": "EU", "label": "Weltweit tätig" }
+  ]
+}

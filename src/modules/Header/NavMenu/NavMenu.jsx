@@ -29,11 +29,13 @@ function useIsMobile(breakpoint = 1154) {
 }
 
 const links = [
-  { href: '', key: 'home' },
-  { href: '/about-us', key: 'aboutUs' },
-  { href: '/web-development', key: 'webDevelopment' },
-  { href: '/videography', key: 'videography' },
+  { id: 'home', key: 'home' },
+  { id: 'works', key: 'works' },
+  { id: 'about-me', key: 'aboutMe' },
+  { id: 'services', key: 'services' },
 ];
+
+const HEADER_OFFSET = 90;
 
 export default function NavMenu({
   variant = 'header',
@@ -45,6 +47,7 @@ export default function NavMenu({
   const [locale, setLocale] = useState(i18n.language);
   const pathname = usePathname();
   const [isClient, setIsClient] = useState(false);
+  const [activeId, setActiveId] = useState('home');
   const isMobile = useIsMobile(1154);
 
   useEffect(() => {
@@ -58,33 +61,80 @@ export default function NavMenu({
     }
   }, [i18n.language, locale, onCloseMenu]);
 
-  const isActive = (href) => {
-    const localizedHref = `/${i18n.language}${href}`;
+  useEffect(() => {
+    if (!isClient) return;
 
-    if (href === '') {
-      return (
-        pathname === `/${i18n.language}` || pathname === `/${i18n.language}/`
-      );
+    const sections = links
+      .filter(({ id }) => id !== 'home')
+      .map(({ id }) => document.getElementById(id))
+      .filter(Boolean);
+
+    if (!sections.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveId(entry.target.id);
+        });
+      },
+      { rootMargin: '-45% 0px -50% 0px', threshold: 0 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, [isClient]);
+
+  useEffect(() => {
+    if (!isClient) return;
+
+    const onScroll = () => {
+      if (window.scrollY < 150) setActiveId('home');
+    };
+
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [isClient]);
+
+  const handleAnchorClick = (e, id) => {
+    if (id === 'home') {
+      const onHome =
+        pathname === `/${i18n.language}` || pathname === `/${i18n.language}/`;
+      if (onHome) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        setActiveId('home');
+      }
+      onCloseMenu();
+      return;
     }
 
-    return (
-      pathname === localizedHref || pathname.startsWith(`${localizedHref}/`)
-    );
+    const el = typeof document !== 'undefined' && document.getElementById(id);
+    if (el) {
+      e.preventDefault();
+      const y = el.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+      setActiveId(id);
+    }
+
+    onCloseMenu();
   };
 
   const renderLinks = (styleVariant) => (
     <ul className={clsx(styles.navList, styles[styleVariant])}>
-      {links.map(({ href, key }) => (
+      {links.map(({ id, key }) => (
         <li
           key={key}
           className={clsx(styles.navItem, styles[styleVariant], {
-            [styles.active]: isActive(href),
+            [styles.active]: activeId === id,
           })}
         >
           <Link
-            href={`/${i18n.language}${href}`}
+            href={
+              id === 'home' ? `/${i18n.language}` : `/${i18n.language}#${id}`
+            }
             className={clsx(styles.navLink, styles[styleVariant])}
-            onClick={onCloseMenu}
+            onClick={(e) => handleAnchorClick(e, id)}
           >
             {t(key)}
           </Link>
@@ -113,7 +163,7 @@ export default function NavMenu({
                 <ScrollButton
                   onClick={onCloseMenu}
                   targetId="feedback-form"
-                  variant="variant4"
+                  variant="variant1"
                 >
                   {t('kontakt')}
                 </ScrollButton>

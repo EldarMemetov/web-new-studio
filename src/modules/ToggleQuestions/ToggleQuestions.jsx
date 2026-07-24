@@ -4,11 +4,8 @@ import ToggleList from './ToggleList/ToggleList';
 import styles from './ToggleQuestions.module.scss';
 import Image from 'next/image';
 
-export default async function ToggleQuestions({
-  locale,
-  namespace = 'toggleQuestions',
-}) {
-  const { t } = await initServerI18n(locale, [namespace]);
+export default async function ToggleQuestions({ locale }) {
+  const { t } = await initServerI18n(locale, ['videoFaq']);
 
   return (
     <section className={styles.section} id="faq">
