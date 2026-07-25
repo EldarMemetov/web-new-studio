@@ -5,9 +5,9 @@ import s from './ServicesList.module.scss';
 import { FiVideo, FiCode, FiLayers, FiPlus, FiStar } from 'react-icons/fi';
 
 const ICON_MAP = {
-  commercial: FiVideo, // Video Production
-  corporate: FiCode, // Website Development
-  event: FiLayers, // Complete Digital Presence
+  web: FiCode, // Website Development
+  video: FiVideo, // Video Production
+  complete: FiLayers, // Complete Brand Presence
 };
 
 export default function ServicesList({ items }) {
@@ -22,7 +22,7 @@ export default function ServicesList({ items }) {
       {/* ВХОДЫ */}
       <div className={s.inputs}>
         {base.map((item, i) => {
-          const Icon = ICON_MAP[item.id] || FiVideo;
+          const Icon = ICON_MAP[item.id] || FiCode;
           return (
             <React.Fragment key={item.id}>
               {i > 0 && (
@@ -45,12 +45,10 @@ export default function ServicesList({ items }) {
         })}
       </div>
 
-      {/* КОННЕКТОР */}
       <span className={s.connector} aria-hidden="true">
         <span className={s.connectorDot} />
       </span>
 
-      {/* ИТОГ (featured) */}
       <div className={s.result}>
         <span className={s.resultGlow} aria-hidden="true" />
         <span className={s.resultBadge} aria-hidden="true">
