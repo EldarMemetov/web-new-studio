@@ -1,14 +1,23 @@
 {
   "eyebrow": "Statistics",
-  "titleBefore": "Numbers that",
-  "titleHighlight": "speak for themselves",
+  "titleBefore": "Experience you",
+  "titleHighlight": "can trust",
   "items": [
-    { "value": "12+", "label": "years of professional experience" },
-    { "value": "100+", "label": "delivered projects" },
+    {
+      "value": "12+",
+      "label": "years of professional experience"
+    },
+    {
+      "value": "100+",
+      "label": "projects completed"
+    },
     {
       "value": "Germany & Europe",
-      "label": "working with clients across Europe"
+      "label": "available across Europe"
     },
-    { "value": "Video + Web", "label": "complete solutions for business" }
+    {
+      "value": "Video + Web",
+      "label": "complete digital solutions"
+    }
   ]
 }

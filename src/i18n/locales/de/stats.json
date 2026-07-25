@@ -1,14 +1,23 @@
 {
-  "eyebrow": "Statistics",
-  "titleBefore": "Numbers that",
-  "titleHighlight": "speak for themselves",
+  "eyebrow": "Statistik",
+  "titleBefore": "Erfahrung,",
+  "titleHighlight": "der Sie vertrauen können",
   "items": [
-    { "value": "12+", "label": "years of professional experience" },
-    { "value": "100+", "label": "delivered projects" },
     {
-      "value": "Germany & Europe",
-      "label": "working with clients across Europe"
+      "value": "12+",
+      "label": "Jahre Berufserfahrung"
     },
-    { "value": "Video + Web", "label": "complete solutions for business" }
+    {
+      "value": "100+",
+      "label": "erfolgreich umgesetzte Projekte"
+    },
+    {
+      "value": "Deutschland & Europa",
+      "label": "für Unternehmen europaweit tätig"
+    },
+    {
+      "value": "Video + Web",
+      "label": "digitale Lösungen aus einer Hand"
+    }
   ]
 }
