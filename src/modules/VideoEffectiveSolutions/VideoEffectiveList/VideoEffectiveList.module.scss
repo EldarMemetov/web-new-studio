@@ -16,25 +16,26 @@
     grid-template-columns: 1.25fr 1fr;
     gap: 24px;
     padding: 24px;
+    align-items: start;
   }
 }
 
+/* ===== ЛЕВАЯ ЧАСТЬ: видео + текст ===== */
 .stage {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Видео в своём горизонтальном 16:9 блоке */
+.videoBox {
   position: relative;
   overflow: hidden;
   isolation: isolate;
-  min-height: 320px;
-  padding: 32px 28px;
+  aspect-ratio: 16 / 9;
   border-radius: 16px;
   background: #000;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  display: flex;
-  align-items: flex-end;
-
-  @include media(desktop) {
-    min-height: 460px;
-    padding: 44px 40px;
-  }
 }
 
 .stageVideo {
@@ -42,35 +43,19 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* видео целиком, без обрезки */
+  object-position: center;
+  background: #000;
   z-index: 0;
-  /* Видео полностью видимое, без затемнения */
-  opacity: 1;
-}
-
-/* Мягкий градиент СНИЗУ, только чтобы текст читался */
-.stage::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    transparent 40%,
-    rgba(0, 0, 0, 0.55) 80%,
-    rgba(0, 0, 0, 0.85) 100%
-  );
 }
 
 .stageGlow {
   position: absolute;
-  top: -20%;
-  right: -10%;
-  width: 380px;
-  height: 380px;
-  z-index: 2;
+  top: -25%;
+  right: -12%;
+  width: 340px;
+  height: 340px;
+  z-index: 1;
   pointer-events: none;
   background: radial-gradient(
     circle,
@@ -83,29 +68,28 @@
 
 .stageGhost {
   position: absolute;
-  top: -8px;
-  right: 10px;
-  font-size: 150px;
+  top: 4px;
+  right: 14px;
+  z-index: 2;
+  font-size: 110px;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.05em;
-  z-index: 2;
   pointer-events: none;
   font-feature-settings: 'tnum';
   color: #fff;
-  opacity: 0.08;
+  opacity: 0.1;
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 
   @include media(desktop) {
-    font-size: 240px;
-    right: 20px;
+    font-size: 160px;
+    right: 22px;
   }
 }
 
+/* Текст ПОД видео */
 .stageContent {
-  position: relative;
-  z-index: 3;
-  max-width: 460px;
+  padding: 0 4px;
 }
 
 .stageIcon {
@@ -115,7 +99,7 @@
   width: 52px;
   height: 52px;
   border-radius: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   color: #fff;
   background: linear-gradient(135deg, #9624e2, #5a2bff);
   box-shadow: 0 10px 30px rgba(150, 36, 226, 0.4);
@@ -128,14 +112,13 @@
 
 .stageTitle {
   font-weight: 800;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.15;
   color: #fff;
-  margin: 0 0 14px;
-  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+  margin: 0 0 12px;
 
   @include media(desktop) {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
 
@@ -143,9 +126,9 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 1.65;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.65);
   margin: 0;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9);
+  max-width: 520px;
 
   @include media(desktop) {
     font-size: 16px;

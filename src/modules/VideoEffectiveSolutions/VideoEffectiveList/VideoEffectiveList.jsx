@@ -34,12 +34,10 @@ export default function VideoEffectiveList({ items }) {
     const v = videoRef.current;
     if (!v || !media.video) return;
 
-    // Останавливаем предыдущее видео и сбрасываем
     v.pause();
     v.removeAttribute('src');
     v.load();
 
-    // Ставим новый источник
     v.src = media.video;
     v.load();
 
@@ -57,23 +55,22 @@ export default function VideoEffectiveList({ items }) {
 
   return (
     <div className={s.showcase}>
-      {/* СЦЕНА С ВИДЕО */}
       <div className={s.stage}>
-        <video
-          ref={videoRef}
-          className={s.stageVideo}
-          muted
-          loop
-          playsInline
-          preload="none"
-          aria-hidden="true"
-        />
-
-        <span className={s.stageGlow} aria-hidden="true" />
-
-        <span className={s.stageGhost}>
-          {String(active + 1).padStart(2, '0')}
-        </span>
+        <div className={s.videoBox}>
+          <video
+            ref={videoRef}
+            className={s.stageVideo}
+            muted
+            loop
+            playsInline
+            preload="none"
+            aria-hidden="true"
+          />
+          <span className={s.stageGlow} aria-hidden="true" />
+          <span className={s.stageGhost}>
+            {String(active + 1).padStart(2, '0')}
+          </span>
+        </div>
 
         <div className={s.stageContent}>
           <span className={s.stageIcon}>
@@ -84,7 +81,6 @@ export default function VideoEffectiveList({ items }) {
         </div>
       </div>
 
-      {/* СПИСОК — только клик */}
       <ul className={s.menu}>
         {items.map((item, i) => {
           const ItemMedia = MEDIA_MAP[item.id] || {};
