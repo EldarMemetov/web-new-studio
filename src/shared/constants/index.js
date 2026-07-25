@@ -28,11 +28,11 @@ export const NAMESPACES = [
   'modalFeedback',
   'hero',
   'stats',
-  'works',
   'aboutMe',
   'whyMe',
   'videoEffectiveSolutions',
   'workStepsVideo',
+  'services',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

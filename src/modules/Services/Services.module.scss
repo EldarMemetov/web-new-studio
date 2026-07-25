@@ -1,0 +1,157 @@
+.section {
+  position: relative;
+  padding-bottom: 160px;
+  overflow: hidden;
+  z-index: 1;
+
+  @include media(tablet) {
+    padding-bottom: 200px;
+  }
+}
+
+.aurora {
+  position: absolute;
+  top: 20%;
+  right: -15%;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    rgba(150, 36, 226, 0.15) 0%,
+    rgba(1, 2, 185, 0.05) 40%,
+    transparent 70%
+  );
+  filter: blur(80px);
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+/* ===== HEAD ===== */
+.head {
+  max-width: 760px;
+  margin-bottom: 56px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+  padding: 8px 16px 8px 12px;
+  border-radius: 999px;
+  background: rgba(150, 36, 226, 0.08);
+  border: 1px solid rgba(150, 36, 226, 0.25);
+}
+
+.eyebrowDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c879ff;
+  box-shadow: 0 0 12px rgba(200, 121, 255, 0.9);
+}
+
+.title {
+  text-align: left;
+  @include titleText();
+  margin-bottom: 24px;
+}
+
+.spanTitle {
+  @include gradientText;
+}
+
+.description {
+  text-align: left;
+  @include description;
+}
+
+/* ===== GENRES ===== */
+.genres {
+  margin-top: 72px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.genresHead {
+  margin-bottom: 24px;
+}
+
+.genresTitle {
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #c879ff;
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.genresSubtitle {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+
+  @include media(desktop) {
+    font-size: 15px;
+  }
+}
+
+.genreList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.genreChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px 9px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.02);
+  cursor: default;
+  transition:
+    color 0.35s ease,
+    border-color 0.35s ease,
+    background 0.35s ease,
+    transform 0.35s ease;
+
+  @include media(desktop) {
+    font-size: 14px;
+    padding: 10px 20px 10px 16px;
+  }
+
+  &:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    border-color: rgba(200, 121, 255, 0.5);
+    background: linear-gradient(
+      135deg,
+      rgba(150, 36, 226, 0.18),
+      rgba(1, 2, 185, 0.06)
+    );
+  }
+}
+
+.genreChipDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(200, 121, 255, 0.7);
+  flex-shrink: 0;
+}

@@ -1,0 +1,55 @@
+{
+  "eyebrow": "Leistungen",
+  "spanTitle": "Kreative ",
+  "title": "Lösungen für Ihr Unternehmen",
+  "description": "Von der cinematischen Videoproduktion bis zur modernen Webentwicklung unterstütze ich Unternehmen dabei, einen professionellen Markenauftritt aufzubauen, Vertrauen zu schaffen und nachhaltig zu wachsen.",
+  "solutions": [
+    {
+      "id": "commercial",
+      "title": "Videoproduktion",
+      "info": "Professionelle Videoproduktion – von der ersten Idee bis zum fertigen Film. Jedes Projekt wird individuell entwickelt, um Ihre Geschichte zu erzählen und Ihre Marke wirkungsvoll zu präsentieren.",
+      "highlight": "Konzept · Dreh · Schnitt",
+      "featured": true
+    },
+    {
+      "id": "corporate",
+      "title": "Webentwicklung",
+      "info": "Moderne, responsive und SEO-optimierte Websites, die Ihr Unternehmen professionell präsentieren und Besucher in Kunden verwandeln.",
+      "highlight": "Design · Entwicklung · SEO"
+    },
+    {
+      "id": "event",
+      "title": "Ganzheitlicher Markenauftritt",
+      "info": "Videoproduktion und Website aus einer Hand – für einen einheitlichen Markenauftritt auf allen Kanälen und einen professionellen ersten Eindruck.",
+      "highlight": "Video + Website · Einheitliches Branding · Ein Ansprechpartner"
+    }
+  ],
+  "genresTitle": "Warum eine Komplettlösung?",
+  "genresSubtitle": "Ein kreativer Partner für Videoproduktion und Webentwicklung.",
+  "genres": [
+    {
+      "id": "strategy",
+      "label": "Videoproduktion"
+    },
+    {
+      "id": "production",
+      "label": "Webentwicklung"
+    },
+    {
+      "id": "editing",
+      "label": "Einheitliches Branding"
+    },
+    {
+      "id": "marketing",
+      "label": "Ein Ansprechpartner"
+    },
+    {
+      "id": "seo",
+      "label": "Professioneller Auftritt"
+    },
+    {
+      "id": "content",
+      "label": "Unternehmenswachstum"
+    }
+  ]
+}

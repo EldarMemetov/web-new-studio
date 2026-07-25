@@ -1,37 +1,42 @@
 {
   "spanTitle": "Effective ",
-  "title": "Video Solutions for Your Business",
+  "title": "Video Solutions for Every Industry",
   "description": "From concept to final delivery, I create cinematic videos and modern websites that help businesses attract attention, build trust and stand out from the competition.",
   "solutions": [
     {
-      "id": "commercial",
-      "title": "Commercial Videos",
-      "info": "Cinematic promotional videos that capture attention and showcase your brand."
+      "id": "music",
+      "title": "Music & Clips",
+      "info": "Cinematic music videos and artist clips with a distinctive visual style — bold colors, dynamic cuts and emotional storytelling."
     },
     {
-      "id": "corporate",
-      "title": "Corporate Films",
-      "info": "Professional company films that build trust and communicate your story."
+      "id": "fashion",
+      "title": "Fashion & Style",
+      "info": "Fashion films, lookbooks and brand campaigns that highlight texture, movement and mood of every collection."
     },
     {
-      "id": "event",
-      "title": "Event Coverage",
-      "info": "High-quality event and conference videos that capture every important moment."
+      "id": "podcasts",
+      "title": "Podcasts & Interviews",
+      "info": "Multi-camera podcasts and in-depth interviews with clean sound, cinematic lighting and modern editing."
     },
     {
-      "id": "social-media",
-      "title": "Social Media Content",
-      "info": "Reels, Shorts and vertical videos optimized for today's social platforms."
+      "id": "conference",
+      "title": "Conferences & Events",
+      "info": "Complete conference coverage — keynote speakers, atmosphere, audience reactions and highlight reels ready for social media."
     },
     {
-      "id": "web-development",
-      "title": "Website Development",
-      "info": "Modern, fast and responsive websites designed to strengthen your online presence."
+      "id": "medicine",
+      "title": "Healthcare",
+      "info": "Trustworthy medical and healthcare videos: clinic tours, doctor interviews and patient stories that build confidence in your brand."
     },
     {
-      "id": "full-production",
-      "title": "Full Production",
-      "info": "From concept and filming to editing and final delivery — everything in one place."
+      "id": "film",
+      "title": "Short Films",
+      "info": "Narrative short films with strong composition, color grading and sound design — from concept to festival-ready master."
+    },
+    {
+      "id": "wedding",
+      "title": "Wedding & Love Story",
+      "info": "Elegant wedding films and love stories captured with a cinematic eye — real emotions, timeless memories."
     }
   ],
   "genresTitle": "Selected Work",

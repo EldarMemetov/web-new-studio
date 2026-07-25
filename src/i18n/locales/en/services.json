@@ -1,0 +1,55 @@
+{
+  "eyebrow": "Services",
+  "spanTitle": "Creative ",
+  "title": "Solutions for Your Business",
+  "description": "From cinematic video production to modern website development, I help businesses create a strong, consistent and professional brand presence that builds trust and drives growth.",
+  "solutions": [
+    {
+      "id": "commercial",
+      "title": "Video Production",
+      "info": "Professional video production from the initial concept to the final edit. Every project is crafted to tell your story, engage your audience and strengthen your brand.",
+      "highlight": "Concept · Filming · Editing",
+      "featured": true
+    },
+    {
+      "id": "corporate",
+      "title": "Website Development",
+      "info": "Modern, responsive and SEO-optimized websites designed to present your business professionally and convert visitors into customers.",
+      "highlight": "Design · Development · SEO"
+    },
+    {
+      "id": "event",
+      "title": "Complete Digital Presence",
+      "info": "Combine cinematic video production with a modern website to create one consistent brand experience across every platform and customer touchpoint.",
+      "highlight": "Video + Website · One Visual Identity · One Partner"
+    }
+  ],
+  "genresTitle": "Why Choose a Complete Solution?",
+  "genresSubtitle": "One creative partner for both video production and web development.",
+  "genres": [
+    {
+      "id": "strategy",
+      "label": "Video Production"
+    },
+    {
+      "id": "production",
+      "label": "Website Development"
+    },
+    {
+      "id": "editing",
+      "label": "One Visual Identity"
+    },
+    {
+      "id": "marketing",
+      "label": "One Partner"
+    },
+    {
+      "id": "seo",
+      "label": "Professional Branding"
+    },
+    {
+      "id": "content",
+      "label": "Business Growth"
+    }
+  ]
+}

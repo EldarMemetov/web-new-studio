@@ -9,7 +9,7 @@ export default async function VideoEffectiveSolutions({ locale }) {
   const genres = t('genres', { returnObjects: true }) || [];
 
   return (
-    <section className={s.section} id="effective-video">
+    <section className={s.section} id="works">
       <Container>
         <div className={s.containerContent}>
           <h2 className={s.title}>

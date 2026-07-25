@@ -1,49 +1,54 @@
 {
   "spanTitle": "Effektive ",
-  "title": "Videolösungen für Ihr Unternehmen",
-  "description": "Von der ersten Idee bis zum fertigen Projekt – ich produziere hochwertige Videos und moderne Websites, die Unternehmen dabei helfen, Aufmerksamkeit zu gewinnen, Vertrauen aufzubauen und ihre Marke professionell zu präsentieren.",
+  "title": "Videolösungen für jede Branche",
+  "description": "Von der Idee bis zur finalen Auslieferung erstelle ich cinematische Videos und moderne Websites, die Unternehmen helfen, Aufmerksamkeit zu gewinnen, Vertrauen aufzubauen und sich von der Konkurrenz abzuheben.",
   "solutions": [
     {
-      "id": "commercial",
-      "title": "Werbevideos",
-      "info": "Cinematische Werbevideos, die Aufmerksamkeit erzeugen und Ihre Marke professionell präsentieren."
+      "id": "music",
+      "title": "Musik & Clips",
+      "info": "Cinematische Musikvideos und Künstler-Clips mit unverwechselbarem visuellen Stil — kräftige Farben, dynamische Schnitte und emotionale Erzählweise."
     },
     {
-      "id": "corporate",
-      "title": "Unternehmensfilme",
-      "info": "Professionelle Unternehmensfilme, die Vertrauen schaffen und Ihre Geschichte authentisch erzählen."
+      "id": "fashion",
+      "title": "Fashion & Style",
+      "info": "Fashion-Filme, Lookbooks und Markenkampagnen, die Textur, Bewegung und Stimmung jeder Kollektion hervorheben."
     },
     {
-      "id": "event",
-      "title": "Event-Aufnahmen",
-      "info": "Hochwertige Event- und Konferenzvideos, die besondere Momente eindrucksvoll festhalten."
+      "id": "podcasts",
+      "title": "Podcasts & Interviews",
+      "info": "Multi-Kamera-Podcasts und tiefgründige Interviews mit klarem Sound, cinematischer Beleuchtung und modernem Schnitt."
     },
     {
-      "id": "social-media",
-      "title": "Social-Media-Content",
-      "info": "Reels, Shorts und vertikale Videos, optimiert für maximale Reichweite auf allen Plattformen."
+      "id": "conference",
+      "title": "Konferenzen & Events",
+      "info": "Vollständige Konferenz-Coverage — Keynote-Speaker, Atmosphäre, Publikumsreaktionen und Highlight-Reels für Social Media."
     },
     {
-      "id": "web-development",
-      "title": "Webentwicklung",
-      "info": "Moderne, schnelle Websites mit hochwertigem Design und optimaler Benutzererfahrung."
+      "id": "medicine",
+      "title": "Healthcare",
+      "info": "Vertrauenswürdige Medizin- und Healthcare-Videos: Klinik-Touren, Arzt-Interviews und Patientengeschichten, die Vertrauen in Ihre Marke schaffen."
     },
     {
-      "id": "full-production",
-      "title": "Full Production",
-      "info": "Von der Konzeption über den Dreh bis zur Postproduktion – alles aus einer Hand."
+      "id": "film",
+      "title": "Kurzfilme",
+      "info": "Narrative Kurzfilme mit starker Bildsprache, Color Grading und Sounddesign — vom Konzept bis zum festival-fertigen Master."
+    },
+    {
+      "id": "wedding",
+      "title": "Hochzeit & Love Story",
+      "info": "Elegante Hochzeitsfilme und Love Storys mit cinematischem Blick eingefangen — echte Emotionen, zeitlose Erinnerungen."
     }
   ],
   "genresTitle": "Ausgewählte Arbeiten",
   "genres": [
-    { "id": "commercial", "label": "Commercial" },
+    { "id": "commercial", "label": "Werbung" },
     { "id": "healthcare", "label": "Healthcare" },
     { "id": "podcasts", "label": "Podcasts & Interviews" },
-    { "id": "conference", "label": "Conferences & Events" },
+    { "id": "conference", "label": "Konferenzen & Events" },
     { "id": "fashion", "label": "Fashion" },
-    { "id": "music", "label": "Music Videos" },
-    { "id": "film", "label": "Short Films" },
-    { "id": "wedding", "label": "Weddings & Love Stories" },
+    { "id": "music", "label": "Musikvideos" },
+    { "id": "film", "label": "Kurzfilme" },
+    { "id": "wedding", "label": "Hochzeiten & Love Storys" },
     { "id": "websites", "label": "Websites" }
   ]
 }
