@@ -1,8 +1,8 @@
 {
-  "title": "let's",
-  "andTitle": "start the conversation",
-  "description": "Ready to work together? Let's discuss your project",
-  "subtitle": "I respond within 24 hours",
+  "title": "Let's Talk",
+  "andTitle": "About Your Project",
+  "description": "Tell me about your idea, and I'll help turn it into a solution that fits your business.",
+  "subtitle": "Response within 24 hours",
   "fields": {
     "name": "Name*",
     "email": "Your Email*",

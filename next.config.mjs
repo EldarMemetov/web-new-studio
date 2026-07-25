@@ -51,6 +51,27 @@ const nextConfig = {
       @use "src/shared/styles/_variables.scss" as *;
     `,
   },
+  async redirects() {
+    return [
+      { source: '/de/videography', destination: '/de', permanent: true },
+      { source: '/en/videography', destination: '/en', permanent: true },
+      { source: '/de/web-development', destination: '/de', permanent: true },
+      { source: '/en/web-development', destination: '/en', permanent: true },
+      {
+        source: '/de/web-development/:slug',
+        destination: '/de',
+        permanent: true,
+      },
+      {
+        source: '/en/web-development/:slug',
+        destination: '/en',
+        permanent: true,
+      },
+      { source: '/de/about-us', destination: '/de', permanent: true },
+      { source: '/en/about-us', destination: '/en', permanent: true },
+      { source: '/ua/:path*', destination: '/de', permanent: true },
+    ];
+  },
   async headers() {
     return [
       {
