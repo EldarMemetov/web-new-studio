@@ -1,7 +1,9 @@
 import Container from '@/shared/container/Container';
 import s from './Hero.module.scss';
 import ScrollButton from '@/shared/ScrollButton/ScrollButton';
+import LiveTimecode from './LiveTimecode';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
+import { FiPlay, FiArrowRight } from 'react-icons/fi';
 
 export default async function Hero({ locale }) {
   const { t } = await initServerI18n(locale, ['hero']);
@@ -32,7 +34,7 @@ export default async function Hero({ locale }) {
         <div className={s.frameCornerBR} />
 
         <div className={s.topBar}>
-          <div className={s.timecode}>{t('heroVideo.timecode')}</div>
+          <LiveTimecode initialSeconds={1} />
           <div className={s.rec}>
             <span className={s.recDot} />
             <span className={s.recText}>{t('heroVideo.rec')}</span>
@@ -52,12 +54,22 @@ export default async function Hero({ locale }) {
             <p className={s.description}>{t('heroVideo.description')}</p>
 
             <div className={s.containerButton}>
-              <ScrollButton targetId="works" variant="variant2">
-                {t('heroVideo.buttons.talk')}
-              </ScrollButton>
-              <ScrollButton targetId="feedback-form" variant="variant3">
-                {t('heroVideo.buttons.services')}
-              </ScrollButton>
+              <span className={s.ctaWrap}>
+                <ScrollButton targetId="works" variant="variant2">
+                  <span className={s.buttonContent}>
+                    <FiPlay className={s.buttonIcon} aria-hidden="true" />
+                    {t('heroVideo.buttons.talk')}
+                  </span>
+                </ScrollButton>
+              </span>
+              <span className={s.ctaWrap}>
+                <ScrollButton targetId="feedback-form" variant="variant3">
+                  <span className={s.buttonContent}>
+                    {t('heroVideo.buttons.services')}
+                    <FiArrowRight className={s.buttonIcon} aria-hidden="true" />
+                  </span>
+                </ScrollButton>
+              </span>
             </div>
           </div>
         </Container>

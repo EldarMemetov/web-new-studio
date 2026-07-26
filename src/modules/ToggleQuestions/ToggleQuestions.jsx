@@ -6,9 +6,28 @@ import Image from 'next/image';
 
 export default async function ToggleQuestions({ locale }) {
   const { t } = await initServerI18n(locale, ['videoFaq']);
+  const faqItems = t('faq', { returnObjects: true }) || [];
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  };
 
   return (
     <section className={styles.section} id="faq">
+      <script
+        type="application/ld+json"
+
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Container>
         <div className={styles.backgroundWrapper}>
           <Image
@@ -31,7 +50,7 @@ export default async function ToggleQuestions({ locale }) {
 
           <div className={styles.containerContent}>
             <p className={styles.description}>{t('description')}</p>
-            <ToggleList items={t('faq', { returnObjects: true }) || []} />
+            <ToggleList items={faqItems} />
           </div>
         </div>
       </Container>

@@ -2,31 +2,31 @@
   "titleBefore": "Do you have",
   "titleHighlight": "questions",
   "titleAfter": "That's perfectly normal",
-  "description": "I'm always happy to answer your questions. Feel free to get in touch and let's discuss your project.",
+  "description": "I'm always happy to answer your questions about video production and web development. Feel free to get in touch and let's discuss your project.",
   "faq": [
     {
-      "question": "How much does a video project cost?",
-      "answer": "Every project is unique, so pricing depends on factors such as the type of video, filming duration, locations and post-production requirements. Get in touch for a tailored quote based on your project."
+      "question": "How much does video production cost in Frankfurt or Germany?",
+      "answer": "Video production costs depend on factors such as the type of video, filming duration, locations and post-production requirements. Get in touch for a tailored quote based on your project — whether you're based in Frankfurt, elsewhere in Germany or abroad."
     },
     {
-      "question": "How long does a project take?",
-      "answer": "The timeline depends on the complexity of the project. Smaller productions can often be delivered within a few days, while larger commercial projects may take several weeks. I'll always provide a clear schedule before production begins."
+      "question": "How long does a video or website project take?",
+      "answer": "The timeline depends on the complexity of the project. Smaller video productions can often be delivered within a few days, while larger commercial projects or full websites may take several weeks. I'll always provide a clear schedule before we start."
     },
     {
       "question": "Do you work across Germany and Europe?",
-      "answer": "Yes. I'm based in Frankfurt am Main and work with clients throughout Germany and across Europe. I'm available for both local and international productions."
+      "answer": "Yes. I'm based in Frankfurt am Main and work with clients throughout Germany and across Europe. I'm available for both local video productions and international projects, including remote web development work."
     },
     {
       "question": "Can I book video production and web development together?",
-      "answer": "Absolutely. I offer both services, allowing you to create a consistent visual identity across your videos and website while working with a single creative partner."
+      "answer": "Absolutely. I offer both services, allowing you to create a consistent visual identity across your videos and website while working with a single creative partner instead of coordinating two separate agencies."
     },
     {
-      "question": "Can you help with the concept and script?",
+      "question": "Can you help with the concept and script for my video?",
       "answer": "Yes. Whether you already have a clear idea or are starting from scratch, I can help develop the concept, structure and creative direction to ensure your message is clear and engaging."
     },
     {
-      "question": "What does the production process look like?",
-      "answer": "The process is simple: we discuss your goals, plan the project, film the content, complete editing and post-production, and deliver the final files ready for your website, social media or advertising."
+      "question": "What does the video production process look like?",
+      "answer": "The process is simple: we discuss your goals, plan the project, film the content, complete editing and post-production, and deliver the final files ready for your website, social media or advertising campaigns."
     }
   ]
 }
