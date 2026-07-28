@@ -69,6 +69,20 @@ const nextConfig = {
       },
       { source: '/de/about-us', destination: '/de', permanent: true },
       { source: '/en/about-us', destination: '/en', permanent: true },
+
+      { source: '/de/blog', destination: '/de', permanent: true },
+      { source: '/en/blog', destination: '/en', permanent: true },
+      {
+        source: '/de/blog/:slug',
+        destination: '/de',
+        permanent: true,
+      },
+      {
+        source: '/en/blog/:slug',
+        destination: '/en',
+        permanent: true,
+      },
+
       { source: '/ua/:path*', destination: '/de', permanent: true },
     ];
   },

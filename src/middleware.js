@@ -4,26 +4,30 @@ import { NextResponse } from 'next/server';
 import i18nConfig from '../i18nConfig';
 import { LANGUAGES } from './shared/constants';
 
+const SUPPORTED_LOCALES = Object.values(LANGUAGES);
+
 export function middleware(request) {
   const { cookies, nextUrl } = request;
   const currentLocale = cookies.get('NEXT_LOCALE')?.value;
 
-  const localeRegex = new RegExp(
-    `^/(${Object.values(LANGUAGES).join('|')})/(\\1)(/|$)`
+  const stackedLocaleRegex = new RegExp(
+    `^/(${SUPPORTED_LOCALES.join('|')})/(${SUPPORTED_LOCALES.join('|')})(/|$)`
   );
-  if (localeRegex.test(nextUrl.pathname)) {
-    nextUrl.pathname = nextUrl.pathname.replace(localeRegex, '/$1$3');
-    return NextResponse.redirect(nextUrl);
+  if (stackedLocaleRegex.test(nextUrl.pathname)) {
+    nextUrl.pathname = nextUrl.pathname.replace(stackedLocaleRegex, '/$1$3');
+    return NextResponse.redirect(nextUrl, 301);
   }
 
-  if (!currentLocale) {
+  const hasAnyLocalePrefix = new RegExp(
+    `^/(${SUPPORTED_LOCALES.join('|')})(/|$)`
+  ).test(nextUrl.pathname);
+
+  if (!currentLocale && !hasAnyLocalePrefix) {
     const defaultLocale = LANGUAGES.DE;
-    if (!nextUrl.pathname.startsWith(`/${defaultLocale}`)) {
-      nextUrl.pathname = `/${defaultLocale}${nextUrl.pathname}`;
-      const response = NextResponse.redirect(nextUrl);
-      response.cookies.set('NEXT_LOCALE', defaultLocale);
-      return response;
-    }
+    nextUrl.pathname = `/${defaultLocale}${nextUrl.pathname}`;
+    const response = NextResponse.redirect(nextUrl, 301);
+    response.cookies.set('NEXT_LOCALE', defaultLocale);
+    return response;
   }
 
   return i18nRouter(request, i18nConfig);
