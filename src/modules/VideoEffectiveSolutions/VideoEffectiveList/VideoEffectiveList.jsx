@@ -13,14 +13,22 @@ import {
   FiArrowRight,
 } from 'react-icons/fi';
 
+const CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+
+const cldVideo = (id) =>
+  `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/f_auto:video,q_auto,w_1280/${id}.mp4`;
+
+const cldPoster = (id) =>
+  `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto/${id}.jpg`;
+
 const MEDIA_MAP = {
-  music: { video: '/video/music.mp4', Icon: FiMusic },
-  fashion: { video: '/video/fashion.mp4', Icon: FiCamera },
-  podcasts: { video: '/video/podcasts.mp4', Icon: FiMic },
-  conference: { video: '/video/conference.mp4', Icon: FiUsers },
-  medicine: { video: '/video/medicine.mp4', Icon: FiHeart },
-  film: { video: '/video/film.mp4', Icon: FiFilm },
-  wedding: { video: '/video/wedding.mp4', Icon: FiGift },
+  music: { publicId: 'music_u2wcqp', Icon: FiMusic },
+  fashion: { publicId: 'fashion_mg5ai1', Icon: FiCamera },
+  podcasts: { publicId: 'podcasts_rlz4m7', Icon: FiMic },
+  conference: { publicId: 'conference_isl6vh', Icon: FiUsers },
+  medicine: { publicId: 'medicine_dvdh6t', Icon: FiHeart },
+  film: { publicId: 'film_cb6jvd', Icon: FiFilm },
+  wedding: { publicId: 'wedding_e1zsay', Icon: FiGift },
 };
 
 export default function VideoEffectiveList({ items }) {
@@ -29,16 +37,18 @@ export default function VideoEffectiveList({ items }) {
 
   const current = items?.[active];
   const media = current ? MEDIA_MAP[current.id] || {} : {};
+  const videoUrl = media.publicId ? cldVideo(media.publicId) : '';
+  const posterUrl = media.publicId ? cldPoster(media.publicId) : '';
 
   useEffect(() => {
     const v = videoRef.current;
-    if (!v || !media.video) return;
+    if (!v || !videoUrl) return;
 
     v.pause();
     v.removeAttribute('src');
     v.load();
 
-    v.src = media.video;
+    v.src = videoUrl;
     v.load();
 
     const onCanPlay = () => v.play().catch(() => {});
@@ -47,7 +57,7 @@ export default function VideoEffectiveList({ items }) {
     return () => {
       v.removeEventListener('canplay', onCanPlay);
     };
-  }, [media.video]);
+  }, [videoUrl]);
 
   if (!items?.length || !current) return null;
 
@@ -60,6 +70,7 @@ export default function VideoEffectiveList({ items }) {
           <video
             ref={videoRef}
             className={s.stageVideo}
+            poster={posterUrl}
             muted
             loop
             playsInline

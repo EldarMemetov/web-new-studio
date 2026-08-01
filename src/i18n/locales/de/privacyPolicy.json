@@ -1,7 +1,7 @@
 {
   "policy": {
     "title": "Datenschutzerklärung",
-    "intro": "",
+    "intro": "Diese Datenschutzerklärung informiert Dich darüber, wie personenbezogene Daten auf dieser Website verarbeitet werden.",
     "sections": [
       {
         "title": "1. Einleitung",
@@ -32,9 +32,13 @@
             "title": "2.3 Der Verantwortliche",
             "paragraphs": [
               "Verantwortlich für die Datenverarbeitung auf dieser Website ist der Verantwortliche im Sinne der DSGVO. Das ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.",
-              "Den Verantwortlichen erreichst Du unter:",
+              "Den Verantwortlichen erreichst Du unter:"
+            ],
+            "points": [
               "Eldar Memetov",
-              "Hauptlehrer-Urson-Straße 9, 65439 Flörsheim am Main, Deutschland",
+              "Hauptlehrer-Urson-Straße 9",
+              "65439 Flörsheim am Main",
+              "Deutschland",
               "qvrix.studio@gmail.com"
             ]
           },
@@ -74,14 +78,28 @@
               {
                 "title": "Vercel",
                 "paragraphs": [
-                  "Für das Hosting dieser Website wird der Dienst Vercel der Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA, genutzt. Vercel ist eine Cloud-Plattform für die Bereitstellung und den Betrieb von Webanwendungen und statischen Websites über ein globales Edge-Netzwerk. Bei jedem Aufruf dieser Website werden automatisch technische Verbindungsdaten in sogenannten Server-Logfiles erfasst, darunter IP-Adresse, Datum und Uhrzeit des Abrufs, aufgerufene Seite, HTTP-Statuscode sowie übertragene Datenmenge. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren und funktionsfähigen Betrieb der Website). Da Vercel Inc. seinen Sitz in den USA hat und die Website über ein globales Edge-Netzwerk ausgeliefert wird, findet eine Übermittlung personenbezogener Daten in ein Drittland statt. Vercel ist nach dem EU-US Data Privacy Framework (DPF) zertifiziert; ergänzend kommen Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO zum Einsatz. Weitere Informationen sind der Datenschutzerklärung von Vercel zu entnehmen: https://vercel.com/legal/privacy-policy"
+                  "Für das Hosting dieser Website wird der Dienst Vercel der Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA, genutzt. Vercel ist eine Cloud-Plattform für die Bereitstellung und den Betrieb von Webanwendungen und statischen Websites über ein globales Edge-Netzwerk. Bei jedem Aufruf dieser Website werden automatisch technische Verbindungsdaten in sogenannten Server-Logfiles erfasst, darunter IP-Adresse, Datum und Uhrzeit des Abrufs, aufgerufene Seite, HTTP-Statuscode sowie übertragene Datenmenge.",
+                  "Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren und funktionsfähigen Betrieb der Website). Da Vercel Inc. seinen Sitz in den USA hat und die Website über ein globales Edge-Netzwerk ausgeliefert wird, findet eine Übermittlung personenbezogener Daten in ein Drittland statt. Vercel ist nach dem EU-US Data Privacy Framework (DPF) zertifiziert; ergänzend kommen Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO zum Einsatz.",
+                  "Weitere Informationen sind der Datenschutzerklärung von Vercel zu entnehmen: https://vercel.com/legal/privacy-policy"
+                ]
+              },
+              {
+                "title": "Cloudinary",
+                "paragraphs": [
+                  "Wir nutzen für die Bereitstellung und Optimierung von Bildern und Videos auf unserer Website die Dienste von Cloudinary, einer cloudbasierten Media-Management-Plattform der Cloudinary Ltd., 6201 America Center Dr., Suite 220, San Jose, CA 95002, USA, beziehungsweise für die DSGVO: 30 Old Bailey, London, United Kingdom, EC4M 7AU.",
+                  "Cloudinary stellt Funktionen zur Speicherung, Verarbeitung, Transformation und globalen Auslieferung von Mediendateien bereit, etwa zur Bildoptimierung, zur schnellen Bereitstellung multimedialer Inhalte über ein weltweit verteiltes Content Delivery Network (CDN) und zur automatisierten Verwaltung von Mediendateien. Dabei werden insbesondere IP-Adresse, Browser- und Geräteinformationen, Zugriffsdaten, Nutzungs- und Serviceaktivitäten sowie ggf. Metadaten der hochgeladenen Inhalte verarbeitet; auch von Nutzenden bereitgestellte Mediendateien können personenbezogene Daten enthalten.",
+                  "Zweck der Verarbeitung ist die sichere, performante und skalierbare Bereitstellung multimedialer Website-Inhalte. Rechtsgrundlagen der Verarbeitung sind Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an optimierter Auslieferung und Verwaltung von Medieninhalten) sowie ggf. Art. 6 Abs. 1 lit. b DSGVO, wenn die Verarbeitung zur Vertragserfüllung erforderlich ist.",
+                  "Cloudinary kann im Rahmen der Dienstebereitstellung Cookies und ähnliche Technologien einsetzen, wobei sich diese vorrangig auf technische und sicherheitsrelevante Zwecke beziehen. Personenbezogene Daten können an Server in Drittländer, insbesondere die USA, übermittelt werden; dabei verwendet Cloudinary im Regelfall EU-Standardvertragsklauseln gemäß Art. 46 DSGVO und ist Teilnehmer am EU-U.S. Data Privacy Framework als zusätzliche Garantie für ein angemessenes Datenschutzniveau.",
+                  "Daten werden gelöscht, sobald der jeweilige Verarbeitungszweck entfällt oder auf entsprechende Anforderung, es sei denn, gesetzliche Aufbewahrungsfristen stehen entgegen. Weitere Informationen finden sich unter: https://cloudinary.com/privacy"
                 ]
               }
             ]
           },
           {
             "title": "2.9 Rechtsgrundlagen",
-            "description": "Die Verarbeitung von personenbezogenen Daten benötigt immer eine Rechtsgrundlage. Die DSGVO sieht in Art. 6 Abs. 1 Satz 1 folgende Möglichkeiten vor:",
+            "paragraphs": [
+              "Die Verarbeitung von personenbezogenen Daten benötigt immer eine Rechtsgrundlage. Die DSGVO sieht in Art. 6 Abs. 1 Satz 1 folgende Möglichkeiten vor:"
+            ],
             "points": [
               "a) Die betroffene Person hat ihre Einwilligung zu der Verarbeitung der sie betreffenden personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben;",
               "b) Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen;",
@@ -89,13 +107,6 @@
               "d) Die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen;",
               "e) Die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;",
               "f) Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt."
-            ],
-            "subsections": [
-              {
-                "paragraphs": [
-                  "In den folgenden Abschnitten werden wir Dir die konkrete Rechtsgrundlage zu der jeweiligen Verarbeitung nennen."
-                ]
-              }
             ]
           }
         ]
@@ -110,7 +121,9 @@
         "subsections": [
           {
             "title": "3.1 Datenerhebung beim Aufruf der Website",
-            "description": "Durch das Aufrufen der Website werden automatisch Informationen in sogenannten Server-Log-Dateien gespeichert. Es handelt sich um folgende Informationen:",
+            "paragraphs": [
+              "Durch das Aufrufen der Website werden automatisch Informationen in sogenannten Server-Log-Dateien gespeichert. Es handelt sich um folgende Informationen:"
+            ],
             "points": [
               "Browsertyp und Browserversion",
               "verwendetes Betriebssystem",
@@ -121,7 +134,10 @@
             ],
             "subsections": [
               {
-                "description": "Diese Daten werden vorübergehend benötigt, um Dir unsere Website dauerhaft und problemlos anzeigen zu können. Insbesondere dienen diese Daten damit folgenden Zwecken:",
+                "title": "Zwecke der Verarbeitung",
+                "paragraphs": [
+                  "Diese Daten werden vorübergehend benötigt, um Dir unsere Website dauerhaft und problemlos anzeigen zu können. Insbesondere dienen diese Daten damit folgenden Zwecken:"
+                ],
                 "points": [
                   "Systemsicherheit der Website",
                   "Systemstabilität der Website",
@@ -131,11 +147,12 @@
                 ]
               },
               {
+                "title": "Rechtsgrundlage & Speicherdauer",
                 "paragraphs": [
                   "Die Datenverarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO und erfolgt aus unserem berechtigten Interesse an der Verarbeitung dieser Daten, insbesondere aus dem Interesse an der Funktionalität der Website sowie deren Sicherheit.",
                   "Diese Daten werden nach Möglichkeit pseudonymisiert gespeichert und nach Erreichen des jeweiligen Zwecks gelöscht.",
                   "Soweit die Server-Log-Dateien die Identifizierung der betroffenen Person ermöglicht, werden die Daten maximal für einen Zeitraum von 14 Tagen gespeichert. Eine Ausnahme besteht dann, wenn ein sicherheitsrelevantes Ereignis auftritt. In diesem Fall werden die Server-Log-Dateien bis zur Beseitigung und abschließenden Aufklärung des sicherheitsrelevanten Ereignisses gespeichert.",
-                  "Im Übrigen findet eine Zusammenführung mit anderen Daten findet nicht statt."
+                  "Im Übrigen findet eine Zusammenführung mit anderen Daten nicht statt."
                 ]
               }
             ]
@@ -145,11 +162,14 @@
             "subsections": [
               {
                 "title": "3.2.1 Eigene Datenerhebung",
-                "description": "Wir bieten folgende (Dienst-)Leistung auf unserer Website an: Videoproduktion und Webentwicklung.",
-                "paragraphs": ["Dazu erheben wir folgende Daten:"],
+                "paragraphs": [
+                  "Wir bieten folgende (Dienst-)Leistung auf unserer Website an: Videoproduktion und Webentwicklung.",
+                  "Dazu erheben wir folgende Daten:"
+                ],
                 "points": ["Name", "E-Mail-Adresse"],
                 "subsections": [
                   {
+                    "title": "Rechtsgrundlage & Löschung",
                     "paragraphs": [
                       "Rechtsgrundlage für diese Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO.",
                       "Die Daten werden gelöscht, sobald der jeweilige Zweck entfällt und es gemäß den gesetzlichen Vorgaben möglich ist."
@@ -173,14 +193,16 @@
                     ]
                   },
                   {
-                    "title": "c) Kontaktformular",
-                    "subsections": [
-                      {
-                        "title": "Resend",
-                        "paragraphs": [
-                          "Wir nutzen auf dieser Website Resend zur Verarbeitung und Übermittlung von Kontaktformularnachrichten, einen E-Mail-API-Dienst der Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA, der unter der Domain resend.com betrieben wird. Resend ist eine entwicklerorientierte E-Mail-Versandplattform, die es Website-Betreibenden ermöglicht, transaktionale E-Mails zuverlässig über eine REST-API oder SMTP-Integration zu versenden. Im Kontext des Kontaktformulars dieser Website übernimmt Resend die technische Zustellung der eingehenden Kontaktanfragen an die hinterlegte E-Mail-Adresse des Website-Betreibers. Darüber hinaus stellt Resend detaillierte Versandprotokolle sowie Ereignisdaten (z. B. Zustellung, Bounce) bereit. Im Rahmen der Nutzung von Resend zur Verarbeitung von Kontaktformulareinsendungen werden folgende personenbezogene Daten verarbeitet: Name, E-Mail-Adresse sowie alle weiteren im Kontaktformular eingegebenen Daten (z. B. Nachrichteninhalt, Telefonnummer), IP-Adresse der anfragenden Person, Zeitstempel der Übermittlung sowie technische Metadaten des E-Mail-Versands (z. B. Zustellstatus, Bounce-Informationen). Zweck der Datenverarbeitung ist die technisch zuverlässige Zustellung von Kontaktanfragen an den Website-Betreiber sowie die Sicherstellung der Nachvollziehbarkeit des E-Mail-Versands durch Versandprotokolle. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Kontaktaufnahme im Rahmen vorvertraglicher oder vertraglicher Maßnahmen erfolgt, sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse des Website-Betreibers an einer zuverlässigen technischen Zustellung von Kontaktanfragen). Die Datenverarbeitung erfolgt im Rahmen eines Auftragsverarbeitungsvertrages (Data Processing Addendum, DPA) gemäß Art. 28 DSGVO. Resend setzt im Rahmen der reinen Kontaktformularverarbeitung keine Cookies auf den Endgeräten von Websitebesuchenden. Es findet eine Datenübermittlung in ein Drittland statt. Resend speichert und verarbeitet Kundendaten nach eigenen Angaben in den USA. Bei der Datenübermittlung in die USA greifen die Standardvertragsklauseln (SCC) der EU-Kommission gemäß Art. 46 Abs. 2 lit. c DSGVO als geeignete Garantie, die im Data Processing Addendum (DPA) von Resend verankert sind. Die im Rahmen der Kontaktformularübermittlung verarbeiteten Daten werden nach Bearbeitung der Anfrage gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Versandprotokolle werden nach eigenen Angaben von Resend für einen Zeitraum von sieben Tagen aufbewahrt und anschließend automatisch gelöscht. Weitere Informationen zur Datenverarbeitung sind abrufbar unter: https://resend.com/legal/privacy-policy"
-                        ]
-                      }
+                    "title": "c) Kontaktformular — Resend",
+                    "paragraphs": [
+                      "Wir nutzen auf dieser Website Resend zur Verarbeitung und Übermittlung von Kontaktformularnachrichten, einen E-Mail-API-Dienst der Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA, der unter der Domain resend.com betrieben wird.",
+                      "Resend ist eine entwicklerorientierte E-Mail-Versandplattform, die es Website-Betreibenden ermöglicht, transaktionale E-Mails zuverlässig über eine REST-API oder SMTP-Integration zu versenden. Im Kontext des Kontaktformulars dieser Website übernimmt Resend die technische Zustellung der eingehenden Kontaktanfragen an die hinterlegte E-Mail-Adresse des Website-Betreibers. Darüber hinaus stellt Resend detaillierte Versandprotokolle sowie Ereignisdaten (z. B. Zustellung, Bounce) bereit.",
+                      "Im Rahmen der Nutzung von Resend zur Verarbeitung von Kontaktformulareinsendungen werden folgende personenbezogene Daten verarbeitet: Name, E-Mail-Adresse sowie alle weiteren im Kontaktformular eingegebenen Daten (z. B. Nachrichteninhalt, Telefonnummer), IP-Adresse der anfragenden Person, Zeitstempel der Übermittlung sowie technische Metadaten des E-Mail-Versands (z. B. Zustellstatus, Bounce-Informationen).",
+                      "Zweck der Datenverarbeitung ist die technisch zuverlässige Zustellung von Kontaktanfragen an den Website-Betreiber sowie die Sicherstellung der Nachvollziehbarkeit des E-Mail-Versands durch Versandprotokolle. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Kontaktaufnahme im Rahmen vorvertraglicher oder vertraglicher Maßnahmen erfolgt, sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse des Website-Betreibers an einer zuverlässigen technischen Zustellung von Kontaktanfragen).",
+                      "Die Datenverarbeitung erfolgt im Rahmen eines Auftragsverarbeitungsvertrages (Data Processing Addendum, DPA) gemäß Art. 28 DSGVO. Resend setzt im Rahmen der reinen Kontaktformularverarbeitung keine Cookies auf den Endgeräten von Websitebesuchenden.",
+                      "Es findet eine Datenübermittlung in ein Drittland statt. Resend speichert und verarbeitet Kundendaten nach eigenen Angaben in den USA. Bei der Datenübermittlung in die USA greifen die Standardvertragsklauseln (SCC) der EU-Kommission gemäß Art. 46 Abs. 2 lit. c DSGVO als geeignete Garantie, die im Data Processing Addendum (DPA) von Resend verankert sind.",
+                      "Die im Rahmen der Kontaktformularübermittlung verarbeiteten Daten werden nach Bearbeitung der Anfrage gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Versandprotokolle werden nach eigenen Angaben von Resend für einen Zeitraum von sieben Tagen aufbewahrt und anschließend automatisch gelöscht.",
+                      "Weitere Informationen zur Datenverarbeitung sind abrufbar unter: https://resend.com/legal/privacy-policy"
                     ]
                   }
                 ]
@@ -193,13 +215,18 @@
               {
                 "title": "Resend",
                 "paragraphs": [
-                  "Wir nutzen auf unserer Website den E-Mail-Versanddienst Resend, bereitgestellt von der Resend, Inc., 2261 Market Street, #5039, San Francisco, CA 94114, USA. Dieser Service ermöglicht es uns, Transaktions- und Marketing-E-Mails effizient an unsere Nutzenden zu senden. Dabei werden personenbezogene Daten wie E-Mail-Adressen, Namen und Inhalte der E-Mails verarbeitet. Zweck der Datenverarbeitung ist die Kommunikation mit unseren Nutzenden, beispielsweise für Bestellbestätigungen oder Newsletter-Versand. Rechtsgrundlage für die Verarbeitung dieser Daten ist Art. 6 Abs. 1 lit. a DSGVO, da die Verarbeitung auf der Einwilligung der betroffenen Person beruht, sowie Art. 6 Abs. 1 lit. f DSGVO, da ein berechtigtes Interesse an der effizienten Kommunikation mit unseren Nutzenden besteht. Resend setzt Cookies ein, um die Funktionalität der Plattform sicherzustellen und die Benutzererfahrung zu optimieren. Diese Cookies werden nur mit Einwilligung gesetzt und können jederzeit widerrufen werden. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a DSGVO. Es findet eine Übermittlung personenbezogener Daten in die USA statt. Resend ist nach dem EU-U.S. Data Privacy Framework zertifiziert, sodass ein angemessenes Datenschutzniveau sichergestellt wird. Zusätzlich werden Standardvertragsklauseln (SCCs) gemäß Art. 46 DSGVO als geeignete Garantien eingesetzt. Die Daten werden gespeichert, solange sie für den genannten Zweck erforderlich sind oder gesetzliche Aufbewahrungsfristen es vorschreiben. Weitere Informationen zur Datenverarbeitung finden sich unter: https://resend.com/legal/dpa."
+                  "Auf dieser Website wird der E-Mail-Versanddienst Resend genutzt, bereitgestellt von Resend, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA.",
+                  "Der Dienst ermöglicht den Versand von transaktionalen E-Mails, wie beispielsweise Bestellbestätigungen, Passwort-Resets, Benachrichtigungen sowie – je nach Konfiguration – auch Marketing-E-Mails. Zusätzlich stellt Resend Funktionen zur Analyse von E-Mail-Ereignissen wie Zustellung, Öffnungen, Klicks, Bounces und Beschwerden bereit.",
+                  "Dabei werden typischerweise die E-Mail-Adressen von Absendenden und Empfangenden, Inhalte der E-Mails (einschließlich Betreff, Text und eventueller Anhänge), Metadaten wie Zeitstempel und IDs, Informationen zu E-Mail-Ereignissen (z. B. Öffnungen, Klicks, Bounces), IP-Adressen der Empfänger, Angaben zu verwendeten Geräten und Browsern sowie – bei Kontoinhabenden – Name und Postadresse verarbeitet. Ebenfalls können technisch erforderliche Nutzungsdaten sowie Cookie- und Trackingdaten erhoben werden.",
+                  "Die Datenverarbeitung erfolgt zur Bereitstellung und Zustellung von E-Mails, zur Verwaltung von E-Mail-Kommunikation, zur betrugssicheren Zustellung, Analyse und Administration der E-Mail-Nutzung sowie – bei Einsatz für Marketing-Zwecke – zur Direktwerbung.",
+                  "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, wenn der Kommunikationsversand zur Vertragsdurchführung erforderlich ist. Im Fall einer Kontaktaufnahme oder einer rechtlichen Verpflichtung erfolgt die Verarbeitung auf Basis von Art. 6 Abs. 1 lit. c DSGVO. Für Analyse- oder Marketing-Zwecke erfolgt die Verarbeitung sowie der Einsatz von Cookies auf Basis von Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO i. V. m. § 25 Abs. 1 TDDDG. Bei berechtigtem Interesse nutzen wir Art. 6 Abs. 1 lit. f DSGVO.",
+                  "Sofern Analyse- oder Marketing-Cookies gesetzt werden, geschieht dies ausschließlich nach aktiver Einwilligung der Nutzenden. Die Art und der Umfang der eingesetzten Cookies hängen von der jeweiligen Nutzungskonfiguration ab und dienen der Analyse sowie Optimierung der Zustellrate, Messung der Öffnungs- und Klickraten und der Missbrauchsprävention.",
+                  "Es erfolgt eine Übermittlung personenbezogener Daten in die USA. Resend verwendet als geeignete Garantie die EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO, um ein angemessenes Datenschutzniveau sicherzustellen.",
+                  "Die personenbezogenen Daten werden nur solange gespeichert, wie dies für die Erfüllung des jeweiligen Zwecks erforderlich ist. Im Fall eines Widerrufs der Einwilligung, beim Zweckfortfall oder nach Ablauf gesetzlich vorgeschriebener Aufbewahrungsfristen werden die Daten gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.",
+                  "Weitere Informationen zur Datenverarbeitung durch Resend finden sich unter: https://resend.com/legal/privacy-policy"
                 ]
               }
             ]
-          },
-          {
-            "title": "3.4 Analyse- und Trackingtools"
           },
           {
             "title": "3.5 Social Media Profile",
@@ -218,19 +245,25 @@
                   {
                     "title": "Interaktion mit unserem Unternehmensprofil",
                     "paragraphs": [
-                      "Bei dem Besuch unseres Instagram-Profils und der Interaktion darüber mit uns verarbeiten wir personenbezogene Daten. Einerseits die öffentlich zur Verfügung gestellten Daten auf dem Profil. Andererseits auch die personenbezogenen Daten, die in Posts, Kommentaren oder direkten Nachrichten an uns enthalten sind. Durch Interaktionen wie Liken oder Teilen können wir das Nutzerprofil mit den öffentlichen Informationen sehen. Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Es liegt in unserem berechtigten Interesse, relevante und interessante Inhalte zur Verfügung zu stellen und die Nutzung und Funktionalität unseres Instagram-Profils zu ermöglichen. Soweit eine Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, basiert unsere Verarbeitung auf Art. 6 Abs. 1 lit. b DSGVO."
+                      "Bei dem Besuch unseres Instagram-Profils und der Interaktion darüber mit uns verarbeiten wir personenbezogene Daten. Einerseits die öffentlich zur Verfügung gestellten Daten auf dem Profil. Andererseits auch die personenbezogenen Daten, die in Posts, Kommentaren oder direkten Nachrichten an uns enthalten sind. Durch Interaktionen wie Liken oder Teilen können wir das Nutzerprofil mit den öffentlichen Informationen sehen.",
+                      "Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Es liegt in unserem berechtigten Interesse, relevante und interessante Inhalte zur Verfügung zu stellen und die Nutzung und Funktionalität unseres Instagram-Profils zu ermöglichen. Soweit eine Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, basiert unsere Verarbeitung auf Art. 6 Abs. 1 lit. b DSGVO."
                     ]
                   },
                   {
                     "title": "Insights",
                     "paragraphs": [
-                      "Wie in der Meta-Datenschutzrichtlinie unter „Wie verwenden wir Ihre Informationen?“ (https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect) erläutert, erhebt und verwendet Meta Informationen auch, um Analysedienste, sogenannte Insights, für Seitenbetreiber bereitzustellen. Dies gilt auch für unser Instagram-Profil. Bei den Insights handelt es sich um zusammengefasste Statistiken, die anhand bestimmter Interaktionen der Besuchenden mit Seiten und den mit ihnen verbundenen Inhalten erstellt und von den Meta-Servern protokolliert werden. Hierzu zählen unter anderem folgende Informationen: – wie viele Menschen sehen unsere Produkte, Dienste oder Inhalte, wie u. a. Beiträge, Videos, Instagram-Seiten, Inserate, Shops und Werbeanzeigen (wenn die Werbung auf Meta-Produkten gezeigt wird) und interagieren mit ihnen; – Wie interagieren Personen mit unseren Inhalten, Websites, Apps und Diensten; – Welche Personengruppe interagiert mit unseren Inhalten bzw. welche Personengruppe nutzt unsere Dienste. Meta stellt uns zusammengefasste Berichte und Einblicke zur Verfügung, die uns darüber Aufschluss geben, wie gut unsere Inhalte, Features, Produkte und Dienste abschneiden. Dabei erhalten wir keinen Zugriff auf personenbezogene Daten, sondern nur auf die zusammengefassten Berichte. Für die Auswertung der Reichweite können wir Einstellungen vornehmen bzw. entsprechende Filter hinsichtlich der Auswahl eines Zeitraums, der Betrachtung eines bestimmten Beitrags sowie der demografischen Gruppierungen setzen. Diese Daten sind anonymisiert. Rückschlüsse auf bestimmte Personen sind uns dabei nicht möglich. Die Verarbeitung dieser Daten dient dem Zweck der Analyse unserer Reichweite und der Anpassung unserer Inhalte und Anzeigen an die Nutzerinteressen, damit Besuchende einen größtmöglichen Nutzen daraus ziehen können. Anhand der Auswertungen dieser Daten können wir erkennen, wie unser Content, unser Profil und unsere Werbung konsumiert werden. Damit können wir zielgruppengerechten Content schaffen und Werbung schalten, um unser Unternehmen und unsere Leistungen besser zu vermarkten. Die Verarbeitung basiert auf unserem berechtigten Interesse nach Art. 6 Abs. 1 S. 1 lit. f DSGVO. Bei der Verarbeitung personenbezogener Daten im Zuge der sogenannten Insights erfolgt die Verarbeitung in gemeinsamer Verantwortlichkeit mit Meta gem. Art. 26 Abs. 1 DSGVO. Hierzu haben wir eine entsprechende Vereinbarung mit Meta getroffen, die hier (https://www.facebook.com/legal/terms/page_controller_addendum) eingesehen werden kann. Die Kontaktdaten von Meta lauten: Online-Kontakt: https://www.facebook.com/help/contact/1650115808681298 Postalisch: Meta Platforms Ireland Limited, ATTN: Privacy Operations, Merrion Road, Dublin 4, D04 X2K5, Irland. Für Instagram können Sie unter folgendem Link mit dem Datenschutzbeauftragten Kontakt aufnehmen: https://www.facebook.com/help/contact/540977946302970. Weitere Informationen über die Insights: https://de-de.facebook.com/help/pages/insights. Die vollständige Datenschutzrichtlinie von Instagram: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+                      "Wie in der Meta-Datenschutzrichtlinie unter „Wie verwenden wir Ihre Informationen?“ (https://privacycenter.instagram.com/policy/) erläutert, erhebt und verwendet Meta Informationen auch, um Analysedienste, sogenannte Insights, für Seitenbetreiber bereitzustellen. Dies gilt auch für unser Instagram-Profil.",
+                      "Bei den Insights handelt es sich um zusammengefasste Statistiken, die anhand bestimmter Interaktionen der Besuchenden mit Seiten und den mit ihnen verbundenen Inhalten erstellt und von den Meta-Servern protokolliert werden. Meta stellt uns zusammengefasste Berichte und Einblicke zur Verfügung, die uns darüber Aufschluss geben, wie gut unsere Inhalte, Features, Produkte und Dienste abschneiden. Dabei erhalten wir keinen Zugriff auf personenbezogene Daten, sondern nur auf die zusammengefassten Berichte.",
+                      "Die Verarbeitung basiert auf unserem berechtigten Interesse nach Art. 6 Abs. 1 S. 1 lit. f DSGVO. Bei der Verarbeitung personenbezogener Daten im Zuge der sogenannten Insights erfolgt die Verarbeitung in gemeinsamer Verantwortlichkeit mit Meta gem. Art. 26 Abs. 1 DSGVO.",
+                      "Die vollständige Datenschutzrichtlinie von Instagram: https://privacycenter.instagram.com/policy/"
                     ]
                   },
                   {
                     "title": "Verarbeitung personenbezogener Daten und Cookies durch Meta",
                     "paragraphs": [
-                      "Beim Zugriff auf eine Instagram-Seite wird die dem Endgerät zugeteilte IP-Adresse an Meta übermittelt. Nach Auskunft von Meta wird diese IP-Adresse anonymisiert (bei \"deutschen\" IP-Adressen). Meta speichert darüber hinaus Informationen über die Endgeräte seiner Nutzenden (z.B. im Rahmen der Funktion „Anmeldebenachrichtigung“); gegebenenfalls ist Meta damit eine Zuordnung von IP-Adressen zu einzelnen Nutzenden möglich. Wenn Sie als Nutzende aktuell bei Instagram angemeldet sind, befindet sich auf dem Endgerät ein Cookie mit der Instagram-Kennung. Dadurch ist Meta in der Lage nachzuvollziehen, wer diese Seite aufgesucht und genutzt hat. Über in Websites eingebundene Meta-Buttons ist es Meta möglich, Ihre Besuche auf diesen Websites zu erfassen und Ihrem Instagram-Profil zuzuordnen. Anhand dieser Daten können Inhalte oder Werbung persönlich zugeschnitten angeboten werden. Nähere Informationen: https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
+                      "Beim Zugriff auf eine Instagram-Seite wird die dem Endgerät zugeteilte IP-Adresse an Meta übermittelt. Nach Auskunft von Meta wird diese IP-Adresse anonymisiert (bei \"deutschen\" IP-Adressen). Meta speichert darüber hinaus Informationen über die Endgeräte seiner Nutzenden; gegebenenfalls ist Meta damit eine Zuordnung von IP-Adressen zu einzelnen Nutzenden möglich.",
+                      "Wenn Sie als Nutzende aktuell bei Instagram angemeldet sind, befindet sich auf dem Endgerät ein Cookie mit der Instagram-Kennung. Dadurch ist Meta in der Lage nachzuvollziehen, wer diese Seite aufgesucht und genutzt hat. Über in Websites eingebundene Meta-Buttons ist es Meta möglich, Ihre Besuche auf diesen Websites zu erfassen und Ihrem Instagram-Profil zuzuordnen.",
+                      "Nähere Informationen: https://privacycenter.instagram.com/policy/"
                     ]
                   }
                 ]
@@ -244,27 +277,27 @@
                   {
                     "title": "Interaktion mit unserem Unternehmensprofil",
                     "paragraphs": [
-                      "Bei dem Besuch unseres LinkedIn-Profils und der Interaktion darüber mit uns verarbeiten wir personenbezogene Daten. Einerseits die öffentlich zur Verfügung gestellten Daten auf dem Profil. Andererseits auch die personenbezogenen Daten, die in Posts, Kommentaren oder direkten Nachrichten an uns enthalten sind. Durch Interaktionen wie Liken oder Teilen können wir das Nutzerprofil mit den öffentlichen Informationen sehen. Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Es liegt in unserem berechtigten Interesse, relevante und interessante Inhalte zur Verfügung zu stellen und die Nutzung und Funktionalität unseres LinkedIn-Profils zu ermöglichen. Soweit eine Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, basiert unsere Verarbeitung auf Art. 6 Abs. 1 lit. b DSGVO."
+                      "Bei dem Besuch unseres LinkedIn-Profils und der Interaktion darüber mit uns verarbeiten wir personenbezogene Daten. Einerseits die öffentlich zur Verfügung gestellten Daten auf dem Profil. Andererseits auch die personenbezogenen Daten, die in Posts, Kommentaren oder direkten Nachrichten an uns enthalten sind.",
+                      "Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Es liegt in unserem berechtigten Interesse, relevante und interessante Inhalte zur Verfügung zu stellen und die Nutzung und Funktionalität unseres LinkedIn-Profils zu ermöglichen."
                     ]
                   },
                   {
                     "title": "Seiten-Insights",
                     "paragraphs": [
-                      "LinkedIn stellt uns zusammengefasste Statistiken und Einblicke (sogenannte Page-Insights) zur Verfügung, die uns darüber Aufschluss geben, wie Personen mit unserer Unternehmensseite interagieren. Wir erhalten unter anderem Informationen über die Anzahl der Profile, die unsere Beiträge aufrufen, kommentieren oder anderweitig damit interagieren, sowie zusammengefasste demografische und andere Informationen, die uns helfen, etwas über die Interaktion mit unserer Seite bzw. unserem LinkedIn-Profil zu erfahren. Page Insights, die uns von LinkedIn zur Verfügung gestellt werden, bestehen aus aggregierten Daten, wobei uns LinkedIn keine personenbezogenen Daten von Mitgliedern in Bezug auf Page Insights zur Verfügung stellt. Wir haben auch keine Möglichkeit, die Page Insights mit einzelnen Mitgliedern zu verknüpfen. Beim Schalten von Werbeanzeigen übermittelt LinkedIn uns Informationen über die Arten von Personen, die unsere Anzeigen sehen, und über den Erfolg unserer Anzeigen. Personenbezogene Daten werden dabei nur dann an uns weitergegeben, wenn diese Person in eine derartige Verarbeitung eingewilligt hat. Wir erhalten von LinkedIn auch Informationen, mit denen wir nachvollziehen können, welche unserer Anzeigen dazu geführt hat, dass ein Kauf getätigt oder eine Handlung durchgeführt wurde. Die Verarbeitung dieser Daten dient dem Zweck der Analyse unserer Reichweite und der Anpassung unserer Inhalte und Anzeigen an die Nutzerinteressen. Anhand der Auswertungen dieser Daten können wir erkennen, wie unser Content, unser Profil und unsere Werbung konsumiert werden. Damit können wir zielgruppengerechten Content schaffen und Werbung schalten, um unser Unternehmen und unsere Leistungen besser zu vermarkten. Die Verarbeitung basiert auf unserem berechtigten Interesse nach Art. 6 Abs. 1 S. 1 lit. f DSGVO. Bei der Verarbeitung personenbezogener Daten im Zuge der sogenannten Page-Insights erfolgt die Verarbeitung in gemeinsamer Verantwortlichkeit mit LinkedIn gem. Art. 26 Abs. 1 DSGVO. Hierzu haben wir eine entsprechende Vereinbarung mit LinkedIn getroffen, die hier (https://legal.linkedin.com/pages-joint-controller-addendum) eingesehen werden kann. Die Kontaktdaten von LinkedIn lauten: LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland. Für LinkedIn können Sie unter folgendem Link mit dem Datenschutzbeauftragten Kontakt aufnehmen: https://www.linkedin.com/help/linkedin/ask/TSO-DPO."
+                      "LinkedIn stellt uns zusammengefasste Statistiken und Einblicke (sogenannte Page-Insights) zur Verfügung, die uns darüber Aufschluss geben, wie Personen mit unserer Unternehmensseite interagieren. Page Insights, die uns von LinkedIn zur Verfügung gestellt werden, bestehen aus aggregierten Daten, wobei uns LinkedIn keine personenbezogenen Daten von Mitgliedern in Bezug auf Page Insights zur Verfügung stellt.",
+                      "Die Verarbeitung basiert auf unserem berechtigten Interesse nach Art. 6 Abs. 1 S. 1 lit. f DSGVO. Bei der Verarbeitung personenbezogener Daten im Zuge der sogenannten Page-Insights erfolgt die Verarbeitung in gemeinsamer Verantwortlichkeit mit LinkedIn gem. Art. 26 Abs. 1 DSGVO."
                     ]
                   },
                   {
                     "title": "Verarbeitung durch LinkedIn",
                     "paragraphs": [
-                      "Durch den Besuch unseres Unternehmensprofils verarbeitet LinkedIn möglicherweise auch darüber hinaus personenbezogene Daten. In diesem Fall erfolgt die Verarbeitung in alleiniger Verantwortung von LinkedIn und ohne unsere Kenntnis. Nähere Informationen von LinkedIn hierzu: https://de.linkedin.com/legal/privacy-policy."
+                      "Durch den Besuch unseres Unternehmensprofils verarbeitet LinkedIn möglicherweise auch darüber hinaus personenbezogene Daten. In diesem Fall erfolgt die Verarbeitung in alleiniger Verantwortung von LinkedIn und ohne unsere Kenntnis.",
+                      "Nähere Informationen von LinkedIn hierzu: https://de.linkedin.com/legal/privacy-policy"
                     ]
                   }
                 ]
               }
             ]
-          },
-          {
-            "title": "3.6 Drittinhalte"
           }
         ]
       },
@@ -292,7 +325,8 @@
               {
                 "title": "4.1.3 Recht auf Löschung nach Art. 17 DSGVO",
                 "paragraphs": [
-                  "Dieses sogenannte ‚Recht auf Vergessenwerden‘ gibt Dir das Recht, unter bestimmten Voraussetzungen, die Löschung der personenbezogenen Daten durch den Verantwortlichen zu verlangen. Dies ist grundsätzlich dann der Fall, wenn der Zweck der Datenverarbeitung entfallen ist, wenn eine Einwilligung widerrufen wurde oder die Ausgangsverarbeitung ohne Rechtsgrundlage stattfand. Eine detaillierte Aufzählung von Gründen findest Du in Art. 17 Abs. 1 lit. a bis f DSGVO. Dieses „Recht auf Vergessenwerden“ korrespondiert darüber hinaus mit der Pflicht des Verantwortlichen aus Art. 17 Abs. 2 DSGVO angemessene Maßnahmen zu ergreifen, um eine allgemeine Löschung der Daten herbeizuführen."
+                  "Dieses sogenannte ‚Recht auf Vergessenwerden‘ gibt Dir das Recht, unter bestimmten Voraussetzungen, die Löschung der personenbezogenen Daten durch den Verantwortlichen zu verlangen. Dies ist grundsätzlich dann der Fall, wenn der Zweck der Datenverarbeitung entfallen ist, wenn eine Einwilligung widerrufen wurde oder die Ausgangsverarbeitung ohne Rechtsgrundlage stattfand. Eine detaillierte Aufzählung von Gründen findest Du in Art. 17 Abs. 1 lit. a bis f DSGVO.",
+                  "Dieses „Recht auf Vergessenwerden“ korrespondiert darüber hinaus mit der Pflicht des Verantwortlichen aus Art. 17 Abs. 2 DSGVO angemessene Maßnahmen zu ergreifen, um eine allgemeine Löschung der Daten herbeizuführen."
                 ]
               },
               {
@@ -340,12 +374,8 @@
       {
         "title": "5. Was ist, wenn morgen die DSGVO abgeschafft wird oder andere Veränderungen stattfinden?",
         "paragraphs": [
-          "Der aktuelle Stand dieser Datenschutzerklärung ist 24.06.2026. Von Zeit zu Zeit ist es erforderlich, den Inhalt der Datenschutzerklärung anzupassen, um auf tatsächliche und rechtliche Veränderungen zu reagieren. Wir behalten uns daher vor, diese Datenschutzerklärung jederzeit zu ändern. Wir werden die geänderte Version an gleicher Stelle veröffentlichen und empfehlen Dir, die Datenschutzerklärung regelmäßig zu lesen."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Erstellt mit freundlicher Unterstützung von Dieter macht den Datenschutz",
+          "Der aktuelle Stand dieser Datenschutzerklärung ist 24.06.2026. Von Zeit zu Zeit ist es erforderlich, den Inhalt der Datenschutzerklärung anzupassen, um auf tatsächliche und rechtliche Veränderungen zu reagieren. Wir behalten uns daher vor, diese Datenschutzerklärung jederzeit zu ändern. Wir werden die geänderte Version an gleicher Stelle veröffentlichen und empfehlen Dir, die Datenschutzerklärung regelmäßig zu lesen.",
+          "Erstellt mit freundlicher Unterstützung von Dieter macht den Datenschutz.",
           "\"Dieter macht den Datenschutz\" ist ein Produkt der simply Legal GmbH, Burkarderstr. 36, D-97082 Würzburg. All rights reserved 2026."
         ]
       }

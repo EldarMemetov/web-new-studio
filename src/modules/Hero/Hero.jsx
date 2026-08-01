@@ -5,6 +5,11 @@ import LiveTimecode from './LiveTimecode';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
 import { FiPlay, FiArrowRight } from 'react-icons/fi';
 
+const CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+
+const HERO_VIDEO = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/f_auto:video,q_auto,w_1920/show_gpmgzx.mp4`;
+const HERO_POSTER = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto/show_gpmgzx.jpg`;
+
 export default async function Hero({ locale }) {
   const { t } = await initServerI18n(locale, ['hero']);
 
@@ -14,12 +19,13 @@ export default async function Hero({ locale }) {
         <div className={s.bgImage}>
           <video
             className={s.bgVideo}
-            src="/video/show.mp4"
+            src={HERO_VIDEO}
+            poster={HERO_POSTER}
             autoPlay
             muted
             loop
             playsInline
-            preload="auto"
+            preload="metadata"
           />
         </div>
 
