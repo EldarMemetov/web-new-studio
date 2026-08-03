@@ -7,7 +7,7 @@ export const SocialLinks = () => {
       <ul className={s.list}>
         <li className={s.socialLinkList}>
           <a
-            href="https://www.instagram.com/videofilmer_frankfurt"
+            href="https://www.instagram.com/qvrix_studio"
             className={s.socialLink}
             target="_blank"
             rel="noopener noreferrer"
