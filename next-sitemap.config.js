@@ -9,13 +9,8 @@ module.exports = {
   exclude: ['/api/*', '/admin/*'],
 
   alternateRefs: [
-    {
-      href: 'https://qvrix.com/en',
-      hreflang: 'en',
-    },
-    {
-      href: 'https://qvrix.com/de',
-      hreflang: 'de',
-    },
+    { href: 'https://qvrix.com/en', hreflang: 'en' },
+    { href: 'https://qvrix.com/de', hreflang: 'de' },
+    { href: 'https://qvrix.com/de', hreflang: 'x-default' },
   ],
 };
