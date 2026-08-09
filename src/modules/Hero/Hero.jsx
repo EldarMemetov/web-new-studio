@@ -8,7 +8,9 @@ import { FiPlay, FiArrowRight } from 'react-icons/fi';
 const CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
 
 const HERO_VIDEO = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/f_auto:video,q_auto,w_1920/show_gpmgzx.mp4`;
-const HERO_POSTER = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_1600,c_fill/show_gpmgzx.jpg`;
+
+const HERO_POSTER_MOBILE = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_960,c_fill/show_gpmgzx.jpg`;
+const HERO_POSTER_DESKTOP = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_1920,c_fill/show_gpmgzx.jpg`;
 
 export default async function Hero({ locale }) {
   const { t } = await initServerI18n(locale, ['hero']);
@@ -17,16 +19,27 @@ export default async function Hero({ locale }) {
     <section className={s.section}>
       <div className={s.cinemaWrapper}>
         <div className={s.bgImage}>
+          <picture>
+            <source media="(min-width: 768px)" srcSet={HERO_POSTER_DESKTOP} />
+            <img
+              className={s.bgPoster}
+              src={HERO_POSTER_MOBILE}
+              alt=""
+              fetchPriority="high"
+              decoding="async"
+              aria-hidden="true"
+            />
+          </picture>
+
           <video
             className={s.bgVideo}
             src={HERO_VIDEO}
-            poster={HERO_POSTER}
+            poster={HERO_POSTER_MOBILE}
             autoPlay
             muted
             loop
             playsInline
-            preload="metadata"
-            fetchPriority="high"
+            preload="none"
           />
         </div>
 

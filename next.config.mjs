@@ -38,6 +38,25 @@ const securityHeaders = [
 
 const nextConfig = {
   trailingSlash: false,
+
+  experimental: {
+    optimizeCss: true,
+  },
+
+  compress: true,
+  productionBrowserSourceMaps: false,
+  poweredByHeader: false,
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
+    minimumCacheTTL: 60 * 60 * 24 * 30,
+  },
+
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -45,6 +64,7 @@ const nextConfig = {
     });
     return config;
   },
+
   sassOptions: {
     additionalData: `
       @use "src/shared/styles/_breakpoints.scss" as *;
@@ -52,6 +72,7 @@ const nextConfig = {
       @use "src/shared/styles/_variables.scss" as *;
     `,
   },
+
   async redirects() {
     return [
       { source: '/de/videography', destination: '/de', permanent: true },
@@ -87,11 +108,21 @@ const nextConfig = {
       { source: '/ua/:path*', destination: '/de', permanent: true },
     ];
   },
+
   async headers() {
     return [
       {
         source: '/:path*',
         headers: securityHeaders,
+      },
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
       },
     ];
   },

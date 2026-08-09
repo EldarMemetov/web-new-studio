@@ -10,9 +10,6 @@ function formatTimecode(totalSeconds) {
   return `${hh}:${mm}:${ss}:00`;
 }
 
-// Живой таймкод — тикает, пока пользователь на странице.
-// Стартует с initialSeconds (обычно 1), чтобы совпадать с
-// переводом по умолчанию до гидратации на клиенте.
 export default function LiveTimecode({ initialSeconds = 1 }) {
   const [seconds, setSeconds] = useState(initialSeconds);
 

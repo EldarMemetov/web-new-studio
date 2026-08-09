@@ -19,7 +19,7 @@ const cldVideo = (id) =>
   `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/f_auto:video,q_auto,w_1280/${id}.mp4`;
 
 const cldPoster = (id) =>
-  `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_1164,h_654,c_fill/${id}.jpg`;
+  `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_960,c_fill/${id}.jpg`;
 
 const MEDIA_MAP = {
   music: { publicId: 'music_u2wcqp', Icon: FiMusic },
