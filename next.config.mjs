@@ -39,10 +39,6 @@ const securityHeaders = [
 const nextConfig = {
   trailingSlash: false,
 
-  experimental: {
-    optimizeCss: true,
-  },
-
   compress: true,
   productionBrowserSourceMaps: false,
   poweredByHeader: false,
@@ -114,15 +110,6 @@ const nextConfig = {
       {
         source: '/:path*',
         headers: securityHeaders,
-      },
-      {
-        source: '/_next/static/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
       },
     ];
   },

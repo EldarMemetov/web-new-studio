@@ -9,8 +9,8 @@ const CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
 
 const HERO_VIDEO = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/f_auto:video,q_auto,w_1920/show_gpmgzx.mp4`;
 
-const HERO_POSTER_MOBILE = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_960,c_fill/show_gpmgzx.jpg`;
-const HERO_POSTER_DESKTOP = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto,w_1920,c_fill/show_gpmgzx.jpg`;
+const HERO_POSTER_MOBILE = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto:eco,w_960,c_fill/show_gpmgzx.jpg`;
+const HERO_POSTER_DESKTOP = `https://res.cloudinary.com/${CLOUD_NAME}/video/upload/so_0,f_auto,q_auto:eco,w_1920,c_fill/show_gpmgzx.jpg`;
 
 export default async function Hero({ locale }) {
   const { t } = await initServerI18n(locale, ['hero']);
